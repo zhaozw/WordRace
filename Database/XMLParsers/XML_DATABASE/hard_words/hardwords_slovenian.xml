@@ -1,0 +1,4379 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Taha Bebek</Author>
+  <LastAuthor>Taha Bebek</LastAuthor>
+  <Created>2011-07-10T07:54:52Z</Created>
+  <LastSaved>2011-07-10T07:54:55Z</LastSaved>
+  <Company>Quwic</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12400</WindowHeight>
+  <WindowWidth>25360</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>240</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Slovenia">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="1078" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="98"/>
+   <Column ss:Width="116"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abasement</Data></Cell>
+    <Cell><Data ss:Type="String">Poniženje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abeyance</Data></Cell>
+    <Cell><Data ss:Type="String">Miruje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abhor</Data></Cell>
+    <Cell><Data ss:Type="String">Zidava</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abjure</Data></Cell>
+    <Cell><Data ss:Type="String">Odreči</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abraded</Data></Cell>
+    <Cell><Data ss:Type="String">Obrabne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrasion</Data></Cell>
+    <Cell><Data ss:Type="String">Abrazija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrogate</Data></Cell>
+    <Cell><Data ss:Type="String">Razveljavi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Absolution</Data></Cell>
+    <Cell><Data ss:Type="String">Odvezo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abstain</Data></Cell>
+    <Cell><Data ss:Type="String">Vzdržalo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abstemious</Data></Cell>
+    <Cell><Data ss:Type="String">Zmerne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abstruse</Data></Cell>
+    <Cell><Data ss:Type="String">Nejasno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abut</Data></Cell>
+    <Cell><Data ss:Type="String">Naslanjati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abysmal</Data></Cell>
+    <Cell><Data ss:Type="String">Nedosežan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Accolade</Data></Cell>
+    <Cell><Data ss:Type="String">Pohvala</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acolyte</Data></Cell>
+    <Cell><Data ss:Type="String">Ministrant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acquiesce</Data></Cell>
+    <Cell><Data ss:Type="String">Sprijazniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acrid</Data></Cell>
+    <Cell><Data ss:Type="String">Oster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acuity</Data></Cell>
+    <Cell><Data ss:Type="String">Ostrina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adamant</Data></Cell>
+    <Cell><Data ss:Type="String">Vztrajali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adroit</Data></Cell>
+    <Cell><Data ss:Type="String">Spreten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adulation</Data></Cell>
+    <Cell><Data ss:Type="String">Dodvoravanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adumbrate</Data></Cell>
+    <Cell><Data ss:Type="String">Ocrtati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adversity</Data></Cell>
+    <Cell><Data ss:Type="String">Stisko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aesthetic</Data></Cell>
+    <Cell><Data ss:Type="String">Estetska</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Affable</Data></Cell>
+    <Cell><Data ss:Type="String">Zmagovit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Agog</Data></Cell>
+    <Cell><Data ss:Type="String">Nestrpno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aisle</Data></Cell>
+    <Cell><Data ss:Type="String">Oltarja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alacrity</Data></Cell>
+    <Cell><Data ss:Type="String">Živahnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Allay</Data></Cell>
+    <Cell><Data ss:Type="String">Pomiritev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alleviate</Data></Cell>
+    <Cell><Data ss:Type="String">Ublažiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alleviated</Data></Cell>
+    <Cell><Data ss:Type="String">Ublažiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aloof</Data></Cell>
+    <Cell><Data ss:Type="String">Ravnodušna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Altruism</Data></Cell>
+    <Cell><Data ss:Type="String">Altruizem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amalgamate</Data></Cell>
+    <Cell><Data ss:Type="String">Združiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amass</Data></Cell>
+    <Cell><Data ss:Type="String">Zgrtati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambidextrous</Data></Cell>
+    <Cell><Data ss:Type="String">Dvoličan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambiguity</Data></Cell>
+    <Cell><Data ss:Type="String">Dvoumnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambiguous</Data></Cell>
+    <Cell><Data ss:Type="String">Dvoumne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambivalence</Data></Cell>
+    <Cell><Data ss:Type="String">Ambivalentnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambulatory</Data></Cell>
+    <Cell><Data ss:Type="String">Ambulantno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ameliorate</Data></Cell>
+    <Cell><Data ss:Type="String">Izboljšali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amelioration</Data></Cell>
+    <Cell><Data ss:Type="String">Melioracijskih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amortize</Data></Cell>
+    <Cell><Data ss:Type="String">Amortizacije</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anachronistic</Data></Cell>
+    <Cell><Data ss:Type="String">Anahronistično</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analgesic</Data></Cell>
+    <Cell><Data ss:Type="String">Analgetik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analogous</Data></Cell>
+    <Cell><Data ss:Type="String">Podobna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analogue</Data></Cell>
+    <Cell><Data ss:Type="String">Analogni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anecdote</Data></Cell>
+    <Cell><Data ss:Type="String">Anekdota</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Animosity</Data></Cell>
+    <Cell><Data ss:Type="String">Sovraštvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anomaly</Data></Cell>
+    <Cell><Data ss:Type="String">Anomalija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antagonism</Data></Cell>
+    <Cell><Data ss:Type="String">Antagonizem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antagonistic</Data></Cell>
+    <Cell><Data ss:Type="String">Antagonistične</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antediluvian</Data></Cell>
+    <Cell><Data ss:Type="String">Predpotopni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anthropocentrism</Data></Cell>
+    <Cell><Data ss:Type="String">Antropocentrizem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antipathy</Data></Cell>
+    <Cell><Data ss:Type="String">Antipatijo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antiquated</Data></Cell>
+    <Cell><Data ss:Type="String">Zastarel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apathetic</Data></Cell>
+    <Cell><Data ss:Type="String">Apatije</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apathy</Data></Cell>
+    <Cell><Data ss:Type="String">Apatija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apocryphal</Data></Cell>
+    <Cell><Data ss:Type="String">Apokrifne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apostrophe</Data></Cell>
+    <Cell><Data ss:Type="String">Apostrof</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Appease</Data></Cell>
+    <Cell><Data ss:Type="String">Zadovoljiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apposite</Data></Cell>
+    <Cell><Data ss:Type="String">Primeren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apprehension</Data></Cell>
+    <Cell><Data ss:Type="String">Prijetja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apprehensive</Data></Cell>
+    <Cell><Data ss:Type="String">Prestrašen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Approbation</Data></Cell>
+    <Cell><Data ss:Type="String">Odobravanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arable</Data></Cell>
+    <Cell><Data ss:Type="String">Orna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arbitrary</Data></Cell>
+    <Cell><Data ss:Type="String">Samovoljna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arbitrator</Data></Cell>
+    <Cell><Data ss:Type="String">Arbiter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arboreal</Data></Cell>
+    <Cell><Data ss:Type="String">Drevesne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arcane</Data></Cell>
+    <Cell><Data ss:Type="String">Skrivnosten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archaic</Data></Cell>
+    <Cell><Data ss:Type="String">Arhaične</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archetype</Data></Cell>
+    <Cell><Data ss:Type="String">Arhetip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archives</Data></Cell>
+    <Cell><Data ss:Type="String">Arhiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arduous</Data></Cell>
+    <Cell><Data ss:Type="String">Naporna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arresting</Data></Cell>
+    <Cell><Data ss:Type="String">Aretacijo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arson</Data></Cell>
+    <Cell><Data ss:Type="String">Požig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Articulate</Data></Cell>
+    <Cell><Data ss:Type="String">Izraziti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Artifice</Data></Cell>
+    <Cell><Data ss:Type="String">Umetnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Artless</Data></Cell>
+    <Cell><Data ss:Type="String">Bezazlen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ascetic</Data></Cell>
+    <Cell><Data ss:Type="String">Asket</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Asperity</Data></Cell>
+    <Cell><Data ss:Type="String">Ostrina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assay</Data></Cell>
+    <Cell><Data ss:Type="String">Vsebnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assiduous</Data></Cell>
+    <Cell><Data ss:Type="String">Delaven</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assuage</Data></Cell>
+    <Cell><Data ss:Type="String">Umiriti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Astute</Data></Cell>
+    <Cell><Data ss:Type="String">Pronicljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Asylum</Data></Cell>
+    <Cell><Data ss:Type="String">Azil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atheist</Data></Cell>
+    <Cell><Data ss:Type="String">Ateist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atrophy</Data></Cell>
+    <Cell><Data ss:Type="String">Atrofija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Attenuate</Data></Cell>
+    <Cell><Data ss:Type="String">Ublažitev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Augment</Data></Cell>
+    <Cell><Data ss:Type="String">Bogatenje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Augury</Data></Cell>
+    <Cell><Data ss:Type="String">Znamenje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Auspicious</Data></Cell>
+    <Cell><Data ss:Type="String">Ugoden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Austere</Data></Cell>
+    <Cell><Data ss:Type="String">Klen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Avaricious</Data></Cell>
+    <Cell><Data ss:Type="String">Požrešen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aversion</Data></Cell>
+    <Cell><Data ss:Type="String">Odpor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Baleful</Data></Cell>
+    <Cell><Data ss:Type="String">Poguban</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Banal</Data></Cell>
+    <Cell><Data ss:Type="String">Banalen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Banality</Data></Cell>
+    <Cell><Data ss:Type="String">Banalnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Barrage</Data></Cell>
+    <Cell><Data ss:Type="String">Jeza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Begrudge</Data></Cell>
+    <Cell><Data ss:Type="String">Zavidati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belie</Data></Cell>
+    <Cell><Data ss:Type="String">Prepričanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belittle</Data></Cell>
+    <Cell><Data ss:Type="String">Omalovažiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bellicose</Data></Cell>
+    <Cell><Data ss:Type="String">Ratoboran</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belligerent</Data></Cell>
+    <Cell><Data ss:Type="String">Okužena stran</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bemoan</Data></Cell>
+    <Cell><Data ss:Type="String">Pritožujejo nad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Benevolent</Data></Cell>
+    <Cell><Data ss:Type="String">Dobronamerna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Benign</Data></Cell>
+    <Cell><Data ss:Type="String">Benigna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bequeath</Data></Cell>
+    <Cell><Data ss:Type="String">Posesti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Berate</Data></Cell>
+    <Cell><Data ss:Type="String">Graditi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bestial</Data></Cell>
+    <Cell><Data ss:Type="String">Zverinski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Billowing</Data></Cell>
+    <Cell><Data ss:Type="String">Valovito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blandishment</Data></Cell>
+    <Cell><Data ss:Type="String">Laskanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blasphemy</Data></Cell>
+    <Cell><Data ss:Type="String">Bogokletje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blatant</Data></Cell>
+    <Cell><Data ss:Type="String">Očitno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blighted</Data></Cell>
+    <Cell><Data ss:Type="String">Slabe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blithe</Data></Cell>
+    <Cell><Data ss:Type="String">Vesel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bolster</Data></Cell>
+    <Cell><Data ss:Type="String">Krepitev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bombast</Data></Cell>
+    <Cell><Data ss:Type="String">Bombastičnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Boycott</Data></Cell>
+    <Cell><Data ss:Type="String">Bojkot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Braggart</Data></Cell>
+    <Cell><Data ss:Type="String">Razmetljivac</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Brawny</Data></Cell>
+    <Cell><Data ss:Type="String">Mišičen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Brevity</Data></Cell>
+    <Cell><Data ss:Type="String">Jedrnatosti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bristle</Data></Cell>
+    <Cell><Data ss:Type="String">Narogušiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Broach</Data></Cell>
+    <Cell><Data ss:Type="String">Sveder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Brusque</Data></Cell>
+    <Cell><Data ss:Type="String">Oster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bulwark</Data></Cell>
+    <Cell><Data ss:Type="String">Branik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bureaucracy</Data></Cell>
+    <Cell><Data ss:Type="String">Birokracija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Burgeon</Data></Cell>
+    <Cell><Data ss:Type="String">Palica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Burlesque</Data></Cell>
+    <Cell><Data ss:Type="String">Burleska</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Burnish</Data></Cell>
+    <Cell><Data ss:Type="String">Politirati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Byline</Data></Cell>
+    <Cell><Data ss:Type="String">Podpis avtorja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cacophony</Data></Cell>
+    <Cell><Data ss:Type="String">Kakofonijo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cadge</Data></Cell>
+    <Cell><Data ss:Type="String">Moljakati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cajole</Data></Cell>
+    <Cell><Data ss:Type="String">Nagovoriti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caldron</Data></Cell>
+    <Cell><Data ss:Type="String">Kotel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Candid</Data></Cell>
+    <Cell><Data ss:Type="String">Iskrene</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Candor</Data></Cell>
+    <Cell><Data ss:Type="String">Iskrenost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cantankerous</Data></Cell>
+    <Cell><Data ss:Type="String">Svadljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Capacious</Data></Cell>
+    <Cell><Data ss:Type="String">Prostora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Capitulate</Data></Cell>
+    <Cell><Data ss:Type="String">Predati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cardinal</Data></Cell>
+    <Cell><Data ss:Type="String">Kardinal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caret</Data></Cell>
+    <Cell><Data ss:Type="String">Kazalko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Carrion</Data></Cell>
+    <Cell><Data ss:Type="String">Mrcina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cartographer</Data></Cell>
+    <Cell><Data ss:Type="String">Kartograf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cataclysmic</Data></Cell>
+    <Cell><Data ss:Type="String">Kataklizmične</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Catharsis</Data></Cell>
+    <Cell><Data ss:Type="String">Katarzo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caucus</Data></Cell>
+    <Cell><Data ss:Type="String">Kavkaškimi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caulk</Data></Cell>
+    <Cell><Data ss:Type="String">Katranizirati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caustic</Data></Cell>
+    <Cell><Data ss:Type="String">Kaustični</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cavalcade</Data></Cell>
+    <Cell><Data ss:Type="String">Kavalkada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Censure</Data></Cell>
+    <Cell><Data ss:Type="String">Nezaupnico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Centrifuge</Data></Cell>
+    <Cell><Data ss:Type="String">Centrifuga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cerebral</Data></Cell>
+    <Cell><Data ss:Type="String">Cerebralna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Certitude</Data></Cell>
+    <Cell><Data ss:Type="String">Izvjesnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Charlatan</Data></Cell>
+    <Cell><Data ss:Type="String">Šarlatan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chary</Data></Cell>
+    <Cell><Data ss:Type="String">Škrt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chauvinist</Data></Cell>
+    <Cell><Data ss:Type="String">Šovinističnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Choleric</Data></Cell>
+    <Cell><Data ss:Type="String">Koleričan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chronic</Data></Cell>
+    <Cell><Data ss:Type="String">Kronična</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chronicler</Data></Cell>
+    <Cell><Data ss:Type="String">Kronist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circuitous</Data></Cell>
+    <Cell><Data ss:Type="String">Ovinkasti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumlocution</Data></Cell>
+    <Cell><Data ss:Type="String">Okolišanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumscribe</Data></Cell>
+    <Cell><Data ss:Type="String">Omejiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumspect</Data></Cell>
+    <Cell><Data ss:Type="String">Preudaren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumvent</Data></Cell>
+    <Cell><Data ss:Type="String">Zaobiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clairvoyant</Data></Cell>
+    <Cell><Data ss:Type="String">Jasnovidec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clamor</Data></Cell>
+    <Cell><Data ss:Type="String">Zahtevo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clandestine</Data></Cell>
+    <Cell><Data ss:Type="String">Tajnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clemency</Data></Cell>
+    <Cell><Data ss:Type="String">Pomilostitev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cliché</Data></Cell>
+    <Cell><Data ss:Type="String">Kliše</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clientele</Data></Cell>
+    <Cell><Data ss:Type="String">Klientelo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cloistered</Data></Cell>
+    <Cell><Data ss:Type="String">Samostanske</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coalesce</Data></Cell>
+    <Cell><Data ss:Type="String">Povezati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coddle</Data></Cell>
+    <Cell><Data ss:Type="String">Maza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coerce</Data></Cell>
+    <Cell><Data ss:Type="String">Prisiliti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coercion</Data></Cell>
+    <Cell><Data ss:Type="String">Prisila</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cogitate</Data></Cell>
+    <Cell><Data ss:Type="String">Razmišljati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cognitive</Data></Cell>
+    <Cell><Data ss:Type="String">Kognitivna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Colander</Data></Cell>
+    <Cell><Data ss:Type="String">Cedilo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Collage</Data></Cell>
+    <Cell><Data ss:Type="String">Kolaž</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Colloquial</Data></Cell>
+    <Cell><Data ss:Type="String">Pogovorni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Collusion</Data></Cell>
+    <Cell><Data ss:Type="String">Dogovarjanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Commandeer</Data></Cell>
+    <Cell><Data ss:Type="String">Rekvirirati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Commensurate</Data></Cell>
+    <Cell><Data ss:Type="String">Sorazmerna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Commingle</Data></Cell>
+    <Cell><Data ss:Type="String">Pomešati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Complacent</Data></Cell>
+    <Cell><Data ss:Type="String">Samozadovoljni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Compliant</Data></Cell>
+    <Cell><Data ss:Type="String">Skladno z</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Compromised</Data></Cell>
+    <Cell><Data ss:Type="String">Ogrožena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Concatenate</Data></Cell>
+    <Cell><Data ss:Type="String">Združevanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conciliate</Data></Cell>
+    <Cell><Data ss:Type="String">Uskladiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condescend</Data></Cell>
+    <Cell><Data ss:Type="String">Spustite se</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condone</Data></Cell>
+    <Cell><Data ss:Type="String">Opravičuje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condoning</Data></Cell>
+    <Cell><Data ss:Type="String">Opravičevanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conflagration</Data></Cell>
+    <Cell><Data ss:Type="String">Požar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Confound</Data></Cell>
+    <Cell><Data ss:Type="String">Zmešajmo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congeal</Data></Cell>
+    <Cell><Data ss:Type="String">Zamrzniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congenital</Data></Cell>
+    <Cell><Data ss:Type="String">Prirojene</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congruent</Data></Cell>
+    <Cell><Data ss:Type="String">Ujemajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Connoisseur</Data></Cell>
+    <Cell><Data ss:Type="String">Poznavalec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conscript</Data></Cell>
+    <Cell><Data ss:Type="String">Naborniškega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consecrate</Data></Cell>
+    <Cell><Data ss:Type="String">Posveti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conspicuous</Data></Cell>
+    <Cell><Data ss:Type="String">Vidnem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consternation</Data></Cell>
+    <Cell><Data ss:Type="String">Osuplost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consummate</Data></Cell>
+    <Cell><Data ss:Type="String">Vzoren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contemporary</Data></Cell>
+    <Cell><Data ss:Type="String">Sodobna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contentious</Data></Cell>
+    <Cell><Data ss:Type="String">Sporna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contiguous</Data></Cell>
+    <Cell><Data ss:Type="String">Sosednjih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contrite</Data></Cell>
+    <Cell><Data ss:Type="String">Skesanega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contusion</Data></Cell>
+    <Cell><Data ss:Type="String">Udarnine</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conundrum</Data></Cell>
+    <Cell><Data ss:Type="String">Tajnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conventional</Data></Cell>
+    <Cell><Data ss:Type="String">Konvencionalni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cornucopia</Data></Cell>
+    <Cell><Data ss:Type="String">Rog izobilja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Corpulent</Data></Cell>
+    <Cell><Data ss:Type="String">Oglje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Corroborate</Data></Cell>
+    <Cell><Data ss:Type="String">Potrjujejo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Corrugated</Data></Cell>
+    <Cell><Data ss:Type="String">Valovita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coterie</Data></Cell>
+    <Cell><Data ss:Type="String">Klike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Counterfeit</Data></Cell>
+    <Cell><Data ss:Type="String">Ponarejeni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cower</Data></Cell>
+    <Cell><Data ss:Type="String">Pokrovom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Credible</Data></Cell>
+    <Cell><Data ss:Type="String">Verodostojne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Creditable</Data></Cell>
+    <Cell><Data ss:Type="String">Neoporečnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Credulous</Data></Cell>
+    <Cell><Data ss:Type="String">Lahkoverna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Crepuscular</Data></Cell>
+    <Cell><Data ss:Type="String">Sumračan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cringe</Data></Cell>
+    <Cell><Data ss:Type="String">Klečeplastvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Culpability</Data></Cell>
+    <Cell><Data ss:Type="String">Krivde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cumbersome</Data></Cell>
+    <Cell><Data ss:Type="String">Okoren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Curtail</Data></Cell>
+    <Cell><Data ss:Type="String">Okrniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cynical</Data></Cell>
+    <Cell><Data ss:Type="String">Cinična</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Daguerreotype</Data></Cell>
+    <Cell><Data ss:Type="String">Dagerotipija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Damp</Data></Cell>
+    <Cell><Data ss:Type="String">Vlažni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debacle</Data></Cell>
+    <Cell><Data ss:Type="String">Polomu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debilitating</Data></Cell>
+    <Cell><Data ss:Type="String">Izčrpavajočih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debility</Data></Cell>
+    <Cell><Data ss:Type="String">Izčrpanosti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Decimated</Data></Cell>
+    <Cell><Data ss:Type="String">Zdesetkana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Decorum</Data></Cell>
+    <Cell><Data ss:Type="String">Dekorum</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deference</Data></Cell>
+    <Cell><Data ss:Type="String">Priklanjanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deferential</Data></Cell>
+    <Cell><Data ss:Type="String">Poln spoštovanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Defunct</Data></Cell>
+    <Cell><Data ss:Type="String">Propadli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Degradation</Data></Cell>
+    <Cell><Data ss:Type="String">Razgradnja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deign</Data></Cell>
+    <Cell><Data ss:Type="String">Udostojati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deleterious</Data></Cell>
+    <Cell><Data ss:Type="String">Škodljive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deliberate</Data></Cell>
+    <Cell><Data ss:Type="String">Namerno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deliberate</Data></Cell>
+    <Cell><Data ss:Type="String">Namerno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Delineation</Data></Cell>
+    <Cell><Data ss:Type="String">Razmejitev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Demagogue</Data></Cell>
+    <Cell><Data ss:Type="String">Demagog</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Demur</Data></Cell>
+    <Cell><Data ss:Type="String">Pomislekov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Demur</Data></Cell>
+    <Cell><Data ss:Type="String">Pomislekov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Denigrate</Data></Cell>
+    <Cell><Data ss:Type="String">Očrni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Denounce</Data></Cell>
+    <Cell><Data ss:Type="String">Odpove</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deplete</Data></Cell>
+    <Cell><Data ss:Type="String">Škodljivo delujejo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deplore</Data></Cell>
+    <Cell><Data ss:Type="String">Obžalujejo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Depravity</Data></Cell>
+    <Cell><Data ss:Type="String">Izprijenosti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deprecate</Data></Cell>
+    <Cell><Data ss:Type="String">Osuđivati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deride</Data></Cell>
+    <Cell><Data ss:Type="String">Rugati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Derision</Data></Cell>
+    <Cell><Data ss:Type="String">Ruganje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Derogatory</Data></Cell>
+    <Cell><Data ss:Type="String">Poniževalnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Descry</Data></Cell>
+    <Cell><Data ss:Type="String">Pripomniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desecrate</Data></Cell>
+    <Cell><Data ss:Type="String">Oskrnaviti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desecration</Data></Cell>
+    <Cell><Data ss:Type="String">Skrunitev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desist</Data></Cell>
+    <Cell><Data ss:Type="String">Prenehajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Despondent</Data></Cell>
+    <Cell><Data ss:Type="String">Potrt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Destitution</Data></Cell>
+    <Cell><Data ss:Type="String">Pomanjkanju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desultory</Data></Cell>
+    <Cell><Data ss:Type="String">V neredu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deter</Data></Cell>
+    <Cell><Data ss:Type="String">Odvračanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deteriorate</Data></Cell>
+    <Cell><Data ss:Type="String">Poslabša</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Detrimental</Data></Cell>
+    <Cell><Data ss:Type="String">Škodljivimi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Devoured</Data></Cell>
+    <Cell><Data ss:Type="String">Požrla</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dexterity</Data></Cell>
+    <Cell><Data ss:Type="String">Spretnostna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dexterous</Data></Cell>
+    <Cell><Data ss:Type="String">Spretno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diaphanous</Data></Cell>
+    <Cell><Data ss:Type="String">Prozornega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diaphanous</Data></Cell>
+    <Cell><Data ss:Type="String">Prozornega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diatribe</Data></Cell>
+    <Cell><Data ss:Type="String">Ostra Kritika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dichotomy</Data></Cell>
+    <Cell><Data ss:Type="String">Dihotomija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Didactic</Data></Cell>
+    <Cell><Data ss:Type="String">Didaktična</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diffident</Data></Cell>
+    <Cell><Data ss:Type="String">Skromen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Digress</Data></Cell>
+    <Cell><Data ss:Type="String">Zastraniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dilatory</Data></Cell>
+    <Cell><Data ss:Type="String">Zavlačevanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dilettante</Data></Cell>
+    <Cell><Data ss:Type="String">Diletant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diligent</Data></Cell>
+    <Cell><Data ss:Type="String">Prizadeven</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dirge</Data></Cell>
+    <Cell><Data ss:Type="String">Parastos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disapprobation</Data></Cell>
+    <Cell><Data ss:Type="String">Neodobravanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disarm</Data></Cell>
+    <Cell><Data ss:Type="String">Razorožijo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discern</Data></Cell>
+    <Cell><Data ss:Type="String">Zaznati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discernment</Data></Cell>
+    <Cell><Data ss:Type="String">Razbor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discord</Data></Cell>
+    <Cell><Data ss:Type="String">Razdora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discrepancy</Data></Cell>
+    <Cell><Data ss:Type="String">Neskladje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discrete</Data></Cell>
+    <Cell><Data ss:Type="String">Diskretna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discriminate</Data></Cell>
+    <Cell><Data ss:Type="String">Diskriminirajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disdain</Data></Cell>
+    <Cell><Data ss:Type="String">Prezir</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disingenuous</Data></Cell>
+    <Cell><Data ss:Type="String">Neiskren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disinterested</Data></Cell>
+    <Cell><Data ss:Type="String">Me ne zanimajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disparage</Data></Cell>
+    <Cell><Data ss:Type="String">Omalovaževal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disparity</Data></Cell>
+    <Cell><Data ss:Type="String">Neskladje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dispassionate</Data></Cell>
+    <Cell><Data ss:Type="String">Nepristranski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dissemble</Data></Cell>
+    <Cell><Data ss:Type="String">Prikriti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disseminating</Data></Cell>
+    <Cell><Data ss:Type="String">Širjenje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dissonance</Data></Cell>
+    <Cell><Data ss:Type="String">Disonanca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diurnal</Data></Cell>
+    <Cell><Data ss:Type="String">Dnevnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Divert</Data></Cell>
+    <Cell><Data ss:Type="String">Preusmeritev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Divest</Data></Cell>
+    <Cell><Data ss:Type="String">Odprodala</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Docile</Data></Cell>
+    <Cell><Data ss:Type="String">Pokoren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Doff</Data></Cell>
+    <Cell><Data ss:Type="String">Snamete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dogmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Dogmatske</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dormancy</Data></Cell>
+    <Cell><Data ss:Type="String">Mirovanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Drawl</Data></Cell>
+    <Cell><Data ss:Type="String">Razvlačiti besede</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Drivel</Data></Cell>
+    <Cell><Data ss:Type="String">Baljezganje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Droll</Data></Cell>
+    <Cell><Data ss:Type="String">Zabaven</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dross</Data></Cell>
+    <Cell><Data ss:Type="String">Žlindra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dubious</Data></Cell>
+    <Cell><Data ss:Type="String">Dvomljive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ebullient</Data></Cell>
+    <Cell><Data ss:Type="String">Kipući</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eccentric</Data></Cell>
+    <Cell><Data ss:Type="String">Ekscentrične</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Edifice</Data></Cell>
+    <Cell><Data ss:Type="String">Zgradbe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Efface</Data></Cell>
+    <Cell><Data ss:Type="String">Izbrisati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Efficacy</Data></Cell>
+    <Cell><Data ss:Type="String">Učinkovitost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Effigy</Data></Cell>
+    <Cell><Data ss:Type="String">Portret</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Effrontery</Data></Cell>
+    <Cell><Data ss:Type="String">Drskost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Effusive</Data></Cell>
+    <Cell><Data ss:Type="String">Ponesen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Egalitarianism</Data></Cell>
+    <Cell><Data ss:Type="String">Egalitarizmom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Egregious</Data></Cell>
+    <Cell><Data ss:Type="String">Nezaslišane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Egress</Data></Cell>
+    <Cell><Data ss:Type="String">Izstop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elaborate</Data></Cell>
+    <Cell><Data ss:Type="String">Izdelati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ellipsis</Data></Cell>
+    <Cell><Data ss:Type="String">Elipsa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eloquent</Data></Cell>
+    <Cell><Data ss:Type="String">Zgovorna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elucidate</Data></Cell>
+    <Cell><Data ss:Type="String">Pojasnjevanju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elusive</Data></Cell>
+    <Cell><Data ss:Type="String">Nedostižan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emaciated</Data></Cell>
+    <Cell><Data ss:Type="String">Izčrpanosti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emancipate</Data></Cell>
+    <Cell><Data ss:Type="String">Osvoboditev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Embezzle</Data></Cell>
+    <Cell><Data ss:Type="String">Pronevjeriti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emboss</Data></Cell>
+    <Cell><Data ss:Type="String">Klesati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emerge</Data></Cell>
+    <Cell><Data ss:Type="String">Pojavljajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emollient</Data></Cell>
+    <Cell><Data ss:Type="String">Pomirjevalna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Empirical</Data></Cell>
+    <Cell><Data ss:Type="String">Empirične</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emulate</Data></Cell>
+    <Cell><Data ss:Type="String">Posnemati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endorse</Data></Cell>
+    <Cell><Data ss:Type="String">Potrditi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endow</Data></Cell>
+    <Cell><Data ss:Type="String">Subvencioniranju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enervate</Data></Cell>
+    <Cell><Data ss:Type="String">Oslabljen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enfranchise</Data></Cell>
+    <Cell><Data ss:Type="String">Rastjerati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Engender</Data></Cell>
+    <Cell><Data ss:Type="String">Povzročila</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Engendering</Data></Cell>
+    <Cell><Data ss:Type="String">Da prispeva k</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enhance</Data></Cell>
+    <Cell><Data ss:Type="String">Izboljšajte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enigmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Skrivnosten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enlist</Data></Cell>
+    <Cell><Data ss:Type="String">Vpoklicati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ephemeral</Data></Cell>
+    <Cell><Data ss:Type="String">Efemerni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epistemology</Data></Cell>
+    <Cell><Data ss:Type="String">Epistemologija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epistle</Data></Cell>
+    <Cell><Data ss:Type="String">Sporočil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epistolary</Data></Cell>
+    <Cell><Data ss:Type="String">Pismih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epithet</Data></Cell>
+    <Cell><Data ss:Type="String">Vzdevek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epitomized</Data></Cell>
+    <Cell><Data ss:Type="String">Povzema</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Equivocal</Data></Cell>
+    <Cell><Data ss:Type="String">Dvoumni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Equivocation</Data></Cell>
+    <Cell><Data ss:Type="String">Nedvoumno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Errant</Data></Cell>
+    <Cell><Data ss:Type="String">Potepuški</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Erratic</Data></Cell>
+    <Cell><Data ss:Type="String">Neredno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Erudition</Data></Cell>
+    <Cell><Data ss:Type="String">Erudicija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eschew</Data></Cell>
+    <Cell><Data ss:Type="String">Izogibati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Esoteric</Data></Cell>
+    <Cell><Data ss:Type="String">Ezoterična</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Espouse</Data></Cell>
+    <Cell><Data ss:Type="String">Zagovarjajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Etymology</Data></Cell>
+    <Cell><Data ss:Type="String">Etimologija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eulogy</Data></Cell>
+    <Cell><Data ss:Type="String">Hvalospjev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Euphemism</Data></Cell>
+    <Cell><Data ss:Type="String">Evfemizem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Euphony</Data></Cell>
+    <Cell><Data ss:Type="String">Blagozvučnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Evacuate</Data></Cell>
+    <Cell><Data ss:Type="String">Izpraznite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Evanescent</Data></Cell>
+    <Cell><Data ss:Type="String">Letimičan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exacerbate</Data></Cell>
+    <Cell><Data ss:Type="String">Poslabša</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exacerbated</Data></Cell>
+    <Cell><Data ss:Type="String">Poslabšala</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exasperated</Data></Cell>
+    <Cell><Data ss:Type="String">Ogorčen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exculpate</Data></Cell>
+    <Cell><Data ss:Type="String">Razbremeniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Execrable</Data></Cell>
+    <Cell><Data ss:Type="String">Odvratan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exegesis</Data></Cell>
+    <Cell><Data ss:Type="String">Eksegeze</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Zglednih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplary</Data></Cell>
+    <Cell><Data ss:Type="String">Zgledno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplify</Data></Cell>
+    <Cell><Data ss:Type="String">Ponazarjajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exhaustive</Data></Cell>
+    <Cell><Data ss:Type="String">Izčrpen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exigency</Data></Cell>
+    <Cell><Data ss:Type="String">Stiska</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exonerates</Data></Cell>
+    <Cell><Data ss:Type="String">Razbremenjuje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expatriate</Data></Cell>
+    <Cell><Data ss:Type="String">Izseljenec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expedient</Data></Cell>
+    <Cell><Data ss:Type="String">Smotrno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expedite</Data></Cell>
+    <Cell><Data ss:Type="String">Pospešiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expiate</Data></Cell>
+    <Cell><Data ss:Type="String">Ispaštati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expostulate</Data></Cell>
+    <Cell><Data ss:Type="String">Svetovali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extant</Data></Cell>
+    <Cell><Data ss:Type="String">Obstajali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extirpate</Data></Cell>
+    <Cell><Data ss:Type="String">Izkoreniniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extirpation</Data></Cell>
+    <Cell><Data ss:Type="String">Iztrebljanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extol</Data></Cell>
+    <Cell><Data ss:Type="String">Uvažajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extradite</Data></Cell>
+    <Cell><Data ss:Type="String">Izročiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extraneous</Data></Cell>
+    <Cell><Data ss:Type="String">Tuja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extrapolate</Data></Cell>
+    <Cell><Data ss:Type="String">Ekstrapolira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extrinsic</Data></Cell>
+    <Cell><Data ss:Type="String">Zunanji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fabricated</Data></Cell>
+    <Cell><Data ss:Type="String">Predelana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Façade</Data></Cell>
+    <Cell><Data ss:Type="String">Fasad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Facetious</Data></Cell>
+    <Cell><Data ss:Type="String">Živahen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallacious</Data></Cell>
+    <Cell><Data ss:Type="String">Varljivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallacy</Data></Cell>
+    <Cell><Data ss:Type="String">Zmota</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallible</Data></Cell>
+    <Cell><Data ss:Type="String">Nezanesljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallow</Data></Cell>
+    <Cell><Data ss:Type="String">Praha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Falters</Data></Cell>
+    <Cell><Data ss:Type="String">Zatika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fanatical</Data></Cell>
+    <Cell><Data ss:Type="String">Fanatični</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fanaticism</Data></Cell>
+    <Cell><Data ss:Type="String">Fanatizem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fastidious</Data></Cell>
+    <Cell><Data ss:Type="String">Hitre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Feasible</Data></Cell>
+    <Cell><Data ss:Type="String">Izvedljive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Feckless</Data></Cell>
+    <Cell><Data ss:Type="String">Nebogljen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fecund</Data></Cell>
+    <Cell><Data ss:Type="String">Ploden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Feint</Data></Cell>
+    <Cell><Data ss:Type="String">Funt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Felicitous</Data></Cell>
+    <Cell><Data ss:Type="String">Podesan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ferrous</Data></Cell>
+    <Cell><Data ss:Type="String">Železov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fervent</Data></Cell>
+    <Cell><Data ss:Type="String">Goreč</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fervid</Data></Cell>
+    <Cell><Data ss:Type="String">Ognjevito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fervor</Data></Cell>
+    <Cell><Data ss:Type="String">Vnemo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fickle</Data></Cell>
+    <Cell><Data ss:Type="String">Izginila</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Figurehead</Data></Cell>
+    <Cell><Data ss:Type="String">Figura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Filibuster</Data></Cell>
+    <Cell><Data ss:Type="String">Morskega razbojnika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fitful</Data></Cell>
+    <Cell><Data ss:Type="String">Grčevit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flagrant</Data></Cell>
+    <Cell><Data ss:Type="String">Grobo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flail</Data></Cell>
+    <Cell><Data ss:Type="String">Mlatilo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flamboyant</Data></Cell>
+    <Cell><Data ss:Type="String">Kitnjast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flaunt</Data></Cell>
+    <Cell><Data ss:Type="String">Šopirjenje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fledge</Data></Cell>
+    <Cell><Data ss:Type="String">Odhraniti pijače</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flippant</Data></Cell>
+    <Cell><Data ss:Type="String">Predrzen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flout</Data></Cell>
+    <Cell><Data ss:Type="String">Posmeh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flustered</Data></Cell>
+    <Cell><Data ss:Type="String">Usplahiren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fly-by-night</Data></Cell>
+    <Cell><Data ss:Type="String">Fly-by-ponoči</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foible</Data></Cell>
+    <Cell><Data ss:Type="String">Mekuštvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foment</Data></Cell>
+    <Cell><Data ss:Type="String">Podpihuje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foolhardy</Data></Cell>
+    <Cell><Data ss:Type="String">Nepremišljena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foppish</Data></Cell>
+    <Cell><Data ss:Type="String">Kicoški</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Forage</Data></Cell>
+    <Cell><Data ss:Type="String">Krmne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Forensic</Data></Cell>
+    <Cell><Data ss:Type="String">Forenzična</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foreshadowed</Data></Cell>
+    <Cell><Data ss:Type="String">Napovedala</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fortitude</Data></Cell>
+    <Cell><Data ss:Type="String">Trdnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fortuitous</Data></Cell>
+    <Cell><Data ss:Type="String">Naključnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fractious</Data></Cell>
+    <Cell><Data ss:Type="String">Svadljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fraudulent</Data></Cell>
+    <Cell><Data ss:Type="String">Goljufive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Frieze</Data></Cell>
+    <Cell><Data ss:Type="String">Friz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Frivolous</Data></Cell>
+    <Cell><Data ss:Type="String">Neresno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Frugal</Data></Cell>
+    <Cell><Data ss:Type="String">Varčen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Furrow</Data></Cell>
+    <Cell><Data ss:Type="String">Brazda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Furtive</Data></Cell>
+    <Cell><Data ss:Type="String">Skriven</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fusillade</Data></Cell>
+    <Cell><Data ss:Type="String">Pucnjava</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Futile</Data></Cell>
+    <Cell><Data ss:Type="String">Jalovo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gaffe</Data></Cell>
+    <Cell><Data ss:Type="String">Osti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gainsay</Data></Cell>
+    <Cell><Data ss:Type="String">Ugovarjati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Garish</Data></Cell>
+    <Cell><Data ss:Type="String">Drečav</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Garrulous</Data></Cell>
+    <Cell><Data ss:Type="String">Zgovorna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gavel</Data></Cell>
+    <Cell><Data ss:Type="String">Kladivce</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Genre</Data></Cell>
+    <Cell><Data ss:Type="String">Žanr</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gist</Data></Cell>
+    <Cell><Data ss:Type="String">Kratka vsebina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Glacial</Data></Cell>
+    <Cell><Data ss:Type="String">Led</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Glib</Data></Cell>
+    <Cell><Data ss:Type="String">Gladek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Goad</Data></Cell>
+    <Cell><Data ss:Type="String">Podbadati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gouge</Data></Cell>
+    <Cell><Data ss:Type="String">Izvlečejo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Grate &lt;i&gt;(v)&lt;/i&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Rešetke &lt;i&gt; (v) &lt;/ i&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gratuitous</Data></Cell>
+    <Cell><Data ss:Type="String">Neodplačnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gregarious</Data></Cell>
+    <Cell><Data ss:Type="String">Druževan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gritty</Data></Cell>
+    <Cell><Data ss:Type="String">Kašaste</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Guile</Data></Cell>
+    <Cell><Data ss:Type="String">Prevara</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Guileless</Data></Cell>
+    <Cell><Data ss:Type="String">Bezazlen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gullibility</Data></Cell>
+    <Cell><Data ss:Type="String">Lakovjernost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gullible</Data></Cell>
+    <Cell><Data ss:Type="String">Lahkoveren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hackneyed</Data></Cell>
+    <Cell><Data ss:Type="String">Banana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Halcyon</Data></Cell>
+    <Cell><Data ss:Type="String">Vedri</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hallowed</Data></Cell>
+    <Cell><Data ss:Type="String">Posvečeno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hamper</Data></Cell>
+    <Cell><Data ss:Type="String">Ovirajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hapless</Data></Cell>
+    <Cell><Data ss:Type="String">Nesrečni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Harbingers</Data></Cell>
+    <Cell><Data ss:Type="String">Znanilci</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hasten</Data></Cell>
+    <Cell><Data ss:Type="String">Pospeši</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hawser</Data></Cell>
+    <Cell><Data ss:Type="String">Vrv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Headstrong</Data></Cell>
+    <Cell><Data ss:Type="String">Svojeglav</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hedonism</Data></Cell>
+    <Cell><Data ss:Type="String">Hedonizma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Heed</Data></Cell>
+    <Cell><Data ss:Type="String">Pazi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hegemony</Data></Cell>
+    <Cell><Data ss:Type="String">Hegemonija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Heresy</Data></Cell>
+    <Cell><Data ss:Type="String">Krivoverstvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hidebound</Data></Cell>
+    <Cell><Data ss:Type="String">Povezan kožo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hieroglyphics</Data></Cell>
+    <Cell><Data ss:Type="String">Hieroglifi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hinder</Data></Cell>
+    <Cell><Data ss:Type="String">Ovirajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Histrionic</Data></Cell>
+    <Cell><Data ss:Type="String">Glumački</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Homogeneity</Data></Cell>
+    <Cell><Data ss:Type="String">Homogenost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hone</Data></Cell>
+    <Cell><Data ss:Type="String">Brus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hyperbole</Data></Cell>
+    <Cell><Data ss:Type="String">Pretiravanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hyperbole</Data></Cell>
+    <Cell><Data ss:Type="String">Pretiravanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hypochondriac</Data></Cell>
+    <Cell><Data ss:Type="String">Hipohonder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hypocritical</Data></Cell>
+    <Cell><Data ss:Type="String">Hinavski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Idiosyncrasy</Data></Cell>
+    <Cell><Data ss:Type="String">Idiosinkrazija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Idyll</Data></Cell>
+    <Cell><Data ss:Type="String">Idila</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ignominious</Data></Cell>
+    <Cell><Data ss:Type="String">Sramota</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ignominy</Data></Cell>
+    <Cell><Data ss:Type="String">Sramota</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Illuminate</Data></Cell>
+    <Cell><Data ss:Type="String">Osvetlite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Illusory</Data></Cell>
+    <Cell><Data ss:Type="String">Navidezne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Immoderate</Data></Cell>
+    <Cell><Data ss:Type="String">Nezmernega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Immutable</Data></Cell>
+    <Cell><Data ss:Type="String">Nespremenljiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impartial</Data></Cell>
+    <Cell><Data ss:Type="String">Nepristransko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impeding</Data></Cell>
+    <Cell><Data ss:Type="String">Ovirajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Imperative</Data></Cell>
+    <Cell><Data ss:Type="String">Imperativ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impious</Data></Cell>
+    <Cell><Data ss:Type="String">Brez spoštovanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Importune</Data></Cell>
+    <Cell><Data ss:Type="String">Salijetati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impoverished</Data></Cell>
+    <Cell><Data ss:Type="String">Osiromašena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Improbity</Data></Cell>
+    <Cell><Data ss:Type="String">Nečasnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impropriety</Data></Cell>
+    <Cell><Data ss:Type="String">Neprimernosti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impugn</Data></Cell>
+    <Cell><Data ss:Type="String">Napadejo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impugned</Data></Cell>
+    <Cell><Data ss:Type="String">Izpodbijana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inadvertent</Data></Cell>
+    <Cell><Data ss:Type="String">Nenamerno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incantation</Data></Cell>
+    <Cell><Data ss:Type="String">Čarobna beseda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incarceration</Data></Cell>
+    <Cell><Data ss:Type="String">Zapor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incessant</Data></Cell>
+    <Cell><Data ss:Type="String">Nenehno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incipient</Data></Cell>
+    <Cell><Data ss:Type="String">Nastajajočih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incise</Data></Cell>
+    <Cell><Data ss:Type="String">Isjeći</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inclination</Data></Cell>
+    <Cell><Data ss:Type="String">Naklon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incoherent</Data></Cell>
+    <Cell><Data ss:Type="String">Nepovezano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incongruous</Data></Cell>
+    <Cell><Data ss:Type="String">Neskladje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inconsequential</Data></Cell>
+    <Cell><Data ss:Type="String">Nepomembna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inconspicuous</Data></Cell>
+    <Cell><Data ss:Type="String">Neopazne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incumbents</Data></Cell>
+    <Cell><Data ss:Type="String">Uveljavljena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indelible</Data></Cell>
+    <Cell><Data ss:Type="String">Neizbrisen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indicted</Data></Cell>
+    <Cell><Data ss:Type="String">Obtožen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indifferent</Data></Cell>
+    <Cell><Data ss:Type="String">Ravnodušen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indigence</Data></Cell>
+    <Cell><Data ss:Type="String">Uboštvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indigenous</Data></Cell>
+    <Cell><Data ss:Type="String">Avtohtone</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indigent</Data></Cell>
+    <Cell><Data ss:Type="String">Revnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indolence</Data></Cell>
+    <Cell><Data ss:Type="String">Lijenost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indulgent</Data></Cell>
+    <Cell><Data ss:Type="String">Prizanesljiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inebriation</Data></Cell>
+    <Cell><Data ss:Type="String">Omamljenost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ineffable</Data></Cell>
+    <Cell><Data ss:Type="String">Neizrekljive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inept</Data></Cell>
+    <Cell><Data ss:Type="String">Nevičan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inertia</Data></Cell>
+    <Cell><Data ss:Type="String">Vztrajnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inevitable</Data></Cell>
+    <Cell><Data ss:Type="String">Neizogibno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inexorable</Data></Cell>
+    <Cell><Data ss:Type="String">Neizprosen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inexpedient</Data></Cell>
+    <Cell><Data ss:Type="String">Nesmotrno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infallible</Data></Cell>
+    <Cell><Data ss:Type="String">Nezmotljivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infer</Data></Cell>
+    <Cell><Data ss:Type="String">Sklepamo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inimical</Data></Cell>
+    <Cell><Data ss:Type="String">Sovražna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innate</Data></Cell>
+    <Cell><Data ss:Type="String">Prirojeno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innocuous</Data></Cell>
+    <Cell><Data ss:Type="String">Neškodljive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inscrutable</Data></Cell>
+    <Cell><Data ss:Type="String">Skrivnosten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Insipid</Data></Cell>
+    <Cell><Data ss:Type="String">Neokusna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Instigate</Data></Cell>
+    <Cell><Data ss:Type="String">Sprožiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Instigator</Data></Cell>
+    <Cell><Data ss:Type="String">Pobudnik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Insurgent</Data></Cell>
+    <Cell><Data ss:Type="String">Uporniške</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intangible</Data></Cell>
+    <Cell><Data ss:Type="String">Neopredmetena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intelligible</Data></Cell>
+    <Cell><Data ss:Type="String">Razumljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intemperate</Data></Cell>
+    <Cell><Data ss:Type="String">Neumjeren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Interminable</Data></Cell>
+    <Cell><Data ss:Type="String">Neskončnim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intermittent</Data></Cell>
+    <Cell><Data ss:Type="String">Prekinitvami</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intransigence</Data></Cell>
+    <Cell><Data ss:Type="String">Nepopustljivosti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intransigent</Data></Cell>
+    <Cell><Data ss:Type="String">Nepopustljive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inveterate</Data></Cell>
+    <Cell><Data ss:Type="String">Trdovratnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Invidious</Data></Cell>
+    <Cell><Data ss:Type="String">Žaljivih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inviolable</Data></Cell>
+    <Cell><Data ss:Type="String">Nedotakljivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ire</Data></Cell>
+    <Cell><Data ss:Type="String">Irskem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irksome</Data></Cell>
+    <Cell><Data ss:Type="String">Zamoran</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ironclad</Data></Cell>
+    <Cell><Data ss:Type="String">Oklopljen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ironic</Data></Cell>
+    <Cell><Data ss:Type="String">Ironično</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irrational</Data></Cell>
+    <Cell><Data ss:Type="String">Iracionalna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irreproachable</Data></Cell>
+    <Cell><Data ss:Type="String">Neoporečna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irrevocable</Data></Cell>
+    <Cell><Data ss:Type="String">Nepreklicni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Itinerant</Data></Cell>
+    <Cell><Data ss:Type="String">Potujoče</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jaded</Data></Cell>
+    <Cell><Data ss:Type="String">Utrujen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jamb</Data></Cell>
+    <Cell><Data ss:Type="String">Podboj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jargon</Data></Cell>
+    <Cell><Data ss:Type="String">Žargon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jaundiced</Data></Cell>
+    <Cell><Data ss:Type="String">Zlateničen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jaunt</Data></Cell>
+    <Cell><Data ss:Type="String">Izlet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jeopardize</Data></Cell>
+    <Cell><Data ss:Type="String">Ogrozilo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jibe</Data></Cell>
+    <Cell><Data ss:Type="String">Kroženje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jocular</Data></Cell>
+    <Cell><Data ss:Type="String">Šaljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jubilant</Data></Cell>
+    <Cell><Data ss:Type="String">Trijumfirajući</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Judicious</Data></Cell>
+    <Cell><Data ss:Type="String">Razumno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jurisprudence</Data></Cell>
+    <Cell><Data ss:Type="String">Sodna praksa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Knotty</Data></Cell>
+    <Cell><Data ss:Type="String">Vozlih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Labile</Data></Cell>
+    <Cell><Data ss:Type="String">Labilen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Labyrinthine</Data></Cell>
+    <Cell><Data ss:Type="String">Labirintski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Laceration</Data></Cell>
+    <Cell><Data ss:Type="String">Raztrganina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lackluster</Data></Cell>
+    <Cell><Data ss:Type="String">Skromna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Laconic</Data></Cell>
+    <Cell><Data ss:Type="String">Lakoničen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lamentation</Data></Cell>
+    <Cell><Data ss:Type="String">Naricanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lampoon</Data></Cell>
+    <Cell><Data ss:Type="String">Satira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Languid</Data></Cell>
+    <Cell><Data ss:Type="String">Omlitaveo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Languish</Data></Cell>
+    <Cell><Data ss:Type="String">Čileti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lassitude</Data></Cell>
+    <Cell><Data ss:Type="String">Zamor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Latent</Data></Cell>
+    <Cell><Data ss:Type="String">Latentna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lavish</Data></Cell>
+    <Cell><Data ss:Type="String">Razkošno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Leaven</Data></Cell>
+    <Cell><Data ss:Type="String">Kvas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Legend</Data></Cell>
+    <Cell><Data ss:Type="String">Legenda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lethargic</Data></Cell>
+    <Cell><Data ss:Type="String">Zaspan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Levee</Data></Cell>
+    <Cell><Data ss:Type="String">Nasip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Libertarian</Data></Cell>
+    <Cell><Data ss:Type="String">Libertarno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Limpid</Data></Cell>
+    <Cell><Data ss:Type="String">Prozorno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Liniment</Data></Cell>
+    <Cell><Data ss:Type="String">Tena mast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lithe</Data></Cell>
+    <Cell><Data ss:Type="String">Gibčno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Liturgy</Data></Cell>
+    <Cell><Data ss:Type="String">Liturgija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Livid</Data></Cell>
+    <Cell><Data ss:Type="String">Moda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lobbyist</Data></Cell>
+    <Cell><Data ss:Type="String">Lobist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Longevity</Data></Cell>
+    <Cell><Data ss:Type="String">Ugodne cene</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Loquacious</Data></Cell>
+    <Cell><Data ss:Type="String">Brbljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ludicrous</Data></Cell>
+    <Cell><Data ss:Type="String">Smešno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lukewarm</Data></Cell>
+    <Cell><Data ss:Type="String">Mlačno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Macerate</Data></Cell>
+    <Cell><Data ss:Type="String">Maceriramo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Mahinacij</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Maelstrom</Data></Cell>
+    <Cell><Data ss:Type="String">Matica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Magnanimous</Data></Cell>
+    <Cell><Data ss:Type="String">Velikodušno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Magnate</Data></Cell>
+    <Cell><Data ss:Type="String">Magnat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malediction</Data></Cell>
+    <Cell><Data ss:Type="String">Prekletstvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malefactor</Data></Cell>
+    <Cell><Data ss:Type="String">Crimes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malevolent</Data></Cell>
+    <Cell><Data ss:Type="String">Zlonamerna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malign</Data></Cell>
+    <Cell><Data ss:Type="String">Maligna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malinger</Data></Cell>
+    <Cell><Data ss:Type="String">Simulirati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Manipulative</Data></Cell>
+    <Cell><Data ss:Type="String">Manipulativno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mannered</Data></Cell>
+    <Cell><Data ss:Type="String">Prijaznost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marred</Data></Cell>
+    <Cell><Data ss:Type="String">Zaznamovale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marsupial</Data></Cell>
+    <Cell><Data ss:Type="String">Tobolčar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Masochist</Data></Cell>
+    <Cell><Data ss:Type="String">Mazohist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Maudlin</Data></Cell>
+    <Cell><Data ss:Type="String">Preosjetljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Meager</Data></Cell>
+    <Cell><Data ss:Type="String">Vitek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Menagerie</Data></Cell>
+    <Cell><Data ss:Type="String">Zverinjak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mendacious</Data></Cell>
+    <Cell><Data ss:Type="String">Lažljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Merge</Data></Cell>
+    <Cell><Data ss:Type="String">Spoji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Metaphorically</Data></Cell>
+    <Cell><Data ss:Type="String">Metaforično</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Meticulous</Data></Cell>
+    <Cell><Data ss:Type="String">Precizno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mettle</Data></Cell>
+    <Cell><Data ss:Type="String">Vnema</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mettlesome</Data></Cell>
+    <Cell><Data ss:Type="String">Odvažan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Minutiae</Data></Cell>
+    <Cell><Data ss:Type="String">Minucij</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misconstrue</Data></Cell>
+    <Cell><Data ss:Type="String">Narobe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misnomer</Data></Cell>
+    <Cell><Data ss:Type="String">Napačno ime</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misogynist</Data></Cell>
+    <Cell><Data ss:Type="String">Mizoginih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misrepresentation</Data></Cell>
+    <Cell><Data ss:Type="String">Zavajanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mitigate</Data></Cell>
+    <Cell><Data ss:Type="String">Ublažitev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mitigation</Data></Cell>
+    <Cell><Data ss:Type="String">Omilitev</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Modicum</Data></Cell>
+    <Cell><Data ss:Type="String">Mala</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Momentous</Data></Cell>
+    <Cell><Data ss:Type="String">Pomembnimi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Monotonous</Data></Cell>
+    <Cell><Data ss:Type="String">Monotono</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Moralistic</Data></Cell>
+    <Cell><Data ss:Type="String">Moralistični</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Moratorium</Data></Cell>
+    <Cell><Data ss:Type="String">Moratorij</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Moribund</Data></Cell>
+    <Cell><Data ss:Type="String">Umirajoče</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Morose</Data></Cell>
+    <Cell><Data ss:Type="String">Zlovoljan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mundane</Data></Cell>
+    <Cell><Data ss:Type="String">Vsakdanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Munificent</Data></Cell>
+    <Cell><Data ss:Type="String">Darežljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nascent</Data></Cell>
+    <Cell><Data ss:Type="String">Nastajajočo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Navigable</Data></Cell>
+    <Cell><Data ss:Type="String">Plovna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nebulous</Data></Cell>
+    <Cell><Data ss:Type="String">Nejasen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nefarious</Data></Cell>
+    <Cell><Data ss:Type="String">Zloben</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Negate</Data></Cell>
+    <Cell><Data ss:Type="String">Zanika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Negligence</Data></Cell>
+    <Cell><Data ss:Type="String">Malomarnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Neologism</Data></Cell>
+    <Cell><Data ss:Type="String">Neologizem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Neophyte</Data></Cell>
+    <Cell><Data ss:Type="String">Neofita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Niggardly</Data></Cell>
+    <Cell><Data ss:Type="String">Škrt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nomadic</Data></Cell>
+    <Cell><Data ss:Type="String">Nomadska</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nonchalance</Data></Cell>
+    <Cell><Data ss:Type="String">Brezskrbnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nondescript</Data></Cell>
+    <Cell><Data ss:Type="String">Neopisiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nonplussed</Data></Cell>
+    <Cell><Data ss:Type="String">Zbegan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nostalgia</Data></Cell>
+    <Cell><Data ss:Type="String">Nostalgija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Notoriety</Data></Cell>
+    <Cell><Data ss:Type="String">Ozloglašenost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Novel</Data></Cell>
+    <Cell><Data ss:Type="String">Roman</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Noxious</Data></Cell>
+    <Cell><Data ss:Type="String">Škodljiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nugatory</Data></Cell>
+    <Cell><Data ss:Type="String">Zmanjševati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nullify</Data></Cell>
+    <Cell><Data ss:Type="String">Izniči</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nuzzle</Data></Cell>
+    <Cell><Data ss:Type="String">Priljubiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obdurate</Data></Cell>
+    <Cell><Data ss:Type="String">Uporan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obfuscate</Data></Cell>
+    <Cell><Data ss:Type="String">Pomutiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Objective</Data></Cell>
+    <Cell><Data ss:Type="String">Cilj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obligate</Data></Cell>
+    <Cell><Data ss:Type="String">Obligatorni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oblique</Data></Cell>
+    <Cell><Data ss:Type="String">Poševna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obliterate</Data></Cell>
+    <Cell><Data ss:Type="String">Izbriši</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oblivious</Data></Cell>
+    <Cell><Data ss:Type="String">Pozablja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obscure</Data></Cell>
+    <Cell><Data ss:Type="String">Nejasna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obscured</Data></Cell>
+    <Cell><Data ss:Type="String">Nespodobno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obsolete</Data></Cell>
+    <Cell><Data ss:Type="String">Zastareli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obstreperous</Data></Cell>
+    <Cell><Data ss:Type="String">Bučan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obtuse</Data></Cell>
+    <Cell><Data ss:Type="String">Topi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obviate</Data></Cell>
+    <Cell><Data ss:Type="String">Odpravi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Occluded</Data></Cell>
+    <Cell><Data ss:Type="String">Zamašena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Odious</Data></Cell>
+    <Cell><Data ss:Type="String">Strahotni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Officious</Data></Cell>
+    <Cell><Data ss:Type="String">Uslužan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Olfactory</Data></Cell>
+    <Cell><Data ss:Type="String">Vohalne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ominous</Data></Cell>
+    <Cell><Data ss:Type="String">Groženj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Omnipotent</Data></Cell>
+    <Cell><Data ss:Type="String">Vsemogočen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Omniscient</Data></Cell>
+    <Cell><Data ss:Type="String">Vsevedno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Onerous</Data></Cell>
+    <Cell><Data ss:Type="String">Kočljive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Onus</Data></Cell>
+    <Cell><Data ss:Type="String">Breme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Opulent</Data></Cell>
+    <Cell><Data ss:Type="String">Bogate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Orate</Data></Cell>
+    <Cell><Data ss:Type="String">Vztrajati govora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ordain</Data></Cell>
+    <Cell><Data ss:Type="String">Pomenišiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ornate</Data></Cell>
+    <Cell><Data ss:Type="String">Nagizdan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Orthodox</Data></Cell>
+    <Cell><Data ss:Type="String">Pravoslavni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ossified</Data></Cell>
+    <Cell><Data ss:Type="String">Okostenela</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ossify</Data></Cell>
+    <Cell><Data ss:Type="String">Okoštati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ostentatious</Data></Cell>
+    <Cell><Data ss:Type="String">Hvalisav</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ostracism</Data></Cell>
+    <Cell><Data ss:Type="String">Izgnanstvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oust</Data></Cell>
+    <Cell><Data ss:Type="String">Izgnati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Overt</Data></Cell>
+    <Cell><Data ss:Type="String">Odkrito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Overwrought</Data></Cell>
+    <Cell><Data ss:Type="String">Uzrujan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paean</Data></Cell>
+    <Cell><Data ss:Type="String">Plan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palatable</Data></Cell>
+    <Cell><Data ss:Type="String">Všečno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palliative</Data></Cell>
+    <Cell><Data ss:Type="String">Paliativna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pallid</Data></Cell>
+    <Cell><Data ss:Type="String">Bledi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palpable</Data></Cell>
+    <Cell><Data ss:Type="String">Otipljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Panacea</Data></Cell>
+    <Cell><Data ss:Type="String">Zdravilo za vse bolezni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Panegyric</Data></Cell>
+    <Cell><Data ss:Type="String">Panegirik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paranoia</Data></Cell>
+    <Cell><Data ss:Type="String">Paranoja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parched</Data></Cell>
+    <Cell><Data ss:Type="String">Izsušeni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parenthesis</Data></Cell>
+    <Cell><Data ss:Type="String">Oklepaju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pariah</Data></Cell>
+    <Cell><Data ss:Type="String">Izobčena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parity</Data></Cell>
+    <Cell><Data ss:Type="String">Paritetni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parochial</Data></Cell>
+    <Cell><Data ss:Type="String">Župnijske</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parody</Data></Cell>
+    <Cell><Data ss:Type="String">Parodija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parsimonious</Data></Cell>
+    <Cell><Data ss:Type="String">Škrt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parsimony</Data></Cell>
+    <Cell><Data ss:Type="String">Štedljivost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Partiality</Data></Cell>
+    <Cell><Data ss:Type="String">Pristranskost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Partisan</Data></Cell>
+    <Cell><Data ss:Type="String">Partizanska</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pastiche</Data></Cell>
+    <Cell><Data ss:Type="String">Pastiša</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pathos</Data></Cell>
+    <Cell><Data ss:Type="String">Patos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Patronize</Data></Cell>
+    <Cell><Data ss:Type="String">Pokroviteljski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Patronize</Data></Cell>
+    <Cell><Data ss:Type="String">Pokroviteljski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paucity</Data></Cell>
+    <Cell><Data ss:Type="String">Skromnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peccadillo</Data></Cell>
+    <Cell><Data ss:Type="String">Stan greh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedagogy</Data></Cell>
+    <Cell><Data ss:Type="String">Pedagogika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedant</Data></Cell>
+    <Cell><Data ss:Type="String">Nadrinaučnik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedantic</Data></Cell>
+    <Cell><Data ss:Type="String">Občutljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedestrian</Data></Cell>
+    <Cell><Data ss:Type="String">Pešec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pejorative</Data></Cell>
+    <Cell><Data ss:Type="String">Slabšalno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pellucid</Data></Cell>
+    <Cell><Data ss:Type="String">Pellucida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Penchant</Data></Cell>
+    <Cell><Data ss:Type="String">Nagnjenj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pensive</Data></Cell>
+    <Cell><Data ss:Type="String">Zamišljena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Penury</Data></Cell>
+    <Cell><Data ss:Type="String">Neimaština</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perceptive</Data></Cell>
+    <Cell><Data ss:Type="String">Dojemljivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peremptory</Data></Cell>
+    <Cell><Data ss:Type="String">Zapovjednički</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perennial</Data></Cell>
+    <Cell><Data ss:Type="String">Večna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perfidy</Data></Cell>
+    <Cell><Data ss:Type="String">Izdajstvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perfunctory</Data></Cell>
+    <Cell><Data ss:Type="String">Površna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peripatetic</Data></Cell>
+    <Cell><Data ss:Type="String">Terenu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peripheral</Data></Cell>
+    <Cell><Data ss:Type="String">Periferna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perjury</Data></Cell>
+    <Cell><Data ss:Type="String">Krivokletstva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pernicious</Data></Cell>
+    <Cell><Data ss:Type="String">Škodljivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perpetuated</Data></Cell>
+    <Cell><Data ss:Type="String">Ohranjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perpetuity</Data></Cell>
+    <Cell><Data ss:Type="String">Ustaljen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Personable</Data></Cell>
+    <Cell><Data ss:Type="String">Oseben</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Personification</Data></Cell>
+    <Cell><Data ss:Type="String">Poosebljenje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perspicacious</Data></Cell>
+    <Cell><Data ss:Type="String">Pronicljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perspicacity</Data></Cell>
+    <Cell><Data ss:Type="String">Prodornost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pertain</Data></Cell>
+    <Cell><Data ss:Type="String">Nanašajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pertinent</Data></Cell>
+    <Cell><Data ss:Type="String">Ustrezne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peruse</Data></Cell>
+    <Cell><Data ss:Type="String">Prostudirati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pervasive</Data></Cell>
+    <Cell><Data ss:Type="String">Vseprisotno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Phenomenology</Data></Cell>
+    <Cell><Data ss:Type="String">Fenomenologija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Phenomenon</Data></Cell>
+    <Cell><Data ss:Type="String">Fenomen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Philanthropy</Data></Cell>
+    <Cell><Data ss:Type="String">Filantropija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Philistine</Data></Cell>
+    <Cell><Data ss:Type="String">Filistejca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Phlegmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Flegmatičan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pillage</Data></Cell>
+    <Cell><Data ss:Type="String">Ropanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pious</Data></Cell>
+    <Cell><Data ss:Type="String">Pobožna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pith</Data></Cell>
+    <Cell><Data ss:Type="String">Drevesa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pivotal</Data></Cell>
+    <Cell><Data ss:Type="String">Osrednja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Placate</Data></Cell>
+    <Cell><Data ss:Type="String">Pomirili</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plagiarism</Data></Cell>
+    <Cell><Data ss:Type="String">Plagiatorstvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaintiff</Data></Cell>
+    <Cell><Data ss:Type="String">Tožnik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaintive</Data></Cell>
+    <Cell><Data ss:Type="String">Jadikuje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaudit</Data></Cell>
+    <Cell><Data ss:Type="String">Odobravanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plausibility</Data></Cell>
+    <Cell><Data ss:Type="String">Verodostojnosti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plausible</Data></Cell>
+    <Cell><Data ss:Type="String">Verjeten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plethora</Data></Cell>
+    <Cell><Data ss:Type="String">Preobilje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pliable</Data></Cell>
+    <Cell><Data ss:Type="String">Upogljive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plodding</Data></Cell>
+    <Cell><Data ss:Type="String">Nenadaren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pluck</Data></Cell>
+    <Cell><Data ss:Type="String">Trzaj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plumage</Data></Cell>
+    <Cell><Data ss:Type="String">Perje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plummet</Data></Cell>
+    <Cell><Data ss:Type="String">Znižale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Poised</Data></Cell>
+    <Cell><Data ss:Type="String">Pripravljen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Polemical</Data></Cell>
+    <Cell><Data ss:Type="String">Polemično</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ponderous</Data></Cell>
+    <Cell><Data ss:Type="String">Težka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pontificate</Data></Cell>
+    <Cell><Data ss:Type="String">Papeževanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Portend</Data></Cell>
+    <Cell><Data ss:Type="String">Zaslutiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Portent</Data></Cell>
+    <Cell><Data ss:Type="String">Predskazivanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posterity</Data></Cell>
+    <Cell><Data ss:Type="String">Zanamce</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posthumous</Data></Cell>
+    <Cell><Data ss:Type="String">Posmrtne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Postulate</Data></Cell>
+    <Cell><Data ss:Type="String">Postulat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Potable</Data></Cell>
+    <Cell><Data ss:Type="String">Pitna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Potent</Data></Cell>
+    <Cell><Data ss:Type="String">Močni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pragmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Pragmatična</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pragmatist</Data></Cell>
+    <Cell><Data ss:Type="String">Pragmatistična</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prattle</Data></Cell>
+    <Cell><Data ss:Type="String">Brbljanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preamble</Data></Cell>
+    <Cell><Data ss:Type="String">Preambula</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precarious</Data></Cell>
+    <Cell><Data ss:Type="String">Negotova</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precedent</Data></Cell>
+    <Cell><Data ss:Type="String">Precedens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precept</Data></Cell>
+    <Cell><Data ss:Type="String">Nauk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipitate</Data></Cell>
+    <Cell><Data ss:Type="String">Oborine</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipitous</Data></Cell>
+    <Cell><Data ss:Type="String">Prepadnem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preclude</Data></Cell>
+    <Cell><Data ss:Type="String">Izključuje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precocious</Data></Cell>
+    <Cell><Data ss:Type="String">Napreden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predecessor</Data></Cell>
+    <Cell><Data ss:Type="String">Predhodnik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predicament</Data></Cell>
+    <Cell><Data ss:Type="String">Zadregi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predilection</Data></Cell>
+    <Cell><Data ss:Type="String">Predilekcijska</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preeminent</Data></Cell>
+    <Cell><Data ss:Type="String">Izrazit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prerogative</Data></Cell>
+    <Cell><Data ss:Type="String">Posebna pravica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Presage</Data></Cell>
+    <Cell><Data ss:Type="String">Slutnja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prescience</Data></Cell>
+    <Cell><Data ss:Type="String">Znanje vnaprej</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prescient</Data></Cell>
+    <Cell><Data ss:Type="String">Daljnovidna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Presumptuous</Data></Cell>
+    <Cell><Data ss:Type="String">Prevzetnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pretension</Data></Cell>
+    <Cell><Data ss:Type="String">Izgovor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pretentious</Data></Cell>
+    <Cell><Data ss:Type="String">Zahtevna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prevaricate</Data></Cell>
+    <Cell><Data ss:Type="String">Vrni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Primordial</Data></Cell>
+    <Cell><Data ss:Type="String">Prvobitni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Probity</Data></Cell>
+    <Cell><Data ss:Type="String">Poštenosti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proclivity</Data></Cell>
+    <Cell><Data ss:Type="String">Nagnite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Procrastinate</Data></Cell>
+    <Cell><Data ss:Type="String">Odlašajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prodigious</Data></Cell>
+    <Cell><Data ss:Type="String">Ogromen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profane</Data></Cell>
+    <Cell><Data ss:Type="String">Profano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profanity</Data></Cell>
+    <Cell><Data ss:Type="String">Psovke</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profound</Data></Cell>
+    <Cell><Data ss:Type="String">Temeljita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profundity</Data></Cell>
+    <Cell><Data ss:Type="String">Ponor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prohibitive</Data></Cell>
+    <Cell><Data ss:Type="String">Previsoka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proletarian</Data></Cell>
+    <Cell><Data ss:Type="String">Proletarske</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proliferate</Data></Cell>
+    <Cell><Data ss:Type="String">Razmnožujejo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prolific</Data></Cell>
+    <Cell><Data ss:Type="String">Ploden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prolixity</Data></Cell>
+    <Cell><Data ss:Type="String">Opširnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prominent</Data></Cell>
+    <Cell><Data ss:Type="String">Odlični</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prone</Data></Cell>
+    <Cell><Data ss:Type="String">Leže</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Propensity</Data></Cell>
+    <Cell><Data ss:Type="String">Nagnjenost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Propitiate</Data></Cell>
+    <Cell><Data ss:Type="String">Umilostiviti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proponents</Data></Cell>
+    <Cell><Data ss:Type="String">Zagovorniki</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prosaic</Data></Cell>
+    <Cell><Data ss:Type="String">Prozaično</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proscribe</Data></Cell>
+    <Cell><Data ss:Type="String">Prepovedujeta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prostration</Data></Cell>
+    <Cell><Data ss:Type="String">Izčrpanost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Protégé</Data></Cell>
+    <Cell><Data ss:Type="String">Varovanec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Protocol</Data></Cell>
+    <Cell><Data ss:Type="String">Protokol</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proximate</Data></Cell>
+    <Cell><Data ss:Type="String">Takojšnji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prudence</Data></Cell>
+    <Cell><Data ss:Type="String">Previdnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prudent</Data></Cell>
+    <Cell><Data ss:Type="String">Preudarno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prudish</Data></Cell>
+    <Cell><Data ss:Type="String">Vplivati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prune</Data></Cell>
+    <Cell><Data ss:Type="String">Slivov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Psychosis</Data></Cell>
+    <Cell><Data ss:Type="String">Psihoza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Puerile</Data></Cell>
+    <Cell><Data ss:Type="String">Djetinjast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pugnacious</Data></Cell>
+    <Cell><Data ss:Type="String">Bojeviti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Puissance</Data></Cell>
+    <Cell><Data ss:Type="String">Jakost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Purchase</Data></Cell>
+    <Cell><Data ss:Type="String">Nakup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pusillanimous</Data></Cell>
+    <Cell><Data ss:Type="String">Malodušan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pyre</Data></Cell>
+    <Cell><Data ss:Type="String">Grmada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quack</Data></Cell>
+    <Cell><Data ss:Type="String">Kvakanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quaff</Data></Cell>
+    <Cell><Data ss:Type="String">Natezati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quagmire</Data></Cell>
+    <Cell><Data ss:Type="String">Stiske</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quaint</Data></Cell>
+    <Cell><Data ss:Type="String">Zabaven</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Qualm</Data></Cell>
+    <Cell><Data ss:Type="String">Dvoma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quandary</Data></Cell>
+    <Cell><Data ss:Type="String">Dilem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quell</Data></Cell>
+    <Cell><Data ss:Type="String">Ugušiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Querulous</Data></Cell>
+    <Cell><Data ss:Type="String">Mrgodan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quibble</Data></Cell>
+    <Cell><Data ss:Type="String">Dosjetka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quintessential</Data></Cell>
+    <Cell><Data ss:Type="String">Najpomembnejšega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quixotic</Data></Cell>
+    <Cell><Data ss:Type="String">Kihotovski</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quotidian</Data></Cell>
+    <Cell><Data ss:Type="String">Vsakdanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Raconteur</Data></Cell>
+    <Cell><Data ss:Type="String">Vešč pripovedovalca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ramble</Data></Cell>
+    <Cell><Data ss:Type="String">Izlet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ramifications</Data></Cell>
+    <Cell><Data ss:Type="String">Posledice</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rancor</Data></Cell>
+    <Cell><Data ss:Type="String">Zloba</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ratify</Data></Cell>
+    <Cell><Data ss:Type="String">Ratificirati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Raucous</Data></Cell>
+    <Cell><Data ss:Type="String">Hrupno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rebuttal</Data></Cell>
+    <Cell><Data ss:Type="String">Nasprotni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recapitulate</Data></Cell>
+    <Cell><Data ss:Type="String">Povzamem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Receptacle</Data></Cell>
+    <Cell><Data ss:Type="String">Posoda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recluse</Data></Cell>
+    <Cell><Data ss:Type="String">Samotar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reconnaissance</Data></Cell>
+    <Cell><Data ss:Type="String">Ogled proge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recumbent</Data></Cell>
+    <Cell><Data ss:Type="String">Naslonite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recuperate</Data></Cell>
+    <Cell><Data ss:Type="String">Okrevanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Red tape</Data></Cell>
+    <Cell><Data ss:Type="String">Rdeči trak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Redolent</Data></Cell>
+    <Cell><Data ss:Type="String">Spominja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Redress</Data></Cell>
+    <Cell><Data ss:Type="String">Pravna sredstva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Refute</Data></Cell>
+    <Cell><Data ss:Type="String">Ovreči</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rekindle</Data></Cell>
+    <Cell><Data ss:Type="String">Znova gorljivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Relegate</Data></Cell>
+    <Cell><Data ss:Type="String">Otpraviti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Remuneration</Data></Cell>
+    <Cell><Data ss:Type="String">Plačilo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Renege</Data></Cell>
+    <Cell><Data ss:Type="String">Odstopiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rent</Data></Cell>
+    <Cell><Data ss:Type="String">Najem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Replete</Data></Cell>
+    <Cell><Data ss:Type="String">Polna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reprehensible</Data></Cell>
+    <Cell><Data ss:Type="String">Kaznivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reproof</Data></Cell>
+    <Cell><Data ss:Type="String">Grajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Repudiate</Data></Cell>
+    <Cell><Data ss:Type="String">Zavreči</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rescind</Data></Cell>
+    <Cell><Data ss:Type="String">Odstopi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resignation</Data></Cell>
+    <Cell><Data ss:Type="String">Odstop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resilience</Data></Cell>
+    <Cell><Data ss:Type="String">Prožnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resolution</Data></Cell>
+    <Cell><Data ss:Type="String">Resolucija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resolve</Data></Cell>
+    <Cell><Data ss:Type="String">Razreši</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resonant</Data></Cell>
+    <Cell><Data ss:Type="String">Resonančnega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Respite</Data></Cell>
+    <Cell><Data ss:Type="String">Predaha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resplendent</Data></Cell>
+    <Cell><Data ss:Type="String">Vsiljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Restorative</Data></Cell>
+    <Cell><Data ss:Type="String">Restorativno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resuscitation</Data></Cell>
+    <Cell><Data ss:Type="String">Reanimacijo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Retention</Data></Cell>
+    <Cell><Data ss:Type="String">Hramba</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reticent</Data></Cell>
+    <Cell><Data ss:Type="String">Zadržane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Retraction</Data></Cell>
+    <Cell><Data ss:Type="String">Uvlečenje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Riddled</Data></Cell>
+    <Cell><Data ss:Type="String">Posejana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rigor</Data></Cell>
+    <Cell><Data ss:Type="String">Strogosti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Riveting</Data></Cell>
+    <Cell><Data ss:Type="String">Kovičenje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Robust</Data></Cell>
+    <Cell><Data ss:Type="String">Robustna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rotund</Data></Cell>
+    <Cell><Data ss:Type="String">Okrogel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ruminate</Data></Cell>
+    <Cell><Data ss:Type="String">Razmišljati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Saccharin</Data></Cell>
+    <Cell><Data ss:Type="String">Saharin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sacrosanct</Data></Cell>
+    <Cell><Data ss:Type="String">Nedotakljiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sagacious</Data></Cell>
+    <Cell><Data ss:Type="String">Pameten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Salacious</Data></Cell>
+    <Cell><Data ss:Type="String">Pohotljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Salubrious</Data></Cell>
+    <Cell><Data ss:Type="String">Zdrav</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Salutary</Data></Cell>
+    <Cell><Data ss:Type="String">Zdrav</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sanctimonious</Data></Cell>
+    <Cell><Data ss:Type="String">Licemjeran</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sanction</Data></Cell>
+    <Cell><Data ss:Type="String">Sankcije</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sanguinary</Data></Cell>
+    <Cell><Data ss:Type="String">Krvavimi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sanguine</Data></Cell>
+    <Cell><Data ss:Type="String">Rdeče</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sardonic</Data></Cell>
+    <Cell><Data ss:Type="String">Zajedljivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sate</Data></Cell>
+    <Cell><Data ss:Type="String">Presititi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Satiate</Data></Cell>
+    <Cell><Data ss:Type="String">Prezasićen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Savor</Data></Cell>
+    <Cell><Data ss:Type="String">Uživati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scabbard</Data></Cell>
+    <Cell><Data ss:Type="String">Nožnice</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scale</Data></Cell>
+    <Cell><Data ss:Type="String">Lestvica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scapegoat</Data></Cell>
+    <Cell><Data ss:Type="String">Grešnega kozla</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scrupulous</Data></Cell>
+    <Cell><Data ss:Type="String">Natančno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scrutinize</Data></Cell>
+    <Cell><Data ss:Type="String">Pregledati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scurvy</Data></Cell>
+    <Cell><Data ss:Type="String">Skorbut</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sedulous</Data></Cell>
+    <Cell><Data ss:Type="String">Radan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seemly</Data></Cell>
+    <Cell><Data ss:Type="String">Spodoben</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seminal</Data></Cell>
+    <Cell><Data ss:Type="String">Prvinsko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sensuous</Data></Cell>
+    <Cell><Data ss:Type="String">Čutna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sequester</Data></Cell>
+    <Cell><Data ss:Type="String">Sekvester</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Serration</Data></Cell>
+    <Cell><Data ss:Type="String">Nazobčanost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Servile</Data></Cell>
+    <Cell><Data ss:Type="String">Pokoran</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Shard</Data></Cell>
+    <Cell><Data ss:Type="String">Kupa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Shirk</Data></Cell>
+    <Cell><Data ss:Type="String">Izogniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sibyl</Data></Cell>
+    <Cell><Data ss:Type="String">Sibila</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sidereal</Data></Cell>
+    <Cell><Data ss:Type="String">Zvezdnega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sinewy</Data></Cell>
+    <Cell><Data ss:Type="String">Kitasta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Skeptical</Data></Cell>
+    <Cell><Data ss:Type="String">Skeptični</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Skirmish</Data></Cell>
+    <Cell><Data ss:Type="String">Spopadu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Slew</Data></Cell>
+    <Cell><Data ss:Type="String">Ubi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Slight</Data></Cell>
+    <Cell><Data ss:Type="String">Rahlo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sluggard</Data></Cell>
+    <Cell><Data ss:Type="String">Lijenčina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Solicit</Data></Cell>
+    <Cell><Data ss:Type="String">Nagovarjanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Solicitous</Data></Cell>
+    <Cell><Data ss:Type="String">Tehta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Soliloquy</Data></Cell>
+    <Cell><Data ss:Type="String">Monolog</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Somatic</Data></Cell>
+    <Cell><Data ss:Type="String">Somatskih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Somnambulist</Data></Cell>
+    <Cell><Data ss:Type="String">Mjesečar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Soothsayer</Data></Cell>
+    <Cell><Data ss:Type="String">Prerok</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sophomoric</Data></Cell>
+    <Cell><Data ss:Type="String">Blažen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Soporific</Data></Cell>
+    <Cell><Data ss:Type="String">Uspavalne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sparse</Data></Cell>
+    <Cell><Data ss:Type="String">Redki</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Specious</Data></Cell>
+    <Cell><Data ss:Type="String">Navidezen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Speckled</Data></Cell>
+    <Cell><Data ss:Type="String">Pegasti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sporadic</Data></Cell>
+    <Cell><Data ss:Type="String">Občasnih</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Spurious</Data></Cell>
+    <Cell><Data ss:Type="String">Lažna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Squalid</Data></Cell>
+    <Cell><Data ss:Type="String">Umazan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stagnant</Data></Cell>
+    <Cell><Data ss:Type="String">Stagniranje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Staid</Data></Cell>
+    <Cell><Data ss:Type="String">Staložen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stanch</Data></Cell>
+    <Cell><Data ss:Type="String">Veren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stanza</Data></Cell>
+    <Cell><Data ss:Type="String">Kitica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Statute</Data></Cell>
+    <Cell><Data ss:Type="String">Statut</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Staunch</Data></Cell>
+    <Cell><Data ss:Type="String">Veren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stereotype</Data></Cell>
+    <Cell><Data ss:Type="String">Stereotip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stevedore</Data></Cell>
+    <Cell><Data ss:Type="String">Slagač</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stickler</Data></Cell>
+    <Cell><Data ss:Type="String">Lepilo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stifle</Data></Cell>
+    <Cell><Data ss:Type="String">Koleno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stipulate</Data></Cell>
+    <Cell><Data ss:Type="String">Določajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stoic</Data></Cell>
+    <Cell><Data ss:Type="String">Stoička</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stolid</Data></Cell>
+    <Cell><Data ss:Type="String">Nedražljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stratagem</Data></Cell>
+    <Cell><Data ss:Type="String">Vojna varka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Strident</Data></Cell>
+    <Cell><Data ss:Type="String">Rezko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stringent</Data></Cell>
+    <Cell><Data ss:Type="String">Strogi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stupefying</Data></Cell>
+    <Cell><Data ss:Type="String">Omamljanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Suborn</Data></Cell>
+    <Cell><Data ss:Type="String">Podmititi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subpoena</Data></Cell>
+    <Cell><Data ss:Type="String">Sodni poziv priči</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Substantiate</Data></Cell>
+    <Cell><Data ss:Type="String">Utemeljiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subterfuge</Data></Cell>
+    <Cell><Data ss:Type="String">Pretvezami</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subtle</Data></Cell>
+    <Cell><Data ss:Type="String">Prefinjena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subversive</Data></Cell>
+    <Cell><Data ss:Type="String">Subverzivna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Succinct</Data></Cell>
+    <Cell><Data ss:Type="String">Jedrnato</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Supercilious</Data></Cell>
+    <Cell><Data ss:Type="String">Ohol</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Superlative</Data></Cell>
+    <Cell><Data ss:Type="String">Fenomenalna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Supine</Data></Cell>
+    <Cell><Data ss:Type="String">Leže</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Supplicant</Data></Cell>
+    <Cell><Data ss:Type="String">Preklinjući</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surly</Data></Cell>
+    <Cell><Data ss:Type="String">Grub</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surreptitious</Data></Cell>
+    <Cell><Data ss:Type="String">Prikrito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surreptitiously</Data></Cell>
+    <Cell><Data ss:Type="String">Prikrito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Susceptible</Data></Cell>
+    <Cell><Data ss:Type="String">Občutljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sycophant</Data></Cell>
+    <Cell><Data ss:Type="String">Udvorica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Syllogism</Data></Cell>
+    <Cell><Data ss:Type="String">Silogizma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tamp</Data></Cell>
+    <Cell><Data ss:Type="String">Tamponirati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tangible</Data></Cell>
+    <Cell><Data ss:Type="String">Opredmetena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tardy</Data></Cell>
+    <Cell><Data ss:Type="String">Zamudil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tare</Data></Cell>
+    <Cell><Data ss:Type="String">Tara</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tarnished</Data></Cell>
+    <Cell><Data ss:Type="String">Poslabšala</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Taunt</Data></Cell>
+    <Cell><Data ss:Type="String">Podsmijeh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tawdry</Data></Cell>
+    <Cell><Data ss:Type="String">Drečeći</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tedium</Data></Cell>
+    <Cell><Data ss:Type="String">Monotonija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Temperate</Data></Cell>
+    <Cell><Data ss:Type="String">Zmernega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tempers</Data></Cell>
+    <Cell><Data ss:Type="String">Živce</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tendentious</Data></Cell>
+    <Cell><Data ss:Type="String">Tendenciozna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tender</Data></Cell>
+    <Cell><Data ss:Type="String">Razpisna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tentative</Data></Cell>
+    <Cell><Data ss:Type="String">Pogojno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tenuous</Data></Cell>
+    <Cell><Data ss:Type="String">Neizrazito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Therapeutic</Data></Cell>
+    <Cell><Data ss:Type="String">Terapevtske</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Throwback</Data></Cell>
+    <Cell><Data ss:Type="String">Atavizam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Thwart</Data></Cell>
+    <Cell><Data ss:Type="String">Spodnesla</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Timorous</Data></Cell>
+    <Cell><Data ss:Type="String">Malodušan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tirade</Data></Cell>
+    <Cell><Data ss:Type="String">Tirada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Titter</Data></Cell>
+    <Cell><Data ss:Type="String">Kikot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Toady</Data></Cell>
+    <Cell><Data ss:Type="String">Ulagivati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Torpid</Data></Cell>
+    <Cell><Data ss:Type="String">Ukočen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Torpor</Data></Cell>
+    <Cell><Data ss:Type="String">Odrevenelost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Torrid</Data></Cell>
+    <Cell><Data ss:Type="String">Žarki</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tortuous</Data></Cell>
+    <Cell><Data ss:Type="String">Vijugav</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tractable</Data></Cell>
+    <Cell><Data ss:Type="String">Povodljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tranquil</Data></Cell>
+    <Cell><Data ss:Type="String">Miren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transcendental</Data></Cell>
+    <Cell><Data ss:Type="String">Transcendentalne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transcribe</Data></Cell>
+    <Cell><Data ss:Type="String">Reportaža</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transgress</Data></Cell>
+    <Cell><Data ss:Type="String">Prekršite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transient</Data></Cell>
+    <Cell><Data ss:Type="String">Prehodni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trepidation</Data></Cell>
+    <Cell><Data ss:Type="String">Strah</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trinket</Data></Cell>
+    <Cell><Data ss:Type="String">Nakit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trite</Data></Cell>
+    <Cell><Data ss:Type="String">Banalan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Truant</Data></Cell>
+    <Cell><Data ss:Type="String">Besposličar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Truncate</Data></Cell>
+    <Cell><Data ss:Type="String">Izrežite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tumult</Data></Cell>
+    <Cell><Data ss:Type="String">Vika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Turpitude</Data></Cell>
+    <Cell><Data ss:Type="String">Niskost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tutelary</Data></Cell>
+    <Cell><Data ss:Type="String">Zaštitnički</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ubiquitous</Data></Cell>
+    <Cell><Data ss:Type="String">Vseprisotni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Umbrage</Data></Cell>
+    <Cell><Data ss:Type="String">Uradov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unalloyed</Data></Cell>
+    <Cell><Data ss:Type="String">Nelegiranega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unctuous</Data></Cell>
+    <Cell><Data ss:Type="String">Mastno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undercutting</Data></Cell>
+    <Cell><Data ss:Type="String">Nelojalno nižanje cen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undermine</Data></Cell>
+    <Cell><Data ss:Type="String">Spodkopavajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undermined</Data></Cell>
+    <Cell><Data ss:Type="String">Ogrožena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Underscore</Data></Cell>
+    <Cell><Data ss:Type="String">Podčrtaj</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Underwrite</Data></Cell>
+    <Cell><Data ss:Type="String">Prevzemajo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unequivocal</Data></Cell>
+    <Cell><Data ss:Type="String">Nedvoumno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unprecedented</Data></Cell>
+    <Cell><Data ss:Type="String">Nedosegljiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unscathed</Data></Cell>
+    <Cell><Data ss:Type="String">Brez posledic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Untoward</Data></Cell>
+    <Cell><Data ss:Type="String">Neugoden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unwitting</Data></Cell>
+    <Cell><Data ss:Type="String">Nevedoč</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Upshot</Data></Cell>
+    <Cell><Data ss:Type="String">Tega izhaja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Usurp</Data></Cell>
+    <Cell><Data ss:Type="String">Posegati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Usury</Data></Cell>
+    <Cell><Data ss:Type="String">Oderuštvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Utilitarian</Data></Cell>
+    <Cell><Data ss:Type="String">Utilitaristične</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Utopian</Data></Cell>
+    <Cell><Data ss:Type="String">Utopični</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vacillate</Data></Cell>
+    <Cell><Data ss:Type="String">Kolebati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vacuous</Data></Cell>
+    <Cell><Data ss:Type="String">Prazen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vagrant</Data></Cell>
+    <Cell><Data ss:Type="String">Skitnica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vapid</Data></Cell>
+    <Cell><Data ss:Type="String">Neslan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Variegated</Data></Cell>
+    <Cell><Data ss:Type="String">Pester</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vehemence</Data></Cell>
+    <Cell><Data ss:Type="String">Naglost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vehement</Data></Cell>
+    <Cell><Data ss:Type="String">Nagel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Venal</Data></Cell>
+    <Cell><Data ss:Type="String">Podmitljiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veneer</Data></Cell>
+    <Cell><Data ss:Type="String">Furnir</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Venerate</Data></Cell>
+    <Cell><Data ss:Type="String">Častijo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veneration</Data></Cell>
+    <Cell><Data ss:Type="String">Češčenje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Venial</Data></Cell>
+    <Cell><Data ss:Type="String">Mali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Venturing</Data></Cell>
+    <Cell><Data ss:Type="String">Posežejo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veracious</Data></Cell>
+    <Cell><Data ss:Type="String">Istinoljubiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veracity</Data></Cell>
+    <Cell><Data ss:Type="String">Verodostojnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Verbiage</Data></Cell>
+    <Cell><Data ss:Type="String">Besedičenja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Verbosity</Data></Cell>
+    <Cell><Data ss:Type="String">Verbalizam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veritable</Data></Cell>
+    <Cell><Data ss:Type="String">Pravcato</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vestigial</Data></Cell>
+    <Cell><Data ss:Type="String">Preostali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vicissitude</Data></Cell>
+    <Cell><Data ss:Type="String">Sprememb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vilification</Data></Cell>
+    <Cell><Data ss:Type="String">Obrekovanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vindicate</Data></Cell>
+    <Cell><Data ss:Type="String">Braniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Virtuoso</Data></Cell>
+    <Cell><Data ss:Type="String">Virtuoz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Virulent</Data></Cell>
+    <Cell><Data ss:Type="String">Virulentna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vitiate</Data></Cell>
+    <Cell><Data ss:Type="String">Korumpirati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vivacity</Data></Cell>
+    <Cell><Data ss:Type="String">Živahnost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vociferous</Data></Cell>
+    <Cell><Data ss:Type="String">Glasni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Volatile</Data></Cell>
+    <Cell><Data ss:Type="String">Hlapne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Volubility</Data></Cell>
+    <Cell><Data ss:Type="String">Rječitost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Voluble</Data></Cell>
+    <Cell><Data ss:Type="String">Rječit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Voluminous</Data></Cell>
+    <Cell><Data ss:Type="String">Voluminozna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Voracious</Data></Cell>
+    <Cell><Data ss:Type="String">Neutrudnim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waft</Data></Cell>
+    <Cell><Data ss:Type="String">Lebdjeti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waive</Data></Cell>
+    <Cell><Data ss:Type="String">Odpovejo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wane</Data></Cell>
+    <Cell><Data ss:Type="String">Izginjanje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wary</Data></Cell>
+    <Cell><Data ss:Type="String">Pozorna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waylay</Data></Cell>
+    <Cell><Data ss:Type="String">Prestreči</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Weighty</Data></Cell>
+    <Cell><Data ss:Type="String">Tehtnimi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Whelp</Data></Cell>
+    <Cell><Data ss:Type="String">Skače</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Whet</Data></Cell>
+    <Cell><Data ss:Type="String">Brusiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Whimsical</Data></Cell>
+    <Cell><Data ss:Type="String">Muhast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Willful</Data></Cell>
+    <Cell><Data ss:Type="String">Namernega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wily</Data></Cell>
+    <Cell><Data ss:Type="String">Prepreden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wispy</Data></Cell>
+    <Cell><Data ss:Type="String">Pramenast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wistful</Data></Cell>
+    <Cell><Data ss:Type="String">Zamišljena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wry</Data></Cell>
+    <Cell><Data ss:Type="String">Kriv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Zeal</Data></Cell>
+    <Cell><Data ss:Type="String">Vnemo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Zealot</Data></Cell>
+    <Cell><Data ss:Type="String">Gorečnik</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <SplitHorizontal>5960</SplitHorizontal>
+   <TopRowBottomPane>0</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2:R409</RangeSelection>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>C3:C6</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,4614 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Taha Bebek</Author>
+  <LastAuthor>Taha Bebek</LastAuthor>
+  <Created>2011-07-10T07:55:32Z</Created>
+  <Company>Quwic</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12400</WindowHeight>
+  <WindowWidth>25360</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>240</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="South Africa">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="1137" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="98"/>
+   <Column ss:Width="156"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abasement</Data></Cell>
+    <Cell><Data ss:Type="String">Vernedering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aberration</Data></Cell>
+    <Cell><Data ss:Type="String">Aberratie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abeyance</Data></Cell>
+    <Cell><Data ss:Type="String">Opgeskort</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abhor</Data></Cell>
+    <Cell><Data ss:Type="String">Verafsku</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abjure</Data></Cell>
+    <Cell><Data ss:Type="String">Afsweer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrasive</Data></Cell>
+    <Cell><Data ss:Type="String">Schuur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrogate</Data></Cell>
+    <Cell><Data ss:Type="String">Intrekking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abscission</Data></Cell>
+    <Cell><Data ss:Type="String">Afsnyding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Absolution</Data></Cell>
+    <Cell><Data ss:Type="String">Absolusie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abstain</Data></Cell>
+    <Cell><Data ss:Type="String">Onth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abstemious</Data></Cell>
+    <Cell><Data ss:Type="String">Nugter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abstruse</Data></Cell>
+    <Cell><Data ss:Type="String">Diepzinnig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abysmal</Data></Cell>
+    <Cell><Data ss:Type="String">Onpeilbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Accretion</Data></Cell>
+    <Cell><Data ss:Type="String">Aanwas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acolyte</Data></Cell>
+    <Cell><Data ss:Type="String">Volgeling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acquiesce</Data></Cell>
+    <Cell><Data ss:Type="String">Neerlê</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acrid</Data></Cell>
+    <Cell><Data ss:Type="String">Bitter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adamant</Data></Cell>
+    <Cell><Data ss:Type="String">Vasbeslote</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Admonitory</Data></Cell>
+    <Cell><Data ss:Type="String">Vermanend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adroit</Data></Cell>
+    <Cell><Data ss:Type="String">Handig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adumbrate</Data></Cell>
+    <Cell><Data ss:Type="String">Beschaduwen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adversity</Data></Cell>
+    <Cell><Data ss:Type="String">Teenspoed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Advocate</Data></Cell>
+    <Cell><Data ss:Type="String">Advokaat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aesthetic</Data></Cell>
+    <Cell><Data ss:Type="String">Estetiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Affable</Data></Cell>
+    <Cell><Data ss:Type="String">Voorkomend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Agog</Data></Cell>
+    <Cell><Data ss:Type="String">Nuuskierig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aisle</Data></Cell>
+    <Cell><Data ss:Type="String">Omgang</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Allay</Data></Cell>
+    <Cell><Data ss:Type="String">Besweer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alleviate</Data></Cell>
+    <Cell><Data ss:Type="String">Verlig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alleviated</Data></Cell>
+    <Cell><Data ss:Type="String">Verlig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aloof</Data></Cell>
+    <Cell><Data ss:Type="String">Afsydig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Altruism</Data></Cell>
+    <Cell><Data ss:Type="String">Altruïsme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amalgamate</Data></Cell>
+    <Cell><Data ss:Type="String">Amalgameer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amass</Data></Cell>
+    <Cell><Data ss:Type="String">Versamel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambiguity</Data></Cell>
+    <Cell><Data ss:Type="String">Dubbelsinnigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambiguous</Data></Cell>
+    <Cell><Data ss:Type="String">Meervoudige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambivalence</Data></Cell>
+    <Cell><Data ss:Type="String">Ambivalensie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambulatory</Data></Cell>
+    <Cell><Data ss:Type="String">Ambulante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ameliorate</Data></Cell>
+    <Cell><Data ss:Type="String">Verbetering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amelioration</Data></Cell>
+    <Cell><Data ss:Type="String">Verbetering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amorphous</Data></Cell>
+    <Cell><Data ss:Type="String">Amorfe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amortize</Data></Cell>
+    <Cell><Data ss:Type="String">Amortiseren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anachronistic</Data></Cell>
+    <Cell><Data ss:Type="String">Anachronisties</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analogous</Data></Cell>
+    <Cell><Data ss:Type="String">Analogiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analogue</Data></Cell>
+    <Cell><Data ss:Type="String">Analoog</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anecdote</Data></Cell>
+    <Cell><Data ss:Type="String">Anekdote</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Animosity</Data></Cell>
+    <Cell><Data ss:Type="String">Vyandigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anodized</Data></Cell>
+    <Cell><Data ss:Type="String">Geanodiseerde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antagonism</Data></Cell>
+    <Cell><Data ss:Type="String">Antagonisme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antagonistic</Data></Cell>
+    <Cell><Data ss:Type="String">Antagonistiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antediluvian</Data></Cell>
+    <Cell><Data ss:Type="String">Antediluviaans</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anthropocentrism</Data></Cell>
+    <Cell><Data ss:Type="String">Antroposentrisme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antipathy</Data></Cell>
+    <Cell><Data ss:Type="String">Antipathie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antiquated</Data></Cell>
+    <Cell><Data ss:Type="String">Verouderde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apathetic</Data></Cell>
+    <Cell><Data ss:Type="String">Apatiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apathy</Data></Cell>
+    <Cell><Data ss:Type="String">Apatie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apocryphal</Data></Cell>
+    <Cell><Data ss:Type="String">Apokriewe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Appease</Data></Cell>
+    <Cell><Data ss:Type="String">Kalmeer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apposite</Data></Cell>
+    <Cell><Data ss:Type="String">Passend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apprehension</Data></Cell>
+    <Cell><Data ss:Type="String">Besorgdheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apprehensive</Data></Cell>
+    <Cell><Data ss:Type="String">Bekommerd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arable</Data></Cell>
+    <Cell><Data ss:Type="String">Bewerkbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arbitrary</Data></Cell>
+    <Cell><Data ss:Type="String">Arbitrêre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arbitrator</Data></Cell>
+    <Cell><Data ss:Type="String">Arbiter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arboreal</Data></Cell>
+    <Cell><Data ss:Type="String">Boomlewende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archaic</Data></Cell>
+    <Cell><Data ss:Type="String">Argaïese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archetype</Data></Cell>
+    <Cell><Data ss:Type="String">Argetipe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archives</Data></Cell>
+    <Cell><Data ss:Type="String">Argiewe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arduous</Data></Cell>
+    <Cell><Data ss:Type="String">Moeilike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arresting</Data></Cell>
+    <Cell><Data ss:Type="String">In hegtenis geneem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arson</Data></Cell>
+    <Cell><Data ss:Type="String">Brandstigting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Articulate</Data></Cell>
+    <Cell><Data ss:Type="String">Artikuleer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Artless</Data></Cell>
+    <Cell><Data ss:Type="String">Ongekunsteld</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ascetic</Data></Cell>
+    <Cell><Data ss:Type="String">Ascetisch</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assay</Data></Cell>
+    <Cell><Data ss:Type="String">Keur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assiduous</Data></Cell>
+    <Cell><Data ss:Type="String">Volhardend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assuage</Data></Cell>
+    <Cell><Data ss:Type="String">Sus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Asylum</Data></Cell>
+    <Cell><Data ss:Type="String">Asiel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atavism</Data></Cell>
+    <Cell><Data ss:Type="String">Atavisme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atheist</Data></Cell>
+    <Cell><Data ss:Type="String">Ateïs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atonement</Data></Cell>
+    <Cell><Data ss:Type="String">Versoening</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atrophy</Data></Cell>
+    <Cell><Data ss:Type="String">Atrofie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Attenuate</Data></Cell>
+    <Cell><Data ss:Type="String">Verskraal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Augury</Data></Cell>
+    <Cell><Data ss:Type="String">Waarzeggerij</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Auspicious</Data></Cell>
+    <Cell><Data ss:Type="String">Luisterryke</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Austere</Data></Cell>
+    <Cell><Data ss:Type="String">Strawwe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Avaricious</Data></Cell>
+    <Cell><Data ss:Type="String">Pinnig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aversion</Data></Cell>
+    <Cell><Data ss:Type="String">Afkeer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Baleful</Data></Cell>
+    <Cell><Data ss:Type="String">Onheilspellend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Banal</Data></Cell>
+    <Cell><Data ss:Type="String">Banale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Banality</Data></Cell>
+    <Cell><Data ss:Type="String">Banaliteit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Befuddle</Data></Cell>
+    <Cell><Data ss:Type="String">Bedwelmen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Begrudge</Data></Cell>
+    <Cell><Data ss:Type="String">Gun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Beguile</Data></Cell>
+    <Cell><Data ss:Type="String">Verlei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belabor</Data></Cell>
+    <Cell><Data ss:Type="String">Afrossen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belittle</Data></Cell>
+    <Cell><Data ss:Type="String">Verkleineer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bellicose</Data></Cell>
+    <Cell><Data ss:Type="String">Strijdlustig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belligerent</Data></Cell>
+    <Cell><Data ss:Type="String">Veglustige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bemoan</Data></Cell>
+    <Cell><Data ss:Type="String">Beklaag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Benign</Data></Cell>
+    <Cell><Data ss:Type="String">Benigne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Benignity</Data></Cell>
+    <Cell><Data ss:Type="String">Welwillendheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bequeath</Data></Cell>
+    <Cell><Data ss:Type="String">Bemaak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Berate</Data></Cell>
+    <Cell><Data ss:Type="String">Dreiging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bestial</Data></Cell>
+    <Cell><Data ss:Type="String">Dierlike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bilk</Data></Cell>
+    <Cell><Data ss:Type="String">Bedrieër</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Billowing</Data></Cell>
+    <Cell><Data ss:Type="String">Deinend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blandishment</Data></Cell>
+    <Cell><Data ss:Type="String">Verlokking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blatant</Data></Cell>
+    <Cell><Data ss:Type="String">Blatante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blighted</Data></Cell>
+    <Cell><Data ss:Type="String">Verwoes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bolster</Data></Cell>
+    <Cell><Data ss:Type="String">Versterk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Boorish</Data></Cell>
+    <Cell><Data ss:Type="String">Lomp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Braggart</Data></Cell>
+    <Cell><Data ss:Type="String">Grootprater</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Brawny</Data></Cell>
+    <Cell><Data ss:Type="String">Gespierd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Brevity</Data></Cell>
+    <Cell><Data ss:Type="String">Bondigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bristle</Data></Cell>
+    <Cell><Data ss:Type="String">Regop staan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bulwark</Data></Cell>
+    <Cell><Data ss:Type="String">Skans</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bureaucracy</Data></Cell>
+    <Cell><Data ss:Type="String">Burokrasie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Burnish</Data></Cell>
+    <Cell><Data ss:Type="String">Bruin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Buttress</Data></Cell>
+    <Cell><Data ss:Type="String">Schraagpijler</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cacophony</Data></Cell>
+    <Cell><Data ss:Type="String">Kakofonie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cadge</Data></Cell>
+    <Cell><Data ss:Type="String">Bedel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cajole</Data></Cell>
+    <Cell><Data ss:Type="String">Mooipraat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caldron</Data></Cell>
+    <Cell><Data ss:Type="String">Pot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Calibrate</Data></Cell>
+    <Cell><Data ss:Type="String">Kalibreer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Candor</Data></Cell>
+    <Cell><Data ss:Type="String">Eerlikheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Canonical</Data></Cell>
+    <Cell><Data ss:Type="String">Kanoniese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cantankerous</Data></Cell>
+    <Cell><Data ss:Type="String">Brommerig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Capacious</Data></Cell>
+    <Cell><Data ss:Type="String">Ruim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Capitulate</Data></Cell>
+    <Cell><Data ss:Type="String">Kapituleer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cardinal</Data></Cell>
+    <Cell><Data ss:Type="String">Kardinaal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caret</Data></Cell>
+    <Cell><Data ss:Type="String">Caret-teken</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cartographer</Data></Cell>
+    <Cell><Data ss:Type="String">Kartograaf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Castigate</Data></Cell>
+    <Cell><Data ss:Type="String">Gispen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cataclysmic</Data></Cell>
+    <Cell><Data ss:Type="String">Rampspoedige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Catharsis</Data></Cell>
+    <Cell><Data ss:Type="String">Katarsis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caucus</Data></Cell>
+    <Cell><Data ss:Type="String">Koukus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caustic</Data></Cell>
+    <Cell><Data ss:Type="String">Ombeskof</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Censorious</Data></Cell>
+    <Cell><Data ss:Type="String">Vitterig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Censure</Data></Cell>
+    <Cell><Data ss:Type="String">Afkeuring</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cerebral</Data></Cell>
+    <Cell><Data ss:Type="String">Serebrale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Certitude</Data></Cell>
+    <Cell><Data ss:Type="String">Sekerheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chantey</Data></Cell>
+    <Cell><Data ss:Type="String">Matrozen lied</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chastises</Data></Cell>
+    <Cell><Data ss:Type="String">Kasty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chauvinist</Data></Cell>
+    <Cell><Data ss:Type="String">Chauvinis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chicanery</Data></Cell>
+    <Cell><Data ss:Type="String">Chicanes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chimerical</Data></Cell>
+    <Cell><Data ss:Type="String">Ingebeeld</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Choleric</Data></Cell>
+    <Cell><Data ss:Type="String">Prikkelbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chronic</Data></Cell>
+    <Cell><Data ss:Type="String">Chroniese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chronicler</Data></Cell>
+    <Cell><Data ss:Type="String">Kroniekskrywer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circuitous</Data></Cell>
+    <Cell><Data ss:Type="String">Omslachtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumlocution</Data></Cell>
+    <Cell><Data ss:Type="String">Woord rivier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumscribe</Data></Cell>
+    <Cell><Data ss:Type="String">Omschrijven</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumspect</Data></Cell>
+    <Cell><Data ss:Type="String">Versigtiger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumvent</Data></Cell>
+    <Cell><Data ss:Type="String">Omseil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clamor</Data></Cell>
+    <Cell><Data ss:Type="String">Ramp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clandestine</Data></Cell>
+    <Cell><Data ss:Type="String">Klandestiene</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clemency</Data></Cell>
+    <Cell><Data ss:Type="String">Clementie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cliché</Data></Cell>
+    <Cell><Data ss:Type="String">Cliche</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cloistered</Data></Cell>
+    <Cell><Data ss:Type="String">Eensaam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coalesce</Data></Cell>
+    <Cell><Data ss:Type="String">Saamvloei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coddle</Data></Cell>
+    <Cell><Data ss:Type="String">Vertroetelen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coerce</Data></Cell>
+    <Cell><Data ss:Type="String">Dwing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coercion</Data></Cell>
+    <Cell><Data ss:Type="String">Dwang</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cogent</Data></Cell>
+    <Cell><Data ss:Type="String">Klemmend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cogitate</Data></Cell>
+    <Cell><Data ss:Type="String">Overpeinzen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cognitive</Data></Cell>
+    <Cell><Data ss:Type="String">Kognitiewe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Colander</Data></Cell>
+    <Cell><Data ss:Type="String">Vergiettes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Collate</Data></Cell>
+    <Cell><Data ss:Type="String">Stel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Collusion</Data></Cell>
+    <Cell><Data ss:Type="String">Samespanning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Comeliness</Data></Cell>
+    <Cell><Data ss:Type="String">Aanvalligheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Commandeer</Data></Cell>
+    <Cell><Data ss:Type="String">Kommandeer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Commensurate</Data></Cell>
+    <Cell><Data ss:Type="String">Eweredig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Complacent</Data></Cell>
+    <Cell><Data ss:Type="String">Selfvoldaan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Complaisance</Data></Cell>
+    <Cell><Data ss:Type="String">Inschikkelijkheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Compromised</Data></Cell>
+    <Cell><Data ss:Type="String">Gekompromitteer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Concatenate</Data></Cell>
+    <Cell><Data ss:Type="String">Koppel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Concatenation</Data></Cell>
+    <Cell><Data ss:Type="String">Concatenatie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conciliate</Data></Cell>
+    <Cell><Data ss:Type="String">Versoen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Concise</Data></Cell>
+    <Cell><Data ss:Type="String">Bondige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condescend</Data></Cell>
+    <Cell><Data ss:Type="String">Verwerdig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condescension</Data></Cell>
+    <Cell><Data ss:Type="String">Neerbuigendheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condone</Data></Cell>
+    <Cell><Data ss:Type="String">Kondoneer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condoning</Data></Cell>
+    <Cell><Data ss:Type="String">Kondonering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conflagration</Data></Cell>
+    <Cell><Data ss:Type="String">Ontbranding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Confound</Data></Cell>
+    <Cell><Data ss:Type="String">Verwar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congeal</Data></Cell>
+    <Cell><Data ss:Type="String">Stol</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congenital</Data></Cell>
+    <Cell><Data ss:Type="String">Kongenitale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congruent</Data></Cell>
+    <Cell><Data ss:Type="String">Kongruent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conniving</Data></Cell>
+    <Cell><Data ss:Type="String">Slinkse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conscript</Data></Cell>
+    <Cell><Data ss:Type="String">Dienstplichtigen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consecrate</Data></Cell>
+    <Cell><Data ss:Type="String">Heilig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consensus</Data></Cell>
+    <Cell><Data ss:Type="String">Konsensus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conspicuous</Data></Cell>
+    <Cell><Data ss:Type="String">Opvallende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consternation</Data></Cell>
+    <Cell><Data ss:Type="String">Konsternasie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consummate</Data></Cell>
+    <Cell><Data ss:Type="String">Volkome</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contemporary</Data></Cell>
+    <Cell><Data ss:Type="String">Kontemporêre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contentious</Data></Cell>
+    <Cell><Data ss:Type="String">Kontensieuse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contiguous</Data></Cell>
+    <Cell><Data ss:Type="String">Aangrensende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contrite</Data></Cell>
+    <Cell><Data ss:Type="String">Berouvolle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contrition</Data></Cell>
+    <Cell><Data ss:Type="String">Berou</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contumacious</Data></Cell>
+    <Cell><Data ss:Type="String">Weerbarstig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contusion</Data></Cell>
+    <Cell><Data ss:Type="String">Kontusie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conundrum</Data></Cell>
+    <Cell><Data ss:Type="String">Bosstories</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conventional</Data></Cell>
+    <Cell><Data ss:Type="String">Konvensionele</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Corpulent</Data></Cell>
+    <Cell><Data ss:Type="String">Gesette</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Corroborate</Data></Cell>
+    <Cell><Data ss:Type="String">Bevestig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coterie</Data></Cell>
+    <Cell><Data ss:Type="String">Kongsi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Counterfeit</Data></Cell>
+    <Cell><Data ss:Type="String">Vals</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Covert</Data></Cell>
+    <Cell><Data ss:Type="String">Koverte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cower</Data></Cell>
+    <Cell><Data ss:Type="String">Bewe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Credible</Data></Cell>
+    <Cell><Data ss:Type="String">Geloofwaardig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Creditable</Data></Cell>
+    <Cell><Data ss:Type="String">Eervol</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Credulous</Data></Cell>
+    <Cell><Data ss:Type="String">Goedgelowige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Crepuscular</Data></Cell>
+    <Cell><Data ss:Type="String">Skemervoëls</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cringe</Data></Cell>
+    <Cell><Data ss:Type="String">Ineenkrimp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cryptic</Data></Cell>
+    <Cell><Data ss:Type="String">Kriptiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Culpability</Data></Cell>
+    <Cell><Data ss:Type="String">Skuld</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cumbersome</Data></Cell>
+    <Cell><Data ss:Type="String">Omslagtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Curmudgeon</Data></Cell>
+    <Cell><Data ss:Type="String">Vrek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Curtail</Data></Cell>
+    <Cell><Data ss:Type="String">Beperk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cynical</Data></Cell>
+    <Cell><Data ss:Type="String">Sinies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Daguerreotype</Data></Cell>
+    <Cell><Data ss:Type="String">Daguerreotipe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Damp</Data></Cell>
+    <Cell><Data ss:Type="String">Klam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dawdler</Data></Cell>
+    <Cell><Data ss:Type="String">Treuzelaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debacle</Data></Cell>
+    <Cell><Data ss:Type="String">Debakel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debilitating</Data></Cell>
+    <Cell><Data ss:Type="String">Aftakelende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debility</Data></Cell>
+    <Cell><Data ss:Type="String">Swakheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Decimated</Data></Cell>
+    <Cell><Data ss:Type="String">Uitgewis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Decoy</Data></Cell>
+    <Cell><Data ss:Type="String">LOKVOGEL</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deference</Data></Cell>
+    <Cell><Data ss:Type="String">Respek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deferential</Data></Cell>
+    <Cell><Data ss:Type="String">Eerbiedig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Defunct</Data></Cell>
+    <Cell><Data ss:Type="String">Snert</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Degradation</Data></Cell>
+    <Cell><Data ss:Type="String">Verswakking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deign</Data></Cell>
+    <Cell><Data ss:Type="String">Verwerdig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deleterious</Data></Cell>
+    <Cell><Data ss:Type="String">Nadelige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deliberate</Data></Cell>
+    <Cell><Data ss:Type="String">Doelbewuste</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deliberate</Data></Cell>
+    <Cell><Data ss:Type="String">Doelbewuste</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Delineation</Data></Cell>
+    <Cell><Data ss:Type="String">Afbakening</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Demagogue</Data></Cell>
+    <Cell><Data ss:Type="String">Demagoog</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Demur</Data></Cell>
+    <Cell><Data ss:Type="String">Bedenking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Demur</Data></Cell>
+    <Cell><Data ss:Type="String">Bedenking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Denigrate</Data></Cell>
+    <Cell><Data ss:Type="String">Denigrerend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Denounce</Data></Cell>
+    <Cell><Data ss:Type="String">Aan die kaak stel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deplete</Data></Cell>
+    <Cell><Data ss:Type="String">Afbrekende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deplore</Data></Cell>
+    <Cell><Data ss:Type="String">Betreur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Depravity</Data></Cell>
+    <Cell><Data ss:Type="String">Verdorwenheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deprecate</Data></Cell>
+    <Cell><Data ss:Type="String">Afkeuren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deride</Data></Cell>
+    <Cell><Data ss:Type="String">Uitlachen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Derision</Data></Cell>
+    <Cell><Data ss:Type="String">Spot geword het die hele</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Derogatory</Data></Cell>
+    <Cell><Data ss:Type="String">Neerhalende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Descry</Data></Cell>
+    <Cell><Data ss:Type="String">Bespied</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desecrate</Data></Cell>
+    <Cell><Data ss:Type="String">Ontheilig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desecration</Data></Cell>
+    <Cell><Data ss:Type="String">Ontheiliging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desist</Data></Cell>
+    <Cell><Data ss:Type="String">Ophou</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Despondent</Data></Cell>
+    <Cell><Data ss:Type="String">Moedeloos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Destitution</Data></Cell>
+    <Cell><Data ss:Type="String">Armoede</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desultory</Data></Cell>
+    <Cell><Data ss:Type="String">Oppervlakkig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deter</Data></Cell>
+    <Cell><Data ss:Type="String">Skrik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deteriorate</Data></Cell>
+    <Cell><Data ss:Type="String">Versleg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Detrimental</Data></Cell>
+    <Cell><Data ss:Type="String">Nadelig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Devoured</Data></Cell>
+    <Cell><Data ss:Type="String">Verteer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dexterity</Data></Cell>
+    <Cell><Data ss:Type="String">Handvaardigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dexterous</Data></Cell>
+    <Cell><Data ss:Type="String">Behendig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diaphanous</Data></Cell>
+    <Cell><Data ss:Type="String">Doorzichtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diaphanous</Data></Cell>
+    <Cell><Data ss:Type="String">Doorzichtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diatribe</Data></Cell>
+    <Cell><Data ss:Type="String">Kletskerk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dichotomy</Data></Cell>
+    <Cell><Data ss:Type="String">Digotomie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Didactic</Data></Cell>
+    <Cell><Data ss:Type="String">Didaktiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diffident</Data></Cell>
+    <Cell><Data ss:Type="String">Bedeesd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Digress</Data></Cell>
+    <Cell><Data ss:Type="String">Afdwaal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dilatory</Data></Cell>
+    <Cell><Data ss:Type="String">Traagheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dilettante</Data></Cell>
+    <Cell><Data ss:Type="String">Knutselaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dilettantism</Data></Cell>
+    <Cell><Data ss:Type="String">Dilettant isme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diligent</Data></Cell>
+    <Cell><Data ss:Type="String">Getroue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disabuse</Data></Cell>
+    <Cell><Data ss:Type="String">Ontnuchteren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disapprobation</Data></Cell>
+    <Cell><Data ss:Type="String">Blaam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discern</Data></Cell>
+    <Cell><Data ss:Type="String">Onderskei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discernment</Data></Cell>
+    <Cell><Data ss:Type="String">Onderskeiding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discountenance</Data></Cell>
+    <Cell><Data ss:Type="String">Afkeuren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discrepancy</Data></Cell>
+    <Cell><Data ss:Type="String">Teenstrydigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discrete</Data></Cell>
+    <Cell><Data ss:Type="String">Diskrete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discriminate</Data></Cell>
+    <Cell><Data ss:Type="String">Diskrimineer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disdain</Data></Cell>
+    <Cell><Data ss:Type="String">Minagting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disingenuous</Data></Cell>
+    <Cell><Data ss:Type="String">Oneerlik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disinter</Data></Cell>
+    <Cell><Data ss:Type="String">Opgraven</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disinterested</Data></Cell>
+    <Cell><Data ss:Type="String">Belangeloos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disparage</Data></Cell>
+    <Cell><Data ss:Type="String">Verkleineer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disparity</Data></Cell>
+    <Cell><Data ss:Type="String">Verskille</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dispassionate</Data></Cell>
+    <Cell><Data ss:Type="String">Nuchtere</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dissemble</Data></Cell>
+    <Cell><Data ss:Type="String">Huigel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disseminating</Data></Cell>
+    <Cell><Data ss:Type="String">Verspreiding van</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dissonance</Data></Cell>
+    <Cell><Data ss:Type="String">Dissonansie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diurnal</Data></Cell>
+    <Cell><Data ss:Type="String">Daaglikse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Divert</Data></Cell>
+    <Cell><Data ss:Type="String">Herlei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Divest</Data></Cell>
+    <Cell><Data ss:Type="String">Ontneem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Docile</Data></Cell>
+    <Cell><Data ss:Type="String">Mak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Doff</Data></Cell>
+    <Cell><Data ss:Type="String">Wegneem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dogmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Dogmatiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dolt</Data></Cell>
+    <Cell><Data ss:Type="String">Sukkel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dormancy</Data></Cell>
+    <Cell><Data ss:Type="String">Dormansie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dotard</Data></Cell>
+    <Cell><Data ss:Type="String">Suffer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dote</Data></Cell>
+    <Cell><Data ss:Type="String">Dotum</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Drawl</Data></Cell>
+    <Cell><Data ss:Type="String">Temen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Droll</Data></Cell>
+    <Cell><Data ss:Type="String">Oubollige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dross</Data></Cell>
+    <Cell><Data ss:Type="String">Skuim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dubious</Data></Cell>
+    <Cell><Data ss:Type="String">Twyfelagtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Duplicity</Data></Cell>
+    <Cell><Data ss:Type="String">Dubbelspel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ebullient</Data></Cell>
+    <Cell><Data ss:Type="String">Levendig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Edifice</Data></Cell>
+    <Cell><Data ss:Type="String">Bouwwerk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Efface</Data></Cell>
+    <Cell><Data ss:Type="String">Uitwis nie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Efficacy</Data></Cell>
+    <Cell><Data ss:Type="String">Effektiwiteit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Effrontery</Data></Cell>
+    <Cell><Data ss:Type="String">Brutaliteit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Effusive</Data></Cell>
+    <Cell><Data ss:Type="String">Oordrewe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Egalitarianism</Data></Cell>
+    <Cell><Data ss:Type="String">Gelijkheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Egregious</Data></Cell>
+    <Cell><Data ss:Type="String">Uitmuntend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elaborate</Data></Cell>
+    <Cell><Data ss:Type="String">Brei uit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eloquent</Data></Cell>
+    <Cell><Data ss:Type="String">Welsprekende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elucidate</Data></Cell>
+    <Cell><Data ss:Type="String">Toe te lig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elusive</Data></Cell>
+    <Cell><Data ss:Type="String">Ontwykende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emaciated</Data></Cell>
+    <Cell><Data ss:Type="String">Uitgeteerde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emancipate</Data></Cell>
+    <Cell><Data ss:Type="String">Emanciperen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Embezzle</Data></Cell>
+    <Cell><Data ss:Type="String">Verduisteren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emboss</Data></Cell>
+    <Cell><Data ss:Type="String">Reliëf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Embroil</Data></Cell>
+    <Cell><Data ss:Type="String">Verwikkelen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emerge</Data></Cell>
+    <Cell><Data ss:Type="String">Ontstaan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emollient</Data></Cell>
+    <Cell><Data ss:Type="String">Verzachtende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Empirical</Data></Cell>
+    <Cell><Data ss:Type="String">Empiriese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emulate</Data></Cell>
+    <Cell><Data ss:Type="String">Navolg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endorse</Data></Cell>
+    <Cell><Data ss:Type="String">Onderskryf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endow</Data></Cell>
+    <Cell><Data ss:Type="String">Doteren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endurance</Data></Cell>
+    <Cell><Data ss:Type="String">Uithouvermoë</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enervate</Data></Cell>
+    <Cell><Data ss:Type="String">Ontzenuwen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enfranchise</Data></Cell>
+    <Cell><Data ss:Type="String">Kiesrecht gee</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Engender</Data></Cell>
+    <Cell><Data ss:Type="String">Voortbring</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Engendering</Data></Cell>
+    <Cell><Data ss:Type="String">Representatie van die vroulike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enhance</Data></Cell>
+    <Cell><Data ss:Type="String">Verbeter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enigmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Raaiselagtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enlist</Data></Cell>
+    <Cell><Data ss:Type="String">Inroep</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ensconce</Data></Cell>
+    <Cell><Data ss:Type="String">Verschansen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enshroud</Data></Cell>
+    <Cell><Data ss:Type="String">Inbakeren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enunciation</Data></Cell>
+    <Cell><Data ss:Type="String">Uitspraak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Envenom</Data></Cell>
+    <Cell><Data ss:Type="String">Vergiftigen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ephemeral</Data></Cell>
+    <Cell><Data ss:Type="String">Efemere</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epistemology</Data></Cell>
+    <Cell><Data ss:Type="String">Epistemologie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epistolary</Data></Cell>
+    <Cell><Data ss:Type="String">Brief</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epithet</Data></Cell>
+    <Cell><Data ss:Type="String">Epitheton</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epitomized</Data></Cell>
+    <Cell><Data ss:Type="String">Verpersoonlik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Equivocal</Data></Cell>
+    <Cell><Data ss:Type="String">Dubbelzinnig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Equivocate</Data></Cell>
+    <Cell><Data ss:Type="String">Dubbelzinnig praat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Equivocation</Data></Cell>
+    <Cell><Data ss:Type="String">Dubbelzinnig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Err</Data></Cell>
+    <Cell><Data ss:Type="String">Fout</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Errant</Data></Cell>
+    <Cell><Data ss:Type="String">Dwalend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Erratic</Data></Cell>
+    <Cell><Data ss:Type="String">Wisselvallige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Erudition</Data></Cell>
+    <Cell><Data ss:Type="String">Geleerdheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eschew</Data></Cell>
+    <Cell><Data ss:Type="String">Vermy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Esoteric</Data></Cell>
+    <Cell><Data ss:Type="String">Esoteriese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Espouse</Data></Cell>
+    <Cell><Data ss:Type="String">Voorstaan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Etymology</Data></Cell>
+    <Cell><Data ss:Type="String">Etimologie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Euphemism</Data></Cell>
+    <Cell><Data ss:Type="String">Eufemisme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Evacuate</Data></Cell>
+    <Cell><Data ss:Type="String">Ontruim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Evanescent</Data></Cell>
+    <Cell><Data ss:Type="String">Bezwijmend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exacerbate</Data></Cell>
+    <Cell><Data ss:Type="String">Vererger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exacerbated</Data></Cell>
+    <Cell><Data ss:Type="String">Vererger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exasperated</Data></Cell>
+    <Cell><Data ss:Type="String">Bitter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exceptionable</Data></Cell>
+    <Cell><Data ss:Type="String">Aanstotelijk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exculpate</Data></Cell>
+    <Cell><Data ss:Type="String">Blaam onthef word</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Execrable</Data></Cell>
+    <Cell><Data ss:Type="String">Afskuwelike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exegesis</Data></Cell>
+    <Cell><Data ss:Type="String">Eksegese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Model</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplary</Data></Cell>
+    <Cell><Data ss:Type="String">Voortreflik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplify</Data></Cell>
+    <Cell><Data ss:Type="String">Voorbeeld</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exigency</Data></Cell>
+    <Cell><Data ss:Type="String">Dringende mosie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expatiate</Data></Cell>
+    <Cell><Data ss:Type="String">Uitweiden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expedient</Data></Cell>
+    <Cell><Data ss:Type="String">Dienstig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expedite</Data></Cell>
+    <Cell><Data ss:Type="String">Bespoedig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expiate</Data></Cell>
+    <Cell><Data ss:Type="String">Versoen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expostulate</Data></Cell>
+    <Cell><Data ss:Type="String">Ernstig vertoog doen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extant</Data></Cell>
+    <Cell><Data ss:Type="String">Bestaande</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extemporize</Data></Cell>
+    <Cell><Data ss:Type="String">Vuist praat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extirpate</Data></Cell>
+    <Cell><Data ss:Type="String">Uitroei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extirpation</Data></Cell>
+    <Cell><Data ss:Type="String">Verdelging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extol</Data></Cell>
+    <Cell><Data ss:Type="String">Loof</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extradite</Data></Cell>
+    <Cell><Data ss:Type="String">Uitleveren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extraneous</Data></Cell>
+    <Cell><Data ss:Type="String">Vreemde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extrapolate</Data></Cell>
+    <Cell><Data ss:Type="String">Ekstrapoleer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extrinsic</Data></Cell>
+    <Cell><Data ss:Type="String">Ekstrinsieke</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fabricated</Data></Cell>
+    <Cell><Data ss:Type="String">Vervaardigde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Façade</Data></Cell>
+    <Cell><Data ss:Type="String">Gevel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Facetious</Data></Cell>
+    <Cell><Data ss:Type="String">Grappig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallacious</Data></Cell>
+    <Cell><Data ss:Type="String">Valse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallacy</Data></Cell>
+    <Cell><Data ss:Type="String">Wanbegrip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallible</Data></Cell>
+    <Cell><Data ss:Type="String">Feilbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallow</Data></Cell>
+    <Cell><Data ss:Type="String">Braak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Falter</Data></Cell>
+    <Cell><Data ss:Type="String">Wankel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Falters</Data></Cell>
+    <Cell><Data ss:Type="String">Struikel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fanatical</Data></Cell>
+    <Cell><Data ss:Type="String">Fanatieke</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fanaticism</Data></Cell>
+    <Cell><Data ss:Type="String">Fanatisme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fastidious</Data></Cell>
+    <Cell><Data ss:Type="String">Kragtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fatuous</Data></Cell>
+    <Cell><Data ss:Type="String">Sot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Feasible</Data></Cell>
+    <Cell><Data ss:Type="String">Haalbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Feckless</Data></Cell>
+    <Cell><Data ss:Type="String">Waardeloos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fecund</Data></Cell>
+    <Cell><Data ss:Type="String">Vrugbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Feint</Data></Cell>
+    <Cell><Data ss:Type="String">Schijnbeweging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Felicitous</Data></Cell>
+    <Cell><Data ss:Type="String">Gelukkige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fervent</Data></Cell>
+    <Cell><Data ss:Type="String">Vurige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fervid</Data></Cell>
+    <Cell><Data ss:Type="String">Gloeiend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fervor</Data></Cell>
+    <Cell><Data ss:Type="String">Ywer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fickle</Data></Cell>
+    <Cell><Data ss:Type="String">Wisselvallig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Figurehead</Data></Cell>
+    <Cell><Data ss:Type="String">Boegbeeld</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Filibuster</Data></Cell>
+    <Cell><Data ss:Type="String">Roof</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fitful</Data></Cell>
+    <Cell><Data ss:Type="String">Ongedurig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flail</Data></Cell>
+    <Cell><Data ss:Type="String">Klepel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fledge</Data></Cell>
+    <Cell><Data ss:Type="String">Bevederen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flippant</Data></Cell>
+    <Cell><Data ss:Type="String">Ligsinnige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flout</Data></Cell>
+    <Cell><Data ss:Type="String">Hulle laars lappen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flustered</Data></Cell>
+    <Cell><Data ss:Type="String">Verbouereerd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fly-by-night</Data></Cell>
+    <Cell><Data ss:Type="String">Fly-by-nag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foible</Data></Cell>
+    <Cell><Data ss:Type="String">Swak punt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foolhardy</Data></Cell>
+    <Cell><Data ss:Type="String">Doldriest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foppish</Data></Cell>
+    <Cell><Data ss:Type="String">Fatterig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Forage</Data></Cell>
+    <Cell><Data ss:Type="String">Voer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Forbearing</Data></Cell>
+    <Cell><Data ss:Type="String">Verdra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Forensic</Data></Cell>
+    <Cell><Data ss:Type="String">Forensiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foreshadowed</Data></Cell>
+    <Cell><Data ss:Type="String">Voorafskaduwing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fortitude</Data></Cell>
+    <Cell><Data ss:Type="String">Moed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fortuitous</Data></Cell>
+    <Cell><Data ss:Type="String">Toevallig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fracas</Data></Cell>
+    <Cell><Data ss:Type="String">Opschudding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fractious</Data></Cell>
+    <Cell><Data ss:Type="String">Lastig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fraudulent</Data></Cell>
+    <Cell><Data ss:Type="String">Bedrieglike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fringe</Data></Cell>
+    <Cell><Data ss:Type="String">Byvoordele</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Frivolous</Data></Cell>
+    <Cell><Data ss:Type="String">Beuselagtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Froward</Data></Cell>
+    <Cell><Data ss:Type="String">Huigelagtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Frugal</Data></Cell>
+    <Cell><Data ss:Type="String">Zuinige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fulminate</Data></Cell>
+    <Cell><Data ss:Type="String">Fulmineren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Furrow</Data></Cell>
+    <Cell><Data ss:Type="String">Plantvoor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Furtive</Data></Cell>
+    <Cell><Data ss:Type="String">Onderlangse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Futile</Data></Cell>
+    <Cell><Data ss:Type="String">Vergeefse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gaffe</Data></Cell>
+    <Cell><Data ss:Type="String">Flater</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gainsay</Data></Cell>
+    <Cell><Data ss:Type="String">Teëspreek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gambol</Data></Cell>
+    <Cell><Data ss:Type="String">Capriool</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Garble</Data></Cell>
+    <Cell><Data ss:Type="String">Ziften</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Garish</Data></Cell>
+    <Cell><Data ss:Type="String">Kakelbont</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Garrulous</Data></Cell>
+    <Cell><Data ss:Type="String">Praat graag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gavel</Data></Cell>
+    <Cell><Data ss:Type="String">Hamer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Germinal</Data></Cell>
+    <Cell><Data ss:Type="String">Kiem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gist</Data></Cell>
+    <Cell><Data ss:Type="String">Yeast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gouge</Data></Cell>
+    <Cell><Data ss:Type="String">Guts</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Grate &lt;i&gt;(v)&lt;/i&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Rasper &lt;i&gt; (v) &lt;/ i&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gratuitous</Data></Cell>
+    <Cell><Data ss:Type="String">Gratuite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gregarious</Data></Cell>
+    <Cell><Data ss:Type="String">Groeplewend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gregariousness</Data></Cell>
+    <Cell><Data ss:Type="String">Kudde gees</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Guffaw</Data></Cell>
+    <Cell><Data ss:Type="String">Luidkeels lag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Guile</Data></Cell>
+    <Cell><Data ss:Type="String">Bedrog</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Guileless</Data></Cell>
+    <Cell><Data ss:Type="String">Argeloos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gullibility</Data></Cell>
+    <Cell><Data ss:Type="String">Gelovigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gullible</Data></Cell>
+    <Cell><Data ss:Type="String">Liggelowiges</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hackneyed</Data></Cell>
+    <Cell><Data ss:Type="String">Geykte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hallowed</Data></Cell>
+    <Cell><Data ss:Type="String">Geheilig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hamper</Data></Cell>
+    <Cell><Data ss:Type="String">Belemmer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hapless</Data></Cell>
+    <Cell><Data ss:Type="String">Ongelukkige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Harangue</Data></Cell>
+    <Cell><Data ss:Type="String">Toespraak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hasten</Data></Cell>
+    <Cell><Data ss:Type="String">Maak gou</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Haughtiness</Data></Cell>
+    <Cell><Data ss:Type="String">Hoogmoed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hawser</Data></Cell>
+    <Cell><Data ss:Type="String">Tros</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Headstrong</Data></Cell>
+    <Cell><Data ss:Type="String">Koppige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hedonism</Data></Cell>
+    <Cell><Data ss:Type="String">Genot begeerte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Heed</Data></Cell>
+    <Cell><Data ss:Type="String">Luister na</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hegemony</Data></Cell>
+    <Cell><Data ss:Type="String">Hegemonie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Heresy</Data></Cell>
+    <Cell><Data ss:Type="String">Kettery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Heterodox</Data></Cell>
+    <Cell><Data ss:Type="String">Anders denkend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hidebound</Data></Cell>
+    <Cell><Data ss:Type="String">Kleingeestig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hieroglyphics</Data></Cell>
+    <Cell><Data ss:Type="String">Hiërogliewe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Histrionic</Data></Cell>
+    <Cell><Data ss:Type="String">Dramatisch</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hoary</Data></Cell>
+    <Cell><Data ss:Type="String">Grys</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Homiletics</Data></Cell>
+    <Cell><Data ss:Type="String">Homiletiek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Homogeneity</Data></Cell>
+    <Cell><Data ss:Type="String">Homogeniteit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hone</Data></Cell>
+    <Cell><Data ss:Type="String">Slyp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hyperbole</Data></Cell>
+    <Cell><Data ss:Type="String">Hiperbool</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hyperbole</Data></Cell>
+    <Cell><Data ss:Type="String">Hiperbool</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hypochondriac</Data></Cell>
+    <Cell><Data ss:Type="String">Hipokondriese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hypocritical</Data></Cell>
+    <Cell><Data ss:Type="String">Skynheilig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Iconoclast</Data></Cell>
+    <Cell><Data ss:Type="String">Beeldenstorm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Idiosyncrasy</Data></Cell>
+    <Cell><Data ss:Type="String">Persoonlike sensitivity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ignominious</Data></Cell>
+    <Cell><Data ss:Type="String">Skandelik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ignominy</Data></Cell>
+    <Cell><Data ss:Type="String">Skande</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Illuminate</Data></Cell>
+    <Cell><Data ss:Type="String">Lig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Illusory</Data></Cell>
+    <Cell><Data ss:Type="String">Denkbeeldig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Immoderate</Data></Cell>
+    <Cell><Data ss:Type="String">Mateloos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Immutable</Data></Cell>
+    <Cell><Data ss:Type="String">Onveranderlik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impartial</Data></Cell>
+    <Cell><Data ss:Type="String">Onpartijdig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impecunious</Data></Cell>
+    <Cell><Data ss:Type="String">Onbemiddeld</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impeding</Data></Cell>
+    <Cell><Data ss:Type="String">Belemmering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Imperative</Data></Cell>
+    <Cell><Data ss:Type="String">Noodsaaklik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Imperturbability</Data></Cell>
+    <Cell><Data ss:Type="String">Gelaat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impious</Data></Cell>
+    <Cell><Data ss:Type="String">Oortreders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Importune</Data></Cell>
+    <Cell><Data ss:Type="String">Lastig val</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impoverished</Data></Cell>
+    <Cell><Data ss:Type="String">Verarmde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Improbity</Data></Cell>
+    <Cell><Data ss:Type="String">Oneerlijk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impropriety</Data></Cell>
+    <Cell><Data ss:Type="String">Onbehoorlikheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impugn</Data></Cell>
+    <Cell><Data ss:Type="String">Bekampen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impugned</Data></Cell>
+    <Cell><Data ss:Type="String">Beweerde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inadvertent</Data></Cell>
+    <Cell><Data ss:Type="String">Onopsetlike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incarceration</Data></Cell>
+    <Cell><Data ss:Type="String">Opsluiting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incessant</Data></Cell>
+    <Cell><Data ss:Type="String">Aanhoudende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inchoate</Data></Cell>
+    <Cell><Data ss:Type="String">Kiem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inclination</Data></Cell>
+    <Cell><Data ss:Type="String">Inklinasie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incoherent</Data></Cell>
+    <Cell><Data ss:Type="String">Onsamehangend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incongruous</Data></Cell>
+    <Cell><Data ss:Type="String">Onvanpas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inconsequential</Data></Cell>
+    <Cell><Data ss:Type="String">Onbelangrike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inconspicuous</Data></Cell>
+    <Cell><Data ss:Type="String">Onopvallende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incumbents</Data></Cell>
+    <Cell><Data ss:Type="String">Bekleërs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indecorous</Data></Cell>
+    <Cell><Data ss:Type="String">Onwel voeg net</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indelible</Data></Cell>
+    <Cell><Data ss:Type="String">Onuitwisbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indicted</Data></Cell>
+    <Cell><Data ss:Type="String">Staat van beskuldiging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indifferent</Data></Cell>
+    <Cell><Data ss:Type="String">Onverschillig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indigence</Data></Cell>
+    <Cell><Data ss:Type="String">Hulpbehoewendheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indigenous</Data></Cell>
+    <Cell><Data ss:Type="String">Inheemse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indigent</Data></Cell>
+    <Cell><Data ss:Type="String">Hulpbehoewende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indolence</Data></Cell>
+    <Cell><Data ss:Type="String">Traagheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inductee</Data></Cell>
+    <Cell><Data ss:Type="String">Opgeroepene</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indulgent</Data></Cell>
+    <Cell><Data ss:Type="String">Welwillend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inebriation</Data></Cell>
+    <Cell><Data ss:Type="String">Dronkenskap</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ineffable</Data></Cell>
+    <Cell><Data ss:Type="String">Onuitspreeklike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inefficacious</Data></Cell>
+    <Cell><Data ss:Type="String">Onwerkzame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inept</Data></Cell>
+    <Cell><Data ss:Type="String">Onbekwame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inerrancy</Data></Cell>
+    <Cell><Data ss:Type="String">Foutloosheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inertia</Data></Cell>
+    <Cell><Data ss:Type="String">Traagheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inevitable</Data></Cell>
+    <Cell><Data ss:Type="String">Onvermydelik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inexorable</Data></Cell>
+    <Cell><Data ss:Type="String">Onverbiddelike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inexpedient</Data></Cell>
+    <Cell><Data ss:Type="String">Raadsaam sou</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infallible</Data></Cell>
+    <Cell><Data ss:Type="String">Onfeilbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infamous</Data></Cell>
+    <Cell><Data ss:Type="String">Berugte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infer</Data></Cell>
+    <Cell><Data ss:Type="String">Aflei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ingénue</Data></Cell>
+    <Cell><Data ss:Type="String">Ingenue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ingrate</Data></Cell>
+    <Cell><Data ss:Type="String">Ondankbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inimical</Data></Cell>
+    <Cell><Data ss:Type="String">Skadelik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Iniquitous</Data></Cell>
+    <Cell><Data ss:Type="String">Onregverdige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innate</Data></Cell>
+    <Cell><Data ss:Type="String">Aangebore</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innocuous</Data></Cell>
+    <Cell><Data ss:Type="String">Onskadelike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inscrutable</Data></Cell>
+    <Cell><Data ss:Type="String">Onpeilbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Insentient</Data></Cell>
+    <Cell><Data ss:Type="String">Bezield</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Insipid</Data></Cell>
+    <Cell><Data ss:Type="String">Flou</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Instigate</Data></Cell>
+    <Cell><Data ss:Type="String">Aanhits</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Instigator</Data></Cell>
+    <Cell><Data ss:Type="String">Aanhitser</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Insurgent</Data></Cell>
+    <Cell><Data ss:Type="String">Oproerig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intangible</Data></Cell>
+    <Cell><Data ss:Type="String">Ontasbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intelligible</Data></Cell>
+    <Cell><Data ss:Type="String">Verstaanbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intemperate</Data></Cell>
+    <Cell><Data ss:Type="String">Onmatig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Interminable</Data></Cell>
+    <Cell><Data ss:Type="String">Eindelose</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intermittent</Data></Cell>
+    <Cell><Data ss:Type="String">Intermitterende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intractability</Data></Cell>
+    <Cell><Data ss:Type="String">Onto gevend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intransigence</Data></Cell>
+    <Cell><Data ss:Type="String">Onversetlikheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inured</Data></Cell>
+    <Cell><Data ss:Type="String">Verseker al dan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inveigle</Data></Cell>
+    <Cell><Data ss:Type="String">Verlokken</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inveterate</Data></Cell>
+    <Cell><Data ss:Type="String">Verstok</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Invidious</Data></Cell>
+    <Cell><Data ss:Type="String">Netelig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inviolable</Data></Cell>
+    <Cell><Data ss:Type="String">Onskendbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irascible</Data></Cell>
+    <Cell><Data ss:Type="String">Opvliegend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irksome</Data></Cell>
+    <Cell><Data ss:Type="String">Lastig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ironclad</Data></Cell>
+    <Cell><Data ss:Type="String">Gepantserd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ironic</Data></Cell>
+    <Cell><Data ss:Type="String">Ironies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irrational</Data></Cell>
+    <Cell><Data ss:Type="String">Irrasionele</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irreproachable</Data></Cell>
+    <Cell><Data ss:Type="String">Onbesproke</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irrevocable</Data></Cell>
+    <Cell><Data ss:Type="String">Onherroeplik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Itinerant</Data></Cell>
+    <Cell><Data ss:Type="String">Ambulante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jamb</Data></Cell>
+    <Cell><Data ss:Type="String">Deur styl</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jaundiced</Data></Cell>
+    <Cell><Data ss:Type="String">Geelzuchtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jaunt</Data></Cell>
+    <Cell><Data ss:Type="String">Horde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jeopardize</Data></Cell>
+    <Cell><Data ss:Type="String">In gevaar stel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jibe</Data></Cell>
+    <Cell><Data ss:Type="String">Gijpen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jocular</Data></Cell>
+    <Cell><Data ss:Type="String">Snaaks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Judicious</Data></Cell>
+    <Cell><Data ss:Type="String">Oordeelkundige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jurisprudence</Data></Cell>
+    <Cell><Data ss:Type="String">Regsleer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Juxtapose</Data></Cell>
+    <Cell><Data ss:Type="String">Naas mekaar plaas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Knotty</Data></Cell>
+    <Cell><Data ss:Type="String">Knorrige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Labile</Data></Cell>
+    <Cell><Data ss:Type="String">Labiele</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Labyrinthine</Data></Cell>
+    <Cell><Data ss:Type="String">Kronkel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Laceration</Data></Cell>
+    <Cell><Data ss:Type="String">Rijwond</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lachrymose</Data></Cell>
+    <Cell><Data ss:Type="String">Huilerig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lackluster</Data></Cell>
+    <Cell><Data ss:Type="String">Lustelose</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Laconic</Data></Cell>
+    <Cell><Data ss:Type="String">Lakoniese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lacuna</Data></Cell>
+    <Cell><Data ss:Type="String">Leemte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lambaste</Data></Cell>
+    <Cell><Data ss:Type="String">Aftuigen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Languid</Data></Cell>
+    <Cell><Data ss:Type="String">Loom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Languish</Data></Cell>
+    <Cell><Data ss:Type="String">Kwyn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Larceny</Data></Cell>
+    <Cell><Data ss:Type="String">Diefstal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Largess</Data></Cell>
+    <Cell><Data ss:Type="String">Vrijgevig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Latent</Data></Cell>
+    <Cell><Data ss:Type="String">Latente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lavish</Data></Cell>
+    <Cell><Data ss:Type="String">Uitbundige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Leaven</Data></Cell>
+    <Cell><Data ss:Type="String">Suurdeeg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Legend</Data></Cell>
+    <Cell><Data ss:Type="String">Legende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lethargic</Data></Cell>
+    <Cell><Data ss:Type="String">Lomerig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Levee</Data></Cell>
+    <Cell><Data ss:Type="String">Dyk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Libertarian</Data></Cell>
+    <Cell><Data ss:Type="String">Libertaire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Limpid</Data></Cell>
+    <Cell><Data ss:Type="String">Helder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Liniment</Data></Cell>
+    <Cell><Data ss:Type="String">Smeersel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lithe</Data></Cell>
+    <Cell><Data ss:Type="String">Lenig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Liturgy</Data></Cell>
+    <Cell><Data ss:Type="String">Liturgie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Livid</Data></Cell>
+    <Cell><Data ss:Type="String">Woedend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lofty</Data></Cell>
+    <Cell><Data ss:Type="String">Verhewe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Loquacious</Data></Cell>
+    <Cell><Data ss:Type="String">Kwetterend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ludicrous</Data></Cell>
+    <Cell><Data ss:Type="String">Belaglik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lugubrious</Data></Cell>
+    <Cell><Data ss:Type="String">Lugubere</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lukewarm</Data></Cell>
+    <Cell><Data ss:Type="String">Louwarm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Luminary</Data></Cell>
+    <Cell><Data ss:Type="String">Ligbron</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lummox</Data></Cell>
+    <Cell><Data ss:Type="String">Lomp iemand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Macerate</Data></Cell>
+    <Cell><Data ss:Type="String">Maceraat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Maelstrom</Data></Cell>
+    <Cell><Data ss:Type="String">Maalstroom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Magnanimous</Data></Cell>
+    <Cell><Data ss:Type="String">Grootmoedige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Magnate</Data></Cell>
+    <Cell><Data ss:Type="String">Magnaat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Maladroit</Data></Cell>
+    <Cell><Data ss:Type="String">Onhandig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malady</Data></Cell>
+    <Cell><Data ss:Type="String">Kwaal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malapropism</Data></Cell>
+    <Cell><Data ss:Type="String">Komische verspreking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malediction</Data></Cell>
+    <Cell><Data ss:Type="String">Verwensing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malefactor</Data></Cell>
+    <Cell><Data ss:Type="String">Kwaaddoener</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malevolent</Data></Cell>
+    <Cell><Data ss:Type="String">Kwaadwillig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malign</Data></Cell>
+    <Cell><Data ss:Type="String">Skadelike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malinger</Data></Cell>
+    <Cell><Data ss:Type="String">Siekte vir</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malingerer</Data></Cell>
+    <Cell><Data ss:Type="String">Simulant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malleable</Data></Cell>
+    <Cell><Data ss:Type="String">Smeebaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Manipulative</Data></Cell>
+    <Cell><Data ss:Type="String">Manipulerende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mannered</Data></Cell>
+    <Cell><Data ss:Type="String">Gemanierd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marred</Data></Cell>
+    <Cell><Data ss:Type="String">Geskend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marshal</Data></Cell>
+    <Cell><Data ss:Type="String">Maarschalk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marsupial</Data></Cell>
+    <Cell><Data ss:Type="String">Buideldier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Matriarchy</Data></Cell>
+    <Cell><Data ss:Type="String">Matriarchie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Maudlin</Data></Cell>
+    <Cell><Data ss:Type="String">Dronkverdriet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Meager</Data></Cell>
+    <Cell><Data ss:Type="String">Karige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Menagerie</Data></Cell>
+    <Cell><Data ss:Type="String">Dieretuin word</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mendacious</Data></Cell>
+    <Cell><Data ss:Type="String">Leuenagtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mercenary</Data></Cell>
+    <Cell><Data ss:Type="String">Huursoldaat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mercurial</Data></Cell>
+    <Cell><Data ss:Type="String">Kwik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Meretricious</Data></Cell>
+    <Cell><Data ss:Type="String">Ontuchtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Metaphorically</Data></Cell>
+    <Cell><Data ss:Type="String">Metafories</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Meticulous</Data></Cell>
+    <Cell><Data ss:Type="String">Noukeurige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mettlesome</Data></Cell>
+    <Cell><Data ss:Type="String">Vurig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Milieu</Data></Cell>
+    <Cell><Data ss:Type="String">Omgewing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Milk</Data></Cell>
+    <Cell><Data ss:Type="String">Melk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Millinery</Data></Cell>
+    <Cell><Data ss:Type="String">Hoedemakery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Minatory</Data></Cell>
+    <Cell><Data ss:Type="String">Dreigend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mince</Data></Cell>
+    <Cell><Data ss:Type="String">Maalvleis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Minion</Data></Cell>
+    <Cell><Data ss:Type="String">Mignon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Minutiae</Data></Cell>
+    <Cell><Data ss:Type="String">Kleinigheden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misanthrope</Data></Cell>
+    <Cell><Data ss:Type="String">Misantroop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misnomer</Data></Cell>
+    <Cell><Data ss:Type="String">Wanbenaming</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misogynist</Data></Cell>
+    <Cell><Data ss:Type="String">Teenstander van die huwelik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misrepresentation</Data></Cell>
+    <Cell><Data ss:Type="String">Wanvoorstelling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mitigate</Data></Cell>
+    <Cell><Data ss:Type="String">Versag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mitigation</Data></Cell>
+    <Cell><Data ss:Type="String">Versagting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Modicum</Data></Cell>
+    <Cell><Data ss:Type="String">Gesonde dosis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Momentous</Data></Cell>
+    <Cell><Data ss:Type="String">Gewigtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Monolithic</Data></Cell>
+    <Cell><Data ss:Type="String">Monolitiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Monotonous</Data></Cell>
+    <Cell><Data ss:Type="String">Eentonige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Moralistic</Data></Cell>
+    <Cell><Data ss:Type="String">Moralistiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Moribund</Data></Cell>
+    <Cell><Data ss:Type="String">Zieltogend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Morose</Data></Cell>
+    <Cell><Data ss:Type="String">Aalwaardig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mundane</Data></Cell>
+    <Cell><Data ss:Type="String">Alledaagse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Munificent</Data></Cell>
+    <Cell><Data ss:Type="String">Milddadig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mutinous</Data></Cell>
+    <Cell><Data ss:Type="String">Oproerig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nascent</Data></Cell>
+    <Cell><Data ss:Type="String">Ontluikende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Natty</Data></Cell>
+    <Cell><Data ss:Type="String">Mosi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Navigable</Data></Cell>
+    <Cell><Data ss:Type="String">Bevaarbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nebulous</Data></Cell>
+    <Cell><Data ss:Type="String">Newelagtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nefarious</Data></Cell>
+    <Cell><Data ss:Type="String">Afstootlike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Negate</Data></Cell>
+    <Cell><Data ss:Type="String">Ontken</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Negligence</Data></Cell>
+    <Cell><Data ss:Type="String">Nalatigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Neologism</Data></Cell>
+    <Cell><Data ss:Type="String">Neologisme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nettle</Data></Cell>
+    <Cell><Data ss:Type="String">Brandnetel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Niggardly</Data></Cell>
+    <Cell><Data ss:Type="String">Gierig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Noisome</Data></Cell>
+    <Cell><Data ss:Type="String">Verderflike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nomadic</Data></Cell>
+    <Cell><Data ss:Type="String">Nomadiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nondescript</Data></Cell>
+    <Cell><Data ss:Type="String">Onopvallende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nonentity</Data></Cell>
+    <Cell><Data ss:Type="String">Onding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nonplussed</Data></Cell>
+    <Cell><Data ss:Type="String">Uit die veld geslaan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Notoriety</Data></Cell>
+    <Cell><Data ss:Type="String">Bekendheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Novel</Data></Cell>
+    <Cell><Data ss:Type="String">Roman</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Noxious</Data></Cell>
+    <Cell><Data ss:Type="String">Skadelike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nugatory</Data></Cell>
+    <Cell><Data ss:Type="String">Onbenullig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nullify</Data></Cell>
+    <Cell><Data ss:Type="String">Kragteloos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nuzzle</Data></Cell>
+    <Cell><Data ss:Type="String">Omwroeten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obdurate</Data></Cell>
+    <Cell><Data ss:Type="String">Halsstarrig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obfuscate</Data></Cell>
+    <Cell><Data ss:Type="String">Verduisteren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Objective</Data></Cell>
+    <Cell><Data ss:Type="String">Doelstelling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obligate</Data></Cell>
+    <Cell><Data ss:Type="String">Obligaat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obliterate</Data></Cell>
+    <Cell><Data ss:Type="String">Uitwis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oblivious</Data></Cell>
+    <Cell><Data ss:Type="String">Onbewus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obscured</Data></Cell>
+    <Cell><Data ss:Type="String">Verduister</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obsequious</Data></Cell>
+    <Cell><Data ss:Type="String">Kruiperig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obsolete</Data></Cell>
+    <Cell><Data ss:Type="String">Uitgediende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obstreperous</Data></Cell>
+    <Cell><Data ss:Type="String">Lawaaierig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obtuse</Data></Cell>
+    <Cell><Data ss:Type="String">Stomp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obviate</Data></Cell>
+    <Cell><Data ss:Type="String">Voorkom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Occluded</Data></Cell>
+    <Cell><Data ss:Type="String">Okklusie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Odious</Data></Cell>
+    <Cell><Data ss:Type="String">Gehaat gemaak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Odometer</Data></Cell>
+    <Cell><Data ss:Type="String">Afstandmeterlesing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Officious</Data></Cell>
+    <Cell><Data ss:Type="String">Officieus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ogle</Data></Cell>
+    <Cell><Data ss:Type="String">Aanlonken</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Olfactory</Data></Cell>
+    <Cell><Data ss:Type="String">Olfaktoriese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ominous</Data></Cell>
+    <Cell><Data ss:Type="String">Onheilspellende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Omnipotent</Data></Cell>
+    <Cell><Data ss:Type="String">Almagtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Omniscient</Data></Cell>
+    <Cell><Data ss:Type="String">Alwetend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Onerous</Data></Cell>
+    <Cell><Data ss:Type="String">Beswaarde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Opprobrious</Data></Cell>
+    <Cell><Data ss:Type="String">Smalend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Opulent</Data></Cell>
+    <Cell><Data ss:Type="String">Weelderige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Orate</Data></Cell>
+    <Cell><Data ss:Type="String">Oreren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ordain</Data></Cell>
+    <Cell><Data ss:Type="String">Georden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ornate</Data></Cell>
+    <Cell><Data ss:Type="String">Versierde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Orthodox</Data></Cell>
+    <Cell><Data ss:Type="String">Ortodokse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ossify</Data></Cell>
+    <Cell><Data ss:Type="String">Verbenen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ostentatious</Data></Cell>
+    <Cell><Data ss:Type="String">Blufferig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ostracism</Data></Cell>
+    <Cell><Data ss:Type="String">Exclusie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oust</Data></Cell>
+    <Cell><Data ss:Type="String">Verdryf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Overt</Data></Cell>
+    <Cell><Data ss:Type="String">Openlike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Overwrought</Data></Cell>
+    <Cell><Data ss:Type="String">Oorstuur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paean</Data></Cell>
+    <Cell><Data ss:Type="String">Loflied</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palatable</Data></Cell>
+    <Cell><Data ss:Type="String">Smaaklik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palliative</Data></Cell>
+    <Cell><Data ss:Type="String">Palliatiewe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pallid</Data></Cell>
+    <Cell><Data ss:Type="String">Witborsvleivalk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palpable</Data></Cell>
+    <Cell><Data ss:Type="String">Tasbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palpate</Data></Cell>
+    <Cell><Data ss:Type="String">Palpeer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Panacea</Data></Cell>
+    <Cell><Data ss:Type="String">Wondermiddel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Panegyric</Data></Cell>
+    <Cell><Data ss:Type="String">Lofrede</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Papyrus</Data></Cell>
+    <Cell><Data ss:Type="String">Papirus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paradigm</Data></Cell>
+    <Cell><Data ss:Type="String">Paradigma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parasite</Data></Cell>
+    <Cell><Data ss:Type="String">Parasiet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parched</Data></Cell>
+    <Cell><Data ss:Type="String">Gebraaide</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parenthesis</Data></Cell>
+    <Cell><Data ss:Type="String">Tussen hakies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pariah</Data></Cell>
+    <Cell><Data ss:Type="String">Paria</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parity</Data></Cell>
+    <Cell><Data ss:Type="String">Pariteit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parochial</Data></Cell>
+    <Cell><Data ss:Type="String">Parochie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parsimonious</Data></Cell>
+    <Cell><Data ss:Type="String">Karig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Partiality</Data></Cell>
+    <Cell><Data ss:Type="String">Partijdig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pathos</Data></Cell>
+    <Cell><Data ss:Type="String">Patos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Patronize</Data></Cell>
+    <Cell><Data ss:Type="String">Begunstigen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Patronize</Data></Cell>
+    <Cell><Data ss:Type="String">Begunstigen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paucity</Data></Cell>
+    <Cell><Data ss:Type="String">Gebrek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peccadillo</Data></Cell>
+    <Cell><Data ss:Type="String">Klein sonde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedagogy</Data></Cell>
+    <Cell><Data ss:Type="String">Pedagogie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedantic</Data></Cell>
+    <Cell><Data ss:Type="String">Pedant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedestrian</Data></Cell>
+    <Cell><Data ss:Type="String">Voetganger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pejorative</Data></Cell>
+    <Cell><Data ss:Type="String">Ongunstig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pellucid</Data></Cell>
+    <Cell><Data ss:Type="String">Helder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Penchant</Data></Cell>
+    <Cell><Data ss:Type="String">Voorliefde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pensive</Data></Cell>
+    <Cell><Data ss:Type="String">Peinsende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Penury</Data></Cell>
+    <Cell><Data ss:Type="String">Gebrek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perceptive</Data></Cell>
+    <Cell><Data ss:Type="String">Skerpsinnige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Percipient</Data></Cell>
+    <Cell><Data ss:Type="String">Siener</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perdition</Data></Cell>
+    <Cell><Data ss:Type="String">Verderf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peremptory</Data></Cell>
+    <Cell><Data ss:Type="String">Gebiedend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perennial</Data></Cell>
+    <Cell><Data ss:Type="String">Meerjarige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perfidy</Data></Cell>
+    <Cell><Data ss:Type="String">Verraad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perfunctory</Data></Cell>
+    <Cell><Data ss:Type="String">Oppervlakkig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peripatetic</Data></Cell>
+    <Cell><Data ss:Type="String">Marskramer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peripheral</Data></Cell>
+    <Cell><Data ss:Type="String">Perifere</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perjury</Data></Cell>
+    <Cell><Data ss:Type="String">Meineed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pernicious</Data></Cell>
+    <Cell><Data ss:Type="String">Skadelike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perpetuated</Data></Cell>
+    <Cell><Data ss:Type="String">Verewig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perpetuity</Data></Cell>
+    <Cell><Data ss:Type="String">Altyd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Persnickety</Data></Cell>
+    <Cell><Data ss:Type="String">Abstracter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Personable</Data></Cell>
+    <Cell><Data ss:Type="String">Innemend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Personification</Data></Cell>
+    <Cell><Data ss:Type="String">Verpersoonliking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perspicacious</Data></Cell>
+    <Cell><Data ss:Type="String">Scherpziend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perspicacity</Data></Cell>
+    <Cell><Data ss:Type="String">Scherpzinnig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pertain</Data></Cell>
+    <Cell><Data ss:Type="String">Betrekking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pertinent</Data></Cell>
+    <Cell><Data ss:Type="String">Pertinente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peruse</Data></Cell>
+    <Cell><Data ss:Type="String">Nagaan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Petrify</Data></Cell>
+    <Cell><Data ss:Type="String">Versteen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Petulant</Data></Cell>
+    <Cell><Data ss:Type="String">Balorig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Phenomenology</Data></Cell>
+    <Cell><Data ss:Type="String">Fenomenologie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Phenomenon</Data></Cell>
+    <Cell><Data ss:Type="String">Verskynsel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Philanthropy</Data></Cell>
+    <Cell><Data ss:Type="String">Filantropie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Philistine</Data></Cell>
+    <Cell><Data ss:Type="String">Filistyn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Phlegmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Flegmatiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pillage</Data></Cell>
+    <Cell><Data ss:Type="String">Roof</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pious</Data></Cell>
+    <Cell><Data ss:Type="String">Vrome</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pith</Data></Cell>
+    <Cell><Data ss:Type="String">Merg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pivotal</Data></Cell>
+    <Cell><Data ss:Type="String">Deurslaggewende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Placate</Data></Cell>
+    <Cell><Data ss:Type="String">Paai</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plagiarism</Data></Cell>
+    <Cell><Data ss:Type="String">Plagiaat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaintiff</Data></Cell>
+    <Cell><Data ss:Type="String">Eiser</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaintive</Data></Cell>
+    <Cell><Data ss:Type="String">Klaende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaque</Data></Cell>
+    <Cell><Data ss:Type="String">Plaak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Platitude</Data></Cell>
+    <Cell><Data ss:Type="String">Banaliteit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaudit</Data></Cell>
+    <Cell><Data ss:Type="String">Applaus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plausibility</Data></Cell>
+    <Cell><Data ss:Type="String">Plausibiliteit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plausible</Data></Cell>
+    <Cell><Data ss:Type="String">Geloofwaardige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plethora</Data></Cell>
+    <Cell><Data ss:Type="String">Oorvloed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pliable</Data></Cell>
+    <Cell><Data ss:Type="String">Buigsaam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plodding</Data></Cell>
+    <Cell><Data ss:Type="String">Gezwoeg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pluck</Data></Cell>
+    <Cell><Data ss:Type="String">Ruk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plumage</Data></Cell>
+    <Cell><Data ss:Type="String">Verekleed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plummet</Data></Cell>
+    <Cell><Data ss:Type="String">Skietlood</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Poised</Data></Cell>
+    <Cell><Data ss:Type="String">Gereed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Polemical</Data></Cell>
+    <Cell><Data ss:Type="String">Polemiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ponderous</Data></Cell>
+    <Cell><Data ss:Type="String">Swaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pontificate</Data></Cell>
+    <Cell><Data ss:Type="String">Pontifikaat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Portend</Data></Cell>
+    <Cell><Data ss:Type="String">Voorspel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Portent</Data></Cell>
+    <Cell><Data ss:Type="String">Teken</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posterity</Data></Cell>
+    <Cell><Data ss:Type="String">Nageslag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posthumous</Data></Cell>
+    <Cell><Data ss:Type="String">Postuum</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Postulate</Data></Cell>
+    <Cell><Data ss:Type="String">Postulaat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posture</Data></Cell>
+    <Cell><Data ss:Type="String">Postuur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Potable</Data></Cell>
+    <Cell><Data ss:Type="String">Drinkbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Potent</Data></Cell>
+    <Cell><Data ss:Type="String">Kragtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pragmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Pragmatiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pragmatist</Data></Cell>
+    <Cell><Data ss:Type="String">Pragmatis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prattle</Data></Cell>
+    <Cell><Data ss:Type="String">Gesnap</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preamble</Data></Cell>
+    <Cell><Data ss:Type="String">Aanhef</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precarious</Data></Cell>
+    <Cell><Data ss:Type="String">Bedenklike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipice</Data></Cell>
+    <Cell><Data ss:Type="String">Afgrond</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipitate</Data></Cell>
+    <Cell><Data ss:Type="String">Neerslag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipitous</Data></Cell>
+    <Cell><Data ss:Type="String">Steil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preclude</Data></Cell>
+    <Cell><Data ss:Type="String">Uitsluit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precocious</Data></Cell>
+    <Cell><Data ss:Type="String">Vir altyd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predecessor</Data></Cell>
+    <Cell><Data ss:Type="String">Voorganger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predicament</Data></Cell>
+    <Cell><Data ss:Type="String">Penarie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predilection</Data></Cell>
+    <Cell><Data ss:Type="String">Voorliefde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preeminent</Data></Cell>
+    <Cell><Data ss:Type="String">Vernaamste</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Presage</Data></Cell>
+    <Cell><Data ss:Type="String">Voorspel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prescience</Data></Cell>
+    <Cell><Data ss:Type="String">Vir wetenskap</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Presentiment</Data></Cell>
+    <Cell><Data ss:Type="String">Voorgevoel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Presumptuous</Data></Cell>
+    <Cell><Data ss:Type="String">Vermetel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pretension</Data></Cell>
+    <Cell><Data ss:Type="String">Pretentie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pretentious</Data></Cell>
+    <Cell><Data ss:Type="String">Pretensieus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preternatural</Data></Cell>
+    <Cell><Data ss:Type="String">Onnatuurlijk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prevaricate</Data></Cell>
+    <Cell><Data ss:Type="String">Lieg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Primordial</Data></Cell>
+    <Cell><Data ss:Type="String">Primordiale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pristine</Data></Cell>
+    <Cell><Data ss:Type="String">Ongerepte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proclivity</Data></Cell>
+    <Cell><Data ss:Type="String">Neiging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Procrastinate</Data></Cell>
+    <Cell><Data ss:Type="String">Uitstel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prodigious</Data></Cell>
+    <Cell><Data ss:Type="String">Wonderbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profanity</Data></Cell>
+    <Cell><Data ss:Type="String">Godslastering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profundity</Data></Cell>
+    <Cell><Data ss:Type="String">Diepte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prohibitive</Data></Cell>
+    <Cell><Data ss:Type="String">Verbod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proletarian</Data></Cell>
+    <Cell><Data ss:Type="String">Proletariër</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proliferate</Data></Cell>
+    <Cell><Data ss:Type="String">Vermenigvuldig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prolific</Data></Cell>
+    <Cell><Data ss:Type="String">Produktiewe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prolixity</Data></Cell>
+    <Cell><Data ss:Type="String">Langradigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prominent</Data></Cell>
+    <Cell><Data ss:Type="String">Prominente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prone</Data></Cell>
+    <Cell><Data ss:Type="String">Geneig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Propensity</Data></Cell>
+    <Cell><Data ss:Type="String">Geneigdheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Propitiate</Data></Cell>
+    <Cell><Data ss:Type="String">Verzoenen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proponents</Data></Cell>
+    <Cell><Data ss:Type="String">Voorstanders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prosaic</Data></Cell>
+    <Cell><Data ss:Type="String">Prozaïsche</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proscribe</Data></Cell>
+    <Cell><Data ss:Type="String">Te velde trek teen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prosody</Data></Cell>
+    <Cell><Data ss:Type="String">Prosodie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Protagonist</Data></Cell>
+    <Cell><Data ss:Type="String">Protagonis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Provincial</Data></Cell>
+    <Cell><Data ss:Type="String">Provinsiale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proximate</Data></Cell>
+    <Cell><Data ss:Type="String">Proksimale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prudent</Data></Cell>
+    <Cell><Data ss:Type="String">Omsigtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prudish</Data></Cell>
+    <Cell><Data ss:Type="String">Preuts</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prune</Data></Cell>
+    <Cell><Data ss:Type="String">Snoei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Puerile</Data></Cell>
+    <Cell><Data ss:Type="String">Beuselagtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pugnacious</Data></Cell>
+    <Cell><Data ss:Type="String">Strijdlustig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Purchase</Data></Cell>
+    <Cell><Data ss:Type="String">Koop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Purist</Data></Cell>
+    <Cell><Data ss:Type="String">Puristiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Purloin</Data></Cell>
+    <Cell><Data ss:Type="String">Steel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pusillanimous</Data></Cell>
+    <Cell><Data ss:Type="String">Blohartig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pyre</Data></Cell>
+    <Cell><Data ss:Type="String">Brandstapel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pyromania</Data></Cell>
+    <Cell><Data ss:Type="String">Pyromanie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quack</Data></Cell>
+    <Cell><Data ss:Type="String">Kwaak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quaff</Data></Cell>
+    <Cell><Data ss:Type="String">Teug</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quagmire</Data></Cell>
+    <Cell><Data ss:Type="String">Moeras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quaint</Data></Cell>
+    <Cell><Data ss:Type="String">Sonderlinge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Qualm</Data></Cell>
+    <Cell><Data ss:Type="String">Walging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quarantine</Data></Cell>
+    <Cell><Data ss:Type="String">Kwarantyn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quell</Data></Cell>
+    <Cell><Data ss:Type="String">Onderdruk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Querulous</Data></Cell>
+    <Cell><Data ss:Type="String">Klaerige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quibble</Data></Cell>
+    <Cell><Data ss:Type="String">Spitsvondigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quintessential</Data></Cell>
+    <Cell><Data ss:Type="String">Quint</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quirk</Data></Cell>
+    <Cell><Data ss:Type="String">Grap</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quixotic</Data></Cell>
+    <Cell><Data ss:Type="String">Donquichotachtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quotidian</Data></Cell>
+    <Cell><Data ss:Type="String">Alledaags</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Raconteur</Data></Cell>
+    <Cell><Data ss:Type="String">Verteller</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ramifications</Data></Cell>
+    <Cell><Data ss:Type="String">Gevolge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rancor</Data></Cell>
+    <Cell><Data ss:Type="String">Wrok</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rarefy</Data></Cell>
+    <Cell><Data ss:Type="String">Verdunnen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ratify</Data></Cell>
+    <Cell><Data ss:Type="String">Ratificeren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Raucous</Data></Cell>
+    <Cell><Data ss:Type="String">Hees</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Raze</Data></Cell>
+    <Cell><Data ss:Type="String">Breek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ready</Data></Cell>
+    <Cell><Data ss:Type="String">Gereed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rebuttal</Data></Cell>
+    <Cell><Data ss:Type="String">Weerlegging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recant</Data></Cell>
+    <Cell><Data ss:Type="String">Herroepen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recapitulate</Data></Cell>
+    <Cell><Data ss:Type="String">Recapituleren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Receptacle</Data></Cell>
+    <Cell><Data ss:Type="String">Blombodem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recluse</Data></Cell>
+    <Cell><Data ss:Type="String">Kluisenaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recondite</Data></Cell>
+    <Cell><Data ss:Type="String">Diepzinnig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recuperate</Data></Cell>
+    <Cell><Data ss:Type="String">Herstel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Red tape</Data></Cell>
+    <Cell><Data ss:Type="String">Rompslomp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Redolent</Data></Cell>
+    <Cell><Data ss:Type="String">Welriekend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Redress</Data></Cell>
+    <Cell><Data ss:Type="String">Regstelling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Redundant</Data></Cell>
+    <Cell><Data ss:Type="String">Redundante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Refulgent</Data></Cell>
+    <Cell><Data ss:Type="String">Glanzend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Refute</Data></Cell>
+    <Cell><Data ss:Type="String">Weerlê</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rekindle</Data></Cell>
+    <Cell><Data ss:Type="String">Wakker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Relegate</Data></Cell>
+    <Cell><Data ss:Type="String">Skuif</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Remorse</Data></Cell>
+    <Cell><Data ss:Type="String">Berou</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Remuneration</Data></Cell>
+    <Cell><Data ss:Type="String">Vergoeding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rent</Data></Cell>
+    <Cell><Data ss:Type="String">Huur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Repine</Data></Cell>
+    <Cell><Data ss:Type="String">Misnoegd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Replete</Data></Cell>
+    <Cell><Data ss:Type="String">Versadig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reprehensible</Data></Cell>
+    <Cell><Data ss:Type="String">Verwerplik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reprieve</Data></Cell>
+    <Cell><Data ss:Type="String">Uitstel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reproof</Data></Cell>
+    <Cell><Data ss:Type="String">Teregwysing in ag neem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Repudiate</Data></Cell>
+    <Cell><Data ss:Type="String">Repudieer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rescind</Data></Cell>
+    <Cell><Data ss:Type="String">Herroep</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resignation</Data></Cell>
+    <Cell><Data ss:Type="String">Bedanking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resilience</Data></Cell>
+    <Cell><Data ss:Type="String">Veerkragtigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resolution</Data></Cell>
+    <Cell><Data ss:Type="String">Resolusie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resolve</Data></Cell>
+    <Cell><Data ss:Type="String">Los</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Respite</Data></Cell>
+    <Cell><Data ss:Type="String">Uitstel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resplendent</Data></Cell>
+    <Cell><Data ss:Type="String">Pompeus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Restorative</Data></Cell>
+    <Cell><Data ss:Type="String">Herstellende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resuscitation</Data></Cell>
+    <Cell><Data ss:Type="String">Resussitasie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Retention</Data></Cell>
+    <Cell><Data ss:Type="String">Retensie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reticent</Data></Cell>
+    <Cell><Data ss:Type="String">Terughoudend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Retraction</Data></Cell>
+    <Cell><Data ss:Type="String">Retractie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Riddled</Data></Cell>
+    <Cell><Data ss:Type="String">Gesaai</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Riveting</Data></Cell>
+    <Cell><Data ss:Type="String">Klink</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Robust</Data></Cell>
+    <Cell><Data ss:Type="String">Robuuste</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Roster</Data></Cell>
+    <Cell><Data ss:Type="String">Rooster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rotund</Data></Cell>
+    <Cell><Data ss:Type="String">Welgedaan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ruminate</Data></Cell>
+    <Cell><Data ss:Type="String">Herkou</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Saccharin</Data></Cell>
+    <Cell><Data ss:Type="String">Sacharine</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sacrosanct</Data></Cell>
+    <Cell><Data ss:Type="String">Heilig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sagacious</Data></Cell>
+    <Cell><Data ss:Type="String">Vroed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Salacious</Data></Cell>
+    <Cell><Data ss:Type="String">Wulpse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sallow</Data></Cell>
+    <Cell><Data ss:Type="String">Blas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Salubrious</Data></Cell>
+    <Cell><Data ss:Type="String">Heilsame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Salutary</Data></Cell>
+    <Cell><Data ss:Type="String">Liefdediens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sanctimonious</Data></Cell>
+    <Cell><Data ss:Type="String">Skynheilige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sanction</Data></Cell>
+    <Cell><Data ss:Type="String">Sanksie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sanguinary</Data></Cell>
+    <Cell><Data ss:Type="String">Bloeddorstig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sardonic</Data></Cell>
+    <Cell><Data ss:Type="String">Sardoniese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Satiate</Data></Cell>
+    <Cell><Data ss:Type="String">Versadig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Savor</Data></Cell>
+    <Cell><Data ss:Type="String">Geniet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scabbard</Data></Cell>
+    <Cell><Data ss:Type="String">Skede</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scale</Data></Cell>
+    <Cell><Data ss:Type="String">Skaal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scapegoat</Data></Cell>
+    <Cell><Data ss:Type="String">Sondebok</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scrupulous</Data></Cell>
+    <Cell><Data ss:Type="String">Scrupuleuze</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scurvy</Data></Cell>
+    <Cell><Data ss:Type="String">Skeurbuik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scuttle</Data></Cell>
+    <Cell><Data ss:Type="String">Jutter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sedulity</Data></Cell>
+    <Cell><Data ss:Type="String">Angstvallig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sedulous</Data></Cell>
+    <Cell><Data ss:Type="String">Ywerig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seemly</Data></Cell>
+    <Cell><Data ss:Type="String">Betaamlik</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seminal</Data></Cell>
+    <Cell><Data ss:Type="String">Seminale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seminary</Data></Cell>
+    <Cell><Data ss:Type="String">Seminarium</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sensuous</Data></Cell>
+    <Cell><Data ss:Type="String">Sensuele</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sequester</Data></Cell>
+    <Cell><Data ss:Type="String">Anneksasie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Serrated</Data></Cell>
+    <Cell><Data ss:Type="String">Gekartelde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Servile</Data></Cell>
+    <Cell><Data ss:Type="String">Beroepswerk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Shard</Data></Cell>
+    <Cell><Data ss:Type="String">Segment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Shirk</Data></Cell>
+    <Cell><Data ss:Type="String">Onttrekken</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sibyl</Data></Cell>
+    <Cell><Data ss:Type="String">Sybille</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sidereal</Data></Cell>
+    <Cell><Data ss:Type="String">Sterre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sinecure</Data></Cell>
+    <Cell><Data ss:Type="String">Evident</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sinewy</Data></Cell>
+    <Cell><Data ss:Type="String">Seningrige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Skeptical</Data></Cell>
+    <Cell><Data ss:Type="String">Skepties</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Skiff</Data></Cell>
+    <Cell><Data ss:Type="String">Bootjie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Skirmish</Data></Cell>
+    <Cell><Data ss:Type="String">Skermutseling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Slake</Data></Cell>
+    <Cell><Data ss:Type="String">Les</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Slew</Data></Cell>
+    <Cell><Data ss:Type="String">Gedood</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Slight</Data></Cell>
+    <Cell><Data ss:Type="String">Effense</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sluggard</Data></Cell>
+    <Cell><Data ss:Type="String">Luiaard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Smorgasbord</Data></Cell>
+    <Cell><Data ss:Type="String">Smörgåsbord</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Solace</Data></Cell>
+    <Cell><Data ss:Type="String">Bemoediging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Solicit</Data></Cell>
+    <Cell><Data ss:Type="String">Werf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Solicitous</Data></Cell>
+    <Cell><Data ss:Type="String">Sorgsaam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Soliloquy</Data></Cell>
+    <Cell><Data ss:Type="String">Monoloog</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Somatic</Data></Cell>
+    <Cell><Data ss:Type="String">Somatiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Somnambulist</Data></Cell>
+    <Cell><Data ss:Type="String">Slaap ontsien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Soothsayer</Data></Cell>
+    <Cell><Data ss:Type="String">Waarsêer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Soporific</Data></Cell>
+    <Cell><Data ss:Type="String">Slaapmiddel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sparse</Data></Cell>
+    <Cell><Data ss:Type="String">Yl</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Specious</Data></Cell>
+    <Cell><Data ss:Type="String">Ruime</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Speckled</Data></Cell>
+    <Cell><Data ss:Type="String">Gevlekte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sporadic</Data></Cell>
+    <Cell><Data ss:Type="String">Sporadiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Spurious</Data></Cell>
+    <Cell><Data ss:Type="String">Onwaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Squalid</Data></Cell>
+    <Cell><Data ss:Type="String">Goor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stagnant</Data></Cell>
+    <Cell><Data ss:Type="String">Stagnante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Staid</Data></Cell>
+    <Cell><Data ss:Type="String">Sober</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stanch</Data></Cell>
+    <Cell><Data ss:Type="String">Aanhankelijk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Statute</Data></Cell>
+    <Cell><Data ss:Type="String">Statuut</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Staunch</Data></Cell>
+    <Cell><Data ss:Type="String">Stoere</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stereotype</Data></Cell>
+    <Cell><Data ss:Type="String">Stereotipe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stevedore</Data></Cell>
+    <Cell><Data ss:Type="String">Behandelaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stickler</Data></Cell>
+    <Cell><Data ss:Type="String">Voorstander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stifle</Data></Cell>
+    <Cell><Data ss:Type="String">Domper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stipple</Data></Cell>
+    <Cell><Data ss:Type="String">Stippel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stipulate</Data></Cell>
+    <Cell><Data ss:Type="String">Stipuleer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stoic</Data></Cell>
+    <Cell><Data ss:Type="String">Stoïsynse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stolid</Data></Cell>
+    <Cell><Data ss:Type="String">Flegmatiek</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Strident</Data></Cell>
+    <Cell><Data ss:Type="String">Kras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stringent</Data></Cell>
+    <Cell><Data ss:Type="String">Streng</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stupefying</Data></Cell>
+    <Cell><Data ss:Type="String">Bedwelmende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subliminal</Data></Cell>
+    <Cell><Data ss:Type="String">Subliminaal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Suborn</Data></Cell>
+    <Cell><Data ss:Type="String">Omkopen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subpoena</Data></Cell>
+    <Cell><Data ss:Type="String">Dagvaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Substantiate</Data></Cell>
+    <Cell><Data ss:Type="String">Motiveer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subterfuge</Data></Cell>
+    <Cell><Data ss:Type="String">Slenterslag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subtle</Data></Cell>
+    <Cell><Data ss:Type="String">Subtiele</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subversive</Data></Cell>
+    <Cell><Data ss:Type="String">Ondermynende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Succinct</Data></Cell>
+    <Cell><Data ss:Type="String">Bondige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Supercilious</Data></Cell>
+    <Cell><Data ss:Type="String">Verwaand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Superlative</Data></Cell>
+    <Cell><Data ss:Type="String">Oortreffende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Supine</Data></Cell>
+    <Cell><Data ss:Type="String">Rugliggende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Supplicant</Data></Cell>
+    <Cell><Data ss:Type="String">Bidder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surly</Data></Cell>
+    <Cell><Data ss:Type="String">Surley</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surreptitious</Data></Cell>
+    <Cell><Data ss:Type="String">Onderlangse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surreptitiously</Data></Cell>
+    <Cell><Data ss:Type="String">Slinkse wyse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Susceptible</Data></Cell>
+    <Cell><Data ss:Type="String">Vatbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Suspect</Data></Cell>
+    <Cell><Data ss:Type="String">Verdagte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Syllogism</Data></Cell>
+    <Cell><Data ss:Type="String">Syllogisme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Symphony</Data></Cell>
+    <Cell><Data ss:Type="String">Simfonie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Synapse</Data></Cell>
+    <Cell><Data ss:Type="String">Sinaps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Syncopation</Data></Cell>
+    <Cell><Data ss:Type="String">Sinkopasie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Taciturn</Data></Cell>
+    <Cell><Data ss:Type="String">Zwijger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tactile</Data></Cell>
+    <Cell><Data ss:Type="String">Tasbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tangent</Data></Cell>
+    <Cell><Data ss:Type="String">Raaklyn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tangible</Data></Cell>
+    <Cell><Data ss:Type="String">Tasbare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tardy</Data></Cell>
+    <Cell><Data ss:Type="String">Traag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tare</Data></Cell>
+    <Cell><Data ss:Type="String">Tarra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tarnished</Data></Cell>
+    <Cell><Data ss:Type="String">Verkleur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Taunt</Data></Cell>
+    <Cell><Data ss:Type="String">Tart</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tawdry</Data></Cell>
+    <Cell><Data ss:Type="String">Opgedirkt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tedium</Data></Cell>
+    <Cell><Data ss:Type="String">Saaiheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Teetotalism</Data></Cell>
+    <Cell><Data ss:Type="String">Abstinentie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Temper</Data></Cell>
+    <Cell><Data ss:Type="String">Tempereer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Temperate</Data></Cell>
+    <Cell><Data ss:Type="String">Gematigde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tempers</Data></Cell>
+    <Cell><Data ss:Type="String">Humeure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tendentious</Data></Cell>
+    <Cell><Data ss:Type="String">Tendentieuze</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tenuous</Data></Cell>
+    <Cell><Data ss:Type="String">Vaag</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Terse</Data></Cell>
+    <Cell><Data ss:Type="String">Kernagtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Therapeutic</Data></Cell>
+    <Cell><Data ss:Type="String">Terapeutiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Thwart</Data></Cell>
+    <Cell><Data ss:Type="String">Stuit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Timorous</Data></Cell>
+    <Cell><Data ss:Type="String">Beschroomd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Titter</Data></Cell>
+    <Cell><Data ss:Type="String">Gegiechel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Toady</Data></Cell>
+    <Cell><Data ss:Type="String">Vleier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Torpid</Data></Cell>
+    <Cell><Data ss:Type="String">Loom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Torpor</Data></Cell>
+    <Cell><Data ss:Type="String">Traagheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Torrid</Data></Cell>
+    <Cell><Data ss:Type="String">Brandende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tortuous</Data></Cell>
+    <Cell><Data ss:Type="String">Bochtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Totter</Data></Cell>
+    <Cell><Data ss:Type="String">Wankel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Touting</Data></Cell>
+    <Cell><Data ss:Type="String">Werwing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tractable</Data></Cell>
+    <Cell><Data ss:Type="String">Handelbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tranquil</Data></Cell>
+    <Cell><Data ss:Type="String">Rustige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transcendental</Data></Cell>
+    <Cell><Data ss:Type="String">Transendentale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transcribe</Data></Cell>
+    <Cell><Data ss:Type="String">Transkribeer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transgress</Data></Cell>
+    <Cell><Data ss:Type="String">Oortree</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transient</Data></Cell>
+    <Cell><Data ss:Type="String">Verbygaande</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Travesty</Data></Cell>
+    <Cell><Data ss:Type="String">Bespotting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trepidation</Data></Cell>
+    <Cell><Data ss:Type="String">Bewing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trite</Data></Cell>
+    <Cell><Data ss:Type="String">Alledaags</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Truant</Data></Cell>
+    <Cell><Data ss:Type="String">Dwalend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Truncate</Data></Cell>
+    <Cell><Data ss:Type="String">Kapt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tumult</Data></Cell>
+    <Cell><Data ss:Type="String">Rumoer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Turpitude</Data></Cell>
+    <Cell><Data ss:Type="String">Skande lijkheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tutelary</Data></Cell>
+    <Cell><Data ss:Type="String">Bescherm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tyro</Data></Cell>
+    <Cell><Data ss:Type="String">Nieuweling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Umbrage</Data></Cell>
+    <Cell><Data ss:Type="String">Aanstoot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unalloyed</Data></Cell>
+    <Cell><Data ss:Type="String">Nie-gelegeerd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unctuous</Data></Cell>
+    <Cell><Data ss:Type="String">Zalvend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undercutting</Data></Cell>
+    <Cell><Data ss:Type="String">Inkarteling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undergird</Data></Cell>
+    <Cell><Data ss:Type="String">Onder-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undermine</Data></Cell>
+    <Cell><Data ss:Type="String">Ondermyn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undermined</Data></Cell>
+    <Cell><Data ss:Type="String">Ondermyn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Underwrite</Data></Cell>
+    <Cell><Data ss:Type="String">Onderskryf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unequivocal</Data></Cell>
+    <Cell><Data ss:Type="String">Ondubbelsinnige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unfetter</Data></Cell>
+    <Cell><Data ss:Type="String">Ontketenen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unfrock</Data></Cell>
+    <Cell><Data ss:Type="String">Priester net kan onzetten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unprecedented</Data></Cell>
+    <Cell><Data ss:Type="String">Ongekende</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unprepossessing</Data></Cell>
+    <Cell><Data ss:Type="String">Ongunstig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unscathed</Data></Cell>
+    <Cell><Data ss:Type="String">Ongedeerd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Untoward</Data></Cell>
+    <Cell><Data ss:Type="String">Verkeerde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unwitting</Data></Cell>
+    <Cell><Data ss:Type="String">Onbewuste</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Upbraid</Data></Cell>
+    <Cell><Data ss:Type="String">Verwyt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Uproarious</Data></Cell>
+    <Cell><Data ss:Type="String">Stormachtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Upshot</Data></Cell>
+    <Cell><Data ss:Type="String">Resultante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Urbane</Data></Cell>
+    <Cell><Data ss:Type="String">Urbánus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Usurp</Data></Cell>
+    <Cell><Data ss:Type="String">Heers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Usury</Data></Cell>
+    <Cell><Data ss:Type="String">Woekerwet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Utilitarian</Data></Cell>
+    <Cell><Data ss:Type="String">Utilitair</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Utopian</Data></Cell>
+    <Cell><Data ss:Type="String">Utopiese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vacillate</Data></Cell>
+    <Cell><Data ss:Type="String">Aarsel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vacuous</Data></Cell>
+    <Cell><Data ss:Type="String">Nutteloos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vagary</Data></Cell>
+    <Cell><Data ss:Type="String">Gril</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vagrant</Data></Cell>
+    <Cell><Data ss:Type="String">Swerwer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vapid</Data></Cell>
+    <Cell><Data ss:Type="String">Platvoers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Variegated</Data></Cell>
+    <Cell><Data ss:Type="String">Gevlekte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vehemence</Data></Cell>
+    <Cell><Data ss:Type="String">Heftigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vehement</Data></Cell>
+    <Cell><Data ss:Type="String">Heftige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Venal</Data></Cell>
+    <Cell><Data ss:Type="String">Omkoopbaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veneer</Data></Cell>
+    <Cell><Data ss:Type="String">Fineer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Venerate</Data></Cell>
+    <Cell><Data ss:Type="String">Vereer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veneration</Data></Cell>
+    <Cell><Data ss:Type="String">Verering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Venial</Data></Cell>
+    <Cell><Data ss:Type="String">Pekel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veracious</Data></Cell>
+    <Cell><Data ss:Type="String">Waarheid getrou</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veracity</Data></Cell>
+    <Cell><Data ss:Type="String">Waarheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Verbiage</Data></Cell>
+    <Cell><Data ss:Type="String">Breedsprakigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Verbosity</Data></Cell>
+    <Cell><Data ss:Type="String">Breedsprakigheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veritable</Data></Cell>
+    <Cell><Data ss:Type="String">Ware</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vestigial</Data></Cell>
+    <Cell><Data ss:Type="String">Vestigiale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vicissitude</Data></Cell>
+    <Cell><Data ss:Type="String">Wisselvallig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vilification</Data></Cell>
+    <Cell><Data ss:Type="String">Laster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vindicate</Data></Cell>
+    <Cell><Data ss:Type="String">Verdedig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Virtuosity</Data></Cell>
+    <Cell><Data ss:Type="String">Virtuositeit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Virulent</Data></Cell>
+    <Cell><Data ss:Type="String">Virulente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vitiate</Data></Cell>
+    <Cell><Data ss:Type="String">Ongeldig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vitriolic</Data></Cell>
+    <Cell><Data ss:Type="String">Giftig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vituperate</Data></Cell>
+    <Cell><Data ss:Type="String">Verguizen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vivacity</Data></Cell>
+    <Cell><Data ss:Type="String">Levendig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vivify</Data></Cell>
+    <Cell><Data ss:Type="String">Bezielen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vociferous</Data></Cell>
+    <Cell><Data ss:Type="String">Luidrugtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Volatile</Data></Cell>
+    <Cell><Data ss:Type="String">Vlugtige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Volubility</Data></Cell>
+    <Cell><Data ss:Type="String">Radheid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Voluble</Data></Cell>
+    <Cell><Data ss:Type="String">Welbespraakt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Voluminous</Data></Cell>
+    <Cell><Data ss:Type="String">Volumineuze</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Voracious</Data></Cell>
+    <Cell><Data ss:Type="String">Gulsige</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vulpine</Data></Cell>
+    <Cell><Data ss:Type="String">Listig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waffle</Data></Cell>
+    <Cell><Data ss:Type="String">Wafel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waft</Data></Cell>
+    <Cell><Data ss:Type="String">Sliertje</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waive</Data></Cell>
+    <Cell><Data ss:Type="String">Afkoop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wane</Data></Cell>
+    <Cell><Data ss:Type="String">Wegneem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wary</Data></Cell>
+    <Cell><Data ss:Type="String">Versigtig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waylay</Data></Cell>
+    <Cell><Data ss:Type="String">Wegjagen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Whelp</Data></Cell>
+    <Cell><Data ss:Type="String">Welp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Whet</Data></Cell>
+    <Cell><Data ss:Type="String">Skerp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Whimsical</Data></Cell>
+    <Cell><Data ss:Type="String">Grappig</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Willful</Data></Cell>
+    <Cell><Data ss:Type="String">Opsetlike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wispy</Data></Cell>
+    <Cell><Data ss:Type="String">Yl</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wistful</Data></Cell>
+    <Cell><Data ss:Type="String">Nadenkend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wry</Data></Cell>
+    <Cell><Data ss:Type="String">Wrang</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Xenophobe</Data></Cell>
+    <Cell><Data ss:Type="String">Vreemdelinge hater</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Zeal</Data></Cell>
+    <Cell><Data ss:Type="String">Ywer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Zealot</Data></Cell>
+    <Cell><Data ss:Type="String">Yweraar</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <SplitHorizontal>5960</SplitHorizontal>
+   <TopRowBottomPane>0</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2:R350</RangeSelection>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

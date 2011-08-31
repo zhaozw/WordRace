@@ -1,0 +1,3246 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Taha Bebek</Author>
+  <LastAuthor>Taha Bebek</LastAuthor>
+  <Created>2011-07-10T07:56:28Z</Created>
+  <Company>Quwic</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12400</WindowHeight>
+  <WindowWidth>25360</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>240</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sri Lanka">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="795" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="98"/>
+   <Column ss:Width="270"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abate</Data></Cell>
+    <Cell><Data ss:Type="String">தணிக்கக்கூடும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aberration</Data></Cell>
+    <Cell><Data ss:Type="String">பிறழ்ச்சி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abraded</Data></Cell>
+    <Cell><Data ss:Type="String">சிராய்ப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrasion</Data></Cell>
+    <Cell><Data ss:Type="String">சிராய்ப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrasive</Data></Cell>
+    <Cell><Data ss:Type="String">சிராய்ப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrogate</Data></Cell>
+    <Cell><Data ss:Type="String">தள்ளுபடி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Absolution</Data></Cell>
+    <Cell><Data ss:Type="String">அப்ஸொலூஷன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abstain</Data></Cell>
+    <Cell><Data ss:Type="String">தவிர்ப்பதாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abysmal</Data></Cell>
+    <Cell><Data ss:Type="String">கிடையாது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Accretion</Data></Cell>
+    <Cell><Data ss:Type="String">அடர் வளர்ச்சி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acuity</Data></Cell>
+    <Cell><Data ss:Type="String">கூர்மையில்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adamant</Data></Cell>
+    <Cell><Data ss:Type="String">பிடிவாதம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adulation</Data></Cell>
+    <Cell><Data ss:Type="String">புகழ் போற்றலின்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adversity</Data></Cell>
+    <Cell><Data ss:Type="String">துன்பத்திற்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Advocate</Data></Cell>
+    <Cell><Data ss:Type="String">வழக்கறிஞர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aesthetic</Data></Cell>
+    <Cell><Data ss:Type="String">அழகியல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Affable</Data></Cell>
+    <Cell><Data ss:Type="String">ஒப்புரவான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aisle</Data></Cell>
+    <Cell><Data ss:Type="String">இடைகழி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alchemy</Data></Cell>
+    <Cell><Data ss:Type="String">ரசவாதம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alleviate</Data></Cell>
+    <Cell><Data ss:Type="String">குறைப்பதற்காக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alleviated</Data></Cell>
+    <Cell><Data ss:Type="String">அம்சங்களும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Allure</Data></Cell>
+    <Cell><Data ss:Type="String">அலூர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aloof</Data></Cell>
+    <Cell><Data ss:Type="String">பிரிந்தா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Altruism</Data></Cell>
+    <Cell><Data ss:Type="String">ஆல்ட்ருயிஸ்ம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amalgamate</Data></Cell>
+    <Cell><Data ss:Type="String">கலந்துவிட்டனர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambiguity</Data></Cell>
+    <Cell><Data ss:Type="String">இருபொருள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambiguous</Data></Cell>
+    <Cell><Data ss:Type="String">தெளிவற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambivalence</Data></Cell>
+    <Cell><Data ss:Type="String">அம்பிவலன்ஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambulatory</Data></Cell>
+    <Cell><Data ss:Type="String">ஆம்புலேடரி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ameliorate</Data></Cell>
+    <Cell><Data ss:Type="String">சீராக்குவதற்கான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amiable</Data></Cell>
+    <Cell><Data ss:Type="String">சுமூகமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amity</Data></Cell>
+    <Cell><Data ss:Type="String">அமிட்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amorphous</Data></Cell>
+    <Cell><Data ss:Type="String">அமார்ஃபஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analgesic</Data></Cell>
+    <Cell><Data ss:Type="String">வலிநீக்கி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analogous</Data></Cell>
+    <Cell><Data ss:Type="String">ஒத்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analogue</Data></Cell>
+    <Cell><Data ss:Type="String">ஒப்புமை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anarchy</Data></Cell>
+    <Cell><Data ss:Type="String">அனார்க்கி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anecdote</Data></Cell>
+    <Cell><Data ss:Type="String">கதையின்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Animosity</Data></Cell>
+    <Cell><Data ss:Type="String">பகைமை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anomaly</Data></Cell>
+    <Cell><Data ss:Type="String">ஒழுங்கின்மை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antagonism</Data></Cell>
+    <Cell><Data ss:Type="String">முரண்பாடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antagonistic</Data></Cell>
+    <Cell><Data ss:Type="String">எதிரியான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anthology</Data></Cell>
+    <Cell><Data ss:Type="String">அந்தாலஜி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antipathy</Data></Cell>
+    <Cell><Data ss:Type="String">வெறுப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apathy</Data></Cell>
+    <Cell><Data ss:Type="String">உணர்ச்சியின்மை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apocryphal</Data></Cell>
+    <Cell><Data ss:Type="String">உறுதிப்படாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apostrophe</Data></Cell>
+    <Cell><Data ss:Type="String">மேற்கோளைச்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Appease</Data></Cell>
+    <Cell><Data ss:Type="String">சமாதானப்படுத்தும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apprehension</Data></Cell>
+    <Cell><Data ss:Type="String">கைப்பற்றப்படுதல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apprehensive</Data></Cell>
+    <Cell><Data ss:Type="String">சந்தேகப்படுகிறேன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arable</Data></Cell>
+    <Cell><Data ss:Type="String">சாகுபடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arbitrary</Data></Cell>
+    <Cell><Data ss:Type="String">தன்னிச்சையான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arcane</Data></Cell>
+    <Cell><Data ss:Type="String">கமுக்கமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archaic</Data></Cell>
+    <Cell><Data ss:Type="String">பண்டைய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archetype</Data></Cell>
+    <Cell><Data ss:Type="String">ஆர்கிடைப்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archives</Data></Cell>
+    <Cell><Data ss:Type="String">பதிவுகள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arduous</Data></Cell>
+    <Cell><Data ss:Type="String">ஆர்டவுஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arresting</Data></Cell>
+    <Cell><Data ss:Type="String">கைது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arson</Data></Cell>
+    <Cell><Data ss:Type="String">கலவரம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Articulate</Data></Cell>
+    <Cell><Data ss:Type="String">பலவற்றை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Artisan</Data></Cell>
+    <Cell><Data ss:Type="String">கைவினைஞர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ascetic</Data></Cell>
+    <Cell><Data ss:Type="String">துறவி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assay</Data></Cell>
+    <Cell><Data ss:Type="String">மதிப்பிடுவதை கட்டாயமாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assuage</Data></Cell>
+    <Cell><Data ss:Type="String">சமாதானப்படுத்தினால்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Asylum</Data></Cell>
+    <Cell><Data ss:Type="String">புகலிடம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atheist</Data></Cell>
+    <Cell><Data ss:Type="String">நாத்திகர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atonement</Data></Cell>
+    <Cell><Data ss:Type="String">அடோன்மெண்ட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atrophy</Data></Cell>
+    <Cell><Data ss:Type="String">வலுவிழப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Attenuate</Data></Cell>
+    <Cell><Data ss:Type="String">வீரியத்தை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Augment</Data></Cell>
+    <Cell><Data ss:Type="String">அதிகப்படுத்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Auspicious</Data></Cell>
+    <Cell><Data ss:Type="String">மங்களகரமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Austere</Data></Cell>
+    <Cell><Data ss:Type="String">கண்ணியமானதாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aversion</Data></Cell>
+    <Cell><Data ss:Type="String">வெறுப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Balm</Data></Cell>
+    <Cell><Data ss:Type="String">தைலம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bane</Data></Cell>
+    <Cell><Data ss:Type="String">பேன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bard</Data></Cell>
+    <Cell><Data ss:Type="String">பார்ட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Barrage</Data></Cell>
+    <Cell><Data ss:Type="String">சரமாரியாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bastion</Data></Cell>
+    <Cell><Data ss:Type="String">கோட்டையாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belie</Data></Cell>
+    <Cell><Data ss:Type="String">மறைத்தல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belittle</Data></Cell>
+    <Cell><Data ss:Type="String">சிறுமைப்படுத்தி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belligerent</Data></Cell>
+    <Cell><Data ss:Type="String">பக்கச்சார்புடன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bemoan</Data></Cell>
+    <Cell><Data ss:Type="String">துயரங்கள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Benevolent</Data></Cell>
+    <Cell><Data ss:Type="String">அக்கறை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Benign</Data></Cell>
+    <Cell><Data ss:Type="String">தீங்கற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bestial</Data></Cell>
+    <Cell><Data ss:Type="String">பால் தாக்கரேயின் அண்மையிலான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Billowing</Data></Cell>
+    <Cell><Data ss:Type="String">அரவணைப்பில் விரக்தியின் அளவு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blasphemy</Data></Cell>
+    <Cell><Data ss:Type="String">நிந்தித்தல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blatant</Data></Cell>
+    <Cell><Data ss:Type="String">அப்பட்டமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blighted</Data></Cell>
+    <Cell><Data ss:Type="String">தீட்டாகிவிடும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blunderbuss</Data></Cell>
+    <Cell><Data ss:Type="String">ப்ளண்டர்பஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bolster</Data></Cell>
+    <Cell><Data ss:Type="String">உயர்த்திப்பிடிக்கின்றன</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bourgeois</Data></Cell>
+    <Cell><Data ss:Type="String">முதலாளித்துவ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Boycott</Data></Cell>
+    <Cell><Data ss:Type="String">போய்கோத்ட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Brevity</Data></Cell>
+    <Cell><Data ss:Type="String">வீரம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Brook</Data></Cell>
+    <Cell><Data ss:Type="String">புரூக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bulwark</Data></Cell>
+    <Cell><Data ss:Type="String">அரணாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bureaucracy</Data></Cell>
+    <Cell><Data ss:Type="String">அதிகாரத்துவம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Burlesque</Data></Cell>
+    <Cell><Data ss:Type="String">கிண்டல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Burnish</Data></Cell>
+    <Cell><Data ss:Type="String">மெருகூட்டு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Byline</Data></Cell>
+    <Cell><Data ss:Type="String">பைலைன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cajole</Data></Cell>
+    <Cell><Data ss:Type="String">ஏமாற்றுவது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Calibrate</Data></Cell>
+    <Cell><Data ss:Type="String">அளவுத்திருத்தம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Candid</Data></Cell>
+    <Cell><Data ss:Type="String">கேண்டிட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Candor</Data></Cell>
+    <Cell><Data ss:Type="String">கள்ளங்கபடமற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Canonical</Data></Cell>
+    <Cell><Data ss:Type="String">ஒழுங்குமுறைப்பட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cant</Data></Cell>
+    <Cell><Data ss:Type="String">வழங்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cardinal</Data></Cell>
+    <Cell><Data ss:Type="String">கார்டினல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caret</Data></Cell>
+    <Cell><Data ss:Type="String">இடஞ்சுட்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Carrion</Data></Cell>
+    <Cell><Data ss:Type="String">கேரியன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cartographer</Data></Cell>
+    <Cell><Data ss:Type="String">வரைபட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caustic</Data></Cell>
+    <Cell><Data ss:Type="String">எரிக்க கூடியதும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Censure</Data></Cell>
+    <Cell><Data ss:Type="String">சுரண்டலை கடுமையாக தாக்கி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Centrifuge</Data></Cell>
+    <Cell><Data ss:Type="String">மையவிலக்கி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Centurion</Data></Cell>
+    <Cell><Data ss:Type="String">செஞ்சுரியன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cerebral</Data></Cell>
+    <Cell><Data ss:Type="String">பெருமூளை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Charlatan</Data></Cell>
+    <Cell><Data ss:Type="String">சார்லட்டன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chauvinist</Data></Cell>
+    <Cell><Data ss:Type="String">பேரினவாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chronic</Data></Cell>
+    <Cell><Data ss:Type="String">க்ரோனிக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chronicler</Data></Cell>
+    <Cell><Data ss:Type="String">வரலாற்று</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circuitous</Data></Cell>
+    <Cell><Data ss:Type="String">சுற்றுப்பாதையை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumvent</Data></Cell>
+    <Cell><Data ss:Type="String">தடுக்கின்றனர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clandestine</Data></Cell>
+    <Cell><Data ss:Type="String">பாதுகாப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clemency</Data></Cell>
+    <Cell><Data ss:Type="String">கருணை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cliché</Data></Cell>
+    <Cell><Data ss:Type="String">க்ளின்சி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clientele</Data></Cell>
+    <Cell><Data ss:Type="String">Clientèle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coda</Data></Cell>
+    <Cell><Data ss:Type="String">கோடா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coerce</Data></Cell>
+    <Cell><Data ss:Type="String">நிர்ப்பந்தம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coercion</Data></Cell>
+    <Cell><Data ss:Type="String">வற்புறுத்தல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cognitive</Data></Cell>
+    <Cell><Data ss:Type="String">அறிவாற்றல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Collage</Data></Cell>
+    <Cell><Data ss:Type="String">கொலாஜ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Collate</Data></Cell>
+    <Cell><Data ss:Type="String">ஒத்திடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Colloquial</Data></Cell>
+    <Cell><Data ss:Type="String">வழக்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Collusion</Data></Cell>
+    <Cell><Data ss:Type="String">கூட்டாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Complacent</Data></Cell>
+    <Cell><Data ss:Type="String">மனநிறைவுடைய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Compliant</Data></Cell>
+    <Cell><Data ss:Type="String">இணக்கமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Compromised</Data></Cell>
+    <Cell><Data ss:Type="String">குறை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Concatenation</Data></Cell>
+    <Cell><Data ss:Type="String">தொடுப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Concise</Data></Cell>
+    <Cell><Data ss:Type="String">சுருக்கமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condone</Data></Cell>
+    <Cell><Data ss:Type="String">துணை நின்றார்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condoning</Data></Cell>
+    <Cell><Data ss:Type="String">கண்டுகொள்ளாதிருத்தலை கண்டிப்பவரும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congenital</Data></Cell>
+    <Cell><Data ss:Type="String">பிறவியிலேயே</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congruent</Data></Cell>
+    <Cell><Data ss:Type="String">ஒத்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conscript</Data></Cell>
+    <Cell><Data ss:Type="String">கட்டாயமாக இராணுவத்தில் சேர்க்கப்பட்ட,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consensus</Data></Cell>
+    <Cell><Data ss:Type="String">ஒருமித்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conspicuous</Data></Cell>
+    <Cell><Data ss:Type="String">பகட்டான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consternation</Data></Cell>
+    <Cell><Data ss:Type="String">திகைப்பையும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contemporary</Data></Cell>
+    <Cell><Data ss:Type="String">தற்கால</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contentious</Data></Cell>
+    <Cell><Data ss:Type="String">சர்ச்சைக்குரிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contiguous</Data></Cell>
+    <Cell><Data ss:Type="String">தொடர்ச்சியான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conventional</Data></Cell>
+    <Cell><Data ss:Type="String">வழக்கமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Corroborate</Data></Cell>
+    <Cell><Data ss:Type="String">உறுதிபடுத்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Corrugated</Data></Cell>
+    <Cell><Data ss:Type="String">நெளிவுடைய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Counterfeit</Data></Cell>
+    <Cell><Data ss:Type="String">போலியான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Covert</Data></Cell>
+    <Cell><Data ss:Type="String">இரகசிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Credible</Data></Cell>
+    <Cell><Data ss:Type="String">நம்பகமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Creditable</Data></Cell>
+    <Cell><Data ss:Type="String">பாராட்டத்தக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cringe</Data></Cell>
+    <Cell><Data ss:Type="String">கெஞ்சுகிறாய்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cryptic</Data></Cell>
+    <Cell><Data ss:Type="String">கிரிப்டிக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cumbersome</Data></Cell>
+    <Cell><Data ss:Type="String">காலதாமமும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Curtail</Data></Cell>
+    <Cell><Data ss:Type="String">கட்டுப்படுத்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cynical</Data></Cell>
+    <Cell><Data ss:Type="String">இழிந்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Daguerreotype</Data></Cell>
+    <Cell><Data ss:Type="String">டாகுரோடைப்புக்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Damp</Data></Cell>
+    <Cell><Data ss:Type="String">ஈரமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debacle</Data></Cell>
+    <Cell><Data ss:Type="String">தோல்வி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debilitating</Data></Cell>
+    <Cell><Data ss:Type="String">பலவீனமாக்கும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debunking</Data></Cell>
+    <Cell><Data ss:Type="String">ஷார்டேஜ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Decorum</Data></Cell>
+    <Cell><Data ss:Type="String">மரியாதையை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Decoy</Data></Cell>
+    <Cell><Data ss:Type="String">டிகாய்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Defunct</Data></Cell>
+    <Cell><Data ss:Type="String">செயலற்றும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Degradation</Data></Cell>
+    <Cell><Data ss:Type="String">சீர்கேடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deleterious</Data></Cell>
+    <Cell><Data ss:Type="String">தீங்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deliberate</Data></Cell>
+    <Cell><Data ss:Type="String">திட்டமிட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deliberate</Data></Cell>
+    <Cell><Data ss:Type="String">திட்டமிட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Delineation</Data></Cell>
+    <Cell><Data ss:Type="String">கூறு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Denounce</Data></Cell>
+    <Cell><Data ss:Type="String">வெளிப்படையான கண்டனத்தை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deplete</Data></Cell>
+    <Cell><Data ss:Type="String">பாதிக்கும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deplore</Data></Cell>
+    <Cell><Data ss:Type="String">இகழ்ந்துரைத்தாலும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Derogatory</Data></Cell>
+    <Cell><Data ss:Type="String">சிறுமைப்படுத்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desecration</Data></Cell>
+    <Cell><Data ss:Type="String">டெஸ்கிரியேசன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Despondent</Data></Cell>
+    <Cell><Data ss:Type="String">மனம் நொந்துபோ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deter</Data></Cell>
+    <Cell><Data ss:Type="String">பின்வாங்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deteriorate</Data></Cell>
+    <Cell><Data ss:Type="String">மிகவும் மோசமடைந்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Detrimental</Data></Cell>
+    <Cell><Data ss:Type="String">தீங்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dexterity</Data></Cell>
+    <Cell><Data ss:Type="String">கைவினைத்திறன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diatribe</Data></Cell>
+    <Cell><Data ss:Type="String">வசைமாரிகளை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dichotomy</Data></Cell>
+    <Cell><Data ss:Type="String">இரட்டை தன்மையே</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Didactic</Data></Cell>
+    <Cell><Data ss:Type="String">நீதிபோதனை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dike</Data></Cell>
+    <Cell><Data ss:Type="String">அகழி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dilemma</Data></Cell>
+    <Cell><Data ss:Type="String">இக்கட்டு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diligent</Data></Cell>
+    <Cell><Data ss:Type="String">விடாமுயற்சி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diorama</Data></Cell>
+    <Cell><Data ss:Type="String">டியோராமா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dirge</Data></Cell>
+    <Cell><Data ss:Type="String">புலம்புதல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discern</Data></Cell>
+    <Cell><Data ss:Type="String">கண்டுகொள்ள</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discernment</Data></Cell>
+    <Cell><Data ss:Type="String">பகுத்தறிவை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discord</Data></Cell>
+    <Cell><Data ss:Type="String">குழப்பம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discrepancy</Data></Cell>
+    <Cell><Data ss:Type="String">முரண்பாடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discrete</Data></Cell>
+    <Cell><Data ss:Type="String">இலக்கமியல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discriminate</Data></Cell>
+    <Cell><Data ss:Type="String">வேறுபடுத்தி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disingenuous</Data></Cell>
+    <Cell><Data ss:Type="String">கபட நாடகமென பலரும் எண்ணினர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disinterested</Data></Cell>
+    <Cell><Data ss:Type="String">ஆர்வமிருக்கவில்லையா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disparity</Data></Cell>
+    <Cell><Data ss:Type="String">வேற்றுமைகள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dispatch</Data></Cell>
+    <Cell><Data ss:Type="String">டிஸ்பேட்ஜ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disseminating</Data></Cell>
+    <Cell><Data ss:Type="String">பரப்புவதற்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dissident</Data></Cell>
+    <Cell><Data ss:Type="String">கருத்துவேறுபாடான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Divert</Data></Cell>
+    <Cell><Data ss:Type="String">திசை திருப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Divest</Data></Cell>
+    <Cell><Data ss:Type="String">ஆளானது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Docile</Data></Cell>
+    <Cell><Data ss:Type="String">பண்பான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dogmatic</Data></Cell>
+    <Cell><Data ss:Type="String">இறுமாப்புடைய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Don</Data></Cell>
+    <Cell><Data ss:Type="String">டான்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dormancy</Data></Cell>
+    <Cell><Data ss:Type="String">செயலற்றதாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Drivel</Data></Cell>
+    <Cell><Data ss:Type="String">பிதற்றல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Drone</Data></Cell>
+    <Cell><Data ss:Type="String">ட்ரோன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dubious</Data></Cell>
+    <Cell><Data ss:Type="String">சந்தேகத்திற்குரிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dupe</Data></Cell>
+    <Cell><Data ss:Type="String">ஏமாற்றா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Duplicity</Data></Cell>
+    <Cell><Data ss:Type="String">டுப்ளிசிட்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dynamic</Data></Cell>
+    <Cell><Data ss:Type="String">டைனமிக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eccentric</Data></Cell>
+    <Cell><Data ss:Type="String">விசித்திரமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eclectic</Data></Cell>
+    <Cell><Data ss:Type="String">பன்முகம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eddy</Data></Cell>
+    <Cell><Data ss:Type="String">எடி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Edifice</Data></Cell>
+    <Cell><Data ss:Type="String">மாளிகையின்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Efficacy</Data></Cell>
+    <Cell><Data ss:Type="String">திறன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Effigy</Data></Cell>
+    <Cell><Data ss:Type="String">கொடும்பாவி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Effusive</Data></Cell>
+    <Cell><Data ss:Type="String">பீறிடும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Egalitarianism</Data></Cell>
+    <Cell><Data ss:Type="String">இடஒதுக்கீடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elaborate</Data></Cell>
+    <Cell><Data ss:Type="String">விளக்கமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elegy</Data></Cell>
+    <Cell><Data ss:Type="String">இறங்கற்பா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eloquent</Data></Cell>
+    <Cell><Data ss:Type="String">தேனொழுக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elusive</Data></Cell>
+    <Cell><Data ss:Type="String">மழுப்புகின்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Embezzle</Data></Cell>
+    <Cell><Data ss:Type="String">பணமோசடி செய்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Embroil</Data></Cell>
+    <Cell><Data ss:Type="String">ஈடுபடுவர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emerge</Data></Cell>
+    <Cell><Data ss:Type="String">வெளிப்பட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emollient</Data></Cell>
+    <Cell><Data ss:Type="String">வறட்சியகற்றி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Empirical</Data></Cell>
+    <Cell><Data ss:Type="String">அனுபவ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emulate</Data></Cell>
+    <Cell><Data ss:Type="String">பின்பற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endorse</Data></Cell>
+    <Cell><Data ss:Type="String">ஒப்புதல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endurance</Data></Cell>
+    <Cell><Data ss:Type="String">பொறையுடைமை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enduring</Data></Cell>
+    <Cell><Data ss:Type="String">நீடிக்கும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Engender</Data></Cell>
+    <Cell><Data ss:Type="String">திண்மைகள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enhance</Data></Cell>
+    <Cell><Data ss:Type="String">அதிகரிக்கவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enigma</Data></Cell>
+    <Cell><Data ss:Type="String">எனிக்மா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enigmatic</Data></Cell>
+    <Cell><Data ss:Type="String">புதிரான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ephemeral</Data></Cell>
+    <Cell><Data ss:Type="String">குறுங்கால</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epigram</Data></Cell>
+    <Cell><Data ss:Type="String">விகடத்துணுக்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epistemology</Data></Cell>
+    <Cell><Data ss:Type="String">அறிவாய்வியல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epistle</Data></Cell>
+    <Cell><Data ss:Type="String">நிருபம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epistolary</Data></Cell>
+    <Cell><Data ss:Type="String">கடிதவடிவ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epithet</Data></Cell>
+    <Cell><Data ss:Type="String">புனைப்பெயர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Equivocal</Data></Cell>
+    <Cell><Data ss:Type="String">ஐயத்துக்குரிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Err</Data></Cell>
+    <Cell><Data ss:Type="String">ம்ம்ம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Erratic</Data></Cell>
+    <Cell><Data ss:Type="String">ஒழுங்கற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Esoteric</Data></Cell>
+    <Cell><Data ss:Type="String">ரகசிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Etymology</Data></Cell>
+    <Cell><Data ss:Type="String">சொற்பிறப்பியல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Euphemism</Data></Cell>
+    <Cell><Data ss:Type="String">தகுதி சொல்வழக்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Evacuate</Data></Cell>
+    <Cell><Data ss:Type="String">காலி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exacerbate</Data></Cell>
+    <Cell><Data ss:Type="String">பெருக்கும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exacerbated</Data></Cell>
+    <Cell><Data ss:Type="String">அதிகப்படுத்தியது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">எடுத்துக்காட்டு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplary</Data></Cell>
+    <Cell><Data ss:Type="String">முன்மாதிரியான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplify</Data></Cell>
+    <Cell><Data ss:Type="String">விளக்கியுள்ளனர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exhaustive</Data></Cell>
+    <Cell><Data ss:Type="String">முழுமையான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exorcism</Data></Cell>
+    <Cell><Data ss:Type="String">பேயோட்டுதல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expatriate</Data></Cell>
+    <Cell><Data ss:Type="String">புலம்பெயர்ந்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expedite</Data></Cell>
+    <Cell><Data ss:Type="String">துரிதப்படுத்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exposition</Data></Cell>
+    <Cell><Data ss:Type="String">பொருட்காட்சி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extant</Data></Cell>
+    <Cell><Data ss:Type="String">நடைமுறையில்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extrapolate</Data></Cell>
+    <Cell><Data ss:Type="String">புற மதிப்பீடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extrinsic</Data></Cell>
+    <Cell><Data ss:Type="String">வெளிப்புற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fabricated</Data></Cell>
+    <Cell><Data ss:Type="String">கட்டுக்கதை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Façade</Data></Cell>
+    <Cell><Data ss:Type="String">முகப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallacious</Data></Cell>
+    <Cell><Data ss:Type="String">தவறான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallacy</Data></Cell>
+    <Cell><Data ss:Type="String">தவறான நம்பிக்கை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallow</Data></Cell>
+    <Cell><Data ss:Type="String">தரிசு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Falter</Data></Cell>
+    <Cell><Data ss:Type="String">தடுமாறாமல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fanatical</Data></Cell>
+    <Cell><Data ss:Type="String">வெறித்தனமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fawn</Data></Cell>
+    <Cell><Data ss:Type="String">இளமஞ்சள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Feasible</Data></Cell>
+    <Cell><Data ss:Type="String">சாத்தியமில்லாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ferrous</Data></Cell>
+    <Cell><Data ss:Type="String">இரும்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fervent</Data></Cell>
+    <Cell><Data ss:Type="String">ஆர்வமுடன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fervor</Data></Cell>
+    <Cell><Data ss:Type="String">உற்சாகத்துடன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fickle</Data></Cell>
+    <Cell><Data ss:Type="String">நிலையற்றது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Figurehead</Data></Cell>
+    <Cell><Data ss:Type="String">பெரும்புள்ளியாகவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Filibuster</Data></Cell>
+    <Cell><Data ss:Type="String">முட்டுக்கட்டைகளை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Finesse</Data></Cell>
+    <Cell><Data ss:Type="String">பைனஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flagrant</Data></Cell>
+    <Cell><Data ss:Type="String">வெளிப்படையாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flamboyant</Data></Cell>
+    <Cell><Data ss:Type="String">அலங்காரமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flaunt</Data></Cell>
+    <Cell><Data ss:Type="String">ஆடம்பரமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flustered</Data></Cell>
+    <Cell><Data ss:Type="String">பயந்துவிட்டேன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fly-by-night</Data></Cell>
+    <Cell><Data ss:Type="String">Fly-by-இரவு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foment</Data></Cell>
+    <Cell><Data ss:Type="String">சிறிதான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Forage</Data></Cell>
+    <Cell><Data ss:Type="String">தீவனம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Forensic</Data></Cell>
+    <Cell><Data ss:Type="String">தடயவியல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foreshadowed</Data></Cell>
+    <Cell><Data ss:Type="String">கேங்க்ஸ் ஆஃப் நியூயார்க்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fortitude</Data></Cell>
+    <Cell><Data ss:Type="String">உளவலிமை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fortuitous</Data></Cell>
+    <Cell><Data ss:Type="String">தற்செயலான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fraudulent</Data></Cell>
+    <Cell><Data ss:Type="String">மோசடி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fringe</Data></Cell>
+    <Cell><Data ss:Type="String">தொங்கல்கள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Frivolous</Data></Cell>
+    <Cell><Data ss:Type="String">அற்பமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Furrow</Data></Cell>
+    <Cell><Data ss:Type="String">வரப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Futile</Data></Cell>
+    <Cell><Data ss:Type="String">வீண்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gall</Data></Cell>
+    <Cell><Data ss:Type="String">பித்தப்பை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gambit</Data></Cell>
+    <Cell><Data ss:Type="String">கம்பிட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Garner</Data></Cell>
+    <Cell><Data ss:Type="String">கார்னர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Genre</Data></Cell>
+    <Cell><Data ss:Type="String">வகை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Germinal</Data></Cell>
+    <Cell><Data ss:Type="String">நோய்பரவல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gerontocracy</Data></Cell>
+    <Cell><Data ss:Type="String">கெரோண்டோக்ரசி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gist</Data></Cell>
+    <Cell><Data ss:Type="String">மைய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Glacial</Data></Cell>
+    <Cell><Data ss:Type="String">பனிப்படல</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Grate &lt;i&gt;(v)&lt;/i&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;i&gt; (V) &lt;/ i&gt; Grate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gratuitous</Data></Cell>
+    <Cell><Data ss:Type="String">இலவச</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gravity</Data></Cell>
+    <Cell><Data ss:Type="String">கிராவிட்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gritty</Data></Cell>
+    <Cell><Data ss:Type="String">அபாயகரமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Guileless</Data></Cell>
+    <Cell><Data ss:Type="String">கபடமற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gullible</Data></Cell>
+    <Cell><Data ss:Type="String">சுலபமாக ஏமாற்றிவிடலாம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hack</Data></Cell>
+    <Cell><Data ss:Type="String">ஹேக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Halcyon</Data></Cell>
+    <Cell><Data ss:Type="String">ஹால்க்யோன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hamper</Data></Cell>
+    <Cell><Data ss:Type="String">இடையூறு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hangar</Data></Cell>
+    <Cell><Data ss:Type="String">ஹாங்கர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hapless</Data></Cell>
+    <Cell><Data ss:Type="String">துரதிஷ்டமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hasten</Data></Cell>
+    <Cell><Data ss:Type="String">விரைவுபடுத்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Headstrong</Data></Cell>
+    <Cell><Data ss:Type="String">மிகுந்த பலசாலியான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Heed</Data></Cell>
+    <Cell><Data ss:Type="String">சத்தியமாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hegemony</Data></Cell>
+    <Cell><Data ss:Type="String">ஆதிக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hiatus</Data></Cell>
+    <Cell><Data ss:Type="String">ஹைட்டஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hinder</Data></Cell>
+    <Cell><Data ss:Type="String">தடையாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Histrionic</Data></Cell>
+    <Cell><Data ss:Type="String">நடிப்புத்திறனுடைய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Homiletics</Data></Cell>
+    <Cell><Data ss:Type="String">சமய போதனை கலைக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Homogeneity</Data></Cell>
+    <Cell><Data ss:Type="String">ஓரினத்தன்மை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hone</Data></Cell>
+    <Cell><Data ss:Type="String">ஹோன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hypochondriac</Data></Cell>
+    <Cell><Data ss:Type="String">கற்பனை பிணிக்காளான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Illuminate</Data></Cell>
+    <Cell><Data ss:Type="String">நீக்கவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Illusory</Data></Cell>
+    <Cell><Data ss:Type="String">மறைபொருளான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Immutable</Data></Cell>
+    <Cell><Data ss:Type="String">பரஸ்பரத்தன்மையற்றது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impartial</Data></Cell>
+    <Cell><Data ss:Type="String">பாரபட்சமற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impeding</Data></Cell>
+    <Cell><Data ss:Type="String">தாமதப்படுத்தியது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Imperative</Data></Cell>
+    <Cell><Data ss:Type="String">கட்டாயம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impoverished</Data></Cell>
+    <Cell><Data ss:Type="String">வறிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impromptu</Data></Cell>
+    <Cell><Data ss:Type="String">முன்னேற்பாடற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impropriety</Data></Cell>
+    <Cell><Data ss:Type="String">சரியில்லாமை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inadvertent</Data></Cell>
+    <Cell><Data ss:Type="String">கவனக்குறைவாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incantation</Data></Cell>
+    <Cell><Data ss:Type="String">அந்த மந்திர உச்சரிப்புகளில்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incarceration</Data></Cell>
+    <Cell><Data ss:Type="String">சிறைவைப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incipient</Data></Cell>
+    <Cell><Data ss:Type="String">அதனுடன் ஆரம்ப</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inclination</Data></Cell>
+    <Cell><Data ss:Type="String">சாய்வளவை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incoherent</Data></Cell>
+    <Cell><Data ss:Type="String">ஒத்திசைவற்றது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incongruous</Data></Cell>
+    <Cell><Data ss:Type="String">முன்னுக்கு பின் முரணான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inconsequential</Data></Cell>
+    <Cell><Data ss:Type="String">வெற்றி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inconspicuous</Data></Cell>
+    <Cell><Data ss:Type="String">தெளிவில்லாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incumbents</Data></Cell>
+    <Cell><Data ss:Type="String">பொறுப்பு வகிப்பவர்களால் கையகப்படுத்தப்பட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indelible</Data></Cell>
+    <Cell><Data ss:Type="String">அழிக்கமுடியாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indicted</Data></Cell>
+    <Cell><Data ss:Type="String">குற்றஞ்சாட்டப்பட்டார்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indifferent</Data></Cell>
+    <Cell><Data ss:Type="String">அக்கறையில்லாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indigenous</Data></Cell>
+    <Cell><Data ss:Type="String">சுதேச</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inductee</Data></Cell>
+    <Cell><Data ss:Type="String">இன்டக்டீ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inept</Data></Cell>
+    <Cell><Data ss:Type="String">திறமையற்றவர்களாய்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inertia</Data></Cell>
+    <Cell><Data ss:Type="String">ஆற்றல் மாறா தன்மை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inevitable</Data></Cell>
+    <Cell><Data ss:Type="String">இனிவிட்பில்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inexorable</Data></Cell>
+    <Cell><Data ss:Type="String">இரக்கமற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infallible</Data></Cell>
+    <Cell><Data ss:Type="String">இன்ஃபாலிபிள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infamous</Data></Cell>
+    <Cell><Data ss:Type="String">இன்ஃபேமஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infer</Data></Cell>
+    <Cell><Data ss:Type="String">உய்த்துணரும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inimical</Data></Cell>
+    <Cell><Data ss:Type="String">பகையானவராக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Iniquitous</Data></Cell>
+    <Cell><Data ss:Type="String">துன்பம் விளைவிக்கிறதாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innate</Data></Cell>
+    <Cell><Data ss:Type="String">உடனிணைந்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innocuous</Data></Cell>
+    <Cell><Data ss:Type="String">தீங்கற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innovate</Data></Cell>
+    <Cell><Data ss:Type="String">புத்தமை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inscrutable</Data></Cell>
+    <Cell><Data ss:Type="String">புரிந்து கொள்ள கடினமானது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Instigate</Data></Cell>
+    <Cell><Data ss:Type="String">தூண்டிவிடுகிறீர்கள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Instigator</Data></Cell>
+    <Cell><Data ss:Type="String">தூண்டி விடுகிறார்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Insurgent</Data></Cell>
+    <Cell><Data ss:Type="String">தாக்கும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intangible</Data></Cell>
+    <Cell><Data ss:Type="String">புலப்படா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intelligible</Data></Cell>
+    <Cell><Data ss:Type="String">புரிந்துகொள்ளத்தக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intermittent</Data></Cell>
+    <Cell><Data ss:Type="String">இடைவிட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Interregnum</Data></Cell>
+    <Cell><Data ss:Type="String">இடைப்பட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intractability</Data></Cell>
+    <Cell><Data ss:Type="String">நிர்வகிக்க இயலாத தன்மை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intrepid</Data></Cell>
+    <Cell><Data ss:Type="String">இன்ட்ரெபிட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inviolable</Data></Cell>
+    <Cell><Data ss:Type="String">மீறக்கூடாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ire</Data></Cell>
+    <Cell><Data ss:Type="String">சினத்தை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ironic</Data></Cell>
+    <Cell><Data ss:Type="String">முரண்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irrational</Data></Cell>
+    <Cell><Data ss:Type="String">அறிவுக்கு பொருந்தாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irrevocable</Data></Cell>
+    <Cell><Data ss:Type="String">மாற்ற இயலாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Itinerant</Data></Cell>
+    <Cell><Data ss:Type="String">நாடோடி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jaded</Data></Cell>
+    <Cell><Data ss:Type="String">புளித்துப்போவார்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jargon</Data></Cell>
+    <Cell><Data ss:Type="String">பொருளற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jaundiced</Data></Cell>
+    <Cell><Data ss:Type="String">மஞ்சள் காமாலையால் பாதிக்கப்பட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jeopardize</Data></Cell>
+    <Cell><Data ss:Type="String">சிக்கலுக்குள்ளாக்கும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jockeying</Data></Cell>
+    <Cell><Data ss:Type="String">பிடிப்பதில் எப்போதுமே போட்ஜிபோட்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Judicious</Data></Cell>
+    <Cell><Data ss:Type="String">சிறப்பான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jurisprudence</Data></Cell>
+    <Cell><Data ss:Type="String">நீதி பரிபாலனம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Kindle</Data></Cell>
+    <Cell><Data ss:Type="String">கின்டெல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Knotty</Data></Cell>
+    <Cell><Data ss:Type="String">க்னாட்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Labyrinth</Data></Cell>
+    <Cell><Data ss:Type="String">லாபிரிந்த்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Labyrinthine</Data></Cell>
+    <Cell><Data ss:Type="String">சிக்கல்நிலையிலுள்ள</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Laceration</Data></Cell>
+    <Cell><Data ss:Type="String">கீறல்காயம் ஏற்பட்டது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lackluster</Data></Cell>
+    <Cell><Data ss:Type="String">மோசமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lacuna</Data></Cell>
+    <Cell><Data ss:Type="String">லாகுனா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lance</Data></Cell>
+    <Cell><Data ss:Type="String">லான்ஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Languish</Data></Cell>
+    <Cell><Data ss:Type="String">வாட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Largess</Data></Cell>
+    <Cell><Data ss:Type="String">மாயம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Latent</Data></Cell>
+    <Cell><Data ss:Type="String">மறை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Laud</Data></Cell>
+    <Cell><Data ss:Type="String">பாராட்டுகிறேன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lavish</Data></Cell>
+    <Cell><Data ss:Type="String">பகட்டான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lax</Data></Cell>
+    <Cell><Data ss:Type="String">லாக்ஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Leaven</Data></Cell>
+    <Cell><Data ss:Type="String">கமீர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Legend</Data></Cell>
+    <Cell><Data ss:Type="String">விளக்கம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Legion</Data></Cell>
+    <Cell><Data ss:Type="String">ஹானர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lethargic</Data></Cell>
+    <Cell><Data ss:Type="String">மந்தமாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Levee</Data></Cell>
+    <Cell><Data ss:Type="String">தடுப்புச்சுவர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Libertarian</Data></Cell>
+    <Cell><Data ss:Type="String">லிபர்டேரியன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lien</Data></Cell>
+    <Cell><Data ss:Type="String">உரிமை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lint</Data></Cell>
+    <Cell><Data ss:Type="String">பஞ்சு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Liturgy</Data></Cell>
+    <Cell><Data ss:Type="String">பொது வழிப்பாட்டிற்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lofty</Data></Cell>
+    <Cell><Data ss:Type="String">லோஃப்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Longevity</Data></Cell>
+    <Cell><Data ss:Type="String">ஆயுளை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lucid</Data></Cell>
+    <Cell><Data ss:Type="String">தெளிவான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ludicrous</Data></Cell>
+    <Cell><Data ss:Type="String">முழுக்க நகைப்பிற்கிடமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lukewarm</Data></Cell>
+    <Cell><Data ss:Type="String">மந்தமாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lumber</Data></Cell>
+    <Cell><Data ss:Type="String">லம்பர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Luminary</Data></Cell>
+    <Cell><Data ss:Type="String">பேரொளி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Luscious</Data></Cell>
+    <Cell><Data ss:Type="String">லூஸ்சியஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lynch</Data></Cell>
+    <Cell><Data ss:Type="String">லிஞ்ச்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Maelstrom</Data></Cell>
+    <Cell><Data ss:Type="String">கடல் நீர்ச்சுழல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Magnanimous</Data></Cell>
+    <Cell><Data ss:Type="String">தாராளமானவன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Magnate</Data></Cell>
+    <Cell><Data ss:Type="String">தயாரி்ப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malevolent</Data></Cell>
+    <Cell><Data ss:Type="String">தீங்குவிளைவிக்கும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malign</Data></Cell>
+    <Cell><Data ss:Type="String">கெடுத்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malleable</Data></Cell>
+    <Cell><Data ss:Type="String">இணக்கமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mallet</Data></Cell>
+    <Cell><Data ss:Type="String">மரச்சுத்தியல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Manipulative</Data></Cell>
+    <Cell><Data ss:Type="String">சூழ்ச்சி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marred</Data></Cell>
+    <Cell><Data ss:Type="String">அழிவு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marshal</Data></Cell>
+    <Cell><Data ss:Type="String">மார்ஷல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marsupial</Data></Cell>
+    <Cell><Data ss:Type="String">மார்சுப்பியல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Martinet</Data></Cell>
+    <Cell><Data ss:Type="String">மார்டினெட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">மேவ்ரிக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Meager</Data></Cell>
+    <Cell><Data ss:Type="String">வெறும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mellow</Data></Cell>
+    <Cell><Data ss:Type="String">இனிமையான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Menagerie</Data></Cell>
+    <Cell><Data ss:Type="String">மிருகக்காட்சிசாலையில்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mercenary</Data></Cell>
+    <Cell><Data ss:Type="String">கூலிப்படை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mercurial</Data></Cell>
+    <Cell><Data ss:Type="String">விலக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Merge</Data></Cell>
+    <Cell><Data ss:Type="String">ஒன்றாக்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Metaphorically</Data></Cell>
+    <Cell><Data ss:Type="String">உருவகஞ்சார்ந்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Meticulous</Data></Cell>
+    <Cell><Data ss:Type="String">உன்னிப்பாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mettle</Data></Cell>
+    <Cell><Data ss:Type="String">மெய்ப்பித்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Milieu</Data></Cell>
+    <Cell><Data ss:Type="String">சூழல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Milk</Data></Cell>
+    <Cell><Data ss:Type="String">பால்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Minutiae</Data></Cell>
+    <Cell><Data ss:Type="String">மிகச்சிறிய பொருட்களை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mire</Data></Cell>
+    <Cell><Data ss:Type="String">புதை குழியில்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misanthrope</Data></Cell>
+    <Cell><Data ss:Type="String">தி மிஸான்த்ரோப்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misnomer</Data></Cell>
+    <Cell><Data ss:Type="String">தவறான சொல்வழக்காக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misrepresentation</Data></Cell>
+    <Cell><Data ss:Type="String">தவறாக பிரதிநிதித்தல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mitigate</Data></Cell>
+    <Cell><Data ss:Type="String">மட்டுப்படுத்தவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mitigation</Data></Cell>
+    <Cell><Data ss:Type="String">மட்டுப்படுத்தல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Modest</Data></Cell>
+    <Cell><Data ss:Type="String">கண்ணியமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Momentous</Data></Cell>
+    <Cell><Data ss:Type="String">நேரத்துக்கும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Monolithic</Data></Cell>
+    <Cell><Data ss:Type="String">மோனோலித்திக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Monotonous</Data></Cell>
+    <Cell><Data ss:Type="String">சலிப்பான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Moratorium</Data></Cell>
+    <Cell><Data ss:Type="String">தள்ளிப்போட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Moribund</Data></Cell>
+    <Cell><Data ss:Type="String">இறுதிக்கட்டதை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Morose</Data></Cell>
+    <Cell><Data ss:Type="String">கவலையுடன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mundane</Data></Cell>
+    <Cell><Data ss:Type="String">வாதாடினார்கள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Muse</Data></Cell>
+    <Cell><Data ss:Type="String">மூஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Myriad</Data></Cell>
+    <Cell><Data ss:Type="String">எண்ணற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nadir</Data></Cell>
+    <Cell><Data ss:Type="String">நாதிர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nascent</Data></Cell>
+    <Cell><Data ss:Type="String">ஆரம்பகட்டத்தில்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Navigable</Data></Cell>
+    <Cell><Data ss:Type="String">பயணிக்கக்கூடிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Negate</Data></Cell>
+    <Cell><Data ss:Type="String">அழிக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Negligence</Data></Cell>
+    <Cell><Data ss:Type="String">அலட்சியம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Neologism</Data></Cell>
+    <Cell><Data ss:Type="String">புது சொல்லாக்கம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nexus</Data></Cell>
+    <Cell><Data ss:Type="String">நெக்ஸஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nomadic</Data></Cell>
+    <Cell><Data ss:Type="String">நாடோடி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nonplussed</Data></Cell>
+    <Cell><Data ss:Type="String">இதற்கு மெளனமாய்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nostalgia</Data></Cell>
+    <Cell><Data ss:Type="String">நாஸ்டல்ஜியா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Notoriety</Data></Cell>
+    <Cell><Data ss:Type="String">கெட்டதற்கு பெயர்போன</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Novel</Data></Cell>
+    <Cell><Data ss:Type="String">நாவல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Novice</Data></Cell>
+    <Cell><Data ss:Type="String">புதியவள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Noxious</Data></Cell>
+    <Cell><Data ss:Type="String">நச்சு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nuance</Data></Cell>
+    <Cell><Data ss:Type="String">நுட்பத்தையும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nullify</Data></Cell>
+    <Cell><Data ss:Type="String">செல்லாததாக்கிவிட்டால்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obdurate</Data></Cell>
+    <Cell><Data ss:Type="String">நெஞ்சழுத்தமிக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Objective</Data></Cell>
+    <Cell><Data ss:Type="String">குறிக்கோள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obligate</Data></Cell>
+    <Cell><Data ss:Type="String">கட்டுப்பட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oblique</Data></Cell>
+    <Cell><Data ss:Type="String">சாய்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oblivious</Data></Cell>
+    <Cell><Data ss:Type="String">கவலையும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obscure</Data></Cell>
+    <Cell><Data ss:Type="String">தெளிவற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obscured</Data></Cell>
+    <Cell><Data ss:Type="String">மறைக்கப்பட்டது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obsession</Data></Cell>
+    <Cell><Data ss:Type="String">ஆவேசம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obsolete</Data></Cell>
+    <Cell><Data ss:Type="String">வழக்கொழிந்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Occluded</Data></Cell>
+    <Cell><Data ss:Type="String">தடை செய்யப்பட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Odious</Data></Cell>
+    <Cell><Data ss:Type="String">ஓடியஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ogle</Data></Cell>
+    <Cell><Data ss:Type="String">சீண்டினீர்களென்றால்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ominous</Data></Cell>
+    <Cell><Data ss:Type="String">வட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Omnipotent</Data></Cell>
+    <Cell><Data ss:Type="String">மாத்திரம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Omniscient</Data></Cell>
+    <Cell><Data ss:Type="String">எல்லாம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Onus</Data></Cell>
+    <Cell><Data ss:Type="String">பொறுப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Opaque</Data></Cell>
+    <Cell><Data ss:Type="String">ஒளிபுகாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Opulent</Data></Cell>
+    <Cell><Data ss:Type="String">வளமிக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ornate</Data></Cell>
+    <Cell><Data ss:Type="String">ஓர்னெட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Orthodox</Data></Cell>
+    <Cell><Data ss:Type="String">கட்டுப்பாடான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oust</Data></Cell>
+    <Cell><Data ss:Type="String">வெளியேற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Overt</Data></Cell>
+    <Cell><Data ss:Type="String">வெளிப்படையான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paean</Data></Cell>
+    <Cell><Data ss:Type="String">பியன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palatable</Data></Cell>
+    <Cell><Data ss:Type="String">அத்தியாயமாகவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palisade</Data></Cell>
+    <Cell><Data ss:Type="String">வேலிக்கால் அணு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palliative</Data></Cell>
+    <Cell><Data ss:Type="String">நோய் தணிப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palpable</Data></Cell>
+    <Cell><Data ss:Type="String">தொட்டு உணரக்கூடிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Panacea</Data></Cell>
+    <Cell><Data ss:Type="String">சஞ்சீவி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Papyrus</Data></Cell>
+    <Cell><Data ss:Type="String">பாபிரஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paradigm</Data></Cell>
+    <Cell><Data ss:Type="String">உருமாதிரி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paradox</Data></Cell>
+    <Cell><Data ss:Type="String">முரண்பாடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paragon</Data></Cell>
+    <Cell><Data ss:Type="String">பாராகான்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paramount</Data></Cell>
+    <Cell><Data ss:Type="String">பாரமவுண்ட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paranoia</Data></Cell>
+    <Cell><Data ss:Type="String">துன்புறு மனநோய்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parasite</Data></Cell>
+    <Cell><Data ss:Type="String">ஒட்டுண்ணி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parched</Data></Cell>
+    <Cell><Data ss:Type="String">வறண்டுவிட்டது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parenthesis</Data></Cell>
+    <Cell><Data ss:Type="String">அடைப்புக்குறிகளை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pariah</Data></Cell>
+    <Cell><Data ss:Type="String">பாரியா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parity</Data></Cell>
+    <Cell><Data ss:Type="String">சமநிலை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parochial</Data></Cell>
+    <Cell><Data ss:Type="String">பரோசியால்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parody</Data></Cell>
+    <Cell><Data ss:Type="String">பகடி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parry</Data></Cell>
+    <Cell><Data ss:Type="String">பாரி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parsimony</Data></Cell>
+    <Cell><Data ss:Type="String">கஞ்சத்தனம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Partiality</Data></Cell>
+    <Cell><Data ss:Type="String">பக்க சார்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Partisan</Data></Cell>
+    <Cell><Data ss:Type="String">பார்ட்டிச</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pastiche</Data></Cell>
+    <Cell><Data ss:Type="String">பிறர் கருத்து வந்தனம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pathos</Data></Cell>
+    <Cell><Data ss:Type="String">இரக்க குணம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Patron</Data></Cell>
+    <Cell><Data ss:Type="String">புரவலர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Patronize</Data></Cell>
+    <Cell><Data ss:Type="String">ஆவர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Patronize</Data></Cell>
+    <Cell><Data ss:Type="String">ஆவர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paucity</Data></Cell>
+    <Cell><Data ss:Type="String">போதாமை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedagogy</Data></Cell>
+    <Cell><Data ss:Type="String">கற்பிப்பியல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedestrian</Data></Cell>
+    <Cell><Data ss:Type="String">பாதசாரி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peer</Data></Cell>
+    <Cell><Data ss:Type="String">பீர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peerless</Data></Cell>
+    <Cell><Data ss:Type="String">ஒப்பற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pejorative</Data></Cell>
+    <Cell><Data ss:Type="String">இழிவுபடுத்தும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Penchant</Data></Cell>
+    <Cell><Data ss:Type="String">மனநிலையோடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perennial</Data></Cell>
+    <Cell><Data ss:Type="String">வற்றாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peripheral</Data></Cell>
+    <Cell><Data ss:Type="String">பெரிபரல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perjury</Data></Cell>
+    <Cell><Data ss:Type="String">பொய் வாக்கு மூலம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pernicious</Data></Cell>
+    <Cell><Data ss:Type="String">முதுவயது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perpetuity</Data></Cell>
+    <Cell><Data ss:Type="String">நிரந்தரமாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Personification</Data></Cell>
+    <Cell><Data ss:Type="String">உருவகம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perspicacity</Data></Cell>
+    <Cell><Data ss:Type="String">நுண்மாண் நுழைபுலம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pertain</Data></Cell>
+    <Cell><Data ss:Type="String">தொடர்புடையதாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pertinent</Data></Cell>
+    <Cell><Data ss:Type="String">ஏற்புடைய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pervasive</Data></Cell>
+    <Cell><Data ss:Type="String">பெர்வசிவ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Phenomenology</Data></Cell>
+    <Cell><Data ss:Type="String">நிகழ்வியலின்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Phenomenon</Data></Cell>
+    <Cell><Data ss:Type="String">நிகழ்வு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Philanthropy</Data></Cell>
+    <Cell><Data ss:Type="String">அறப்பணி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Philistine</Data></Cell>
+    <Cell><Data ss:Type="String">பிலீஸ்தியர்கள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pine</Data></Cell>
+    <Cell><Data ss:Type="String">பைன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pinnacle</Data></Cell>
+    <Cell><Data ss:Type="String">உச்சம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pious</Data></Cell>
+    <Cell><Data ss:Type="String">தெய்வீக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pith</Data></Cell>
+    <Cell><Data ss:Type="String">சோற்றியையும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pivotal</Data></Cell>
+    <Cell><Data ss:Type="String">முக்கிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Placate</Data></Cell>
+    <Cell><Data ss:Type="String">சமாதானப்படுத்துவது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Placebo</Data></Cell>
+    <Cell><Data ss:Type="String">மருந்துப்போலி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plagiarism</Data></Cell>
+    <Cell><Data ss:Type="String">திருட்டு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaintiff</Data></Cell>
+    <Cell><Data ss:Type="String">வாதியாகவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaque</Data></Cell>
+    <Cell><Data ss:Type="String">முனை மழுங்கிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plausibility</Data></Cell>
+    <Cell><Data ss:Type="String">உண்மைத்தன்மை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plausible</Data></Cell>
+    <Cell><Data ss:Type="String">நம்பத்தகுந்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plethora</Data></Cell>
+    <Cell><Data ss:Type="String">மிகுதியான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pliable</Data></Cell>
+    <Cell><Data ss:Type="String">உணவை உண்ணுவதற்கு வசதியாக வளைக்கூடியதாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pluck</Data></Cell>
+    <Cell><Data ss:Type="String">பறிக்கலாமா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plummet</Data></Cell>
+    <Cell><Data ss:Type="String">வீழ்ச்சியடைந்தன</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Podium</Data></Cell>
+    <Cell><Data ss:Type="String">போடியம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Poignant</Data></Cell>
+    <Cell><Data ss:Type="String">எரிச்சலூட்டுகிற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Poised</Data></Cell>
+    <Cell><Data ss:Type="String">தயாராக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posterity</Data></Cell>
+    <Cell><Data ss:Type="String">கவனத்துடன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posthumous</Data></Cell>
+    <Cell><Data ss:Type="String">போஸ்துமஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Postulate</Data></Cell>
+    <Cell><Data ss:Type="String">அடிக்கோள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posture</Data></Cell>
+    <Cell><Data ss:Type="String">சாய்வு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Potable</Data></Cell>
+    <Cell><Data ss:Type="String">அருந்தத்தக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Potent</Data></Cell>
+    <Cell><Data ss:Type="String">சாத்தியமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pragmatic</Data></Cell>
+    <Cell><Data ss:Type="String">நடைமுறைக்கேற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preamble</Data></Cell>
+    <Cell><Data ss:Type="String">முன்னுரை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precarious</Data></Cell>
+    <Cell><Data ss:Type="String">நிலையற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precedent</Data></Cell>
+    <Cell><Data ss:Type="String">முன்னியை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipice</Data></Cell>
+    <Cell><Data ss:Type="String">செங்குத்துப்பாறை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipitate</Data></Cell>
+    <Cell><Data ss:Type="String">வீழ்படிவுறுகிறது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipitous</Data></Cell>
+    <Cell><Data ss:Type="String">அகன்றும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preclude</Data></Cell>
+    <Cell><Data ss:Type="String">தடுப்பதற்கான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predecessor</Data></Cell>
+    <Cell><Data ss:Type="String">முன்னோடி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predicament</Data></Cell>
+    <Cell><Data ss:Type="String">கஷ்டமான நிலை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preeminent</Data></Cell>
+    <Cell><Data ss:Type="String">புகழ்பெற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prerogative</Data></Cell>
+    <Cell><Data ss:Type="String">அன்பழகன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pretension</Data></Cell>
+    <Cell><Data ss:Type="String">வெளிவேஷம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pretentious</Data></Cell>
+    <Cell><Data ss:Type="String">ஆடம்பரமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Primordial</Data></Cell>
+    <Cell><Data ss:Type="String">ஆதியிலிருந்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pristine</Data></Cell>
+    <Cell><Data ss:Type="String">அழகிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Procrastinate</Data></Cell>
+    <Cell><Data ss:Type="String">தள்ளிப்போடும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prodigal</Data></Cell>
+    <Cell><Data ss:Type="String">ஊதாரித்தனமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profane</Data></Cell>
+    <Cell><Data ss:Type="String">ஆளாகியிருப்பதாகவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profanity</Data></Cell>
+    <Cell><Data ss:Type="String">அவதூறு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profound</Data></Cell>
+    <Cell><Data ss:Type="String">ஆழமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prohibitive</Data></Cell>
+    <Cell><Data ss:Type="String">தடைசெய்யப்பட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proletarian</Data></Cell>
+    <Cell><Data ss:Type="String">பாட்டாளி வர்க்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proliferate</Data></Cell>
+    <Cell><Data ss:Type="String">பெருகுகிறது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prolific</Data></Cell>
+    <Cell><Data ss:Type="String">செழிப்பான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prominent</Data></Cell>
+    <Cell><Data ss:Type="String">முன்னணி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prone</Data></Cell>
+    <Cell><Data ss:Type="String">புரண்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Propensity</Data></Cell>
+    <Cell><Data ss:Type="String">நாட்டம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proponents</Data></Cell>
+    <Cell><Data ss:Type="String">ஆதரிப்போர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prosaic</Data></Cell>
+    <Cell><Data ss:Type="String">பிறவற்றில்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prosody</Data></Cell>
+    <Cell><Data ss:Type="String">உரைநடை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Protagonist</Data></Cell>
+    <Cell><Data ss:Type="String">முக்கிய பாத்திரம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Protégé</Data></Cell>
+    <Cell><Data ss:Type="String">ஆதரவாளர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Protocol</Data></Cell>
+    <Cell><Data ss:Type="String">நெறிமுறை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Provincial</Data></Cell>
+    <Cell><Data ss:Type="String">மாகாண</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proximate</Data></Cell>
+    <Cell><Data ss:Type="String">நெருக்கமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prudence</Data></Cell>
+    <Cell><Data ss:Type="String">மதிநுட்பம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prudent</Data></Cell>
+    <Cell><Data ss:Type="String">கவனமாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prune</Data></Cell>
+    <Cell><Data ss:Type="String">ப்ரூனே</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Psychosis</Data></Cell>
+    <Cell><Data ss:Type="String">உளப்பிணி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pundit</Data></Cell>
+    <Cell><Data ss:Type="String">பண்டிட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Purchase</Data></Cell>
+    <Cell><Data ss:Type="String">வாங்கவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pyre</Data></Cell>
+    <Cell><Data ss:Type="String">உருவ பொம்மை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quack</Data></Cell>
+    <Cell><Data ss:Type="String">கத்தும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quagmire</Data></Cell>
+    <Cell><Data ss:Type="String">வியூகத்தை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quaint</Data></Cell>
+    <Cell><Data ss:Type="String">தள்ளியிருப்பது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Qualm</Data></Cell>
+    <Cell><Data ss:Type="String">குவாம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quarantine</Data></Cell>
+    <Cell><Data ss:Type="String">தனிமைப்படுத்தப்பட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quarry</Data></Cell>
+    <Cell><Data ss:Type="String">துஷாரி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quell</Data></Cell>
+    <Cell><Data ss:Type="String">சண்டையை முடிவுக்கு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quibble</Data></Cell>
+    <Cell><Data ss:Type="String">சொல் விளையாட்டு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quintessential</Data></Cell>
+    <Cell><Data ss:Type="String">சாராம்சமாகவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quirk</Data></Cell>
+    <Cell><Data ss:Type="String">குவர்க்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ramble</Data></Cell>
+    <Cell><Data ss:Type="String">ராம்பிள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ramifications</Data></Cell>
+    <Cell><Data ss:Type="String">கிளைத்தலும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rancor</Data></Cell>
+    <Cell><Data ss:Type="String">கோபமும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ratify</Data></Cell>
+    <Cell><Data ss:Type="String">மறு பரிசீலனை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ready</Data></Cell>
+    <Cell><Data ss:Type="String">தயார்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Receptacle</Data></Cell>
+    <Cell><Data ss:Type="String">வாங்கி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recluse</Data></Cell>
+    <Cell><Data ss:Type="String">தனித்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reconnaissance</Data></Cell>
+    <Cell><Data ss:Type="String">வேவுப்பணி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recuperate</Data></Cell>
+    <Cell><Data ss:Type="String">சமாளிப்பதை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Red tape</Data></Cell>
+    <Cell><Data ss:Type="String">சிகப்பு நாடா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Redress</Data></Cell>
+    <Cell><Data ss:Type="String">குறைதீர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Redundant</Data></Cell>
+    <Cell><Data ss:Type="String">மிகைப்படுத்தப்பட்ட</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Referendum</Data></Cell>
+    <Cell><Data ss:Type="String">வாக்கெடுப்பு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Refute</Data></Cell>
+    <Cell><Data ss:Type="String">மறுக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rekindle</Data></Cell>
+    <Cell><Data ss:Type="String">அனல் மூட்டியெழுப்ப</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Remorse</Data></Cell>
+    <Cell><Data ss:Type="String">மனஉலைவு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Remuneration</Data></Cell>
+    <Cell><Data ss:Type="String">ஊதியம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Renown</Data></Cell>
+    <Cell><Data ss:Type="String">புகழை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rent</Data></Cell>
+    <Cell><Data ss:Type="String">வாடகை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reprieve</Data></Cell>
+    <Cell><Data ss:Type="String">இடை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Repudiate</Data></Cell>
+    <Cell><Data ss:Type="String">மறுத்தது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rescind</Data></Cell>
+    <Cell><Data ss:Type="String">வாபஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resignation</Data></Cell>
+    <Cell><Data ss:Type="String">ராஜினாமாவுக்கான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resilience</Data></Cell>
+    <Cell><Data ss:Type="String">மீள்திறன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resolution</Data></Cell>
+    <Cell><Data ss:Type="String">தீர்மானம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resolve</Data></Cell>
+    <Cell><Data ss:Type="String">தீர்க்கவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resonant</Data></Cell>
+    <Cell><Data ss:Type="String">ஒத்ததிர்வு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Respite</Data></Cell>
+    <Cell><Data ss:Type="String">ஓய்வுக்கான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Restorative</Data></Cell>
+    <Cell><Data ss:Type="String">பழைய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resuscitation</Data></Cell>
+    <Cell><Data ss:Type="String">மூச்சு முடுக்கி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Retention</Data></Cell>
+    <Cell><Data ss:Type="String">நினைவாற்றல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reticent</Data></Cell>
+    <Cell><Data ss:Type="String">தயக்கத்துடன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Retraction</Data></Cell>
+    <Cell><Data ss:Type="String">உள்ளிழுத்தல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Revere</Data></Cell>
+    <Cell><Data ss:Type="String">மரியாதை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Riddled</Data></Cell>
+    <Cell><Data ss:Type="String">விளக்கப்படுவனவாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rigor</Data></Cell>
+    <Cell><Data ss:Type="String">குளிர்நடுக்கம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Riveting</Data></Cell>
+    <Cell><Data ss:Type="String">குடையாணி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Robust</Data></Cell>
+    <Cell><Data ss:Type="String">ஆரோக்கியமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Roster</Data></Cell>
+    <Cell><Data ss:Type="String">பெயர்பட்டியல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Runic</Data></Cell>
+    <Cell><Data ss:Type="String">ஜெர்மானிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ruse</Data></Cell>
+    <Cell><Data ss:Type="String">திட்டம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Saccharin</Data></Cell>
+    <Cell><Data ss:Type="String">சாக்கரின்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sage</Data></Cell>
+    <Cell><Data ss:Type="String">முனிவரே!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sanction</Data></Cell>
+    <Cell><Data ss:Type="String">அனுமதி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Savant</Data></Cell>
+    <Cell><Data ss:Type="String">சேவண்ட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Saw</Data></Cell>
+    <Cell><Data ss:Type="String">கண்டது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scale</Data></Cell>
+    <Cell><Data ss:Type="String">அளவு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scapegoat</Data></Cell>
+    <Cell><Data ss:Type="String">பலிகடா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scrupulous</Data></Cell>
+    <Cell><Data ss:Type="String">விழிப்பு மிகுந்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scrutinize</Data></Cell>
+    <Cell><Data ss:Type="String">என்னவென்பதை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scurvy</Data></Cell>
+    <Cell><Data ss:Type="String">ஸ்கர்வி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scuttle</Data></Cell>
+    <Cell><Data ss:Type="String">மறைக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seminal</Data></Cell>
+    <Cell><Data ss:Type="String">தழுவல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seminary</Data></Cell>
+    <Cell><Data ss:Type="String">குருமடம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sensuous</Data></Cell>
+    <Cell><Data ss:Type="String">புலனுணர்வு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sentinel</Data></Cell>
+    <Cell><Data ss:Type="String">சென்டினல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sequester</Data></Cell>
+    <Cell><Data ss:Type="String">பிரிப்பதற்குள்ள</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sere</Data></Cell>
+    <Cell><Data ss:Type="String">செரி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Serendipity</Data></Cell>
+    <Cell><Data ss:Type="String">செரண்டிபிட்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Serene</Data></Cell>
+    <Cell><Data ss:Type="String">சாந்தம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Serrated</Data></Cell>
+    <Cell><Data ss:Type="String">இரம்பப்பல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Shard</Data></Cell>
+    <Cell><Data ss:Type="String">சில்லை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Shirk</Data></Cell>
+    <Cell><Data ss:Type="String">தவிர்க்கிறேன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sidereal</Data></Cell>
+    <Cell><Data ss:Type="String">மீன்வழி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sinecure</Data></Cell>
+    <Cell><Data ss:Type="String">மாத்திரம் இந்த வசதியை பெறவில்லை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Skeptical</Data></Cell>
+    <Cell><Data ss:Type="String">ஐயுறவான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Slew</Data></Cell>
+    <Cell><Data ss:Type="String">பெருந்தொகை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Slight</Data></Cell>
+    <Cell><Data ss:Type="String">சிறிது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Smelt</Data></Cell>
+    <Cell><Data ss:Type="String">கெலங்கா மீன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Solace</Data></Cell>
+    <Cell><Data ss:Type="String">சாந்தி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Solicit</Data></Cell>
+    <Cell><Data ss:Type="String">கோர</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Soliloquy</Data></Cell>
+    <Cell><Data ss:Type="String">மனவொலி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Somatic</Data></Cell>
+    <Cell><Data ss:Type="String">உடலியலுக்குரிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Soothsayer</Data></Cell>
+    <Cell><Data ss:Type="String">குறிசொல்பவர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sparse</Data></Cell>
+    <Cell><Data ss:Type="String">அடர்த்தியற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sporadic</Data></Cell>
+    <Cell><Data ss:Type="String">அங்கொன்றும் இங்கொன்றுமாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Spurious</Data></Cell>
+    <Cell><Data ss:Type="String">போலியான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stagnant</Data></Cell>
+    <Cell><Data ss:Type="String">தேக்கம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stanza</Data></Cell>
+    <Cell><Data ss:Type="String">சரணம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Statute</Data></Cell>
+    <Cell><Data ss:Type="String">வரையறை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Staunch</Data></Cell>
+    <Cell><Data ss:Type="String">தீவிரமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stereotype</Data></Cell>
+    <Cell><Data ss:Type="String">ஸ்டீரியோடைப்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stifle</Data></Cell>
+    <Cell><Data ss:Type="String">நசுக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stipulate</Data></Cell>
+    <Cell><Data ss:Type="String">வரையறுக்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stoic</Data></Cell>
+    <Cell><Data ss:Type="String">ஸ்டோயிக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stoke</Data></Cell>
+    <Cell><Data ss:Type="String">ஸ்டோக்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stratagem</Data></Cell>
+    <Cell><Data ss:Type="String">தந்திர</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stringent</Data></Cell>
+    <Cell><Data ss:Type="String">கடுமையான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Strut</Data></Cell>
+    <Cell><Data ss:Type="String">ஸ்ட்ரட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Strut</Data></Cell>
+    <Cell><Data ss:Type="String">ஸ்ட்ரட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subliminal</Data></Cell>
+    <Cell><Data ss:Type="String">மிகக்குறுகிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Substantiate</Data></Cell>
+    <Cell><Data ss:Type="String">உறுதிப்படுத்தவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subtle</Data></Cell>
+    <Cell><Data ss:Type="String">நுட்பமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subversive</Data></Cell>
+    <Cell><Data ss:Type="String">சூழ்ச்சி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Succinct</Data></Cell>
+    <Cell><Data ss:Type="String">சுருக்கமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sullied</Data></Cell>
+    <Cell><Data ss:Type="String">களங்க படுத்த படும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Superlative</Data></Cell>
+    <Cell><Data ss:Type="String">ஏற்றுயர்படி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Supplicant</Data></Cell>
+    <Cell><Data ss:Type="String">இரந்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surly</Data></Cell>
+    <Cell><Data ss:Type="String">கண்டிப்பாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surreptitious</Data></Cell>
+    <Cell><Data ss:Type="String">மறைமுகமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surreptitiously</Data></Cell>
+    <Cell><Data ss:Type="String">மறைமுகமாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Susceptible</Data></Cell>
+    <Cell><Data ss:Type="String">எளிதில் பாதிக்கப்படுகின்றன</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Suspect</Data></Cell>
+    <Cell><Data ss:Type="String">சஸ்பெக்ட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Symphony</Data></Cell>
+    <Cell><Data ss:Type="String">சிம்பொனி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Synapse</Data></Cell>
+    <Cell><Data ss:Type="String">சினாப்சிஸை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tactile</Data></Cell>
+    <Cell><Data ss:Type="String">தொட்டுணரக்கூடிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Talisman</Data></Cell>
+    <Cell><Data ss:Type="String">தாயத்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Talon</Data></Cell>
+    <Cell><Data ss:Type="String">டாலோன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tangent</Data></Cell>
+    <Cell><Data ss:Type="String">தொடுகோடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tangible</Data></Cell>
+    <Cell><Data ss:Type="String">புலப்படும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tarnished</Data></Cell>
+    <Cell><Data ss:Type="String">மங்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Taunt</Data></Cell>
+    <Cell><Data ss:Type="String">திட்டுவதுண்டு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Temper</Data></Cell>
+    <Cell><Data ss:Type="String">நிதானத்தை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Temperate</Data></Cell>
+    <Cell><Data ss:Type="String">மிதமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tenacious</Data></Cell>
+    <Cell><Data ss:Type="String">உறுதியான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tender</Data></Cell>
+    <Cell><Data ss:Type="String">டெண்டர்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tentative</Data></Cell>
+    <Cell><Data ss:Type="String">நிச்சயமற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Therapeutic</Data></Cell>
+    <Cell><Data ss:Type="String">சிகிச்சை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Thwart</Data></Cell>
+    <Cell><Data ss:Type="String">முறியடிக்கிறது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tirade</Data></Cell>
+    <Cell><Data ss:Type="String">மோசமான சொற்காளால் கூற தொடங்கினார்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Toady</Data></Cell>
+    <Cell><Data ss:Type="String">இன்று</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tome</Data></Cell>
+    <Cell><Data ss:Type="String">டோம்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tractable</Data></Cell>
+    <Cell><Data ss:Type="String">பழகக்கூடிய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tranquil</Data></Cell>
+    <Cell><Data ss:Type="String">அமைதியாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transcendental</Data></Cell>
+    <Cell><Data ss:Type="String">ஆழ்நிலை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transcribe</Data></Cell>
+    <Cell><Data ss:Type="String">டிரான்ஸ்கிரிப்ட்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transient</Data></Cell>
+    <Cell><Data ss:Type="String">இடைநிலை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Traverse</Data></Cell>
+    <Cell><Data ss:Type="String">நடந்தே</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trilogy</Data></Cell>
+    <Cell><Data ss:Type="String">முத்தொகுதி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trinket</Data></Cell>
+    <Cell><Data ss:Type="String">நகை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trite</Data></Cell>
+    <Cell><Data ss:Type="String">பலமுறை மீண்டும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trivial</Data></Cell>
+    <Cell><Data ss:Type="String">சாரமற்ற</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ubiquitous</Data></Cell>
+    <Cell><Data ss:Type="String">யூபிக்விட்டஸ்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undermine</Data></Cell>
+    <Cell><Data ss:Type="String">கீழறுக்கவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undermined</Data></Cell>
+    <Cell><Data ss:Type="String">குறைவாக மதிப்பிடப்பட்டுள்ளது</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Underscore</Data></Cell>
+    <Cell><Data ss:Type="String">அடிக்கோடிட்டு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Underwrite</Data></Cell>
+    <Cell><Data ss:Type="String">காப்பீடு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unequivocal</Data></Cell>
+    <Cell><Data ss:Type="String">தெளிவான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unprecedented</Data></Cell>
+    <Cell><Data ss:Type="String">முன்னோடியில்லாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unscathed</Data></Cell>
+    <Cell><Data ss:Type="String">பதவிகளும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Untoward</Data></Cell>
+    <Cell><Data ss:Type="String">அடடே!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Usurp</Data></Cell>
+    <Cell><Data ss:Type="String">முழுங்க</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Usury</Data></Cell>
+    <Cell><Data ss:Type="String">கந்துவட்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Utilitarian</Data></Cell>
+    <Cell><Data ss:Type="String">பயன்முறை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Utopian</Data></Cell>
+    <Cell><Data ss:Type="String">கற்பனை</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Venerate</Data></Cell>
+    <Cell><Data ss:Type="String">பூஜித்து</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veneration</Data></Cell>
+    <Cell><Data ss:Type="String">பூஜையா</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veracity</Data></Cell>
+    <Cell><Data ss:Type="String">உண்மைத்தன்மையில்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vertigo</Data></Cell>
+    <Cell><Data ss:Type="String">வெர்டிகோ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vestigial</Data></Cell>
+    <Cell><Data ss:Type="String">அடையாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vignette</Data></Cell>
+    <Cell><Data ss:Type="String">விக்னெட்டி</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vilification</Data></Cell>
+    <Cell><Data ss:Type="String">அவ்வாறு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vindicate</Data></Cell>
+    <Cell><Data ss:Type="String">நியாயப்படுத்தும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Virtuoso</Data></Cell>
+    <Cell><Data ss:Type="String">விர்ச்யூசோ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Virulent</Data></Cell>
+    <Cell><Data ss:Type="String">நஞ்சார்ந்த</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vital</Data></Cell>
+    <Cell><Data ss:Type="String">இன்றியமையாத</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Volatile</Data></Cell>
+    <Cell><Data ss:Type="String">வோலடைல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Voluminous</Data></Cell>
+    <Cell><Data ss:Type="String">பயன்மிக்கதாகவும்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waffle</Data></Cell>
+    <Cell><Data ss:Type="String">வாப்பிள்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waive</Data></Cell>
+    <Cell><Data ss:Type="String">கோவல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wary</Data></Cell>
+    <Cell><Data ss:Type="String">எச்சரிக்கையாக</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wax</Data></Cell>
+    <Cell><Data ss:Type="String">மெழுகு</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Weighty</Data></Cell>
+    <Cell><Data ss:Type="String">கனமான</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Whimsical</Data></Cell>
+    <Cell><Data ss:Type="String">ஆதாரங்களுடன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Whittle</Data></Cell>
+    <Cell><Data ss:Type="String">விட்டல்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Willful</Data></Cell>
+    <Cell><Data ss:Type="String">விருப்பமுடைய</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Zeal</Data></Cell>
+    <Cell><Data ss:Type="String">ஆர்வத்துடன்</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Zenith</Data></Cell>
+    <Cell><Data ss:Type="String">ஜெனித்</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <SplitHorizontal>5960</SplitHorizontal>
+   <TopRowBottomPane>0</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2:R692</RangeSelection>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>C3:C6</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,2582 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Taha Bebek</Author>
+  <LastAuthor>Taha Bebek</LastAuthor>
+  <Created>2011-07-10T07:48:41Z</Created>
+  <Company>Quwic</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12400</WindowHeight>
+  <WindowWidth>25360</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>240</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Malta">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="629" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="98"/>
+   <Column ss:Width="149"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aberration</Data></Cell>
+    <Cell><Data ss:Type="String">Aberrazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abeyance</Data></Cell>
+    <Cell><Data ss:Type="String">Sospiża</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abraded</Data></Cell>
+    <Cell><Data ss:Type="String">Mibruxa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrasion</Data></Cell>
+    <Cell><Data ss:Type="String">Brix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrasive</Data></Cell>
+    <Cell><Data ss:Type="String">Joborxu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abrogate</Data></Cell>
+    <Cell><Data ss:Type="String">Jirrevoka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Absolution</Data></Cell>
+    <Cell><Data ss:Type="String">Assoluzzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Abstain</Data></Cell>
+    <Cell><Data ss:Type="String">Jastjenu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Accretion</Data></Cell>
+    <Cell><Data ss:Type="String">Akkrexximent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acquiesce</Data></Cell>
+    <Cell><Data ss:Type="String">Qagħditx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Acuity</Data></Cell>
+    <Cell><Data ss:Type="String">Akutezza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adamant</Data></Cell>
+    <Cell><Data ss:Type="String">Sod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Adversity</Data></Cell>
+    <Cell><Data ss:Type="String">Diffikultajiet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Advocate</Data></Cell>
+    <Cell><Data ss:Type="String">Avukat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aesthetic</Data></Cell>
+    <Cell><Data ss:Type="String">Estetika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Allay</Data></Cell>
+    <Cell><Data ss:Type="String">Jikkalmaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alleviate</Data></Cell>
+    <Cell><Data ss:Type="String">Itaffu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Alleviated</Data></Cell>
+    <Cell><Data ss:Type="String">Mtaffija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Altruism</Data></Cell>
+    <Cell><Data ss:Type="String">Altruwiżmu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amalgamate</Data></Cell>
+    <Cell><Data ss:Type="String">Amalgamati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambiguity</Data></Cell>
+    <Cell><Data ss:Type="String">Ambigwità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambiguous</Data></Cell>
+    <Cell><Data ss:Type="String">Ambigwa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambivalence</Data></Cell>
+    <Cell><Data ss:Type="String">Ambivalenza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ambulatory</Data></Cell>
+    <Cell><Data ss:Type="String">Ambulatorja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ameliorate</Data></Cell>
+    <Cell><Data ss:Type="String">Ittejjeb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amelioration</Data></Cell>
+    <Cell><Data ss:Type="String">Titjib</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amity</Data></Cell>
+    <Cell><Data ss:Type="String">Ħbiberija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amorphous</Data></Cell>
+    <Cell><Data ss:Type="String">Amorfi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Amortize</Data></Cell>
+    <Cell><Data ss:Type="String">Tamortizza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anachronistic</Data></Cell>
+    <Cell><Data ss:Type="String">Anakronistika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analgesic</Data></Cell>
+    <Cell><Data ss:Type="String">Analġeżiku</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analogous</Data></Cell>
+    <Cell><Data ss:Type="String">Analogi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Analogue</Data></Cell>
+    <Cell><Data ss:Type="String">Analogu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anarchy</Data></Cell>
+    <Cell><Data ss:Type="String">Anarkija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anomaly</Data></Cell>
+    <Cell><Data ss:Type="String">Anomalija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antagonism</Data></Cell>
+    <Cell><Data ss:Type="String">Antagoniżmu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antagonistic</Data></Cell>
+    <Cell><Data ss:Type="String">Antagonistiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Anthology</Data></Cell>
+    <Cell><Data ss:Type="String">Antoloġija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Antiquated</Data></Cell>
+    <Cell><Data ss:Type="String">Antikwati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apathy</Data></Cell>
+    <Cell><Data ss:Type="String">Apatija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apprehension</Data></Cell>
+    <Cell><Data ss:Type="String">Apprensjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apprehensive</Data></Cell>
+    <Cell><Data ss:Type="String">Ilissnu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arable</Data></Cell>
+    <Cell><Data ss:Type="String">Tinħarat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arbitrary</Data></Cell>
+    <Cell><Data ss:Type="String">Arbitrarja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arbitrator</Data></Cell>
+    <Cell><Data ss:Type="String">Arbitru</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arboreal</Data></Cell>
+    <Cell><Data ss:Type="String">Tas-siġar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archaic</Data></Cell>
+    <Cell><Data ss:Type="String">Arkajka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Archives</Data></Cell>
+    <Cell><Data ss:Type="String">Arkivji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arduous</Data></Cell>
+    <Cell><Data ss:Type="String">Diffiċli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arresting</Data></Cell>
+    <Cell><Data ss:Type="String">Twaqqif</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arson</Data></Cell>
+    <Cell><Data ss:Type="String">Ħruq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Articulate</Data></Cell>
+    <Cell><Data ss:Type="String">Artikolazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ascetic</Data></Cell>
+    <Cell><Data ss:Type="String">Aċetiku</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assiduous</Data></Cell>
+    <Cell><Data ss:Type="String">Assidwa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Assuage</Data></Cell>
+    <Cell><Data ss:Type="String">Tikkalma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Asylum</Data></Cell>
+    <Cell><Data ss:Type="String">Asil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Atrophy</Data></Cell>
+    <Cell><Data ss:Type="String">Atrofija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Attenuate</Data></Cell>
+    <Cell><Data ss:Type="String">Tnaqqas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Augment</Data></Cell>
+    <Cell><Data ss:Type="String">Jkabbru</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Auspicious</Data></Cell>
+    <Cell><Data ss:Type="String">Awspiċju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Austere</Data></Cell>
+    <Cell><Data ss:Type="String">Awstera</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aver</Data></Cell>
+    <Cell><Data ss:Type="String">Medja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Aversion</Data></Cell>
+    <Cell><Data ss:Type="String">Istmerrija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Balm</Data></Cell>
+    <Cell><Data ss:Type="String">Balzmu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Banal</Data></Cell>
+    <Cell><Data ss:Type="String">Banali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belie</Data></Cell>
+    <Cell><Data ss:Type="String">Jikkontradixxix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Belligerent</Data></Cell>
+    <Cell><Data ss:Type="String">Fil-gwerra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Benevolent</Data></Cell>
+    <Cell><Data ss:Type="String">Benevolenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Benign</Data></Cell>
+    <Cell><Data ss:Type="String">Beninni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bequeath</Data></Cell>
+    <Cell><Data ss:Type="String">Inħallu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blasphemy</Data></Cell>
+    <Cell><Data ss:Type="String">Dagħa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Blatant</Data></Cell>
+    <Cell><Data ss:Type="String">Sfaċċat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bolster</Data></Cell>
+    <Cell><Data ss:Type="String">Issaħħaħ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Boycott</Data></Cell>
+    <Cell><Data ss:Type="String">Bojkott</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Brevity</Data></Cell>
+    <Cell><Data ss:Type="String">Qosor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Broach</Data></Cell>
+    <Cell><Data ss:Type="String">Diskuss</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bulwark</Data></Cell>
+    <Cell><Data ss:Type="String">Murata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Bureaucracy</Data></Cell>
+    <Cell><Data ss:Type="String">Burokrazija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Calibrate</Data></Cell>
+    <Cell><Data ss:Type="String">Jikkalibra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Candor</Data></Cell>
+    <Cell><Data ss:Type="String">Sinċertà</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cardinal</Data></Cell>
+    <Cell><Data ss:Type="String">Kardinal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caucus</Data></Cell>
+    <Cell><Data ss:Type="String">Kawkażu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Caustic</Data></Cell>
+    <Cell><Data ss:Type="String">Kawstiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Censure</Data></Cell>
+    <Cell><Data ss:Type="String">Ċensura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Centrifuge</Data></Cell>
+    <Cell><Data ss:Type="String">Iċċentrifuga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cerebral</Data></Cell>
+    <Cell><Data ss:Type="String">Ċerebrali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Certitude</Data></Cell>
+    <Cell><Data ss:Type="String">Ċert</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Chronic</Data></Cell>
+    <Cell><Data ss:Type="String">Kronika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circuitous</Data></Cell>
+    <Cell><Data ss:Type="String">Indiretta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumscribe</Data></Cell>
+    <Cell><Data ss:Type="String">Jiċċirkoskrivu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumspect</Data></Cell>
+    <Cell><Data ss:Type="String">Prudenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Circumvent</Data></Cell>
+    <Cell><Data ss:Type="String">Jaħarbu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clairvoyant</Data></Cell>
+    <Cell><Data ss:Type="String">Saħħar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clandestine</Data></Cell>
+    <Cell><Data ss:Type="String">Klandestini</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clemency</Data></Cell>
+    <Cell><Data ss:Type="String">Klemenza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Clientele</Data></Cell>
+    <Cell><Data ss:Type="String">Klijentela</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cloistered</Data></Cell>
+    <Cell><Data ss:Type="String">Klawsura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coerce</Data></Cell>
+    <Cell><Data ss:Type="String">Iġġiegħel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Coercion</Data></Cell>
+    <Cell><Data ss:Type="String">Isfurzar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cogent</Data></Cell>
+    <Cell><Data ss:Type="String">Konvinċenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cognitive</Data></Cell>
+    <Cell><Data ss:Type="String">Konoxxittivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Collate</Data></Cell>
+    <Cell><Data ss:Type="String">Tiġbor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Collusion</Data></Cell>
+    <Cell><Data ss:Type="String">Kollużjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Commensurate</Data></Cell>
+    <Cell><Data ss:Type="String">Proporzjonati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Commingle</Data></Cell>
+    <Cell><Data ss:Type="String">Jħalltux flimkien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Complacent</Data></Cell>
+    <Cell><Data ss:Type="String">Kompjaċenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Compliant</Data></Cell>
+    <Cell><Data ss:Type="String">Konformi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Compromised</Data></Cell>
+    <Cell><Data ss:Type="String">Kompromessa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Concatenation</Data></Cell>
+    <Cell><Data ss:Type="String">Konkatenazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conciliate</Data></Cell>
+    <Cell><Data ss:Type="String">Jirrikonċilja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condone</Data></Cell>
+    <Cell><Data ss:Type="String">Tiskuża</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Condoning</Data></Cell>
+    <Cell><Data ss:Type="String">Iskużar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congenital</Data></Cell>
+    <Cell><Data ss:Type="String">Konġenitali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Congruent</Data></Cell>
+    <Cell><Data ss:Type="String">Kongruwenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consensus</Data></Cell>
+    <Cell><Data ss:Type="String">Kunsens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conspicuous</Data></Cell>
+    <Cell><Data ss:Type="String">Jispikka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consternation</Data></Cell>
+    <Cell><Data ss:Type="String">Kosternazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Consummate</Data></Cell>
+    <Cell><Data ss:Type="String">Kkunsmahx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contemporary</Data></Cell>
+    <Cell><Data ss:Type="String">Kontemporanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contentious</Data></Cell>
+    <Cell><Data ss:Type="String">Kontenzjużi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contiguous</Data></Cell>
+    <Cell><Data ss:Type="String">Kontigwi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Contusion</Data></Cell>
+    <Cell><Data ss:Type="String">Kontużjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Conventional</Data></Cell>
+    <Cell><Data ss:Type="String">Konvenzjonali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Corroborate</Data></Cell>
+    <Cell><Data ss:Type="String">Jikkorroboraw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Corrugated</Data></Cell>
+    <Cell><Data ss:Type="String">Korrugati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Counterfeit</Data></Cell>
+    <Cell><Data ss:Type="String">Foloz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Covert</Data></Cell>
+    <Cell><Data ss:Type="String">Moħbija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Credible</Data></Cell>
+    <Cell><Data ss:Type="String">Kredibbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Culpability</Data></Cell>
+    <Cell><Data ss:Type="String">Ħtija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cumbersome</Data></Cell>
+    <Cell><Data ss:Type="String">Ineffiċjenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Curtail</Data></Cell>
+    <Cell><Data ss:Type="String">Inaqqas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cynical</Data></Cell>
+    <Cell><Data ss:Type="String">Ċinika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Damp</Data></Cell>
+    <Cell><Data ss:Type="String">Niedja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debilitating</Data></Cell>
+    <Cell><Data ss:Type="String">Debilitanti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Debility</Data></Cell>
+    <Cell><Data ss:Type="String">Debbulizza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Decimated</Data></Cell>
+    <Cell><Data ss:Type="String">Nqerdet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Decoy</Data></Cell>
+    <Cell><Data ss:Type="String">Nasba</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deference</Data></Cell>
+    <Cell><Data ss:Type="String">B'rispett</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Degradation</Data></Cell>
+    <Cell><Data ss:Type="String">Degradazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deleterious</Data></Cell>
+    <Cell><Data ss:Type="String">Ħsara</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deliberate</Data></Cell>
+    <Cell><Data ss:Type="String">Intenzjonat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deliberate</Data></Cell>
+    <Cell><Data ss:Type="String">Intenzjonat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Delineation</Data></Cell>
+    <Cell><Data ss:Type="String">Delineazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Denigrate</Data></Cell>
+    <Cell><Data ss:Type="String">Jimmalafamax</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Denounce</Data></Cell>
+    <Cell><Data ss:Type="String">Tiddenunzja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deplete</Data></Cell>
+    <Cell><Data ss:Type="String">Jnaqqsu s</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deplore</Data></Cell>
+    <Cell><Data ss:Type="String">Jiddeploraw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Derogatory</Data></Cell>
+    <Cell><Data ss:Type="String">Derogattivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Desist</Data></Cell>
+    <Cell><Data ss:Type="String">Tkomplix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Destitution</Data></Cell>
+    <Cell><Data ss:Type="String">Destituzzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deter</Data></Cell>
+    <Cell><Data ss:Type="String">Tiskoraġġixxi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Deteriorate</Data></Cell>
+    <Cell><Data ss:Type="String">Tiddeterjora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Detrimental</Data></Cell>
+    <Cell><Data ss:Type="String">Detrimentali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dexterity</Data></Cell>
+    <Cell><Data ss:Type="String">Destrezza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dichotomy</Data></Cell>
+    <Cell><Data ss:Type="String">Dikotomija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Didactic</Data></Cell>
+    <Cell><Data ss:Type="String">Didattiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dilatory</Data></Cell>
+    <Cell><Data ss:Type="String">Dilatorji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diligent</Data></Cell>
+    <Cell><Data ss:Type="String">Diliġenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disarm</Data></Cell>
+    <Cell><Data ss:Type="String">Jiddiżarmaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discern</Data></Cell>
+    <Cell><Data ss:Type="String">Jagħrfu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discernment</Data></Cell>
+    <Cell><Data ss:Type="String">Dixxerniment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discord</Data></Cell>
+    <Cell><Data ss:Type="String">Inkwiet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discrepancy</Data></Cell>
+    <Cell><Data ss:Type="String">Diskrepanza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discrete</Data></Cell>
+    <Cell><Data ss:Type="String">Diskreti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Discriminate</Data></Cell>
+    <Cell><Data ss:Type="String">Jiddiskriminaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disdain</Data></Cell>
+    <Cell><Data ss:Type="String">B'disprezz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disinterested</Data></Cell>
+    <Cell><Data ss:Type="String">Diżinteressata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disparage</Data></Cell>
+    <Cell><Data ss:Type="String">Jiddisprezza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disparity</Data></Cell>
+    <Cell><Data ss:Type="String">Disparità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dispatch</Data></Cell>
+    <Cell><Data ss:Type="String">Dispaċċ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Disseminating</Data></Cell>
+    <Cell><Data ss:Type="String">Tixrid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Diurnal</Data></Cell>
+    <Cell><Data ss:Type="String">Matul il-ġurnata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Divert</Data></Cell>
+    <Cell><Data ss:Type="String">Jiddevjax</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Divest</Data></Cell>
+    <Cell><Data ss:Type="String">Tbiegħ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dogmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Dommatika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dormancy</Data></Cell>
+    <Cell><Data ss:Type="String">Rqad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dross</Data></Cell>
+    <Cell><Data ss:Type="String">Ħmieġ tal-metalli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Dubious</Data></Cell>
+    <Cell><Data ss:Type="String">Dubjużi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Duplicity</Data></Cell>
+    <Cell><Data ss:Type="String">Dupliċità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eccentric</Data></Cell>
+    <Cell><Data ss:Type="String">Eċċentrika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Edifice</Data></Cell>
+    <Cell><Data ss:Type="String">Edifiċju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Efficacy</Data></Cell>
+    <Cell><Data ss:Type="String">Effikaċja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Effigy</Data></Cell>
+    <Cell><Data ss:Type="String">Bambin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Egalitarianism</Data></Cell>
+    <Cell><Data ss:Type="String">Ugwalitarjaniżmu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Egregious</Data></Cell>
+    <Cell><Data ss:Type="String">Agħar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Egress</Data></Cell>
+    <Cell><Data ss:Type="String">Ħruġ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elaborate</Data></Cell>
+    <Cell><Data ss:Type="String">Elabora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Eloquent</Data></Cell>
+    <Cell><Data ss:Type="String">Elokwenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elucidate</Data></Cell>
+    <Cell><Data ss:Type="String">Jispjegaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Elusive</Data></Cell>
+    <Cell><Data ss:Type="String">Elużiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emerge</Data></Cell>
+    <Cell><Data ss:Type="String">Jitfaċċaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Empirical</Data></Cell>
+    <Cell><Data ss:Type="String">Empiriċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Emulate</Data></Cell>
+    <Cell><Data ss:Type="String">Emulazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endorse</Data></Cell>
+    <Cell><Data ss:Type="String">Japprovaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endow</Data></Cell>
+    <Cell><Data ss:Type="String">Mgħonija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Endurance</Data></Cell>
+    <Cell><Data ss:Type="String">Sopportabbiltà</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Engender</Data></Cell>
+    <Cell><Data ss:Type="String">Joħolqu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enhance</Data></Cell>
+    <Cell><Data ss:Type="String">Tittejjeb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enigmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Enigmatika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enlist</Data></Cell>
+    <Cell><Data ss:Type="String">Jelenka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Enunciation</Data></Cell>
+    <Cell><Data ss:Type="String">Espressjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ephemeral</Data></Cell>
+    <Cell><Data ss:Type="String">Effimeru</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Epithet</Data></Cell>
+    <Cell><Data ss:Type="String">Epitetu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Equivocal</Data></Cell>
+    <Cell><Data ss:Type="String">Ekwivoċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Equivocation</Data></Cell>
+    <Cell><Data ss:Type="String">Ekwivoki</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Erratic</Data></Cell>
+    <Cell><Data ss:Type="String">Erratiku</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Espouse</Data></Cell>
+    <Cell><Data ss:Type="String">Jħaddnu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Etymology</Data></Cell>
+    <Cell><Data ss:Type="String">Etimoloġija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Evacuate</Data></Cell>
+    <Cell><Data ss:Type="String">Jevakwaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exacerbate</Data></Cell>
+    <Cell><Data ss:Type="String">Taggrava</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exacerbated</Data></Cell>
+    <Cell><Data ss:Type="String">Tiħrax</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exculpate</Data></Cell>
+    <Cell><Data ss:Type="String">Jiskolpa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplary</Data></Cell>
+    <Cell><Data ss:Type="String">Eżemplari</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exemplify</Data></Cell>
+    <Cell><Data ss:Type="String">Eżemplifikati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exhaustive</Data></Cell>
+    <Cell><Data ss:Type="String">Eżawrjenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exonerates</Data></Cell>
+    <Cell><Data ss:Type="String">Jeżonera</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expatriate</Data></Cell>
+    <Cell><Data ss:Type="String">Espatrijazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expedient</Data></Cell>
+    <Cell><Data ss:Type="String">Spedjenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Expedite</Data></Cell>
+    <Cell><Data ss:Type="String">Titħaffef l-adozzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Exposition</Data></Cell>
+    <Cell><Data ss:Type="String">Espożizzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extradite</Data></Cell>
+    <Cell><Data ss:Type="String">Jestradixxu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extraneous</Data></Cell>
+    <Cell><Data ss:Type="String">Estranji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extrapolate</Data></Cell>
+    <Cell><Data ss:Type="String">Estrapolata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Extrinsic</Data></Cell>
+    <Cell><Data ss:Type="String">Estrinsiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fabricated</Data></Cell>
+    <Cell><Data ss:Type="String">Fabbrikati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Façade</Data></Cell>
+    <Cell><Data ss:Type="String">Faċċata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallacious</Data></Cell>
+    <Cell><Data ss:Type="String">Fallaċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fallow</Data></Cell>
+    <Cell><Data ss:Type="String">Mhux maħdum</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fanatical</Data></Cell>
+    <Cell><Data ss:Type="String">Fanatiëi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fanaticism</Data></Cell>
+    <Cell><Data ss:Type="String">Fanatiżmu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fastidious</Data></Cell>
+    <Cell><Data ss:Type="String">Fastidjużi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Feasible</Data></Cell>
+    <Cell><Data ss:Type="String">Fattibbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ferrous</Data></Cell>
+    <Cell><Data ss:Type="String">Ħadid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fervor</Data></Cell>
+    <Cell><Data ss:Type="String">Fervur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flagrant</Data></Cell>
+    <Cell><Data ss:Type="String">Flagranti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Flout</Data></Cell>
+    <Cell><Data ss:Type="String">Tinjora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fly-by-night</Data></Cell>
+    <Cell><Data ss:Type="String">Fly-by-lejl</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Forage</Data></Cell>
+    <Cell><Data ss:Type="String">Għalf</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Forensic</Data></Cell>
+    <Cell><Data ss:Type="String">Forensika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Foreshadowed</Data></Cell>
+    <Cell><Data ss:Type="String">Suġġerita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fortuitous</Data></Cell>
+    <Cell><Data ss:Type="String">Aċċidentali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Fraudulent</Data></Cell>
+    <Cell><Data ss:Type="String">Frawdolenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Frivolous</Data></Cell>
+    <Cell><Data ss:Type="String">Frivoli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Futile</Data></Cell>
+    <Cell><Data ss:Type="String">Għalxejn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Genre</Data></Cell>
+    <Cell><Data ss:Type="String">Ġeneru</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Germinal</Data></Cell>
+    <Cell><Data ss:Type="String">Ġerminali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Glacial</Data></Cell>
+    <Cell><Data ss:Type="String">Glaċjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Grate &lt;i&gt;(v)&lt;/i&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Gradilja &lt;i&gt; (v) &lt;/ i&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gratuitous</Data></Cell>
+    <Cell><Data ss:Type="String">Gratuwitu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gravity</Data></Cell>
+    <Cell><Data ss:Type="String">Gravità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gregarious</Data></Cell>
+    <Cell><Data ss:Type="String">Gregarji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gritty</Data></Cell>
+    <Cell><Data ss:Type="String">Mrammel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Gustatory</Data></Cell>
+    <Cell><Data ss:Type="String">Togħma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hamper</Data></Cell>
+    <Cell><Data ss:Type="String">Jfixklu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hasten</Data></Cell>
+    <Cell><Data ss:Type="String">Iħaffu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Heed</Data></Cell>
+    <Cell><Data ss:Type="String">Widen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hegemony</Data></Cell>
+    <Cell><Data ss:Type="String">Eġemonija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Heresy</Data></Cell>
+    <Cell><Data ss:Type="String">Ereżija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Hinder</Data></Cell>
+    <Cell><Data ss:Type="String">Jfixklu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Homogeneity</Data></Cell>
+    <Cell><Data ss:Type="String">Omoġeneità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Idiosyncrasy</Data></Cell>
+    <Cell><Data ss:Type="String">Pekuljaritajiet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Illuminate</Data></Cell>
+    <Cell><Data ss:Type="String">Idawwal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Illusory</Data></Cell>
+    <Cell><Data ss:Type="String">Illużorja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Immoderate</Data></Cell>
+    <Cell><Data ss:Type="String">Immoderat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Immutable</Data></Cell>
+    <Cell><Data ss:Type="String">Immutabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impartial</Data></Cell>
+    <Cell><Data ss:Type="String">Imparzjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impeding</Data></Cell>
+    <Cell><Data ss:Type="String">Jimpedixxu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Imperative</Data></Cell>
+    <Cell><Data ss:Type="String">Imperattiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impoverished</Data></Cell>
+    <Cell><Data ss:Type="String">Fqira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impropriety</Data></Cell>
+    <Cell><Data ss:Type="String">Improprjetà</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impugn</Data></Cell>
+    <Cell><Data ss:Type="String">Jattakka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Impugned</Data></Cell>
+    <Cell><Data ss:Type="String">Kkontestata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inadvertent</Data></Cell>
+    <Cell><Data ss:Type="String">Involontarju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incarceration</Data></Cell>
+    <Cell><Data ss:Type="String">Mill-bżonn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inchoate</Data></Cell>
+    <Cell><Data ss:Type="String">Għadu mhux stabbilit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incipient</Data></Cell>
+    <Cell><Data ss:Type="String">Inċipjenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inclination</Data></Cell>
+    <Cell><Data ss:Type="String">Inklinazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incoherent</Data></Cell>
+    <Cell><Data ss:Type="String">Inkoerenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inconsequential</Data></Cell>
+    <Cell><Data ss:Type="String">Ebda sinifikat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Incumbents</Data></Cell>
+    <Cell><Data ss:Type="String">Operaturi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indelible</Data></Cell>
+    <Cell><Data ss:Type="String">Li ma titħassarx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indicted</Data></Cell>
+    <Cell><Data ss:Type="String">Akkużati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indifferent</Data></Cell>
+    <Cell><Data ss:Type="String">Indifferenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indigence</Data></Cell>
+    <Cell><Data ss:Type="String">Indiġenza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indigenous</Data></Cell>
+    <Cell><Data ss:Type="String">Indiġeni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Indulgent</Data></Cell>
+    <Cell><Data ss:Type="String">Indulġenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inertia</Data></Cell>
+    <Cell><Data ss:Type="String">Inerzja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inevitable</Data></Cell>
+    <Cell><Data ss:Type="String">Inevitabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inexorable</Data></Cell>
+    <Cell><Data ss:Type="String">Bla waqfien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infallible</Data></Cell>
+    <Cell><Data ss:Type="String">Infallibbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infamous</Data></Cell>
+    <Cell><Data ss:Type="String">Infami</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infer</Data></Cell>
+    <Cell><Data ss:Type="String">Tiddeduċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inimical</Data></Cell>
+    <Cell><Data ss:Type="String">Jfixklu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innate</Data></Cell>
+    <Cell><Data ss:Type="String">Intrinsika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innocuous</Data></Cell>
+    <Cell><Data ss:Type="String">Innokwa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Innovate</Data></Cell>
+    <Cell><Data ss:Type="String">Ġedded</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Insipid</Data></Cell>
+    <Cell><Data ss:Type="String">Insipida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Instigate</Data></Cell>
+    <Cell><Data ss:Type="String">Jinstigaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Instigator</Data></Cell>
+    <Cell><Data ss:Type="String">Provokatur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Insurgent</Data></Cell>
+    <Cell><Data ss:Type="String">Ribelli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intangible</Data></Cell>
+    <Cell><Data ss:Type="String">Intanġibbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intelligible</Data></Cell>
+    <Cell><Data ss:Type="String">Tiftiehem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Interminable</Data></Cell>
+    <Cell><Data ss:Type="String">Interminabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intermittent</Data></Cell>
+    <Cell><Data ss:Type="String">Intermittenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intransigence</Data></Cell>
+    <Cell><Data ss:Type="String">Intransiġenza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Intransigent</Data></Cell>
+    <Cell><Data ss:Type="String">Intransiġenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inveterate</Data></Cell>
+    <Cell><Data ss:Type="String">Akkaniti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Inviolable</Data></Cell>
+    <Cell><Data ss:Type="String">Invjolabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ironic</Data></Cell>
+    <Cell><Data ss:Type="String">Ironiku</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irrational</Data></Cell>
+    <Cell><Data ss:Type="String">Irrazzjonali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irreproachable</Data></Cell>
+    <Cell><Data ss:Type="String">Impekkabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Irrevocable</Data></Cell>
+    <Cell><Data ss:Type="String">Irrevokabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Itinerant</Data></Cell>
+    <Cell><Data ss:Type="String">Ambulanti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jeopardize</Data></Cell>
+    <Cell><Data ss:Type="String">Jipperikolaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jockeying</Data></Cell>
+    <Cell><Data ss:Type="String">Manuvrar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Judicious</Data></Cell>
+    <Cell><Data ss:Type="String">Ġudizzjuż</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Jurisprudence</Data></Cell>
+    <Cell><Data ss:Type="String">Ġurisprudenza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Labile</Data></Cell>
+    <Cell><Data ss:Type="String">Mhux stabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Labyrinth</Data></Cell>
+    <Cell><Data ss:Type="String">Sistema labirintika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Laceration</Data></Cell>
+    <Cell><Data ss:Type="String">Laċerazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Laconic</Data></Cell>
+    <Cell><Data ss:Type="String">Lakoniku</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lacuna</Data></Cell>
+    <Cell><Data ss:Type="String">Lakuna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Leaven</Data></Cell>
+    <Cell><Data ss:Type="String">Ħmira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Legend</Data></Cell>
+    <Cell><Data ss:Type="String">Leġġenda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Legion</Data></Cell>
+    <Cell><Data ss:Type="String">Leġjun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lethargic</Data></Cell>
+    <Cell><Data ss:Type="String">Għajjien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Limpid</Data></Cell>
+    <Cell><Data ss:Type="String">Limpida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Liturgy</Data></Cell>
+    <Cell><Data ss:Type="String">Liturġija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lobbyist</Data></Cell>
+    <Cell><Data ss:Type="String">Lobbyists</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Longevity</Data></Cell>
+    <Cell><Data ss:Type="String">Lonġevità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lukewarm</Data></Cell>
+    <Cell><Data ss:Type="String">Kemm xejn shun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lumber</Data></Cell>
+    <Cell><Data ss:Type="String">Travi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Macerate</Data></Cell>
+    <Cell><Data ss:Type="String">Maċerat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machenschaften</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malevolent</Data></Cell>
+    <Cell><Data ss:Type="String">Malintenzjonati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Malleable</Data></Cell>
+    <Cell><Data ss:Type="String">Malleabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mallet</Data></Cell>
+    <Cell><Data ss:Type="String">Mazza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Manipulative</Data></Cell>
+    <Cell><Data ss:Type="String">Manipulattivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marred</Data></Cell>
+    <Cell><Data ss:Type="String">Ivvizzjati</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marshal</Data></Cell>
+    <Cell><Data ss:Type="String">Marixxall</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Marsupial</Data></Cell>
+    <Cell><Data ss:Type="String">Marsupjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mellow</Data></Cell>
+    <Cell><Data ss:Type="String">Lixxa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mendacious</Data></Cell>
+    <Cell><Data ss:Type="String">Falz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mercenary</Data></Cell>
+    <Cell><Data ss:Type="String">Merċenarji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Merge</Data></Cell>
+    <Cell><Data ss:Type="String">Jingħaqdu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Meticulous</Data></Cell>
+    <Cell><Data ss:Type="String">Metikoluż</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Milk</Data></Cell>
+    <Cell><Data ss:Type="String">Ħalib</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Minutiae</Data></Cell>
+    <Cell><Data ss:Type="String">Tad-dettalji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misconstrue</Data></Cell>
+    <Cell><Data ss:Type="String">Ħażin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Misrepresentation</Data></Cell>
+    <Cell><Data ss:Type="String">Misrappreżentazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mitigate</Data></Cell>
+    <Cell><Data ss:Type="String">Jtaffu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Mitigation</Data></Cell>
+    <Cell><Data ss:Type="String">Mitigazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Momentous</Data></Cell>
+    <Cell><Data ss:Type="String">Radikali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Monolithic</Data></Cell>
+    <Cell><Data ss:Type="String">Monolitiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Monotonous</Data></Cell>
+    <Cell><Data ss:Type="String">Monotonu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Moratorium</Data></Cell>
+    <Cell><Data ss:Type="String">Moratorju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Moribund</Data></Cell>
+    <Cell><Data ss:Type="String">Moribondi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Myriad</Data></Cell>
+    <Cell><Data ss:Type="String">Genetics</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nascent</Data></Cell>
+    <Cell><Data ss:Type="String">Naxxenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Navigable</Data></Cell>
+    <Cell><Data ss:Type="String">Navigabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Negate</Data></Cell>
+    <Cell><Data ss:Type="String">Jiċħdu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Negligence</Data></Cell>
+    <Cell><Data ss:Type="String">Negliġenza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Neologism</Data></Cell>
+    <Cell><Data ss:Type="String">Neoloġiżmu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nettle</Data></Cell>
+    <Cell><Data ss:Type="String">Ħurrieq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nomadic</Data></Cell>
+    <Cell><Data ss:Type="String">Nomadiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Novel</Data></Cell>
+    <Cell><Data ss:Type="String">Ġdid</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Novice</Data></Cell>
+    <Cell><Data ss:Type="String">Novizzi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Noxious</Data></Cell>
+    <Cell><Data ss:Type="String">Noċivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nuance</Data></Cell>
+    <Cell><Data ss:Type="String">Influwenzata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nugatory</Data></Cell>
+    <Cell><Data ss:Type="String">Null</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nullify</Data></Cell>
+    <Cell><Data ss:Type="String">Jannulla</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Objective</Data></Cell>
+    <Cell><Data ss:Type="String">Għan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obligate</Data></Cell>
+    <Cell><Data ss:Type="String">Obbligax</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oblique</Data></Cell>
+    <Cell><Data ss:Type="String">Oblikwu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obliterate</Data></Cell>
+    <Cell><Data ss:Type="String">Jingassa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oblivious</Data></Cell>
+    <Cell><Data ss:Type="String">Tagħtix każ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obscure</Data></Cell>
+    <Cell><Data ss:Type="String">Joskuraw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obscured</Data></Cell>
+    <Cell><Data ss:Type="String">Oskurata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obsession</Data></Cell>
+    <Cell><Data ss:Type="String">Ossessjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obsolete</Data></Cell>
+    <Cell><Data ss:Type="String">Skaduta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obtuse</Data></Cell>
+    <Cell><Data ss:Type="String">Ottużi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Obviate</Data></Cell>
+    <Cell><Data ss:Type="String">Jitwarrbu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Occluded</Data></Cell>
+    <Cell><Data ss:Type="String">Sadd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Odious</Data></Cell>
+    <Cell><Data ss:Type="String">Odjuż</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Olfactory</Data></Cell>
+    <Cell><Data ss:Type="String">Bix-xamm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Omnipotent</Data></Cell>
+    <Cell><Data ss:Type="String">Omnipotenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Onerous</Data></Cell>
+    <Cell><Data ss:Type="String">Onerużi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Opaque</Data></Cell>
+    <Cell><Data ss:Type="String">Opaki</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ornate</Data></Cell>
+    <Cell><Data ss:Type="String">Jeronimo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Orthodox</Data></Cell>
+    <Cell><Data ss:Type="String">Ortodossa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ossified</Data></Cell>
+    <Cell><Data ss:Type="String">Mgħaddma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Oust</Data></Cell>
+    <Cell><Data ss:Type="String">Teskludi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Overt</Data></Cell>
+    <Cell><Data ss:Type="String">Evidenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palatable</Data></Cell>
+    <Cell><Data ss:Type="String">Togħma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palliative</Data></Cell>
+    <Cell><Data ss:Type="String">Palljattiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palpable</Data></Cell>
+    <Cell><Data ss:Type="String">Palpabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Panacea</Data></Cell>
+    <Cell><Data ss:Type="String">Rimedju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paradigm</Data></Cell>
+    <Cell><Data ss:Type="String">Paradigma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paradox</Data></Cell>
+    <Cell><Data ss:Type="String">Paradoss</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paranoia</Data></Cell>
+    <Cell><Data ss:Type="String">Paranojja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parasite</Data></Cell>
+    <Cell><Data ss:Type="String">Parassiti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parenthesis</Data></Cell>
+    <Cell><Data ss:Type="String">Parentesi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parity</Data></Cell>
+    <Cell><Data ss:Type="String">Parità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parochial</Data></Cell>
+    <Cell><Data ss:Type="String">Parrokkjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Parody</Data></Cell>
+    <Cell><Data ss:Type="String">Parodija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Partiality</Data></Cell>
+    <Cell><Data ss:Type="String">Parzjalità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Partisan</Data></Cell>
+    <Cell><Data ss:Type="String">Partiġġjana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pastiche</Data></Cell>
+    <Cell><Data ss:Type="String">Pastiċċ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Patron</Data></Cell>
+    <Cell><Data ss:Type="String">Patrun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Paucity</Data></Cell>
+    <Cell><Data ss:Type="String">Insuffiċjenza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pedagogy</Data></Cell>
+    <Cell><Data ss:Type="String">Pedagoġija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pellucid</Data></Cell>
+    <Cell><Data ss:Type="String">Pelluċida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Penury</Data></Cell>
+    <Cell><Data ss:Type="String">Iskarsezza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perceptive</Data></Cell>
+    <Cell><Data ss:Type="String">Jidhru</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peremptory</Data></Cell>
+    <Cell><Data ss:Type="String">Perentorji</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perennial</Data></Cell>
+    <Cell><Data ss:Type="String">Perenni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peripatetic</Data></Cell>
+    <Cell><Data ss:Type="String">Peripatetiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peripheral</Data></Cell>
+    <Cell><Data ss:Type="String">Periferali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perjury</Data></Cell>
+    <Cell><Data ss:Type="String">Xhieda falza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pernicious</Data></Cell>
+    <Cell><Data ss:Type="String">Distruttiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perpetuated</Data></Cell>
+    <Cell><Data ss:Type="String">Joktru</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Perpetuity</Data></Cell>
+    <Cell><Data ss:Type="String">Al dejjem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Personification</Data></Cell>
+    <Cell><Data ss:Type="String">Personifikazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pertain</Data></Cell>
+    <Cell><Data ss:Type="String">Jappartjenu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pertinent</Data></Cell>
+    <Cell><Data ss:Type="String">Pertinenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Peruse</Data></Cell>
+    <Cell><Data ss:Type="String">Jaqraw b'attenzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pervasive</Data></Cell>
+    <Cell><Data ss:Type="String">Mifruxa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Phenomenon</Data></Cell>
+    <Cell><Data ss:Type="String">Fenomenu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Philanthropy</Data></Cell>
+    <Cell><Data ss:Type="String">Filantropija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pique</Data></Cell>
+    <Cell><Data ss:Type="String">Piqué</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pith</Data></Cell>
+    <Cell><Data ss:Type="String">Sago</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pivotal</Data></Cell>
+    <Cell><Data ss:Type="String">Ċentrali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Placebo</Data></Cell>
+    <Cell><Data ss:Type="String">Plaċebo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plagiarism</Data></Cell>
+    <Cell><Data ss:Type="String">Plaġjariżmu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaintiff</Data></Cell>
+    <Cell><Data ss:Type="String">Attur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plaque</Data></Cell>
+    <Cell><Data ss:Type="String">Plakka</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plausibility</Data></Cell>
+    <Cell><Data ss:Type="String">Plawsibilità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plausible</Data></Cell>
+    <Cell><Data ss:Type="String">Plawżibbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plethora</Data></Cell>
+    <Cell><Data ss:Type="String">Pletora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pliable</Data></Cell>
+    <Cell><Data ss:Type="String">Flessibbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pluck</Data></Cell>
+    <Cell><Data ss:Type="String">Ġewwieni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plumage</Data></Cell>
+    <Cell><Data ss:Type="String">Rix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plummet</Data></Cell>
+    <Cell><Data ss:Type="String">Jinżlu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Podium</Data></Cell>
+    <Cell><Data ss:Type="String">Podju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Poised</Data></Cell>
+    <Cell><Data ss:Type="String">Lest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posterity</Data></Cell>
+    <Cell><Data ss:Type="String">Posterità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Posture</Data></Cell>
+    <Cell><Data ss:Type="String">Qagħda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Potable</Data></Cell>
+    <Cell><Data ss:Type="String">Tax-xorb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Potent</Data></Cell>
+    <Cell><Data ss:Type="String">Potenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pragmatic</Data></Cell>
+    <Cell><Data ss:Type="String">Prammatiku</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preamble</Data></Cell>
+    <Cell><Data ss:Type="String">Preambolu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precarious</Data></Cell>
+    <Cell><Data ss:Type="String">Prekarja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precedent</Data></Cell>
+    <Cell><Data ss:Type="String">Preċedent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipitate</Data></Cell>
+    <Cell><Data ss:Type="String">Preċipitat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precipitous</Data></Cell>
+    <Cell><Data ss:Type="String">Bl-għaġla</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Preclude</Data></Cell>
+    <Cell><Data ss:Type="String">Jipprekludi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Precocious</Data></Cell>
+    <Cell><Data ss:Type="String">Prekoċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predecessor</Data></Cell>
+    <Cell><Data ss:Type="String">Predeċessur</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Predilection</Data></Cell>
+    <Cell><Data ss:Type="String">Favoriti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prerogative</Data></Cell>
+    <Cell><Data ss:Type="String">Prerogattiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pretension</Data></Cell>
+    <Cell><Data ss:Type="String">Pretensjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Primordial</Data></Cell>
+    <Cell><Data ss:Type="String">Primordjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pristine</Data></Cell>
+    <Cell><Data ss:Type="String">Verġni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Probity</Data></Cell>
+    <Cell><Data ss:Type="String">Integrità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Profound</Data></Cell>
+    <Cell><Data ss:Type="String">Profonda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prohibitive</Data></Cell>
+    <Cell><Data ss:Type="String">Projbittiv</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proliferate</Data></Cell>
+    <Cell><Data ss:Type="String">Jipproliferaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prolific</Data></Cell>
+    <Cell><Data ss:Type="String">Prolifiku</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prominent</Data></Cell>
+    <Cell><Data ss:Type="String">Prominenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prone</Data></Cell>
+    <Cell><Data ss:Type="String">Suxxettibbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Propensity</Data></Cell>
+    <Cell><Data ss:Type="String">Propensità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proponents</Data></Cell>
+    <Cell><Data ss:Type="String">Proponenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prostration</Data></Cell>
+    <Cell><Data ss:Type="String">Telqa kbira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Protagonist</Data></Cell>
+    <Cell><Data ss:Type="String">Protagonisti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Protocol</Data></Cell>
+    <Cell><Data ss:Type="String">Protokoll</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Provincial</Data></Cell>
+    <Cell><Data ss:Type="String">Provinċjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proximate</Data></Cell>
+    <Cell><Data ss:Type="String">Mdaqqsa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prudence</Data></Cell>
+    <Cell><Data ss:Type="String">Prudenza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prudent</Data></Cell>
+    <Cell><Data ss:Type="String">Prudenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Prune</Data></Cell>
+    <Cell><Data ss:Type="String">Pruna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Psychosis</Data></Cell>
+    <Cell><Data ss:Type="String">Psikożi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Purchase</Data></Cell>
+    <Cell><Data ss:Type="String">Xiri</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quarantine</Data></Cell>
+    <Cell><Data ss:Type="String">Kwarantina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quarry</Data></Cell>
+    <Cell><Data ss:Type="String">Barriera</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quintessential</Data></Cell>
+    <Cell><Data ss:Type="String">Kwintessenzjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Quisling</Data></Cell>
+    <Cell><Data ss:Type="String">Vidkun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ramifications</Data></Cell>
+    <Cell><Data ss:Type="String">Ramifikazzjonijiet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rant</Data></Cell>
+    <Cell><Data ss:Type="String">Arrest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ratify</Data></Cell>
+    <Cell><Data ss:Type="String">Jirratifikaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rebuttal</Data></Cell>
+    <Cell><Data ss:Type="String">Konfutazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recapitulate</Data></Cell>
+    <Cell><Data ss:Type="String">Jistqarr</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Receptacle</Data></Cell>
+    <Cell><Data ss:Type="String">Reċipjent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recumbent</Data></Cell>
+    <Cell><Data ss:Type="String">Mimdudin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Recuperate</Data></Cell>
+    <Cell><Data ss:Type="String">Jirkupraw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Red tape</Data></Cell>
+    <Cell><Data ss:Type="String">Burokrazija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Redress</Data></Cell>
+    <Cell><Data ss:Type="String">Rimedju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Redundant</Data></Cell>
+    <Cell><Data ss:Type="String">Li m'għadx hemm bżonnhom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Refute</Data></Cell>
+    <Cell><Data ss:Type="String">Jiċħdu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rekindle</Data></Cell>
+    <Cell><Data ss:Type="String">Jitqajjem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Relegate</Data></Cell>
+    <Cell><Data ss:Type="String">Jpoġġix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Remuneration</Data></Cell>
+    <Cell><Data ss:Type="String">Rimunerazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Renown</Data></Cell>
+    <Cell><Data ss:Type="String">Fama</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rent</Data></Cell>
+    <Cell><Data ss:Type="String">Kera</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Replete</Data></Cell>
+    <Cell><Data ss:Type="String">Mimlija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reprehensible</Data></Cell>
+    <Cell><Data ss:Type="String">Kundannabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rescind</Data></Cell>
+    <Cell><Data ss:Type="String">Jirrevokaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resignation</Data></Cell>
+    <Cell><Data ss:Type="String">Riżenja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resilience</Data></Cell>
+    <Cell><Data ss:Type="String">Reżistenza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resolution</Data></Cell>
+    <Cell><Data ss:Type="String">Riżoluzzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resolve</Data></Cell>
+    <Cell><Data ss:Type="String">Tinstab soluzzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resonant</Data></Cell>
+    <Cell><Data ss:Type="String">Reżonanti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Restorative</Data></Cell>
+    <Cell><Data ss:Type="String">Ristorattivi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Resuscitation</Data></Cell>
+    <Cell><Data ss:Type="String">Risuxxitazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Retention</Data></Cell>
+    <Cell><Data ss:Type="String">Żamma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Reticent</Data></Cell>
+    <Cell><Data ss:Type="String">Retiċenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Retraction</Data></Cell>
+    <Cell><Data ss:Type="String">Ġbid lura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Revere</Data></Cell>
+    <Cell><Data ss:Type="String">Jirrispetaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rife</Data></Cell>
+    <Cell><Data ss:Type="String">Miżgħud</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Rigor</Data></Cell>
+    <Cell><Data ss:Type="String">Rigorożità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Riveting</Data></Cell>
+    <Cell><Data ss:Type="String">Immartellar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Robust</Data></Cell>
+    <Cell><Data ss:Type="String">Robusti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Saccharin</Data></Cell>
+    <Cell><Data ss:Type="String">Sakkarina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sacrosanct</Data></Cell>
+    <Cell><Data ss:Type="String">Sagrosanta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Salubrious</Data></Cell>
+    <Cell><Data ss:Type="String">Ġid għas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Salutary</Data></Cell>
+    <Cell><Data ss:Type="String">Salutari</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sanction</Data></Cell>
+    <Cell><Data ss:Type="String">Sanzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sap</Data></Cell>
+    <Cell><Data ss:Type="String">Jdgħajjef</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Savor</Data></Cell>
+    <Cell><Data ss:Type="String">Nduqu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Saw</Data></Cell>
+    <Cell><Data ss:Type="String">Rat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scabbard</Data></Cell>
+    <Cell><Data ss:Type="String">Ċinturin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scale</Data></Cell>
+    <Cell><Data ss:Type="String">Skala</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scapegoat</Data></Cell>
+    <Cell><Data ss:Type="String">Jieħu l-ħtija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scrupulous</Data></Cell>
+    <Cell><Data ss:Type="String">Skrupluż</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Scrutinize</Data></Cell>
+    <Cell><Data ss:Type="String">Jiskrutinizza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seine</Data></Cell>
+    <Cell><Data ss:Type="String">Tartarun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seminal</Data></Cell>
+    <Cell><Data ss:Type="String">Seminali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Seminary</Data></Cell>
+    <Cell><Data ss:Type="String">Seminarju</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Serrated</Data></Cell>
+    <Cell><Data ss:Type="String">Bis-snien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Shirk</Data></Cell>
+    <Cell><Data ss:Type="String">Jeħilsu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sidereal</Data></Cell>
+    <Cell><Data ss:Type="String">Sideral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sinewy</Data></Cell>
+    <Cell><Data ss:Type="String">Muskoli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Skeptical</Data></Cell>
+    <Cell><Data ss:Type="String">Xettiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Skiff</Data></Cell>
+    <Cell><Data ss:Type="String">Iskiff______________</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Slew</Data></Cell>
+    <Cell><Data ss:Type="String">Multidirezzjonali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Slight</Data></Cell>
+    <Cell><Data ss:Type="String">Żgħir</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Solicit</Data></Cell>
+    <Cell><Data ss:Type="String">Jitolbu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Somatic</Data></Cell>
+    <Cell><Data ss:Type="String">Somatiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Soporific</Data></Cell>
+    <Cell><Data ss:Type="String">Xaħxeħin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sparse</Data></Cell>
+    <Cell><Data ss:Type="String">Skarsa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Specious</Data></Cell>
+    <Cell><Data ss:Type="String">Speċjuż</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sporadic</Data></Cell>
+    <Cell><Data ss:Type="String">Sporadika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Spurious</Data></Cell>
+    <Cell><Data ss:Type="String">Artifiċjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Squalid</Data></Cell>
+    <Cell><Data ss:Type="String">Degradanti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stagnant</Data></Cell>
+    <Cell><Data ss:Type="String">Staġnat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Statute</Data></Cell>
+    <Cell><Data ss:Type="String">Statut</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Staunch</Data></Cell>
+    <Cell><Data ss:Type="String">Qalbu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stereotype</Data></Cell>
+    <Cell><Data ss:Type="String">Isterjotip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stifle</Data></Cell>
+    <Cell><Data ss:Type="String">Joħonqu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stipulate</Data></Cell>
+    <Cell><Data ss:Type="String">Jistipulaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stringent</Data></Cell>
+    <Cell><Data ss:Type="String">Stretti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Strut</Data></Cell>
+    <Cell><Data ss:Type="String">Traversa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Strut</Data></Cell>
+    <Cell><Data ss:Type="String">Traversa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Stupefying</Data></Cell>
+    <Cell><Data ss:Type="String">Stupefaċenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subliminal</Data></Cell>
+    <Cell><Data ss:Type="String">Subliminali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subpoena</Data></Cell>
+    <Cell><Data ss:Type="String">Ċitazzjoni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Substantiate</Data></Cell>
+    <Cell><Data ss:Type="String">Tissostanzja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Subtle</Data></Cell>
+    <Cell><Data ss:Type="String">Sottili</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Succinct</Data></Cell>
+    <Cell><Data ss:Type="String">Fil-qosor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Supine</Data></Cell>
+    <Cell><Data ss:Type="String">Wiċċu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surreptitious</Data></Cell>
+    <Cell><Data ss:Type="String">Bil-moħbi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Surreptitiously</Data></Cell>
+    <Cell><Data ss:Type="String">Bil-moħbi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Susceptible</Data></Cell>
+    <Cell><Data ss:Type="String">Suxxettibbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Suspect</Data></Cell>
+    <Cell><Data ss:Type="String">Suspett</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Symphony</Data></Cell>
+    <Cell><Data ss:Type="String">Sinfonija</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tactile</Data></Cell>
+    <Cell><Data ss:Type="String">Mess</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tamp</Data></Cell>
+    <Cell><Data ss:Type="String">Ross '</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tangent</Data></Cell>
+    <Cell><Data ss:Type="String">Tanġent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tangible</Data></Cell>
+    <Cell><Data ss:Type="String">Tanġibbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tardy</Data></Cell>
+    <Cell><Data ss:Type="String">Ġietx ippreżentata qabel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tare</Data></Cell>
+    <Cell><Data ss:Type="String">Tat-tara</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Temperate</Data></Cell>
+    <Cell><Data ss:Type="String">Moderata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tendentious</Data></Cell>
+    <Cell><Data ss:Type="String">Tendenzjuż</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tender</Data></Cell>
+    <Cell><Data ss:Type="String">Offerti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tentative</Data></Cell>
+    <Cell><Data ss:Type="String">Tentattiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tenuous</Data></Cell>
+    <Cell><Data ss:Type="String">Dgħajfa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Therapeutic</Data></Cell>
+    <Cell><Data ss:Type="String">Terapewtiċi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Thwart</Data></Cell>
+    <Cell><Data ss:Type="String">Tfixkel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tortuous</Data></Cell>
+    <Cell><Data ss:Type="String">Imħarbta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Tranquil</Data></Cell>
+    <Cell><Data ss:Type="String">Kwieta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transcribe</Data></Cell>
+    <Cell><Data ss:Type="String">Tifformulaha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transgress</Data></Cell>
+    <Cell><Data ss:Type="String">Tikser</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Transient</Data></Cell>
+    <Cell><Data ss:Type="String">Temporanja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Traverse</Data></Cell>
+    <Cell><Data ss:Type="String">Travers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trilogy</Data></Cell>
+    <Cell><Data ss:Type="String">Trilogu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Trivial</Data></Cell>
+    <Cell><Data ss:Type="String">Trivjali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ubiquitous</Data></Cell>
+    <Cell><Data ss:Type="String">Kullimkien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unalloyed</Data></Cell>
+    <Cell><Data ss:Type="String">Mhux liga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unctuous</Data></Cell>
+    <Cell><Data ss:Type="String">Żejtni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undercutting</Data></Cell>
+    <Cell><Data ss:Type="String">Tnaqqis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undermine</Data></Cell>
+    <Cell><Data ss:Type="String">Jimminaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Undermined</Data></Cell>
+    <Cell><Data ss:Type="String">Imdgħajjef</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Underscore</Data></Cell>
+    <Cell><Data ss:Type="String">Jenfasizzaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Underwrite</Data></Cell>
+    <Cell><Data ss:Type="String">Jissottoskrivu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unequivocal</Data></Cell>
+    <Cell><Data ss:Type="String">Inekwivokabbli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unfetter</Data></Cell>
+    <Cell><Data ss:Type="String">Mingħajr tfixkil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unprecedented</Data></Cell>
+    <Cell><Data ss:Type="String">Bla preċedent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Unscathed</Data></Cell>
+    <Cell><Data ss:Type="String">Mingħajr ħsara</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Untoward</Data></Cell>
+    <Cell><Data ss:Type="String">Mhux mixtieqa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Usurp</Data></Cell>
+    <Cell><Data ss:Type="String">Jieħu f'idejħ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Usury</Data></Cell>
+    <Cell><Data ss:Type="String">Użura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Utilitarian</Data></Cell>
+    <Cell><Data ss:Type="String">Utilitarja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veneer</Data></Cell>
+    <Cell><Data ss:Type="String">Fuljetta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veneration</Data></Cell>
+    <Cell><Data ss:Type="String">Qima</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veracity</Data></Cell>
+    <Cell><Data ss:Type="String">Veraċità</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Veritable</Data></Cell>
+    <Cell><Data ss:Type="String">Vera</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Virulent</Data></Cell>
+    <Cell><Data ss:Type="String">Virulenti</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vitiate</Data></Cell>
+    <Cell><Data ss:Type="String">Jivvizzjaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Vociferous</Data></Cell>
+    <Cell><Data ss:Type="String">Storbjużi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Volatile</Data></Cell>
+    <Cell><Data ss:Type="String">Volatili</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Voluminous</Data></Cell>
+    <Cell><Data ss:Type="String">Voluminużi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Waive</Data></Cell>
+    <Cell><Data ss:Type="String">Jirrinunzjaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wane</Data></Cell>
+    <Cell><Data ss:Type="String">Jisfumaw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wary</Data></Cell>
+    <Cell><Data ss:Type="String">Attenta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wax</Data></Cell>
+    <Cell><Data ss:Type="String">Xama '</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Weighty</Data></Cell>
+    <Cell><Data ss:Type="String">B'saħħithom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Whet</Data></Cell>
+    <Cell><Data ss:Type="String">Iqabbduk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Willful</Data></Cell>
+    <Cell><Data ss:Type="String">Volontarja</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Zeal</Data></Cell>
+    <Cell><Data ss:Type="String">Entużjażmu</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <SplitHorizontal>5960</SplitHorizontal>
+   <TopRowBottomPane>0</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2:R858</RangeSelection>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>C3:C6</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,1356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F02B6D5140D90ED00ACCB19 /* WordRace_turkish.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0F02B6D4140D90ED00ACCB19 /* WordRace_turkish.sqlite */; };
+		0F02B6D7140D96F800ACCB19 /* live.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F02B6D6140D96F800ACCB19 /* live.png */; };
+		0F02B6DE140D9CC000ACCB19 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F02B6DD140D9CC000ACCB19 /* Question.m */; };
+		0F02B6F7140DAD4700ACCB19 /* PauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F02B6F5140DAD4700ACCB19 /* PauseViewController.m */; };
+		0F02B6F8140DAD4700ACCB19 /* PauseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F02B6F6140DAD4700ACCB19 /* PauseViewController.xib */; };
+		0F02B6FC140E10C800ACCB19 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F02B6FA140E10C800ACCB19 /* GameOverViewController.m */; };
+		0F02B6FD140E10C800ACCB19 /* GameOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F02B6FB140E10C800ACCB19 /* GameOverViewController.xib */; };
+		0F0BCF9A13CB7F1600B61313 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0BCF9913CB7F1600B61313 /* UIKit.framework */; };
+		0F0BCF9C13CB7F1600B61313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0BCF9B13CB7F1600B61313 /* Foundation.framework */; };
+		0F0BCF9E13CB7F1600B61313 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0BCF9D13CB7F1600B61313 /* CoreGraphics.framework */; };
+		0F0BCFA013CB7F1600B61313 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0BCF9F13CB7F1600B61313 /* CoreData.framework */; };
+		0F0BCFA613CB7F1600B61313 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F0BCFA413CB7F1600B61313 /* InfoPlist.strings */; };
+		0F0BCFA913CB7F1600B61313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0BCFA813CB7F1600B61313 /* main.m */; };
+		0F0BCFBD13CB7F1600B61313 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F0BCFBB13CB7F1600B61313 /* MainWindow_iPad.xib */; };
+		0F36C366140D64C400C907CF /* DatabaseBuilderTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */; };
+		0F36C367140D64C400C907CF /* DatabaseBuilderTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F36C365140D64C400C907CF /* DatabaseBuilderTVC.xib */; };
+		0F36C3EE140D6ED800C907CF /* wordrace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F36C3EC140D6ED800C907CF /* wordrace.xcdatamodeld */; };
+		0F54550614090FED00D357C1 /* HardWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54550514090FED00D357C1 /* HardWord.m */; };
+		0F54550914090FED00D357C1 /* MediumWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54550814090FED00D357C1 /* MediumWord.m */; };
+		0F54550C14090FED00D357C1 /* EasyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54550B14090FED00D357C1 /* EasyWord.m */; };
+		0F54558F1409132300D357C1 /* WordRaceXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54550F1409132300D357C1 /* WordRaceXMLParser.m */; };
+		0F5455901409132300D357C1 /* easywords_afrikaan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455121409132300D357C1 /* easywords_afrikaan.xml */; };
+		0F5455911409132300D357C1 /* easywords_arabic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455131409132300D357C1 /* easywords_arabic.xml */; };
+		0F5455921409132300D357C1 /* easywords_armenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455141409132300D357C1 /* easywords_armenian.xml */; };
+		0F5455931409132300D357C1 /* easywords_bulgarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455151409132300D357C1 /* easywords_bulgarian.xml */; };
+		0F5455941409132400D357C1 /* easywords_chinese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455161409132300D357C1 /* easywords_chinese.xml */; };
+		0F5455951409132400D357C1 /* easywords_croatian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455171409132300D357C1 /* easywords_croatian.xml */; };
+		0F5455961409132400D357C1 /* easywords_czech.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455181409132300D357C1 /* easywords_czech.xml */; };
+		0F5455971409132400D357C1 /* easywords_danish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455191409132300D357C1 /* easywords_danish.xml */; };
+		0F5455981409132400D357C1 /* easywords_dutch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551A1409132300D357C1 /* easywords_dutch.xml */; };
+		0F5455991409132400D357C1 /* easywords_estonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551B1409132300D357C1 /* easywords_estonian.xml */; };
+		0F54559A1409132400D357C1 /* easywords_filipino.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551C1409132300D357C1 /* easywords_filipino.xml */; };
+		0F54559B1409132400D357C1 /* easywords_finnish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551D1409132300D357C1 /* easywords_finnish.xml */; };
+		0F54559C1409132400D357C1 /* easywords_french.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551E1409132300D357C1 /* easywords_french.xml */; };
+		0F54559D1409132400D357C1 /* easywords_german.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551F1409132300D357C1 /* easywords_german.xml */; };
+		0F54559E1409132400D357C1 /* easywords_greek.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455201409132300D357C1 /* easywords_greek.xml */; };
+		0F54559F1409132400D357C1 /* easywords_hebrew.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455211409132300D357C1 /* easywords_hebrew.xml */; };
+		0F5455A01409132400D357C1 /* easywords_hungarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455221409132300D357C1 /* easywords_hungarian.xml */; };
+		0F5455A11409132400D357C1 /* easywords_indian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455231409132300D357C1 /* easywords_indian.xml */; };
+		0F5455A21409132400D357C1 /* easywords_indonesian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455241409132300D357C1 /* easywords_indonesian.xml */; };
+		0F5455A31409132400D357C1 /* easywords_italian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455251409132300D357C1 /* easywords_italian.xml */; };
+		0F5455A41409132400D357C1 /* easywords_japanese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455261409132300D357C1 /* easywords_japanese.xml */; };
+		0F5455A51409132400D357C1 /* easywords_latvian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455271409132300D357C1 /* easywords_latvian.xml */; };
+		0F5455A61409132400D357C1 /* easywords_lithuanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455281409132300D357C1 /* easywords_lithuanian.xml */; };
+		0F5455A71409132400D357C1 /* easywords_macedonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455291409132300D357C1 /* easywords_macedonian.xml */; };
+		0F5455A81409132400D357C1 /* easywords_malay.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552A1409132300D357C1 /* easywords_malay.xml */; };
+		0F5455A91409132400D357C1 /* easywords_maltese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552B1409132300D357C1 /* easywords_maltese.xml */; };
+		0F5455AA1409132400D357C1 /* easywords_norwegian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552C1409132300D357C1 /* easywords_norwegian.xml */; };
+		0F5455AB1409132400D357C1 /* easywords_polish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552D1409132300D357C1 /* easywords_polish.xml */; };
+		0F5455AC1409132400D357C1 /* easywords_portuguese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552E1409132300D357C1 /* easywords_portuguese.xml */; };
+		0F5455AD1409132400D357C1 /* easywords_romanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552F1409132300D357C1 /* easywords_romanian.xml */; };
+		0F5455AE1409132400D357C1 /* easywords_russian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455301409132300D357C1 /* easywords_russian.xml */; };
+		0F5455AF1409132400D357C1 /* easywords_slovakian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455311409132300D357C1 /* easywords_slovakian.xml */; };
+		0F5455B01409132400D357C1 /* easywords_slovenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455321409132300D357C1 /* easywords_slovenian.xml */; };
+		0F5455B11409132400D357C1 /* easywords_spanish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455331409132300D357C1 /* easywords_spanish.xml */; };
+		0F5455B21409132400D357C1 /* easywords_swahili.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455341409132300D357C1 /* easywords_swahili.xml */; };
+		0F5455B31409132400D357C1 /* easywords_swedish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455351409132300D357C1 /* easywords_swedish.xml */; };
+		0F5455B41409132400D357C1 /* easywords_tamil.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455361409132300D357C1 /* easywords_tamil.xml */; };
+		0F5455B51409132400D357C1 /* easywords_thai.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455371409132300D357C1 /* easywords_thai.xml */; };
+		0F5455B61409132400D357C1 /* easywords_turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455381409132300D357C1 /* easywords_turkish.xml */; };
+		0F5455B71409132400D357C1 /* easywords_urdu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455391409132300D357C1 /* easywords_urdu.xml */; };
+		0F5455B81409132400D357C1 /* easywords_vietnamese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553A1409132300D357C1 /* easywords_vietnamese.xml */; };
+		0F5455B91409132400D357C1 /* hardwords_afrikaan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553C1409132300D357C1 /* hardwords_afrikaan.xml */; };
+		0F5455BA1409132400D357C1 /* hardwords_arabic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553D1409132300D357C1 /* hardwords_arabic.xml */; };
+		0F5455BB1409132400D357C1 /* hardwords_armenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553E1409132300D357C1 /* hardwords_armenian.xml */; };
+		0F5455BC1409132400D357C1 /* hardwords_bulgarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553F1409132300D357C1 /* hardwords_bulgarian.xml */; };
+		0F5455BD1409132400D357C1 /* hardwords_chinese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455401409132300D357C1 /* hardwords_chinese.xml */; };
+		0F5455BE1409132400D357C1 /* hardwords_croatian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455411409132300D357C1 /* hardwords_croatian.xml */; };
+		0F5455BF1409132400D357C1 /* hardwords_czech.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455421409132300D357C1 /* hardwords_czech.xml */; };
+		0F5455C01409132400D357C1 /* hardwords_danish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455431409132300D357C1 /* hardwords_danish.xml */; };
+		0F5455C11409132400D357C1 /* hardwords_dutch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455441409132300D357C1 /* hardwords_dutch.xml */; };
+		0F5455C21409132400D357C1 /* hardwords_estonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455451409132300D357C1 /* hardwords_estonian.xml */; };
+		0F5455C31409132400D357C1 /* hardwords_filipino.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455461409132300D357C1 /* hardwords_filipino.xml */; };
+		0F5455C41409132400D357C1 /* hardwords_finnish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455471409132300D357C1 /* hardwords_finnish.xml */; };
+		0F5455C51409132400D357C1 /* hardwords_french.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455481409132300D357C1 /* hardwords_french.xml */; };
+		0F5455C61409132400D357C1 /* hardwords_german.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455491409132300D357C1 /* hardwords_german.xml */; };
+		0F5455C71409132400D357C1 /* hardwords_greek.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554A1409132300D357C1 /* hardwords_greek.xml */; };
+		0F5455C81409132400D357C1 /* hardwords_hebrew.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554B1409132300D357C1 /* hardwords_hebrew.xml */; };
+		0F5455C91409132400D357C1 /* hardwords_hungarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554C1409132300D357C1 /* hardwords_hungarian.xml */; };
+		0F5455CA1409132400D357C1 /* hardwords_indian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554D1409132300D357C1 /* hardwords_indian.xml */; };
+		0F5455CB1409132400D357C1 /* hardwords_indonesian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554E1409132300D357C1 /* hardwords_indonesian.xml */; };
+		0F5455CC1409132400D357C1 /* hardwords_italian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554F1409132300D357C1 /* hardwords_italian.xml */; };
+		0F5455CD1409132400D357C1 /* hardwords_japanese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455501409132300D357C1 /* hardwords_japanese.xml */; };
+		0F5455CE1409132400D357C1 /* hardwords_latvian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455511409132300D357C1 /* hardwords_latvian.xml */; };
+		0F5455CF1409132400D357C1 /* hardwords_lithuanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455521409132300D357C1 /* hardwords_lithuanian.xml */; };
+		0F5455D01409132400D357C1 /* hardwords_macedonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455531409132300D357C1 /* hardwords_macedonian.xml */; };
+		0F5455D11409132400D357C1 /* hardwords_malay.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455541409132300D357C1 /* hardwords_malay.xml */; };
+		0F5455D21409132400D357C1 /* hardwords_maltese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455551409132300D357C1 /* hardwords_maltese.xml */; };
+		0F5455D31409132400D357C1 /* hardwords_norwegian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455561409132300D357C1 /* hardwords_norwegian.xml */; };
+		0F5455D41409132400D357C1 /* hardwords_polish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455571409132300D357C1 /* hardwords_polish.xml */; };
+		0F5455D51409132400D357C1 /* hardwords_portuguese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455581409132300D357C1 /* hardwords_portuguese.xml */; };
+		0F5455D61409132400D357C1 /* hardwords_romanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455591409132300D357C1 /* hardwords_romanian.xml */; };
+		0F5455D71409132400D357C1 /* hardwords_russian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555A1409132300D357C1 /* hardwords_russian.xml */; };
+		0F5455D81409132400D357C1 /* hardwords_slovakian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555B1409132300D357C1 /* hardwords_slovakian.xml */; };
+		0F5455D91409132400D357C1 /* hardwords_slovenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555C1409132300D357C1 /* hardwords_slovenian.xml */; };
+		0F5455DA1409132400D357C1 /* hardwords_spanish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555D1409132300D357C1 /* hardwords_spanish.xml */; };
+		0F5455DB1409132400D357C1 /* hardwords_swahili.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555E1409132300D357C1 /* hardwords_swahili.xml */; };
+		0F5455DC1409132400D357C1 /* hardwords_swedish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555F1409132300D357C1 /* hardwords_swedish.xml */; };
+		0F5455DD1409132400D357C1 /* hardwords_tamil.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455601409132300D357C1 /* hardwords_tamil.xml */; };
+		0F5455DE1409132400D357C1 /* hardwords_thai.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455611409132300D357C1 /* hardwords_thai.xml */; };
+		0F5455DF1409132400D357C1 /* hardwords_turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455621409132300D357C1 /* hardwords_turkish.xml */; };
+		0F5455E01409132400D357C1 /* hardwords_urdu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455631409132300D357C1 /* hardwords_urdu.xml */; };
+		0F5455E11409132400D357C1 /* hardwords_vietnamese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455641409132300D357C1 /* hardwords_vietnamese.xml */; };
+		0F5455E21409132400D357C1 /* intermediatewords_afrikaan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455661409132300D357C1 /* intermediatewords_afrikaan.xml */; };
+		0F5455E31409132400D357C1 /* intermediatewords_arabic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455671409132300D357C1 /* intermediatewords_arabic.xml */; };
+		0F5455E41409132400D357C1 /* intermediatewords_armenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455681409132300D357C1 /* intermediatewords_armenian.xml */; };
+		0F5455E51409132400D357C1 /* intermediatewords_bulgarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455691409132300D357C1 /* intermediatewords_bulgarian.xml */; };
+		0F5455E61409132400D357C1 /* intermediatewords_chinese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556A1409132300D357C1 /* intermediatewords_chinese.xml */; };
+		0F5455E71409132400D357C1 /* intermediatewords_croatian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556B1409132300D357C1 /* intermediatewords_croatian.xml */; };
+		0F5455E81409132400D357C1 /* intermediatewords_czech.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556C1409132300D357C1 /* intermediatewords_czech.xml */; };
+		0F5455E91409132400D357C1 /* intermediatewords_danish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556D1409132300D357C1 /* intermediatewords_danish.xml */; };
+		0F5455EA1409132400D357C1 /* intermediatewords_dutch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556E1409132300D357C1 /* intermediatewords_dutch.xml */; };
+		0F5455EB1409132400D357C1 /* intermediatewords_estonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556F1409132300D357C1 /* intermediatewords_estonian.xml */; };
+		0F5455EC1409132400D357C1 /* intermediatewords_filipino.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455701409132300D357C1 /* intermediatewords_filipino.xml */; };
+		0F5455ED1409132400D357C1 /* intermediatewords_finnish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455711409132300D357C1 /* intermediatewords_finnish.xml */; };
+		0F5455EE1409132400D357C1 /* intermediatewords_french.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455721409132300D357C1 /* intermediatewords_french.xml */; };
+		0F5455EF1409132400D357C1 /* intermediatewords_german.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455731409132300D357C1 /* intermediatewords_german.xml */; };
+		0F5455F01409132400D357C1 /* intermediatewords_greek.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455741409132300D357C1 /* intermediatewords_greek.xml */; };
+		0F5455F11409132400D357C1 /* intermediatewords_hebrew.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455751409132300D357C1 /* intermediatewords_hebrew.xml */; };
+		0F5455F21409132400D357C1 /* intermediatewords_hungarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455761409132300D357C1 /* intermediatewords_hungarian.xml */; };
+		0F5455F31409132400D357C1 /* intermediatewords_indian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455771409132300D357C1 /* intermediatewords_indian.xml */; };
+		0F5455F41409132400D357C1 /* intermediatewords_indonesian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455781409132300D357C1 /* intermediatewords_indonesian.xml */; };
+		0F5455F51409132400D357C1 /* intermediatewords_italian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455791409132300D357C1 /* intermediatewords_italian.xml */; };
+		0F5455F61409132400D357C1 /* intermediatewords_japanese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557A1409132300D357C1 /* intermediatewords_japanese.xml */; };
+		0F5455F71409132400D357C1 /* intermediatewords_latvian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557B1409132300D357C1 /* intermediatewords_latvian.xml */; };
+		0F5455F81409132400D357C1 /* intermediatewords_lithuanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557C1409132300D357C1 /* intermediatewords_lithuanian.xml */; };
+		0F5455F91409132400D357C1 /* intermediatewords_macedonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557D1409132300D357C1 /* intermediatewords_macedonian.xml */; };
+		0F5455FA1409132400D357C1 /* intermediatewords_malay.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557E1409132300D357C1 /* intermediatewords_malay.xml */; };
+		0F5455FB1409132400D357C1 /* intermediatewords_maltese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557F1409132300D357C1 /* intermediatewords_maltese.xml */; };
+		0F5455FC1409132400D357C1 /* intermediatewords_norwegian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455801409132300D357C1 /* intermediatewords_norwegian.xml */; };
+		0F5455FD1409132400D357C1 /* intermediatewords_polish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455811409132300D357C1 /* intermediatewords_polish.xml */; };
+		0F5455FE1409132400D357C1 /* intermediatewords_portuguese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455821409132300D357C1 /* intermediatewords_portuguese.xml */; };
+		0F5455FF1409132400D357C1 /* intermediatewords_romanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455831409132300D357C1 /* intermediatewords_romanian.xml */; };
+		0F5456001409132400D357C1 /* intermediatewords_russian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455841409132300D357C1 /* intermediatewords_russian.xml */; };
+		0F5456011409132400D357C1 /* intermediatewords_slovakian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455851409132300D357C1 /* intermediatewords_slovakian.xml */; };
+		0F5456021409132400D357C1 /* intermediatewords_slovenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455861409132300D357C1 /* intermediatewords_slovenian.xml */; };
+		0F5456031409132400D357C1 /* intermediatewords_spanish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455871409132300D357C1 /* intermediatewords_spanish.xml */; };
+		0F5456041409132400D357C1 /* intermediatewords_swahili.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455881409132300D357C1 /* intermediatewords_swahili.xml */; };
+		0F5456051409132400D357C1 /* intermediatewords_swedish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455891409132300D357C1 /* intermediatewords_swedish.xml */; };
+		0F5456061409132400D357C1 /* intermediatewords_tamil.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558A1409132300D357C1 /* intermediatewords_tamil.xml */; };
+		0F5456071409132400D357C1 /* intermediatewords_thai.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558B1409132300D357C1 /* intermediatewords_thai.xml */; };
+		0F5456081409132400D357C1 /* intermediatewords_turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558C1409132300D357C1 /* intermediatewords_turkish.xml */; };
+		0F5456091409132400D357C1 /* intermediatewords_urdu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558D1409132300D357C1 /* intermediatewords_urdu.xml */; };
+		0F54560A1409132400D357C1 /* intermediatewords_vietnamese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558E1409132300D357C1 /* intermediatewords_vietnamese.xml */; };
+		0FB712A81407A66F00407924 /* wordraceAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712A71407A66F00407924 /* wordraceAppDelegate_iPhone.m */; };
+		0FB712AB1407A68500407924 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712A91407A68500407924 /* MainWindow_iPhone.xib */; };
+		0FB712AF1407A6D000407924 /* wordraceAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712AE1407A6D000407924 /* wordraceAppDelegate_iPad.m */; };
+		0FB712B31407A75000407924 /* WelcomeViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712B11407A75000407924 /* WelcomeViewController_iPhone.m */; };
+		0FB712B41407A75000407924 /* WelcomeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712B21407A75000407924 /* WelcomeViewController_iPhone.xib */; };
+		0FB712C11407A84D00407924 /* WelcomeViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712BF1407A84D00407924 /* WelcomeViewController_iPad.m */; };
+		0FB712C21407A84D00407924 /* WelcomeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712C01407A84D00407924 /* WelcomeViewController_iPad.xib */; };
+		0FB712CE1407AE0100407924 /* GameModesViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712CC1407AE0100407924 /* GameModesViewController_iPhone.m */; };
+		0FB712CF1407AE0100407924 /* GameModesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712CD1407AE0100407924 /* GameModesViewController_iPhone.xib */; };
+		0FB712D31407AE4800407924 /* SelectLevelViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712D11407AE4800407924 /* SelectLevelViewController_iPhone.m */; };
+		0FB712D41407AE4800407924 /* SelectLevelViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712D21407AE4800407924 /* SelectLevelViewController_iPhone.xib */; };
+		0FDA3D5A1407DFEB0030F62E /* ThreeLivesViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA3D581407DFEB0030F62E /* ThreeLivesViewController_iPhone.m */; };
+		0FDA3D5B1407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA3D591407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib */; };
+		0FDA3D5F1407E00B0030F62E /* VsTheClockViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA3D5D1407E00B0030F62E /* VsTheClockViewController_iPhone.m */; };
+		0FDA3D601407E00B0030F62E /* VsTheClockViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA3D5E1407E00B0030F62E /* VsTheClockViewController_iPhone.xib */; };
+		0FDA3D641407E0E60030F62E /* SuddenDeathViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA3D621407E0E60030F62E /* SuddenDeathViewController_iPhone.m */; };
+		0FDA3D651407E0E60030F62E /* SuddenDeathViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA3D631407E0E60030F62E /* SuddenDeathViewController_iPhone.xib */; };
+		0FE3FA58140821B600171C7C /* wordraceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3FA57140821B600171C7C /* wordraceAppDelegate.m */; };
+		0FE3FA74140824B900171C7C /* CorrectButtonOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA64140824B900171C7C /* CorrectButtonOff@2x.png */; };
+		0FE3FA75140824B900171C7C /* CorrectButtonOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA65140824B900171C7C /* CorrectButtonOn@2x.png */; };
+		0FE3FA76140824B900171C7C /* MainViewBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA66140824B900171C7C /* MainViewBackground@2x.png */; };
+		0FE3FA77140824B900171C7C /* MainViewScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA67140824B900171C7C /* MainViewScreen@2x.png */; };
+		0FE3FA78140824B900171C7C /* PauseButtonOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA68140824B900171C7C /* PauseButtonOff@2x.png */; };
+		0FE3FA79140824B900171C7C /* PauseButtonOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA69140824B900171C7C /* PauseButtonOn@2x.png */; };
+		0FE3FA7A140824B900171C7C /* WrongButtonOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA6A140824B900171C7C /* WrongButtonOff@2x.png */; };
+		0FE3FA7B140824B900171C7C /* WrongButtonOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA6B140824B900171C7C /* WrongButtonOn@2x.png */; };
+		0FE3FA7C140824B900171C7C /* CorrectButtonOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA6C140824B900171C7C /* CorrectButtonOff.png */; };
+		0FE3FA7D140824B900171C7C /* CorrectButtonOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA6D140824B900171C7C /* CorrectButtonOn.png */; };
+		0FE3FA7E140824B900171C7C /* MainViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA6E140824B900171C7C /* MainViewBackground.png */; };
+		0FE3FA7F140824B900171C7C /* MainViewScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA6F140824B900171C7C /* MainViewScreen.png */; };
+		0FE3FA80140824B900171C7C /* PauseButtonOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA70140824B900171C7C /* PauseButtonOff.png */; };
+		0FE3FA81140824B900171C7C /* PauseButtonOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA71140824B900171C7C /* PauseButtonOn.png */; };
+		0FE3FA82140824B900171C7C /* WrongButtonOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA72140824B900171C7C /* WrongButtonOff.png */; };
+		0FE3FA83140824B900171C7C /* WrongButtonOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3FA73140824B900171C7C /* WrongButtonOn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F02B6D4140D90ED00ACCB19 /* WordRace_turkish.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRace_turkish.sqlite; sourceTree = "<group>"; };
+		0F02B6D6140D96F800ACCB19 /* live.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = live.png; sourceTree = "<group>"; };
+		0F02B6DC140D9CC000ACCB19 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		0F02B6DD140D9CC000ACCB19 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		0F02B6F4140DAD4700ACCB19 /* PauseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseViewController.h; sourceTree = "<group>"; };
+		0F02B6F5140DAD4700ACCB19 /* PauseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseViewController.m; sourceTree = "<group>"; };
+		0F02B6F6140DAD4700ACCB19 /* PauseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PauseViewController.xib; sourceTree = "<group>"; };
+		0F02B6F9140E10C800ACCB19 /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
+		0F02B6FA140E10C800ACCB19 /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
+		0F02B6FB140E10C800ACCB19 /* GameOverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameOverViewController.xib; sourceTree = "<group>"; };
+		0F0BCF9513CB7F1600B61313 /* wordrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0BCF9913CB7F1600B61313 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F0BCF9B13CB7F1600B61313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F0BCF9D13CB7F1600B61313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F0BCF9F13CB7F1600B61313 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0F0BCFA313CB7F1600B61313 /* wordrace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordrace-Info.plist"; sourceTree = "<group>"; };
+		0F0BCFA513CB7F1600B61313 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F0BCFA713CB7F1600B61313 /* wordrace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wordrace-Prefix.pch"; sourceTree = "<group>"; };
+		0F0BCFA813CB7F1600B61313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F0BCFBC13CB7F1600B61313 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		0F36C363140D64C400C907CF /* DatabaseBuilderTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseBuilderTVC.h; sourceTree = "<group>"; };
+		0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseBuilderTVC.m; sourceTree = "<group>"; };
+		0F36C365140D64C400C907CF /* DatabaseBuilderTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatabaseBuilderTVC.xib; sourceTree = "<group>"; };
+		0F36C3ED140D6ED800C907CF /* wordrace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordrace.xcdatamodel; sourceTree = "<group>"; };
+		0F5454FE1409019400D357C1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants.h; sourceTree = "<group>"; };
+		0F54550414090FED00D357C1 /* HardWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardWord.h; sourceTree = "<group>"; };
+		0F54550514090FED00D357C1 /* HardWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardWord.m; sourceTree = "<group>"; };
+		0F54550714090FED00D357C1 /* MediumWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediumWord.h; sourceTree = "<group>"; };
+		0F54550814090FED00D357C1 /* MediumWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediumWord.m; sourceTree = "<group>"; };
+		0F54550A14090FED00D357C1 /* EasyWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWord.h; sourceTree = "<group>"; };
+		0F54550B14090FED00D357C1 /* EasyWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyWord.m; sourceTree = "<group>"; };
+		0F54550E1409132300D357C1 /* WordRaceXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordRaceXMLParser.h; sourceTree = "<group>"; };
+		0F54550F1409132300D357C1 /* WordRaceXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordRaceXMLParser.m; sourceTree = "<group>"; };
+		0F5455121409132300D357C1 /* easywords_afrikaan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_afrikaan.xml; sourceTree = "<group>"; };
+		0F5455131409132300D357C1 /* easywords_arabic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_arabic.xml; sourceTree = "<group>"; };
+		0F5455141409132300D357C1 /* easywords_armenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_armenian.xml; sourceTree = "<group>"; };
+		0F5455151409132300D357C1 /* easywords_bulgarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_bulgarian.xml; sourceTree = "<group>"; };
+		0F5455161409132300D357C1 /* easywords_chinese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_chinese.xml; sourceTree = "<group>"; };
+		0F5455171409132300D357C1 /* easywords_croatian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_croatian.xml; sourceTree = "<group>"; };
+		0F5455181409132300D357C1 /* easywords_czech.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_czech.xml; sourceTree = "<group>"; };
+		0F5455191409132300D357C1 /* easywords_danish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_danish.xml; sourceTree = "<group>"; };
+		0F54551A1409132300D357C1 /* easywords_dutch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_dutch.xml; sourceTree = "<group>"; };
+		0F54551B1409132300D357C1 /* easywords_estonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_estonian.xml; sourceTree = "<group>"; };
+		0F54551C1409132300D357C1 /* easywords_filipino.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_filipino.xml; sourceTree = "<group>"; };
+		0F54551D1409132300D357C1 /* easywords_finnish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_finnish.xml; sourceTree = "<group>"; };
+		0F54551E1409132300D357C1 /* easywords_french.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_french.xml; sourceTree = "<group>"; };
+		0F54551F1409132300D357C1 /* easywords_german.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_german.xml; sourceTree = "<group>"; };
+		0F5455201409132300D357C1 /* easywords_greek.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_greek.xml; sourceTree = "<group>"; };
+		0F5455211409132300D357C1 /* easywords_hebrew.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_hebrew.xml; sourceTree = "<group>"; };
+		0F5455221409132300D357C1 /* easywords_hungarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_hungarian.xml; sourceTree = "<group>"; };
+		0F5455231409132300D357C1 /* easywords_indian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_indian.xml; sourceTree = "<group>"; };
+		0F5455241409132300D357C1 /* easywords_indonesian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_indonesian.xml; sourceTree = "<group>"; };
+		0F5455251409132300D357C1 /* easywords_italian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_italian.xml; sourceTree = "<group>"; };
+		0F5455261409132300D357C1 /* easywords_japanese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_japanese.xml; sourceTree = "<group>"; };
+		0F5455271409132300D357C1 /* easywords_latvian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_latvian.xml; sourceTree = "<group>"; };
+		0F5455281409132300D357C1 /* easywords_lithuanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_lithuanian.xml; sourceTree = "<group>"; };
+		0F5455291409132300D357C1 /* easywords_macedonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_macedonian.xml; sourceTree = "<group>"; };
+		0F54552A1409132300D357C1 /* easywords_malay.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_malay.xml; sourceTree = "<group>"; };
+		0F54552B1409132300D357C1 /* easywords_maltese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_maltese.xml; sourceTree = "<group>"; };
+		0F54552C1409132300D357C1 /* easywords_norwegian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_norwegian.xml; sourceTree = "<group>"; };
+		0F54552D1409132300D357C1 /* easywords_polish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_polish.xml; sourceTree = "<group>"; };
+		0F54552E1409132300D357C1 /* easywords_portuguese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_portuguese.xml; sourceTree = "<group>"; };
+		0F54552F1409132300D357C1 /* easywords_romanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_romanian.xml; sourceTree = "<group>"; };
+		0F5455301409132300D357C1 /* easywords_russian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_russian.xml; sourceTree = "<group>"; };
+		0F5455311409132300D357C1 /* easywords_slovakian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_slovakian.xml; sourceTree = "<group>"; };
+		0F5455321409132300D357C1 /* easywords_slovenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_slovenian.xml; sourceTree = "<group>"; };
+		0F5455331409132300D357C1 /* easywords_spanish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_spanish.xml; sourceTree = "<group>"; };
+		0F5455341409132300D357C1 /* easywords_swahili.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_swahili.xml; sourceTree = "<group>"; };
+		0F5455351409132300D357C1 /* easywords_swedish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_swedish.xml; sourceTree = "<group>"; };
+		0F5455361409132300D357C1 /* easywords_tamil.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_tamil.xml; sourceTree = "<group>"; };
+		0F5455371409132300D357C1 /* easywords_thai.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_thai.xml; sourceTree = "<group>"; };
+		0F5455381409132300D357C1 /* easywords_turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_turkish.xml; sourceTree = "<group>"; };
+		0F5455391409132300D357C1 /* easywords_urdu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_urdu.xml; sourceTree = "<group>"; };
+		0F54553A1409132300D357C1 /* easywords_vietnamese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_vietnamese.xml; sourceTree = "<group>"; };
+		0F54553C1409132300D357C1 /* hardwords_afrikaan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_afrikaan.xml; sourceTree = "<group>"; };
+		0F54553D1409132300D357C1 /* hardwords_arabic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_arabic.xml; sourceTree = "<group>"; };
+		0F54553E1409132300D357C1 /* hardwords_armenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_armenian.xml; sourceTree = "<group>"; };
+		0F54553F1409132300D357C1 /* hardwords_bulgarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_bulgarian.xml; sourceTree = "<group>"; };
+		0F5455401409132300D357C1 /* hardwords_chinese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_chinese.xml; sourceTree = "<group>"; };
+		0F5455411409132300D357C1 /* hardwords_croatian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_croatian.xml; sourceTree = "<group>"; };
+		0F5455421409132300D357C1 /* hardwords_czech.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_czech.xml; sourceTree = "<group>"; };
+		0F5455431409132300D357C1 /* hardwords_danish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_danish.xml; sourceTree = "<group>"; };
+		0F5455441409132300D357C1 /* hardwords_dutch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_dutch.xml; sourceTree = "<group>"; };
+		0F5455451409132300D357C1 /* hardwords_estonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_estonian.xml; sourceTree = "<group>"; };
+		0F5455461409132300D357C1 /* hardwords_filipino.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_filipino.xml; sourceTree = "<group>"; };
+		0F5455471409132300D357C1 /* hardwords_finnish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_finnish.xml; sourceTree = "<group>"; };
+		0F5455481409132300D357C1 /* hardwords_french.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_french.xml; sourceTree = "<group>"; };
+		0F5455491409132300D357C1 /* hardwords_german.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_german.xml; sourceTree = "<group>"; };
+		0F54554A1409132300D357C1 /* hardwords_greek.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_greek.xml; sourceTree = "<group>"; };
+		0F54554B1409132300D357C1 /* hardwords_hebrew.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_hebrew.xml; sourceTree = "<group>"; };
+		0F54554C1409132300D357C1 /* hardwords_hungarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_hungarian.xml; sourceTree = "<group>"; };
+		0F54554D1409132300D357C1 /* hardwords_indian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_indian.xml; sourceTree = "<group>"; };
+		0F54554E1409132300D357C1 /* hardwords_indonesian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_indonesian.xml; sourceTree = "<group>"; };
+		0F54554F1409132300D357C1 /* hardwords_italian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_italian.xml; sourceTree = "<group>"; };
+		0F5455501409132300D357C1 /* hardwords_japanese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_japanese.xml; sourceTree = "<group>"; };
+		0F5455511409132300D357C1 /* hardwords_latvian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_latvian.xml; sourceTree = "<group>"; };
+		0F5455521409132300D357C1 /* hardwords_lithuanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_lithuanian.xml; sourceTree = "<group>"; };
+		0F5455531409132300D357C1 /* hardwords_macedonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_macedonian.xml; sourceTree = "<group>"; };
+		0F5455541409132300D357C1 /* hardwords_malay.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_malay.xml; sourceTree = "<group>"; };
+		0F5455551409132300D357C1 /* hardwords_maltese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_maltese.xml; sourceTree = "<group>"; };
+		0F5455561409132300D357C1 /* hardwords_norwegian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_norwegian.xml; sourceTree = "<group>"; };
+		0F5455571409132300D357C1 /* hardwords_polish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_polish.xml; sourceTree = "<group>"; };
+		0F5455581409132300D357C1 /* hardwords_portuguese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_portuguese.xml; sourceTree = "<group>"; };
+		0F5455591409132300D357C1 /* hardwords_romanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_romanian.xml; sourceTree = "<group>"; };
+		0F54555A1409132300D357C1 /* hardwords_russian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_russian.xml; sourceTree = "<group>"; };
+		0F54555B1409132300D357C1 /* hardwords_slovakian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_slovakian.xml; sourceTree = "<group>"; };
+		0F54555C1409132300D357C1 /* hardwords_slovenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_slovenian.xml; sourceTree = "<group>"; };
+		0F54555D1409132300D357C1 /* hardwords_spanish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_spanish.xml; sourceTree = "<group>"; };
+		0F54555E1409132300D357C1 /* hardwords_swahili.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_swahili.xml; sourceTree = "<group>"; };
+		0F54555F1409132300D357C1 /* hardwords_swedish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_swedish.xml; sourceTree = "<group>"; };
+		0F5455601409132300D357C1 /* hardwords_tamil.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_tamil.xml; sourceTree = "<group>"; };
+		0F5455611409132300D357C1 /* hardwords_thai.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_thai.xml; sourceTree = "<group>"; };
+		0F5455621409132300D357C1 /* hardwords_turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_turkish.xml; sourceTree = "<group>"; };
+		0F5455631409132300D357C1 /* hardwords_urdu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_urdu.xml; sourceTree = "<group>"; };
+		0F5455641409132300D357C1 /* hardwords_vietnamese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_vietnamese.xml; sourceTree = "<group>"; };
+		0F5455661409132300D357C1 /* intermediatewords_afrikaan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_afrikaan.xml; sourceTree = "<group>"; };
+		0F5455671409132300D357C1 /* intermediatewords_arabic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_arabic.xml; sourceTree = "<group>"; };
+		0F5455681409132300D357C1 /* intermediatewords_armenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_armenian.xml; sourceTree = "<group>"; };
+		0F5455691409132300D357C1 /* intermediatewords_bulgarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_bulgarian.xml; sourceTree = "<group>"; };
+		0F54556A1409132300D357C1 /* intermediatewords_chinese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_chinese.xml; sourceTree = "<group>"; };
+		0F54556B1409132300D357C1 /* intermediatewords_croatian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_croatian.xml; sourceTree = "<group>"; };
+		0F54556C1409132300D357C1 /* intermediatewords_czech.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_czech.xml; sourceTree = "<group>"; };
+		0F54556D1409132300D357C1 /* intermediatewords_danish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_danish.xml; sourceTree = "<group>"; };
+		0F54556E1409132300D357C1 /* intermediatewords_dutch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_dutch.xml; sourceTree = "<group>"; };
+		0F54556F1409132300D357C1 /* intermediatewords_estonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_estonian.xml; sourceTree = "<group>"; };
+		0F5455701409132300D357C1 /* intermediatewords_filipino.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_filipino.xml; sourceTree = "<group>"; };
+		0F5455711409132300D357C1 /* intermediatewords_finnish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_finnish.xml; sourceTree = "<group>"; };
+		0F5455721409132300D357C1 /* intermediatewords_french.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_french.xml; sourceTree = "<group>"; };
+		0F5455731409132300D357C1 /* intermediatewords_german.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_german.xml; sourceTree = "<group>"; };
+		0F5455741409132300D357C1 /* intermediatewords_greek.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_greek.xml; sourceTree = "<group>"; };
+		0F5455751409132300D357C1 /* intermediatewords_hebrew.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_hebrew.xml; sourceTree = "<group>"; };
+		0F5455761409132300D357C1 /* intermediatewords_hungarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_hungarian.xml; sourceTree = "<group>"; };
+		0F5455771409132300D357C1 /* intermediatewords_indian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_indian.xml; sourceTree = "<group>"; };
+		0F5455781409132300D357C1 /* intermediatewords_indonesian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_indonesian.xml; sourceTree = "<group>"; };
+		0F5455791409132300D357C1 /* intermediatewords_italian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_italian.xml; sourceTree = "<group>"; };
+		0F54557A1409132300D357C1 /* intermediatewords_japanese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_japanese.xml; sourceTree = "<group>"; };
+		0F54557B1409132300D357C1 /* intermediatewords_latvian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_latvian.xml; sourceTree = "<group>"; };
+		0F54557C1409132300D357C1 /* intermediatewords_lithuanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_lithuanian.xml; sourceTree = "<group>"; };
+		0F54557D1409132300D357C1 /* intermediatewords_macedonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_macedonian.xml; sourceTree = "<group>"; };
+		0F54557E1409132300D357C1 /* intermediatewords_malay.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_malay.xml; sourceTree = "<group>"; };
+		0F54557F1409132300D357C1 /* intermediatewords_maltese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_maltese.xml; sourceTree = "<group>"; };
+		0F5455801409132300D357C1 /* intermediatewords_norwegian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_norwegian.xml; sourceTree = "<group>"; };
+		0F5455811409132300D357C1 /* intermediatewords_polish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_polish.xml; sourceTree = "<group>"; };
+		0F5455821409132300D357C1 /* intermediatewords_portuguese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_portuguese.xml; sourceTree = "<group>"; };
+		0F5455831409132300D357C1 /* intermediatewords_romanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_romanian.xml; sourceTree = "<group>"; };
+		0F5455841409132300D357C1 /* intermediatewords_russian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_russian.xml; sourceTree = "<group>"; };
+		0F5455851409132300D357C1 /* intermediatewords_slovakian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_slovakian.xml; sourceTree = "<group>"; };
+		0F5455861409132300D357C1 /* intermediatewords_slovenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_slovenian.xml; sourceTree = "<group>"; };
+		0F5455871409132300D357C1 /* intermediatewords_spanish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_spanish.xml; sourceTree = "<group>"; };
+		0F5455881409132300D357C1 /* intermediatewords_swahili.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_swahili.xml; sourceTree = "<group>"; };
+		0F5455891409132300D357C1 /* intermediatewords_swedish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_swedish.xml; sourceTree = "<group>"; };
+		0F54558A1409132300D357C1 /* intermediatewords_tamil.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_tamil.xml; sourceTree = "<group>"; };
+		0F54558B1409132300D357C1 /* intermediatewords_thai.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_thai.xml; sourceTree = "<group>"; };
+		0F54558C1409132300D357C1 /* intermediatewords_turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_turkish.xml; sourceTree = "<group>"; };
+		0F54558D1409132300D357C1 /* intermediatewords_urdu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_urdu.xml; sourceTree = "<group>"; };
+		0F54558E1409132300D357C1 /* intermediatewords_vietnamese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_vietnamese.xml; sourceTree = "<group>"; };
+		0FB712A61407A66F00407924 /* wordraceAppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		0FB712A71407A66F00407924 /* wordraceAppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordraceAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		0FB712AA1407A68500407924 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = wordrace/iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = SOURCE_ROOT; };
+		0FB712AD1407A6D000407924 /* wordraceAppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate_iPad.h; sourceTree = "<group>"; };
+		0FB712AE1407A6D000407924 /* wordraceAppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordraceAppDelegate_iPad.m; sourceTree = "<group>"; };
+		0FB712B01407A75000407924 /* WelcomeViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController_iPhone.h; path = iPhone/ViewControllers/WelcomeViewController/WelcomeViewController_iPhone.h; sourceTree = "<group>"; };
+		0FB712B11407A75000407924 /* WelcomeViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController_iPhone.m; path = iPhone/ViewControllers/WelcomeViewController/WelcomeViewController_iPhone.m; sourceTree = "<group>"; };
+		0FB712B21407A75000407924 /* WelcomeViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WelcomeViewController_iPhone.xib; path = iPhone/ViewControllers/WelcomeViewController/WelcomeViewController_iPhone.xib; sourceTree = "<group>"; };
+		0FB712BE1407A84D00407924 /* WelcomeViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController_iPad.h; sourceTree = "<group>"; };
+		0FB712BF1407A84D00407924 /* WelcomeViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController_iPad.m; sourceTree = "<group>"; };
+		0FB712C01407A84D00407924 /* WelcomeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController_iPad.xib; sourceTree = "<group>"; };
+		0FB712CB1407AE0100407924 /* GameModesViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModesViewController_iPhone.h; sourceTree = "<group>"; };
+		0FB712CC1407AE0100407924 /* GameModesViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModesViewController_iPhone.m; sourceTree = "<group>"; };
+		0FB712CD1407AE0100407924 /* GameModesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameModesViewController_iPhone.xib; sourceTree = "<group>"; };
+		0FB712D01407AE4800407924 /* SelectLevelViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLevelViewController_iPhone.h; sourceTree = "<group>"; };
+		0FB712D11407AE4800407924 /* SelectLevelViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLevelViewController_iPhone.m; sourceTree = "<group>"; };
+		0FB712D21407AE4800407924 /* SelectLevelViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectLevelViewController_iPhone.xib; sourceTree = "<group>"; };
+		0FDA3D571407DFEB0030F62E /* ThreeLivesViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeLivesViewController_iPhone.h; sourceTree = "<group>"; };
+		0FDA3D581407DFEB0030F62E /* ThreeLivesViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeLivesViewController_iPhone.m; sourceTree = "<group>"; };
+		0FDA3D591407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeLivesViewController_iPhone.xib; sourceTree = "<group>"; };
+		0FDA3D5C1407E00B0030F62E /* VsTheClockViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VsTheClockViewController_iPhone.h; sourceTree = "<group>"; };
+		0FDA3D5D1407E00B0030F62E /* VsTheClockViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VsTheClockViewController_iPhone.m; sourceTree = "<group>"; };
+		0FDA3D5E1407E00B0030F62E /* VsTheClockViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VsTheClockViewController_iPhone.xib; sourceTree = "<group>"; };
+		0FDA3D611407E0E60030F62E /* SuddenDeathViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuddenDeathViewController_iPhone.h; sourceTree = "<group>"; };
+		0FDA3D621407E0E60030F62E /* SuddenDeathViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuddenDeathViewController_iPhone.m; sourceTree = "<group>"; };
+		0FDA3D631407E0E60030F62E /* SuddenDeathViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuddenDeathViewController_iPhone.xib; sourceTree = "<group>"; };
+		0FE3FA56140821B600171C7C /* wordraceAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate.h; sourceTree = "<group>"; };
+		0FE3FA57140821B600171C7C /* wordraceAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordraceAppDelegate.m; sourceTree = "<group>"; };
+		0FE3FA64140824B900171C7C /* CorrectButtonOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CorrectButtonOff@2x.png"; sourceTree = "<group>"; };
+		0FE3FA65140824B900171C7C /* CorrectButtonOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CorrectButtonOn@2x.png"; sourceTree = "<group>"; };
+		0FE3FA66140824B900171C7C /* MainViewBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainViewBackground@2x.png"; sourceTree = "<group>"; };
+		0FE3FA67140824B900171C7C /* MainViewScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainViewScreen@2x.png"; sourceTree = "<group>"; };
+		0FE3FA68140824B900171C7C /* PauseButtonOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PauseButtonOff@2x.png"; sourceTree = "<group>"; };
+		0FE3FA69140824B900171C7C /* PauseButtonOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PauseButtonOn@2x.png"; sourceTree = "<group>"; };
+		0FE3FA6A140824B900171C7C /* WrongButtonOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WrongButtonOff@2x.png"; sourceTree = "<group>"; };
+		0FE3FA6B140824B900171C7C /* WrongButtonOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WrongButtonOn@2x.png"; sourceTree = "<group>"; };
+		0FE3FA6C140824B900171C7C /* CorrectButtonOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CorrectButtonOff.png; sourceTree = "<group>"; };
+		0FE3FA6D140824B900171C7C /* CorrectButtonOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CorrectButtonOn.png; sourceTree = "<group>"; };
+		0FE3FA6E140824B900171C7C /* MainViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainViewBackground.png; sourceTree = "<group>"; };
+		0FE3FA6F140824B900171C7C /* MainViewScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainViewScreen.png; sourceTree = "<group>"; };
+		0FE3FA70140824B900171C7C /* PauseButtonOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButtonOff.png; sourceTree = "<group>"; };
+		0FE3FA71140824B900171C7C /* PauseButtonOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButtonOn.png; sourceTree = "<group>"; };
+		0FE3FA72140824B900171C7C /* WrongButtonOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WrongButtonOff.png; sourceTree = "<group>"; };
+		0FE3FA73140824B900171C7C /* WrongButtonOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WrongButtonOn.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F0BCF9213CB7F1600B61313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0BCF9A13CB7F1600B61313 /* UIKit.framework in Frameworks */,
+				0F0BCF9C13CB7F1600B61313 /* Foundation.framework in Frameworks */,
+				0F0BCF9E13CB7F1600B61313 /* CoreGraphics.framework in Frameworks */,
+				0F0BCFA013CB7F1600B61313 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F02B6DF140DAA1500ACCB19 /* GameOverViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F02B6F9140E10C800ACCB19 /* GameOverViewController.h */,
+				0F02B6FA140E10C800ACCB19 /* GameOverViewController.m */,
+				0F02B6FB140E10C800ACCB19 /* GameOverViewController.xib */,
+			);
+			path = GameOverViewController;
+			sourceTree = "<group>";
+		};
+		0F02B6F3140DAA3100ACCB19 /* PauseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F02B6F4140DAD4700ACCB19 /* PauseViewController.h */,
+				0F02B6F5140DAD4700ACCB19 /* PauseViewController.m */,
+				0F02B6F6140DAD4700ACCB19 /* PauseViewController.xib */,
+			);
+			name = PauseViewController;
+			path = GameOverViewController/PauseViewController;
+			sourceTree = "<group>";
+		};
+		0F0BCF8A13CB7F1600B61313 = {
+			isa = PBXGroup;
+			children = (
+				0FA4367713CB811800940135 /* Database */,
+				0F0BCFA113CB7F1600B61313 /* Wordrace */,
+				0FE3FA5B1408222100171C7C /* Resources */,
+				0F0BCF9813CB7F1600B61313 /* Frameworks */,
+				0F0BCF9613CB7F1600B61313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F0BCF9613CB7F1600B61313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F0BCF9513CB7F1600B61313 /* wordrace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F0BCF9813CB7F1600B61313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F0BCF9913CB7F1600B61313 /* UIKit.framework */,
+				0F0BCF9B13CB7F1600B61313 /* Foundation.framework */,
+				0F0BCF9D13CB7F1600B61313 /* CoreGraphics.framework */,
+				0F0BCF9F13CB7F1600B61313 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F0BCFA113CB7F1600B61313 /* Wordrace */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3FA55140821B600171C7C /* App Delegate */,
+				0F0BCFB013CB7F1600B61313 /* iPhone */,
+				0F0BCFB713CB7F1600B61313 /* iPad */,
+				0F0BCFA213CB7F1600B61313 /* Supporting Files */,
+			);
+			name = Wordrace;
+			path = wordrace;
+			sourceTree = "<group>";
+		};
+		0F0BCFA213CB7F1600B61313 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0BCFA313CB7F1600B61313 /* wordrace-Info.plist */,
+				0F0BCFA413CB7F1600B61313 /* InfoPlist.strings */,
+				0F0BCFA713CB7F1600B61313 /* wordrace-Prefix.pch */,
+				0F0BCFA813CB7F1600B61313 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F0BCFB013CB7F1600B61313 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712A51407A66F00407924 /* AppDelegate */,
+				0FB712B51407A75900407924 /* ViewControllers */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		0F0BCFB713CB7F1600B61313 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712AC1407A6D000407924 /* AppDelegate */,
+				0FB712B71407A79C00407924 /* ViewControllers */,
+				0F0BCFBB13CB7F1600B61313 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		0F36C397140D6C6900C907CF /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				0F02B6D4140D90ED00ACCB19 /* WordRace_turkish.sqlite */,
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
+		0F54550D1409132300D357C1 /* XMLParsers */ = {
+			isa = PBXGroup;
+			children = (
+				0F54550E1409132300D357C1 /* WordRaceXMLParser.h */,
+				0F54550F1409132300D357C1 /* WordRaceXMLParser.m */,
+				0F5455101409132300D357C1 /* XML_DATABASE */,
+			);
+			path = XMLParsers;
+			sourceTree = "<group>";
+		};
+		0F5455101409132300D357C1 /* XML_DATABASE */ = {
+			isa = PBXGroup;
+			children = (
+				0F5455111409132300D357C1 /* basic_words */,
+				0F54553B1409132300D357C1 /* hard_words */,
+				0F5455651409132300D357C1 /* intermediate_words */,
+			);
+			path = XML_DATABASE;
+			sourceTree = "<group>";
+		};
+		0F5455111409132300D357C1 /* basic_words */ = {
+			isa = PBXGroup;
+			children = (
+				0F5455121409132300D357C1 /* easywords_afrikaan.xml */,
+				0F5455131409132300D357C1 /* easywords_arabic.xml */,
+				0F5455141409132300D357C1 /* easywords_armenian.xml */,
+				0F5455151409132300D357C1 /* easywords_bulgarian.xml */,
+				0F5455161409132300D357C1 /* easywords_chinese.xml */,
+				0F5455171409132300D357C1 /* easywords_croatian.xml */,
+				0F5455181409132300D357C1 /* easywords_czech.xml */,
+				0F5455191409132300D357C1 /* easywords_danish.xml */,
+				0F54551A1409132300D357C1 /* easywords_dutch.xml */,
+				0F54551B1409132300D357C1 /* easywords_estonian.xml */,
+				0F54551C1409132300D357C1 /* easywords_filipino.xml */,
+				0F54551D1409132300D357C1 /* easywords_finnish.xml */,
+				0F54551E1409132300D357C1 /* easywords_french.xml */,
+				0F54551F1409132300D357C1 /* easywords_german.xml */,
+				0F5455201409132300D357C1 /* easywords_greek.xml */,
+				0F5455211409132300D357C1 /* easywords_hebrew.xml */,
+				0F5455221409132300D357C1 /* easywords_hungarian.xml */,
+				0F5455231409132300D357C1 /* easywords_indian.xml */,
+				0F5455241409132300D357C1 /* easywords_indonesian.xml */,
+				0F5455251409132300D357C1 /* easywords_italian.xml */,
+				0F5455261409132300D357C1 /* easywords_japanese.xml */,
+				0F5455271409132300D357C1 /* easywords_latvian.xml */,
+				0F5455281409132300D357C1 /* easywords_lithuanian.xml */,
+				0F5455291409132300D357C1 /* easywords_macedonian.xml */,
+				0F54552A1409132300D357C1 /* easywords_malay.xml */,
+				0F54552B1409132300D357C1 /* easywords_maltese.xml */,
+				0F54552C1409132300D357C1 /* easywords_norwegian.xml */,
+				0F54552D1409132300D357C1 /* easywords_polish.xml */,
+				0F54552E1409132300D357C1 /* easywords_portuguese.xml */,
+				0F54552F1409132300D357C1 /* easywords_romanian.xml */,
+				0F5455301409132300D357C1 /* easywords_russian.xml */,
+				0F5455311409132300D357C1 /* easywords_slovakian.xml */,
+				0F5455321409132300D357C1 /* easywords_slovenian.xml */,
+				0F5455331409132300D357C1 /* easywords_spanish.xml */,
+				0F5455341409132300D357C1 /* easywords_swahili.xml */,
+				0F5455351409132300D357C1 /* easywords_swedish.xml */,
+				0F5455361409132300D357C1 /* easywords_tamil.xml */,
+				0F5455371409132300D357C1 /* easywords_thai.xml */,
+				0F5455381409132300D357C1 /* easywords_turkish.xml */,
+				0F5455391409132300D357C1 /* easywords_urdu.xml */,
+				0F54553A1409132300D357C1 /* easywords_vietnamese.xml */,
+			);
+			path = basic_words;
+			sourceTree = "<group>";
+		};
+		0F54553B1409132300D357C1 /* hard_words */ = {
+			isa = PBXGroup;
+			children = (
+				0F54553C1409132300D357C1 /* hardwords_afrikaan.xml */,
+				0F54553D1409132300D357C1 /* hardwords_arabic.xml */,
+				0F54553E1409132300D357C1 /* hardwords_armenian.xml */,
+				0F54553F1409132300D357C1 /* hardwords_bulgarian.xml */,
+				0F5455401409132300D357C1 /* hardwords_chinese.xml */,
+				0F5455411409132300D357C1 /* hardwords_croatian.xml */,
+				0F5455421409132300D357C1 /* hardwords_czech.xml */,
+				0F5455431409132300D357C1 /* hardwords_danish.xml */,
+				0F5455441409132300D357C1 /* hardwords_dutch.xml */,
+				0F5455451409132300D357C1 /* hardwords_estonian.xml */,
+				0F5455461409132300D357C1 /* hardwords_filipino.xml */,
+				0F5455471409132300D357C1 /* hardwords_finnish.xml */,
+				0F5455481409132300D357C1 /* hardwords_french.xml */,
+				0F5455491409132300D357C1 /* hardwords_german.xml */,
+				0F54554A1409132300D357C1 /* hardwords_greek.xml */,
+				0F54554B1409132300D357C1 /* hardwords_hebrew.xml */,
+				0F54554C1409132300D357C1 /* hardwords_hungarian.xml */,
+				0F54554D1409132300D357C1 /* hardwords_indian.xml */,
+				0F54554E1409132300D357C1 /* hardwords_indonesian.xml */,
+				0F54554F1409132300D357C1 /* hardwords_italian.xml */,
+				0F5455501409132300D357C1 /* hardwords_japanese.xml */,
+				0F5455511409132300D357C1 /* hardwords_latvian.xml */,
+				0F5455521409132300D357C1 /* hardwords_lithuanian.xml */,
+				0F5455531409132300D357C1 /* hardwords_macedonian.xml */,
+				0F5455541409132300D357C1 /* hardwords_malay.xml */,
+				0F5455551409132300D357C1 /* hardwords_maltese.xml */,
+				0F5455561409132300D357C1 /* hardwords_norwegian.xml */,
+				0F5455571409132300D357C1 /* hardwords_polish.xml */,
+				0F5455581409132300D357C1 /* hardwords_portuguese.xml */,
+				0F5455591409132300D357C1 /* hardwords_romanian.xml */,
+				0F54555A1409132300D357C1 /* hardwords_russian.xml */,
+				0F54555B1409132300D357C1 /* hardwords_slovakian.xml */,
+				0F54555C1409132300D357C1 /* hardwords_slovenian.xml */,
+				0F54555D1409132300D357C1 /* hardwords_spanish.xml */,
+				0F54555E1409132300D357C1 /* hardwords_swahili.xml */,
+				0F54555F1409132300D357C1 /* hardwords_swedish.xml */,
+				0F5455601409132300D357C1 /* hardwords_tamil.xml */,
+				0F5455611409132300D357C1 /* hardwords_thai.xml */,
+				0F5455621409132300D357C1 /* hardwords_turkish.xml */,
+				0F5455631409132300D357C1 /* hardwords_urdu.xml */,
+				0F5455641409132300D357C1 /* hardwords_vietnamese.xml */,
+			);
+			path = hard_words;
+			sourceTree = "<group>";
+		};
+		0F5455651409132300D357C1 /* intermediate_words */ = {
+			isa = PBXGroup;
+			children = (
+				0F5455661409132300D357C1 /* intermediatewords_afrikaan.xml */,
+				0F5455671409132300D357C1 /* intermediatewords_arabic.xml */,
+				0F5455681409132300D357C1 /* intermediatewords_armenian.xml */,
+				0F5455691409132300D357C1 /* intermediatewords_bulgarian.xml */,
+				0F54556A1409132300D357C1 /* intermediatewords_chinese.xml */,
+				0F54556B1409132300D357C1 /* intermediatewords_croatian.xml */,
+				0F54556C1409132300D357C1 /* intermediatewords_czech.xml */,
+				0F54556D1409132300D357C1 /* intermediatewords_danish.xml */,
+				0F54556E1409132300D357C1 /* intermediatewords_dutch.xml */,
+				0F54556F1409132300D357C1 /* intermediatewords_estonian.xml */,
+				0F5455701409132300D357C1 /* intermediatewords_filipino.xml */,
+				0F5455711409132300D357C1 /* intermediatewords_finnish.xml */,
+				0F5455721409132300D357C1 /* intermediatewords_french.xml */,
+				0F5455731409132300D357C1 /* intermediatewords_german.xml */,
+				0F5455741409132300D357C1 /* intermediatewords_greek.xml */,
+				0F5455751409132300D357C1 /* intermediatewords_hebrew.xml */,
+				0F5455761409132300D357C1 /* intermediatewords_hungarian.xml */,
+				0F5455771409132300D357C1 /* intermediatewords_indian.xml */,
+				0F5455781409132300D357C1 /* intermediatewords_indonesian.xml */,
+				0F5455791409132300D357C1 /* intermediatewords_italian.xml */,
+				0F54557A1409132300D357C1 /* intermediatewords_japanese.xml */,
+				0F54557B1409132300D357C1 /* intermediatewords_latvian.xml */,
+				0F54557C1409132300D357C1 /* intermediatewords_lithuanian.xml */,
+				0F54557D1409132300D357C1 /* intermediatewords_macedonian.xml */,
+				0F54557E1409132300D357C1 /* intermediatewords_malay.xml */,
+				0F54557F1409132300D357C1 /* intermediatewords_maltese.xml */,
+				0F5455801409132300D357C1 /* intermediatewords_norwegian.xml */,
+				0F5455811409132300D357C1 /* intermediatewords_polish.xml */,
+				0F5455821409132300D357C1 /* intermediatewords_portuguese.xml */,
+				0F5455831409132300D357C1 /* intermediatewords_romanian.xml */,
+				0F5455841409132300D357C1 /* intermediatewords_russian.xml */,
+				0F5455851409132300D357C1 /* intermediatewords_slovakian.xml */,
+				0F5455861409132300D357C1 /* intermediatewords_slovenian.xml */,
+				0F5455871409132300D357C1 /* intermediatewords_spanish.xml */,
+				0F5455881409132300D357C1 /* intermediatewords_swahili.xml */,
+				0F5455891409132300D357C1 /* intermediatewords_swedish.xml */,
+				0F54558A1409132300D357C1 /* intermediatewords_tamil.xml */,
+				0F54558B1409132300D357C1 /* intermediatewords_thai.xml */,
+				0F54558C1409132300D357C1 /* intermediatewords_turkish.xml */,
+				0F54558D1409132300D357C1 /* intermediatewords_urdu.xml */,
+				0F54558E1409132300D357C1 /* intermediatewords_vietnamese.xml */,
+			);
+			path = intermediate_words;
+			sourceTree = "<group>";
+		};
+		0FA4367713CB811800940135 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0F36C397140D6C6900C907CF /* SQL */,
+				0F54550D1409132300D357C1 /* XMLParsers */,
+				0F36C363140D64C400C907CF /* DatabaseBuilderTVC.h */,
+				0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */,
+				0F36C365140D64C400C907CF /* DatabaseBuilderTVC.xib */,
+				0F54550A14090FED00D357C1 /* EasyWord.h */,
+				0F54550B14090FED00D357C1 /* EasyWord.m */,
+				0F54550714090FED00D357C1 /* MediumWord.h */,
+				0F54550814090FED00D357C1 /* MediumWord.m */,
+				0F54550414090FED00D357C1 /* HardWord.h */,
+				0F54550514090FED00D357C1 /* HardWord.m */,
+				0F02B6DC140D9CC000ACCB19 /* Question.h */,
+				0F02B6DD140D9CC000ACCB19 /* Question.m */,
+				0F36C3EC140D6ED800C907CF /* wordrace.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		0FB712A51407A66F00407924 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712A61407A66F00407924 /* wordraceAppDelegate_iPhone.h */,
+				0FB712A71407A66F00407924 /* wordraceAppDelegate_iPhone.m */,
+				0FB712A91407A68500407924 /* MainWindow_iPhone.xib */,
+			);
+			name = AppDelegate;
+			path = iPhone/AppDelegate;
+			sourceTree = "<group>";
+		};
+		0FB712AC1407A6D000407924 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712AD1407A6D000407924 /* wordraceAppDelegate_iPad.h */,
+				0FB712AE1407A6D000407924 /* wordraceAppDelegate_iPad.m */,
+			);
+			name = AppDelegate;
+			path = iPad/AppDelegate;
+			sourceTree = "<group>";
+		};
+		0FB712B51407A75900407924 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712B61407A76E00407924 /* WelcomeViewController */,
+				0FB712C71407ADC300407924 /* GameModesViewController */,
+				0FB712C91407ADC300407924 /* SelectLevelViewController */,
+				0FB712CA1407ADC300407924 /* ShowScoresViewController */,
+				0FB712C81407ADC300407924 /* InfoViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0FB712B61407A76E00407924 /* WelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712B01407A75000407924 /* WelcomeViewController_iPhone.h */,
+				0FB712B11407A75000407924 /* WelcomeViewController_iPhone.m */,
+				0FB712B21407A75000407924 /* WelcomeViewController_iPhone.xib */,
+			);
+			name = WelcomeViewController;
+			sourceTree = "<group>";
+		};
+		0FB712B71407A79C00407924 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712B81407A79C00407924 /* WelcomeViewController */,
+				0FB712C31407ADA300407924 /* GameModesViewController */,
+				0FB712C51407ADA300407924 /* SelectLevelViewController */,
+				0FB712C61407ADA300407924 /* ShowScoresViewController */,
+				0FB712C41407ADA300407924 /* InfoViewController */,
+			);
+			name = ViewControllers;
+			path = wordrace/iPad/ViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		0FB712B81407A79C00407924 /* WelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712BE1407A84D00407924 /* WelcomeViewController_iPad.h */,
+				0FB712BF1407A84D00407924 /* WelcomeViewController_iPad.m */,
+				0FB712C01407A84D00407924 /* WelcomeViewController_iPad.xib */,
+			);
+			path = WelcomeViewController;
+			sourceTree = "<group>";
+		};
+		0FB712C31407ADA300407924 /* GameModesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0FDA3D491407DF250030F62E /* GamePlayViewControllers */,
+			);
+			path = GameModesViewController;
+			sourceTree = "<group>";
+		};
+		0FB712C41407ADA300407924 /* InfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InfoViewController;
+			sourceTree = "<group>";
+		};
+		0FB712C51407ADA300407924 /* SelectLevelViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SelectLevelViewController;
+			sourceTree = "<group>";
+		};
+		0FB712C61407ADA300407924 /* ShowScoresViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShowScoresViewController;
+			sourceTree = "<group>";
+		};
+		0FB712C71407ADC300407924 /* GameModesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712CB1407AE0100407924 /* GameModesViewController_iPhone.h */,
+				0FB712CC1407AE0100407924 /* GameModesViewController_iPhone.m */,
+				0FB712CD1407AE0100407924 /* GameModesViewController_iPhone.xib */,
+				0FDA3D441407DF020030F62E /* GamePlayViewControllers */,
+				0F02B6F3140DAA3100ACCB19 /* PauseViewController */,
+				0F02B6DF140DAA1500ACCB19 /* GameOverViewController */,
+			);
+			name = GameModesViewController;
+			path = iPhone/ViewControllers/GameModesViewController;
+			sourceTree = "<group>";
+		};
+		0FB712C81407ADC300407924 /* InfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = InfoViewController;
+			path = iPhone/ViewControllers/InfoViewController;
+			sourceTree = "<group>";
+		};
+		0FB712C91407ADC300407924 /* SelectLevelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0FB712D01407AE4800407924 /* SelectLevelViewController_iPhone.h */,
+				0FB712D11407AE4800407924 /* SelectLevelViewController_iPhone.m */,
+				0FB712D21407AE4800407924 /* SelectLevelViewController_iPhone.xib */,
+			);
+			name = SelectLevelViewController;
+			path = iPhone/ViewControllers/SelectLevelViewController;
+			sourceTree = "<group>";
+		};
+		0FB712CA1407ADC300407924 /* ShowScoresViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ShowScoresViewController;
+			path = iPhone/ViewControllers/ShowScoresViewController;
+			sourceTree = "<group>";
+		};
+		0FDA3D441407DF020030F62E /* GamePlayViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FDA3D451407DF020030F62E /* 3Lives */,
+				0FDA3D471407DF020030F62E /* VStheClock */,
+				0FDA3D461407DF020030F62E /* SuddenDeath */,
+			);
+			path = GamePlayViewControllers;
+			sourceTree = "<group>";
+		};
+		0FDA3D451407DF020030F62E /* 3Lives */ = {
+			isa = PBXGroup;
+			children = (
+				0FDA3D571407DFEB0030F62E /* ThreeLivesViewController_iPhone.h */,
+				0FDA3D581407DFEB0030F62E /* ThreeLivesViewController_iPhone.m */,
+				0FDA3D591407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib */,
+			);
+			path = 3Lives;
+			sourceTree = "<group>";
+		};
+		0FDA3D461407DF020030F62E /* SuddenDeath */ = {
+			isa = PBXGroup;
+			children = (
+				0FDA3D611407E0E60030F62E /* SuddenDeathViewController_iPhone.h */,
+				0FDA3D621407E0E60030F62E /* SuddenDeathViewController_iPhone.m */,
+				0FDA3D631407E0E60030F62E /* SuddenDeathViewController_iPhone.xib */,
+			);
+			path = SuddenDeath;
+			sourceTree = "<group>";
+		};
+		0FDA3D471407DF020030F62E /* VStheClock */ = {
+			isa = PBXGroup;
+			children = (
+				0FDA3D5C1407E00B0030F62E /* VsTheClockViewController_iPhone.h */,
+				0FDA3D5D1407E00B0030F62E /* VsTheClockViewController_iPhone.m */,
+				0FDA3D5E1407E00B0030F62E /* VsTheClockViewController_iPhone.xib */,
+			);
+			path = VStheClock;
+			sourceTree = "<group>";
+		};
+		0FDA3D491407DF250030F62E /* GamePlayViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FDA3D4A1407DF250030F62E /* 3Lives */,
+				0FDA3D4B1407DF250030F62E /* SuddenDeath */,
+				0FDA3D4C1407DF250030F62E /* VStheClock */,
+			);
+			name = GamePlayViewControllers;
+			path = wordrace/iPad/ViewControllers/GameModesViewController/GamePlayViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		0FDA3D4A1407DF250030F62E /* 3Lives */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3Lives;
+			sourceTree = "<group>";
+		};
+		0FDA3D4B1407DF250030F62E /* SuddenDeath */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SuddenDeath;
+			sourceTree = "<group>";
+		};
+		0FDA3D4C1407DF250030F62E /* VStheClock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VStheClock;
+			sourceTree = "<group>";
+		};
+		0FE3FA55140821B600171C7C /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3FA56140821B600171C7C /* wordraceAppDelegate.h */,
+				0FE3FA57140821B600171C7C /* wordraceAppDelegate.m */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		0FE3FA5B1408222100171C7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F5454FE1409019400D357C1 /* Constants.h */,
+				0FE3FA5E1408226800171C7C /* Audio */,
+				0FE3FA5F1408226800171C7C /* Graphics */,
+			);
+			name = Resources;
+			path = wordrace/Resources;
+			sourceTree = "<group>";
+		};
+		0FE3FA5E1408226800171C7C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		0FE3FA5F1408226800171C7C /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				0F02B6D6140D96F800ACCB19 /* live.png */,
+				0FE3FA601408226800171C7C /* iPad */,
+				0FE3FA611408226800171C7C /* iPhone */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		0FE3FA601408226800171C7C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		0FE3FA611408226800171C7C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3FA62140824B900171C7C /* UI */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		0FE3FA62140824B900171C7C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3FA63140824B900171C7C /* _@2x */,
+				0FE3FA6C140824B900171C7C /* CorrectButtonOff.png */,
+				0FE3FA6D140824B900171C7C /* CorrectButtonOn.png */,
+				0FE3FA6E140824B900171C7C /* MainViewBackground.png */,
+				0FE3FA6F140824B900171C7C /* MainViewScreen.png */,
+				0FE3FA70140824B900171C7C /* PauseButtonOff.png */,
+				0FE3FA71140824B900171C7C /* PauseButtonOn.png */,
+				0FE3FA72140824B900171C7C /* WrongButtonOff.png */,
+				0FE3FA73140824B900171C7C /* WrongButtonOn.png */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0FE3FA63140824B900171C7C /* _@2x */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3FA64140824B900171C7C /* CorrectButtonOff@2x.png */,
+				0FE3FA65140824B900171C7C /* CorrectButtonOn@2x.png */,
+				0FE3FA66140824B900171C7C /* MainViewBackground@2x.png */,
+				0FE3FA67140824B900171C7C /* MainViewScreen@2x.png */,
+				0FE3FA68140824B900171C7C /* PauseButtonOff@2x.png */,
+				0FE3FA69140824B900171C7C /* PauseButtonOn@2x.png */,
+				0FE3FA6A140824B900171C7C /* WrongButtonOff@2x.png */,
+				0FE3FA6B140824B900171C7C /* WrongButtonOn@2x.png */,
+			);
+			path = "_@2x";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F0BCF9413CB7F1600B61313 /* wordrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0BCFC013CB7F1600B61313 /* Build configuration list for PBXNativeTarget "wordrace" */;
+			buildPhases = (
+				0F0BCF9113CB7F1600B61313 /* Sources */,
+				0F0BCF9213CB7F1600B61313 /* Frameworks */,
+				0F0BCF9313CB7F1600B61313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordrace;
+			productName = wordrace;
+			productReference = 0F0BCF9513CB7F1600B61313 /* wordrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F0BCF8C13CB7F1600B61313 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0F0BCF8F13CB7F1600B61313 /* Build configuration list for PBXProject "wordrace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F0BCF8A13CB7F1600B61313;
+			productRefGroup = 0F0BCF9613CB7F1600B61313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F0BCF9413CB7F1600B61313 /* wordrace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F0BCF9313CB7F1600B61313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0BCFA613CB7F1600B61313 /* InfoPlist.strings in Resources */,
+				0F0BCFBD13CB7F1600B61313 /* MainWindow_iPad.xib in Resources */,
+				0FB712AB1407A68500407924 /* MainWindow_iPhone.xib in Resources */,
+				0FB712B41407A75000407924 /* WelcomeViewController_iPhone.xib in Resources */,
+				0FB712C21407A84D00407924 /* WelcomeViewController_iPad.xib in Resources */,
+				0FB712CF1407AE0100407924 /* GameModesViewController_iPhone.xib in Resources */,
+				0FB712D41407AE4800407924 /* SelectLevelViewController_iPhone.xib in Resources */,
+				0FDA3D5B1407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib in Resources */,
+				0FDA3D601407E00B0030F62E /* VsTheClockViewController_iPhone.xib in Resources */,
+				0FDA3D651407E0E60030F62E /* SuddenDeathViewController_iPhone.xib in Resources */,
+				0FE3FA74140824B900171C7C /* CorrectButtonOff@2x.png in Resources */,
+				0FE3FA75140824B900171C7C /* CorrectButtonOn@2x.png in Resources */,
+				0FE3FA76140824B900171C7C /* MainViewBackground@2x.png in Resources */,
+				0FE3FA77140824B900171C7C /* MainViewScreen@2x.png in Resources */,
+				0FE3FA78140824B900171C7C /* PauseButtonOff@2x.png in Resources */,
+				0FE3FA79140824B900171C7C /* PauseButtonOn@2x.png in Resources */,
+				0FE3FA7A140824B900171C7C /* WrongButtonOff@2x.png in Resources */,
+				0FE3FA7B140824B900171C7C /* WrongButtonOn@2x.png in Resources */,
+				0FE3FA7C140824B900171C7C /* CorrectButtonOff.png in Resources */,
+				0FE3FA7D140824B900171C7C /* CorrectButtonOn.png in Resources */,
+				0FE3FA7E140824B900171C7C /* MainViewBackground.png in Resources */,
+				0FE3FA7F140824B900171C7C /* MainViewScreen.png in Resources */,
+				0FE3FA80140824B900171C7C /* PauseButtonOff.png in Resources */,
+				0FE3FA81140824B900171C7C /* PauseButtonOn.png in Resources */,
+				0FE3FA82140824B900171C7C /* WrongButtonOff.png in Resources */,
+				0FE3FA83140824B900171C7C /* WrongButtonOn.png in Resources */,
+				0F5455901409132300D357C1 /* easywords_afrikaan.xml in Resources */,
+				0F5455911409132300D357C1 /* easywords_arabic.xml in Resources */,
+				0F5455921409132300D357C1 /* easywords_armenian.xml in Resources */,
+				0F5455931409132300D357C1 /* easywords_bulgarian.xml in Resources */,
+				0F5455941409132400D357C1 /* easywords_chinese.xml in Resources */,
+				0F5455951409132400D357C1 /* easywords_croatian.xml in Resources */,
+				0F5455961409132400D357C1 /* easywords_czech.xml in Resources */,
+				0F5455971409132400D357C1 /* easywords_danish.xml in Resources */,
+				0F5455981409132400D357C1 /* easywords_dutch.xml in Resources */,
+				0F5455991409132400D357C1 /* easywords_estonian.xml in Resources */,
+				0F54559A1409132400D357C1 /* easywords_filipino.xml in Resources */,
+				0F54559B1409132400D357C1 /* easywords_finnish.xml in Resources */,
+				0F54559C1409132400D357C1 /* easywords_french.xml in Resources */,
+				0F54559D1409132400D357C1 /* easywords_german.xml in Resources */,
+				0F54559E1409132400D357C1 /* easywords_greek.xml in Resources */,
+				0F54559F1409132400D357C1 /* easywords_hebrew.xml in Resources */,
+				0F5455A01409132400D357C1 /* easywords_hungarian.xml in Resources */,
+				0F5455A11409132400D357C1 /* easywords_indian.xml in Resources */,
+				0F5455A21409132400D357C1 /* easywords_indonesian.xml in Resources */,
+				0F5455A31409132400D357C1 /* easywords_italian.xml in Resources */,
+				0F5455A41409132400D357C1 /* easywords_japanese.xml in Resources */,
+				0F5455A51409132400D357C1 /* easywords_latvian.xml in Resources */,
+				0F5455A61409132400D357C1 /* easywords_lithuanian.xml in Resources */,
+				0F5455A71409132400D357C1 /* easywords_macedonian.xml in Resources */,
+				0F5455A81409132400D357C1 /* easywords_malay.xml in Resources */,
+				0F5455A91409132400D357C1 /* easywords_maltese.xml in Resources */,
+				0F5455AA1409132400D357C1 /* easywords_norwegian.xml in Resources */,
+				0F5455AB1409132400D357C1 /* easywords_polish.xml in Resources */,
+				0F5455AC1409132400D357C1 /* easywords_portuguese.xml in Resources */,
+				0F5455AD1409132400D357C1 /* easywords_romanian.xml in Resources */,
+				0F5455AE1409132400D357C1 /* easywords_russian.xml in Resources */,
+				0F5455AF1409132400D357C1 /* easywords_slovakian.xml in Resources */,
+				0F5455B01409132400D357C1 /* easywords_slovenian.xml in Resources */,
+				0F5455B11409132400D357C1 /* easywords_spanish.xml in Resources */,
+				0F5455B21409132400D357C1 /* easywords_swahili.xml in Resources */,
+				0F5455B31409132400D357C1 /* easywords_swedish.xml in Resources */,
+				0F5455B41409132400D357C1 /* easywords_tamil.xml in Resources */,
+				0F5455B51409132400D357C1 /* easywords_thai.xml in Resources */,
+				0F5455B61409132400D357C1 /* easywords_turkish.xml in Resources */,
+				0F5455B71409132400D357C1 /* easywords_urdu.xml in Resources */,
+				0F5455B81409132400D357C1 /* easywords_vietnamese.xml in Resources */,
+				0F5455B91409132400D357C1 /* hardwords_afrikaan.xml in Resources */,
+				0F5455BA1409132400D357C1 /* hardwords_arabic.xml in Resources */,
+				0F5455BB1409132400D357C1 /* hardwords_armenian.xml in Resources */,
+				0F5455BC1409132400D357C1 /* hardwords_bulgarian.xml in Resources */,
+				0F5455BD1409132400D357C1 /* hardwords_chinese.xml in Resources */,
+				0F5455BE1409132400D357C1 /* hardwords_croatian.xml in Resources */,
+				0F5455BF1409132400D357C1 /* hardwords_czech.xml in Resources */,
+				0F5455C01409132400D357C1 /* hardwords_danish.xml in Resources */,
+				0F5455C11409132400D357C1 /* hardwords_dutch.xml in Resources */,
+				0F5455C21409132400D357C1 /* hardwords_estonian.xml in Resources */,
+				0F5455C31409132400D357C1 /* hardwords_filipino.xml in Resources */,
+				0F5455C41409132400D357C1 /* hardwords_finnish.xml in Resources */,
+				0F5455C51409132400D357C1 /* hardwords_french.xml in Resources */,
+				0F5455C61409132400D357C1 /* hardwords_german.xml in Resources */,
+				0F5455C71409132400D357C1 /* hardwords_greek.xml in Resources */,
+				0F5455C81409132400D357C1 /* hardwords_hebrew.xml in Resources */,
+				0F5455C91409132400D357C1 /* hardwords_hungarian.xml in Resources */,
+				0F5455CA1409132400D357C1 /* hardwords_indian.xml in Resources */,
+				0F5455CB1409132400D357C1 /* hardwords_indonesian.xml in Resources */,
+				0F5455CC1409132400D357C1 /* hardwords_italian.xml in Resources */,
+				0F5455CD1409132400D357C1 /* hardwords_japanese.xml in Resources */,
+				0F5455CE1409132400D357C1 /* hardwords_latvian.xml in Resources */,
+				0F5455CF1409132400D357C1 /* hardwords_lithuanian.xml in Resources */,
+				0F5455D01409132400D357C1 /* hardwords_macedonian.xml in Resources */,
+				0F5455D11409132400D357C1 /* hardwords_malay.xml in Resources */,
+				0F5455D21409132400D357C1 /* hardwords_maltese.xml in Resources */,
+				0F5455D31409132400D357C1 /* hardwords_norwegian.xml in Resources */,
+				0F5455D41409132400D357C1 /* hardwords_polish.xml in Resources */,
+				0F5455D51409132400D357C1 /* hardwords_portuguese.xml in Resources */,
+				0F5455D61409132400D357C1 /* hardwords_romanian.xml in Resources */,
+				0F5455D71409132400D357C1 /* hardwords_russian.xml in Resources */,
+				0F5455D81409132400D357C1 /* hardwords_slovakian.xml in Resources */,
+				0F5455D91409132400D357C1 /* hardwords_slovenian.xml in Resources */,
+				0F5455DA1409132400D357C1 /* hardwords_spanish.xml in Resources */,
+				0F5455DB1409132400D357C1 /* hardwords_swahili.xml in Resources */,
+				0F5455DC1409132400D357C1 /* hardwords_swedish.xml in Resources */,
+				0F5455DD1409132400D357C1 /* hardwords_tamil.xml in Resources */,
+				0F5455DE1409132400D357C1 /* hardwords_thai.xml in Resources */,
+				0F5455DF1409132400D357C1 /* hardwords_turkish.xml in Resources */,
+				0F5455E01409132400D357C1 /* hardwords_urdu.xml in Resources */,
+				0F5455E11409132400D357C1 /* hardwords_vietnamese.xml in Resources */,
+				0F5455E21409132400D357C1 /* intermediatewords_afrikaan.xml in Resources */,
+				0F5455E31409132400D357C1 /* intermediatewords_arabic.xml in Resources */,
+				0F5455E41409132400D357C1 /* intermediatewords_armenian.xml in Resources */,
+				0F5455E51409132400D357C1 /* intermediatewords_bulgarian.xml in Resources */,
+				0F5455E61409132400D357C1 /* intermediatewords_chinese.xml in Resources */,
+				0F5455E71409132400D357C1 /* intermediatewords_croatian.xml in Resources */,
+				0F5455E81409132400D357C1 /* intermediatewords_czech.xml in Resources */,
+				0F5455E91409132400D357C1 /* intermediatewords_danish.xml in Resources */,
+				0F5455EA1409132400D357C1 /* intermediatewords_dutch.xml in Resources */,
+				0F5455EB1409132400D357C1 /* intermediatewords_estonian.xml in Resources */,
+				0F5455EC1409132400D357C1 /* intermediatewords_filipino.xml in Resources */,
+				0F5455ED1409132400D357C1 /* intermediatewords_finnish.xml in Resources */,
+				0F5455EE1409132400D357C1 /* intermediatewords_french.xml in Resources */,
+				0F5455EF1409132400D357C1 /* intermediatewords_german.xml in Resources */,
+				0F5455F01409132400D357C1 /* intermediatewords_greek.xml in Resources */,
+				0F5455F11409132400D357C1 /* intermediatewords_hebrew.xml in Resources */,
+				0F5455F21409132400D357C1 /* intermediatewords_hungarian.xml in Resources */,
+				0F5455F31409132400D357C1 /* intermediatewords_indian.xml in Resources */,
+				0F5455F41409132400D357C1 /* intermediatewords_indonesian.xml in Resources */,
+				0F5455F51409132400D357C1 /* intermediatewords_italian.xml in Resources */,
+				0F5455F61409132400D357C1 /* intermediatewords_japanese.xml in Resources */,
+				0F5455F71409132400D357C1 /* intermediatewords_latvian.xml in Resources */,
+				0F5455F81409132400D357C1 /* intermediatewords_lithuanian.xml in Resources */,
+				0F5455F91409132400D357C1 /* intermediatewords_macedonian.xml in Resources */,
+				0F5455FA1409132400D357C1 /* intermediatewords_malay.xml in Resources */,
+				0F5455FB1409132400D357C1 /* intermediatewords_maltese.xml in Resources */,
+				0F5455FC1409132400D357C1 /* intermediatewords_norwegian.xml in Resources */,
+				0F5455FD1409132400D357C1 /* intermediatewords_polish.xml in Resources */,
+				0F5455FE1409132400D357C1 /* intermediatewords_portuguese.xml in Resources */,
+				0F5455FF1409132400D357C1 /* intermediatewords_romanian.xml in Resources */,
+				0F5456001409132400D357C1 /* intermediatewords_russian.xml in Resources */,
+				0F5456011409132400D357C1 /* intermediatewords_slovakian.xml in Resources */,
+				0F5456021409132400D357C1 /* intermediatewords_slovenian.xml in Resources */,
+				0F5456031409132400D357C1 /* intermediatewords_spanish.xml in Resources */,
+				0F5456041409132400D357C1 /* intermediatewords_swahili.xml in Resources */,
+				0F5456051409132400D357C1 /* intermediatewords_swedish.xml in Resources */,
+				0F5456061409132400D357C1 /* intermediatewords_tamil.xml in Resources */,
+				0F5456071409132400D357C1 /* intermediatewords_thai.xml in Resources */,
+				0F5456081409132400D357C1 /* intermediatewords_turkish.xml in Resources */,
+				0F5456091409132400D357C1 /* intermediatewords_urdu.xml in Resources */,
+				0F54560A1409132400D357C1 /* intermediatewords_vietnamese.xml in Resources */,
+				0F36C367140D64C400C907CF /* DatabaseBuilderTVC.xib in Resources */,
+				0F02B6D5140D90ED00ACCB19 /* WordRace_turkish.sqlite in Resources */,
+				0F02B6D7140D96F800ACCB19 /* live.png in Resources */,
+				0F02B6F8140DAD4700ACCB19 /* PauseViewController.xib in Resources */,
+				0F02B6FD140E10C800ACCB19 /* GameOverViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F0BCF9113CB7F1600B61313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0BCFA913CB7F1600B61313 /* main.m in Sources */,
+				0FB712A81407A66F00407924 /* wordraceAppDelegate_iPhone.m in Sources */,
+				0FB712AF1407A6D000407924 /* wordraceAppDelegate_iPad.m in Sources */,
+				0FB712B31407A75000407924 /* WelcomeViewController_iPhone.m in Sources */,
+				0FB712C11407A84D00407924 /* WelcomeViewController_iPad.m in Sources */,
+				0FB712CE1407AE0100407924 /* GameModesViewController_iPhone.m in Sources */,
+				0FB712D31407AE4800407924 /* SelectLevelViewController_iPhone.m in Sources */,
+				0FDA3D5A1407DFEB0030F62E /* ThreeLivesViewController_iPhone.m in Sources */,
+				0FDA3D5F1407E00B0030F62E /* VsTheClockViewController_iPhone.m in Sources */,
+				0FDA3D641407E0E60030F62E /* SuddenDeathViewController_iPhone.m in Sources */,
+				0FE3FA58140821B600171C7C /* wordraceAppDelegate.m in Sources */,
+				0F54550614090FED00D357C1 /* HardWord.m in Sources */,
+				0F54550914090FED00D357C1 /* MediumWord.m in Sources */,
+				0F54550C14090FED00D357C1 /* EasyWord.m in Sources */,
+				0F54558F1409132300D357C1 /* WordRaceXMLParser.m in Sources */,
+				0F36C366140D64C400C907CF /* DatabaseBuilderTVC.m in Sources */,
+				0F36C3EE140D6ED800C907CF /* wordrace.xcdatamodeld in Sources */,
+				0F02B6DE140D9CC000ACCB19 /* Question.m in Sources */,
+				0F02B6F7140DAD4700ACCB19 /* PauseViewController.m in Sources */,
+				0F02B6FC140E10C800ACCB19 /* GameOverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F0BCFA413CB7F1600B61313 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0BCFA513CB7F1600B61313 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F0BCFBB13CB7F1600B61313 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0BCFBC13CB7F1600B61313 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		0FB712A91407A68500407924 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FB712AA1407A68500407924 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F0BCFBE13CB7F1600B61313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Taha Selim Bebek (JHCUMC52QD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Taha Selim Bebek (JHCUMC52QD)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "3F04A323-BFCD-4200-B0AF-33AE85FCBD86";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3F04A323-BFCD-4200-B0AF-33AE85FCBD86";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F0BCFBF13CB7F1600B61313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Taha Selim Bebek (JHCUMC52QD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Taha Selim Bebek (JHCUMC52QD)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "3F04A323-BFCD-4200-B0AF-33AE85FCBD86";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3F04A323-BFCD-4200-B0AF-33AE85FCBD86";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F0BCFC113CB7F1600B61313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordrace/wordrace-Prefix.pch";
+				INFOPLIST_FILE = "wordrace/wordrace-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F0BCFC213CB7F1600B61313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordrace/wordrace-Prefix.pch";
+				INFOPLIST_FILE = "wordrace/wordrace-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F0BCF8F13CB7F1600B61313 /* Build configuration list for PBXProject "wordrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0BCFBE13CB7F1600B61313 /* Debug */,
+				0F0BCFBF13CB7F1600B61313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0BCFC013CB7F1600B61313 /* Build configuration list for PBXNativeTarget "wordrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0BCFC113CB7F1600B61313 /* Debug */,
+				0F0BCFC213CB7F1600B61313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F36C3EC140D6ED800C907CF /* wordrace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F36C3ED140D6ED800C907CF /* wordrace.xcdatamodel */,
+			);
+			currentVersion = 0F36C3ED140D6ED800C907CF /* wordrace.xcdatamodel */;
+			path = wordrace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F0BCF8C13CB7F1600B61313 /* Project object */;
+}
