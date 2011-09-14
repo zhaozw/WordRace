@@ -10,6 +10,7 @@
 #import "ThreeLivesViewController_iPhone.h"
 #import "VsTheClockViewController_iPhone.h"
 #import "SuddenDeathViewController_iPhone.h"
+#import "wordraceAppDelegate.h"
 
 @implementation GameOverViewController
 @synthesize parentGamePlayViewController;
@@ -35,6 +36,8 @@
 @synthesize postToTwitterImage;
 @synthesize goToMainMenuLabel;
 @synthesize moreGamesLabel;
+@synthesize facebook;
+@synthesize gameMode;
 
 #pragma mark -
 #pragma mark IBActions
@@ -72,10 +75,43 @@
 }
 
 
+-(void)postToFacebookWall
+{
+    NSMutableDictionary* params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+                                   FACEBOOKAPPID, @"app_id",
+                                   @"http://bebeksel.net/ingilizceky.html", @"link",
+                                   @"http://bebeksel.net/ingilizceky.jpg", @"picture",
+                                   [NSString stringWithFormat:@"İngilizce Kelime Yarışı \"%@\" oyununda %i puan aldım ve %i. seviyeye çıktım.",self.gameMode,self.score,self.currentLevel +1], @"name",
+                                   @"İngilizce Kelime Yarışı oyununu oynayarak hiç sıkılmadan yeni kelimeler öğreniyorum. Sizde oynamak için yukarıdaki linke tıklayabilirsiniz.", @"description",
+                                   nil];
+    [facebook dialog:@"feed" andParams:params andDelegate:self];
+}
+
 -(IBAction)postToFacebook:(id)sender
 {
     self.postToFacebookImage.frame = CGRectOffset(self.postToFacebookImage.frame, 0, 3);
     self.postToFacebookLabel.frame = CGRectOffset(self.postToFacebookLabel.frame, 0, 3);
+    
+    self.facebook = [[[Facebook alloc] initWithAppId:FACEBOOKAPPID andDelegate:self] autorelease];
+    wordraceAppDelegate* appDelegate = (wordraceAppDelegate*)[[UIApplication sharedApplication]delegate];
+    appDelegate.facebook = self.facebook;
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    if ([defaults objectForKey:@"FBAccessTokenKey"] 
+        && [defaults objectForKey:@"FBExpirationDateKey"]) {
+        facebook.accessToken = [defaults objectForKey:@"FBAccessTokenKey"];
+        facebook.expirationDate = [defaults objectForKey:@"FBExpirationDateKey"];
+    }
+    
+    if (![facebook isSessionValid]) {
+        NSArray* permissions =  [NSArray arrayWithObjects:@"publish_stream", @"offline_access",nil];
+        [facebook authorize:permissions];
+    }
+    else
+    {
+        [self postToFacebookWall];
+    }
 }
 
 -(IBAction)postToTwitter:(id)sender
@@ -199,6 +235,8 @@
     [goToMainMenuLabel release];
     [moreGamesLabel release];
 
+    [facebook release];
+    [gameMode release];
     [super dealloc];
     
 }
@@ -248,6 +286,70 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+#pragma mark -
+#pragma mark facebook
+
+- (void)fbDidLogin
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:[facebook accessToken] forKey:@"FBAccessTokenKey"];
+    [defaults setObject:[facebook expirationDate] forKey:@"FBExpirationDateKey"];
+    [defaults synchronize];
+    
+    [self postToFacebookWall];
+}
+
+/**
+ * Called when the user dismissed the dialog without logging in.
+ */
+- (void)fbDidNotLogin:(BOOL)cancelled
+{
+}
+
+/**
+ * Called when the user logged out.
+ */
+- (void)fbDidLogout
+{
+}
+
+- (void)dialogDidComplete:(FBDialog *)dialog
+{
+    
+}
+
+/**
+ * Called when the dialog succeeds with a returning url.
+ */
+- (void)dialogCompleteWithUrl:(NSURL *)url
+{
+    
+}
+
+/**
+ * Called when the dialog get canceled by the user.
+ */
+- (void)dialogDidNotCompleteWithUrl:(NSURL *)url
+{
+    
+}
+
+/**
+ * Called when the dialog is cancelled and is about to be dismissed.
+ */
+- (void)dialogDidNotComplete:(FBDialog *)dialog
+{
+    
+}
+
+/**
+ * Called when dialog failed to load due to an error.
+ */
+- (void)dialog:(FBDialog*)dialog didFailWithError:(NSError *)error
+{
+    
 }
 
 @end

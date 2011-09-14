@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "Facebook.h"
 
-@interface GameOverViewController : UIViewController
+#define FACEBOOKAPPID @"107620642677158"
+#define FACEBOOKAPPSECRET @"7b4e98effc1afdafae4abd97a066d363"
+
+@interface GameOverViewController : UIViewController <FBSessionDelegate,FBDialogDelegate>
 {
     UILabel* gameOverTitleLabel;
 
@@ -37,6 +40,9 @@
     UIImageView* postToTwitterImage;
     UILabel* goToMainMenuLabel;
     UILabel* moreGamesLabel;
+    
+    Facebook* facebook;
+    NSString* gameMode;
 }
 @property(nonatomic,retain) IBOutlet UILabel* gameOverTitleLabel;
 @property(nonatomic,assign) UIViewController* parentGamePlayViewController;
@@ -60,7 +66,8 @@
 @property(nonatomic,retain) IBOutlet UIImageView* postToTwitterImage;
 @property(nonatomic,retain) IBOutlet UILabel* goToMainMenuLabel;
 @property(nonatomic,retain) IBOutlet UILabel* moreGamesLabel;
-
+@property(nonatomic,retain) Facebook* facebook;
+@property(nonatomic,retain) NSString* gameMode;
 
 -(IBAction)restartGame:(id)sender;
 -(IBAction)goToMainMenu:(id)sender;

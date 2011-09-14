@@ -45,6 +45,7 @@
     GameOverViewController* gameOverViewController = [[GameOverViewController alloc]initWithNibName:@"GameOverViewController" bundle:nil];
     gameOverViewController.parentGamePlayViewController = (UIViewController*)self;
     gameOverViewController.currentGameMode = 0;
+    gameOverViewController.gameMode = @"Üç Can";
     gameOverViewController.currentLevel = currentLevel;
     gameOverViewController.score =currentScore;
     gameOverViewController.highScore = highScore;

@@ -19,7 +19,12 @@
 @synthesize managedObjectModel=__managedObjectModel;
 
 @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
+@synthesize facebook;
 
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    
+    return [self.facebook handleOpenURL:url]; 
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -59,6 +64,7 @@
 
 - (void)dealloc
 {
+    [facebook release];
     [_window release];
     [__managedObjectContext release];
     [__managedObjectModel release];
