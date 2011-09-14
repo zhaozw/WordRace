@@ -1241,7 +1241,7 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>337689130.55277401</real>
+		<real>337689247.15328598</real>
 		<string>{0, 221}</string>
 		<string>{216, 0}</string>
 		<string>@interface SoundManager</string>
@@ -16667,7 +16667,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>337689130.55073899</real>
+		<real>337689247.15266401</real>
 		<string>{0, 221}</string>
 		<string>{216, 0}</string>
 		<dict>
@@ -27994,7 +27994,7 @@
 		</dict>
 		<string>IDEDeviceLocation</string>
 		<string>IDEDeviceArchitecture</string>
-		<string>dvtdevice-iphonePlaceholder:placeholder</string>
+		<string>dvtdevice-iphone:50f93a4860edc0c8e058b7c53533293d1da971a2</string>
 		<string>armv7</string>
 		<dict>
 			<key>$class</key>
