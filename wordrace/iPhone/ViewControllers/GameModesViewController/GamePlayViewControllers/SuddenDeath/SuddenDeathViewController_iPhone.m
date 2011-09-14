@@ -19,6 +19,8 @@
 @synthesize highScoreLabel;
 @synthesize upperTextLabel;
 @synthesize lowerTextLabel;
+@synthesize allQuestions;
+@synthesize allQuestionsCopyForWrongAnswers;
 
 #pragma mark -
 #pragma mark game
@@ -27,39 +29,16 @@
 -(void)gameOver
 {
     NSUInteger highScore = 0;
-    
-    switch (currentLevel) {
-        case 1:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeathBeginner"];
-            if (currentScore > highScore) 
-            {
-                [[NSUserDefaults standardUserDefaults] setInteger:currentScore forKey:@"highScoreSuddenDeathBeginner"];
-                highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeathBeginner"];
-            }
-            break;
-        case 2:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeathIntermediate"];
-            if (currentScore > highScore) 
-            {
-                [[NSUserDefaults standardUserDefaults] setInteger:currentScore forKey:@"highScoreSuddenDeathIntermediate"];
-                highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeathIntermediate"];
-            }
-            break;
-        case 3:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeathAdvanced"];
-            if (currentScore > highScore) 
-            {
-                [[NSUserDefaults standardUserDefaults] setInteger:currentScore forKey:@"highScoreSuddenDeathAdvanced"];
-                highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeathAdvanced"];
-                
-            }
-            break;
+    highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeath"];
+    if (currentScore > highScore) 
+    {
+        [[NSUserDefaults standardUserDefaults] setInteger:currentScore forKey:@"highScoreSuddenDeath"];
+        highScore = currentScore;
     }
-    
     
     GameOverViewController* gameOverViewController = [[GameOverViewController alloc]initWithNibName:@"GameOverViewController" bundle:nil];
     gameOverViewController.parentGamePlayViewController = (UIViewController*)self;
-    gameOverViewController.currentGameMode = 2;
+    gameOverViewController.currentGameMode = 0;
     gameOverViewController.currentLevel = currentLevel;
     gameOverViewController.score =currentScore;
     gameOverViewController.highScore = highScore;
@@ -70,6 +49,11 @@
 }
 
 
+-(void)updateLevelLabel
+{
+    self.highScoreLabel.text = [NSString stringWithFormat:@"Seviye %i",currentLevel +1];
+}
+
 -(void)updateScoreBoard
 {
     self.scoreBoardLabel.text = [NSString stringWithFormat:@"%i",currentScore];
@@ -79,51 +63,18 @@
 -(void)checkCurrentLevel
 {    
     currentLevel = [[NSUserDefaults standardUserDefaults] integerForKey:@"currentLevel"];
-    
-    if (currentLevel == 0) {
-        currentLevel = 1;
-        [[NSUserDefaults standardUserDefaults] setInteger:1 forKey:@"currentLevel"];
-    }
 }
 
--(void)putHighScore
-{
-    NSInteger highScore = 0;
-    switch (currentLevel) {
-        case 1:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeathBeginner"];
-            break;
-        case 2:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeathIntermediate"];
-            break;
-        case 3:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreSuddenDeathAdvanced"];
-            break;
-    }
-    self.highScoreLabel.text = [NSString stringWithFormat:@"HS: %i",highScore];
-    
-}
-
--(void)createAllWords
+-(void)createAllWordsForCurrentLevel
 {
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-    
-    switch (currentLevel) {
-        case 1:
-            [fetchRequest setEntity:[NSEntityDescription entityForName:@"EasyWord" inManagedObjectContext:self.managedObjectContext]];
-            break;
-        case 2:
-            [fetchRequest setEntity:[NSEntityDescription entityForName:@"MediumWord" inManagedObjectContext:self.managedObjectContext]];
-            break;
-        case 3:
-            [fetchRequest setEntity:[NSEntityDescription entityForName:@"HardWord" inManagedObjectContext:self.managedObjectContext]];
-            break;
-    }
-    [fetchRequest setPredicate:nil];
+    [fetchRequest setEntity:[NSEntityDescription entityForName:@"EasyWord" inManagedObjectContext:self.managedObjectContext]];
+    NSPredicate* levelPredicate = [NSPredicate predicateWithFormat:@"level == %@",[NSNumber numberWithInt:currentLevel]];
+    [fetchRequest setPredicate:levelPredicate];
     
     NSError* errorCorrectWords = nil;
-    allQuestionsCopyForWrongAnswers = [[managedObjectContext executeFetchRequest:fetchRequest error:&errorCorrectWords] retain];
-    allQuestions = [[NSMutableArray alloc] initWithArray:allQuestionsCopyForWrongAnswers];
+    self.allQuestionsCopyForWrongAnswers = [managedObjectContext executeFetchRequest:fetchRequest error:&errorCorrectWords];
+    self.allQuestions = [[[NSMutableArray alloc] initWithArray:allQuestionsCopyForWrongAnswers] autorelease];
 }
 
 -(void)putNextQuestion
@@ -131,29 +82,11 @@
     NSInteger numberOfWords = [allQuestions count];
     NSInteger numberOfWordsForWrongAnswers = [allQuestionsCopyForWrongAnswers count];
     
-    if (numberOfWords == 0) 
-    {
-        
-        NSString* message = @"";
-        
-        switch (currentLevel) {
-            case 1:
-                message = @"Beginner seviyesini basariyla tamamladiniz. Bir ust seviyeye gecebilirsiniz.";
-                break;
-            case 2:
-                message = @"Intermediate seviyesini basariyla tamamladiniz. Bir ust seviyeye gecebilirsiniz.";
-                break;
-            case 3:
-                message = @"Advanced seviyesini basariyla tamamladiniz. Bir ust seviyeye gecebilirsiniz.";
-                break;
-        }
-        
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Tebrikler" message:message delegate:self cancelButtonTitle:@"Yeniden Basla" otherButtonTitles:nil];
-        [alert show];
-        [self gameOver];
-        return;
+    if (numberOfWords == 0) {
+        [self createAllWordsForCurrentLevel];
+        numberOfWords = [allQuestions count];
+        numberOfWordsForWrongAnswers = [allQuestionsCopyForWrongAnswers count];
     }
-    
     int rng = arc4random() % numberOfWords;
     
     NSManagedObject* word = [allQuestions objectAtIndex:rng];
@@ -166,6 +99,7 @@
     if (rngCorrect == 0) {
         currentQuestion.correct = YES;
         currentQuestion.translationText = [word valueForKey:@"translationString"];
+        currentQuestion.correctAnswer = [word valueForKey:@"translationString"];
     }
     else
     {
@@ -176,6 +110,7 @@
         
         NSManagedObject* wordFalse = [allQuestionsCopyForWrongAnswers objectAtIndex:rngWrong];
         currentQuestion.translationText = [wordFalse valueForKey:@"translationString"];
+        currentQuestion.correctAnswer = [word valueForKey:@"translationString"];
         currentQuestion.correct = NO;
     }
     
@@ -187,6 +122,15 @@
     self.wrongButton.userInteractionEnabled = YES;
 }
 
+-(void)upgradeLevel
+{
+    levelUpgradeCount = 0;
+    if (currentLevel != 39) {
+        currentLevel = currentLevel + 1;
+        [self createAllWordsForCurrentLevel];
+        [self updateLevelLabel];
+    }
+}
 
 -(void)startTheGame
 {
@@ -194,53 +138,113 @@
     self.wrongButton.userInteractionEnabled = NO;
     
     currentScore = 0;
+    levelUpgradeCount = 0;
     
     [self updateScoreBoard];
     [self checkCurrentLevel];
-    [self putHighScore];
-    [self createAllWords];
+    [self updateLevelLabel];
+    [self createAllWordsForCurrentLevel];
     [self putNextQuestion];
 }
 
+-(void)showCorrectAnswerWithAnimation
+{
+    self.correctButton.userInteractionEnabled = NO;
+    self.wrongButton.userInteractionEnabled = NO;
 
-#pragma mark -
+    [xImage release];
+    xImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Glyph3LivesOn.png"]];
+    xImage.center = self.lowerTextLabel.center;
+    xImage.alpha = 0.0;
+    [self.view addSubview:xImage];
+    
+    [UIView beginAnimations:@"MoveX" context:nil];
+    [UIView setAnimationDuration:1];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(finishedMovingX)];
+    xImage.alpha = 1.0;
+    [UIView commitAnimations];
+}
+
+-(void)finishedMovingX
+{
+    [correctAnswerLabel release];
+    correctAnswerLabel = [[UILabel alloc] initWithFrame:CGRectMake(320, self.lowerTextLabel.frame.origin.y, self.lowerTextLabel.frame.size.width, self.lowerTextLabel.frame.size.height)];
+    correctAnswerLabel.alpha = 0.0;
+    correctAnswerLabel.text = currentQuestion.correctAnswer;
+    correctAnswerLabel.backgroundColor = [UIColor clearColor];
+    correctAnswerLabel.textColor = [UIColor whiteColor];
+    correctAnswerLabel.font = self.lowerTextLabel.font;
+    correctAnswerLabel.textAlignment = UITextAlignmentCenter;
+    [self.view addSubview:correctAnswerLabel];
+    
+    [UIView beginAnimations:@"ShowCorrectAnswer" context:nil];
+    [UIView setAnimationDuration:1.0];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(userAnsweredWrongly)];
+    correctAnswerLabel.alpha = 1.0;
+    correctAnswerLabel.frame = self.lowerTextLabel.frame;
+    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, -320, 0);
+    xImage.frame = CGRectOffset(xImage.frame, -320, 0);
+    [UIView commitAnimations]; 
+}
+
+-(void)userAnsweredWrongly
+{
+    [NSThread sleepForTimeInterval:1];
+    [correctAnswerLabel removeFromSuperview];
+    [xImage removeFromSuperview];
+    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, 320, 0);
+    [self gameOver];
+}
+
+-(void)userAnsweredCorrecty
+{
+    currentScore = currentScore + 1;
+    [self updateScoreBoard];
+    
+    if (levelUpgradeCount != 4) 
+    {
+        levelUpgradeCount = levelUpgradeCount +1;
+    }
+    else
+    {
+        [self upgradeLevel];
+    }
+    [self putNextQuestion];
+}
+
 #pragma mark IBActions
 
 -(IBAction)correctButtonPressed:(id)sender
 {
-    if (currentQuestion.correct) {
-        currentScore = currentScore + 1;
-        [self updateScoreBoard];
+    if (currentQuestion.correct) 
+    {
+        [self userAnsweredCorrecty];
     }
     else
     {
-        [self gameOver];
-        return;
+        [self performSelectorOnMainThread:@selector(showCorrectAnswerWithAnimation) withObject:nil waitUntilDone:YES];
     }
-    
-    [self putNextQuestion];
 }
 
 -(IBAction)wrongButtonPressed:(id)sender
 {
     if (currentQuestion.correct) 
     {
-        [self gameOver];
-        return;
+        [self performSelectorOnMainThread:@selector(showCorrectAnswerWithAnimation) withObject:nil waitUntilDone:YES];
     }
     else
     {
-        currentScore = currentScore + 1;
-        [self updateScoreBoard];
+        [self userAnsweredCorrecty];
     }
-    [self putNextQuestion];
 }
 
 -(IBAction)pauseButtonPressed:(id)sender
 {
     PauseViewController* pauseViewController = [[PauseViewController alloc]initWithNibName:@"PauseViewController" bundle:nil];
     pauseViewController.parentGamePlayViewController = (UIViewController*)self;
-    pauseViewController.currentGameMode = 2;
+    pauseViewController.currentGameMode = 0;
     pauseViewController.currentLevel = currentLevel;
     
     [self.navigationController pushViewController:pauseViewController animated:NO];
@@ -262,7 +266,8 @@
     [highScoreLabel release];
     [upperTextLabel release];
     [lowerTextLabel release];
-
+    [allQuestionsCopyForWrongAnswers release];
+    [allQuestions release];
     [super dealloc];
 }
 
@@ -289,6 +294,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [scoreBoardLabel setFont:[UIFont fontWithName:@"DBLCDTempBlack" size:34]];
+
     if (!receivedMemoryWarning) 
     {
         [self startTheGame];

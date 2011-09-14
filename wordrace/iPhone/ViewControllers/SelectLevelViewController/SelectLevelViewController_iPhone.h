@@ -8,19 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SelectLevelViewController_iPhone : UIViewController
+@class SelectLevelCell;
+@interface SelectLevelViewController_iPhone : UIViewController <UITableViewDataSource,UITableViewDelegate>
 {
-    UILabel* beginnerThumbsUpLabel;
-    UILabel* intermediateThumbsUpLabel;
-    UILabel* advancedThumbsUpLabel;
+    UILabel* selectLevelTitle;
+    UITableView* selectLevelTableView;
+    
+    NSInteger currentLevel;
 }
-@property(nonatomic,retain) IBOutlet UILabel* beginnerThumbsUpLabel;
-@property(nonatomic,retain) IBOutlet UILabel* intermediateThumbsUpLabel;
-@property(nonatomic,retain) IBOutlet UILabel* advancedThumbsUpLabel;
+@property(nonatomic,retain) IBOutlet UITableView* selectLevelTableView;
+@property(nonatomic,retain) IBOutlet UILabel* selectLevelTitle;
 
 -(IBAction)goBack:(id)sender;
--(IBAction)selectBeginnerLevel:(id)sender;
--(IBAction)selectIntermediateLevel:(id)sender;
--(IBAction)selectAdvancedLevel:(id)sender;
+-(void)selectLabelCellButtonTouchedDown:(SelectLevelCell*)sender;
 
 @end

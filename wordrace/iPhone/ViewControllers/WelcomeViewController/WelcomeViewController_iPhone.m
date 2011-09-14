@@ -12,7 +12,13 @@
 
 @implementation WelcomeViewController_iPhone
 @synthesize managedObjectContext;
-
+@synthesize titleLabel;
+@synthesize playLabel;
+@synthesize levelLabel;
+@synthesize scoresLabel;
+@synthesize playImage;
+@synthesize scoresImage;
+@synthesize levelImage;
 
 #pragma mark -
 #pragma mark IBActions
@@ -20,25 +26,85 @@
 -(IBAction)playTheGame:(id)sender
 {
     //NSLog(@"%s",__FUNCTION__);
+    self.playImage.frame = CGRectOffset(self.playImage.frame, 0, 3);
+    self.playLabel.frame = CGRectOffset(self.playLabel.frame, 0, 3);
+
     GameModesViewController_iPhone* gameModesViewController = [[GameModesViewController_iPhone alloc] initWithNibName:@"GameModesViewController_iPhone" bundle:nil];
     gameModesViewController.managedObjectContext = self.managedObjectContext;
-    [self.navigationController pushViewController:gameModesViewController animated:NO];
+    [self.navigationController pushViewController:gameModesViewController animated:YES];
     [gameModesViewController release];
 }
 -(IBAction)selectLevel:(id)sender
 {
     //NSLog(@"%s",__FUNCTION__);
+    self.levelImage.frame = CGRectOffset(self.levelImage.frame, 0, 3);
+    self.levelLabel.frame = CGRectOffset(self.levelLabel.frame, 0, 3);
+    
     SelectLevelViewController_iPhone* selectLevelViewController = [[SelectLevelViewController_iPhone alloc] initWithNibName:@"SelectLevelViewController_iPhone" bundle:nil];
-    [self.navigationController pushViewController:selectLevelViewController animated:NO];
+    [self.navigationController pushViewController:selectLevelViewController animated:YES];
     [selectLevelViewController release];
 }
 -(IBAction)showScores:(id)sender
 {
+    self.scoresImage.frame = CGRectOffset(self.scoresImage.frame, 0, 3);
+    self.scoresLabel.frame = CGRectOffset(self.scoresLabel.frame, 0, 3);
+
     //NSLog(@"%s",__FUNCTION__);
 }
 -(IBAction)showInfo:(id)sender
 {
     //NSLog(@"%s",__FUNCTION__);
+}
+
+-(IBAction)playTheGameTouchDown:(id)sender
+{
+    self.playImage.frame = CGRectOffset(self.playImage.frame, 0, -3);
+    self.playLabel.frame = CGRectOffset(self.playLabel.frame, 0, -3);
+}
+
+-(IBAction)selectLevelTouchDown:(id)sender
+{
+    self.levelImage.frame = CGRectOffset(self.levelImage.frame, 0, -3);
+    self.levelLabel.frame = CGRectOffset(self.levelLabel.frame, 0, -3);
+}
+-(IBAction)showScoresTouchDown:(id)sender
+{
+    self.scoresImage.frame = CGRectOffset(self.scoresImage.frame, 0, -3);
+    self.scoresLabel.frame = CGRectOffset(self.scoresLabel.frame, 0, -3);
+}
+
+-(IBAction)playTheGameTouchCancel:(id)sender
+{
+    self.playImage.frame = CGRectOffset(self.playImage.frame, 0, 3);
+    self.playLabel.frame = CGRectOffset(self.playLabel.frame, 0, 3);
+}
+
+-(IBAction)selectLevelTouchCancel:(id)sender
+{
+    self.levelImage.frame = CGRectOffset(self.levelImage.frame, 0, 3);
+    self.levelLabel.frame = CGRectOffset(self.levelLabel.frame, 0, 3);
+}
+-(IBAction)showScoresTouchCancel:(id)sender
+{
+    self.scoresImage.frame = CGRectOffset(self.scoresImage.frame, 0, 3);
+    self.scoresLabel.frame = CGRectOffset(self.scoresLabel.frame, 0, 3);
+}
+
+-(IBAction)playTheGameTouchDragExit:(id)sender
+{
+    self.playImage.frame = CGRectOffset(self.playImage.frame, 0, 3);
+    self.playLabel.frame = CGRectOffset(self.playLabel.frame, 0, 3);
+}
+
+-(IBAction)selectLevelTouchDragExit:(id)sender
+{
+    self.levelImage.frame = CGRectOffset(self.levelImage.frame, 0, 3);
+    self.levelLabel.frame = CGRectOffset(self.levelLabel.frame, 0, 3);
+}
+-(IBAction)showScoresTouchDragExit:(id)sender
+{
+    self.scoresImage.frame = CGRectOffset(self.scoresImage.frame, 0, 3);
+    self.scoresLabel.frame = CGRectOffset(self.scoresLabel.frame, 0, 3);
 }
 
 
@@ -47,6 +113,13 @@
 
 - (void)dealloc
 {
+    [playImage release];
+    [levelImage release];
+    [scoresImage release];
+    [playLabel release];
+    [levelLabel release];
+    [scoresLabel release];
+    [titleLabel release];
     [managedObjectContext release];
     [super dealloc];
 }
@@ -73,7 +146,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.titleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:26];
 }
 
 - (void)viewDidUnload

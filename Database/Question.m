@@ -15,6 +15,7 @@
 @synthesize correct;
 @synthesize answeredCorrectly;
 @synthesize correctAnswer;
+@synthesize level;
 
 -(id)init
 {
@@ -24,6 +25,7 @@
         self.correct = NO;
         self.answeredCorrectly = NO;
         self.correctAnswer = @"";
+        self.level = 0;
     }
     return self;
 }

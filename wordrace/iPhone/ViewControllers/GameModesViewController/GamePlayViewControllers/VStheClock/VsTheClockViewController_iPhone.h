@@ -33,6 +33,12 @@
     NSUInteger wrongCount;
     NSTimer* timer;
     NSUInteger countDown;
+    NSUInteger levelUpgradeCount;
+
+    UIImageView* xImage;
+    UILabel* correctAnswerLabel;
+    
+    BOOL paused;
 }
 
 @property(nonatomic,retain) NSManagedObjectContext* managedObjectContext;
@@ -46,6 +52,9 @@
 @property(nonatomic,retain) IBOutlet UILabel* lowerTextLabel;
 @property(nonatomic,retain) IBOutlet UILabel* correctCountLabel;
 @property(nonatomic,retain) IBOutlet UILabel* wrongCountLabel;
+
+@property(nonatomic,retain) NSMutableArray* allQuestions;
+@property(nonatomic,retain) NSArray* allQuestionsCopyForWrongAnswers;
 
 -(IBAction)correctButtonPressed:(id)sender;
 -(IBAction)wrongButtonPressed:(id)sender;

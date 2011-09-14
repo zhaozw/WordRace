@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "EasyWord.h"
-#import "MediumWord.h"
-#import "HardWord.h"
 #import <CoreData/CoreData.h>
 
 typedef enum {
@@ -24,7 +22,7 @@ typedef enum {
     NSMutableString* currentElementValueString;
     BOOL parsingEnglishString;
     NSManagedObjectContext* managedObjectContext;
-    NSManagedObject* currentWord;
+    EasyWord* currentWord;
     DataType dataType;
     
     NSString* language;

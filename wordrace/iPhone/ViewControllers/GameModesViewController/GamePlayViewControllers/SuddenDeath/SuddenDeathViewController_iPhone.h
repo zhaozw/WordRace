@@ -28,7 +28,10 @@
     NSArray* allQuestionsCopyForWrongAnswers;
     Question* currentQuestion;
     NSUInteger currentScore;
+    NSUInteger levelUpgradeCount;
 
+    UIImageView* xImage;
+    UILabel* correctAnswerLabel;
 }
 
 @property(nonatomic,retain) NSManagedObjectContext* managedObjectContext;
@@ -39,6 +42,9 @@
 @property(nonatomic,retain) IBOutlet UILabel* highScoreLabel;
 @property(nonatomic,retain) IBOutlet UILabel* upperTextLabel;
 @property(nonatomic,retain) IBOutlet UILabel* lowerTextLabel;
+
+@property(nonatomic,retain) NSMutableArray* allQuestions;
+@property(nonatomic,retain) NSArray* allQuestionsCopyForWrongAnswers;
 
 -(IBAction)correctButtonPressed:(id)sender;
 -(IBAction)wrongButtonPressed:(id)sender;

@@ -14,8 +14,6 @@
     NSManagedObjectContext *managedObjectContext;
     
     NSFetchedResultsController* frcEasyWords;
-    NSFetchedResultsController* frcMediumWords;
-    NSFetchedResultsController* frcHardWords;
     
     NSString* language;
     BOOL seeAll;
@@ -25,10 +23,6 @@
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 
 @property (nonatomic, retain) NSFetchedResultsController* frcEasyWords;
-@property (nonatomic, retain) NSFetchedResultsController* frcMediumWords;
-@property (nonatomic, retain) NSFetchedResultsController* frcHardWords;
 @property (nonatomic, retain) NSString* language;
-@property (nonatomic) BOOL seeAll;
-@property (nonatomic, retain) NSMutableArray* allWords;
 @property (nonatomic, retain) NSString* searchText;
 @end

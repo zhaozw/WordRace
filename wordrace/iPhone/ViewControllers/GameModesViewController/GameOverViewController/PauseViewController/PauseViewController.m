@@ -15,17 +15,31 @@
 @synthesize parentGamePlayViewController;
 @synthesize currentGameMode;
 @synthesize currentLevel;
+@synthesize pauseTitleLabel;
+@synthesize continueImage;
+@synthesize continueLabel;
+@synthesize restartImage;
+@synthesize restartLabel;
+@synthesize goToMainMenuImage;
+@synthesize goToMainMenuLabel;
+
 
 #pragma mark -
 #pragma mark ibaction
 
 -(IBAction)continueGame:(id)sender
 {
+    self.continueImage.frame = CGRectOffset(self.continueImage.frame, 0, 3);
+    self.continueLabel.frame = CGRectOffset(self.continueLabel.frame, 0, 3);
+
     [self.navigationController popViewControllerAnimated:NO];
 }
 
 -(IBAction)restartGame:(id)sender
 {
+    self.restartImage.frame = CGRectOffset(self.restartImage.frame, 0, 3);
+    self.restartLabel.frame = CGRectOffset(self.restartLabel.frame, 0, 3);
+
     ThreeLivesViewController_iPhone* parentGamePlayViewControllerThreeLives =nil;
     VsTheClockViewController_iPhone* parentGamePlayViewControllerVsTheClock =nil;
     SuddenDeathViewController_iPhone* parentGamePlayViewControllerSuddenDeath =nil;
@@ -50,7 +64,59 @@
 
 -(IBAction)goToMainMenu:(id)sender
 {
+    self.goToMainMenuImage.frame = CGRectOffset(self.goToMainMenuImage.frame, 0, 3);
+    self.goToMainMenuLabel.frame = CGRectOffset(self.goToMainMenuLabel.frame, 0, 3);
+
     [self.navigationController popToRootViewControllerAnimated:NO];
+}
+
+
+-(IBAction)continueGameTouchDown:(id)sender
+{
+    self.continueImage.frame = CGRectOffset(self.continueImage.frame, 0, -3);
+    self.continueLabel.frame = CGRectOffset(self.continueLabel.frame, 0, -3);
+}
+-(IBAction)restartGameTouchDown:(id)sender
+{
+    self.restartImage.frame = CGRectOffset(self.restartImage.frame, 0, -3);
+    self.restartLabel.frame = CGRectOffset(self.restartLabel.frame, 0, -3);
+}
+-(IBAction)goToMainMenuTouchDown:(id)sender
+{
+    self.goToMainMenuImage.frame = CGRectOffset(self.goToMainMenuImage.frame, 0, -3);
+    self.goToMainMenuLabel.frame = CGRectOffset(self.goToMainMenuLabel.frame, 0, -3);
+}
+
+-(IBAction)continueGameTouchCancel:(id)sender
+{
+    self.continueImage.frame = CGRectOffset(self.continueImage.frame, 0, 3);
+    self.continueLabel.frame = CGRectOffset(self.continueLabel.frame, 0, 3);
+}
+-(IBAction)restartGameTouchCancel:(id)sender
+{
+    self.restartImage.frame = CGRectOffset(self.restartImage.frame, 0, 3);
+    self.restartLabel.frame = CGRectOffset(self.restartLabel.frame, 0, 3);
+}
+-(IBAction)goToMainMenuTouchCancel:(id)sender
+{
+    self.goToMainMenuImage.frame = CGRectOffset(self.goToMainMenuImage.frame, 0, 3);
+    self.goToMainMenuLabel.frame = CGRectOffset(self.goToMainMenuLabel.frame, 0, 3);
+}
+
+-(IBAction)continueGameTouchDragExit:(id)sender
+{
+    self.continueImage.frame = CGRectOffset(self.continueImage.frame, 0, 3);
+    self.continueLabel.frame = CGRectOffset(self.continueLabel.frame, 0, 3);
+}
+-(IBAction)restartGameTouchDragExit:(id)sender
+{
+    self.restartImage.frame = CGRectOffset(self.restartImage.frame, 0, 3);
+    self.restartLabel.frame = CGRectOffset(self.restartLabel.frame, 0, 3);
+}
+-(IBAction)goToMainMenuTouchDragExit:(id)sender
+{
+    self.goToMainMenuImage.frame = CGRectOffset(self.goToMainMenuImage.frame, 0, 3);
+    self.goToMainMenuLabel.frame = CGRectOffset(self.goToMainMenuLabel.frame, 0, 3);
 }
 
 
@@ -79,7 +145,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.pauseTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:18];
 }
 
 - (void)viewDidUnload
@@ -93,6 +159,18 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+-(void)dealloc
+{
+    [continueImage release];
+    [continueLabel release];
+    [restartImage release];
+    [restartLabel release];
+    [goToMainMenuImage release];
+    [goToMainMenuLabel release];
+    [pauseTitleLabel release];
+    [super dealloc];
 }
 
 @end

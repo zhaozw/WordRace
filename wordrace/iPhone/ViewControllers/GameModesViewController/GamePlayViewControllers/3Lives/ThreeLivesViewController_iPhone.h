@@ -18,6 +18,7 @@
     UIButton* pauseButton;
     
     UILabel* scoreBoardLabel;
+    UILabel* consequtiveCorrectAnswersCountLabel;
     UILabel* highScoreLabel;
     UILabel* upperTextLabel;
     UILabel* lowerTextLabel;
@@ -34,6 +35,12 @@
     NSUInteger currentScore;
     NSUInteger consequtiveCorrectAnswersCount;
     NSUInteger currentNumberOfLives;
+    NSUInteger levelUpgradeCount;
+    
+    BOOL extraLifeGiven;
+    
+    UIImageView* xImage;
+    UILabel* correctAnswerLabel;
 }
 
 @property(nonatomic,retain) NSManagedObjectContext* managedObjectContext;
@@ -42,12 +49,16 @@
 @property(nonatomic,retain) IBOutlet UIButton* pauseButton;
 
 @property(nonatomic,retain) IBOutlet UILabel* scoreBoardLabel;
+@property(nonatomic,retain) IBOutlet UILabel* consequtiveCorrectAnswersCountLabel;
+
 @property(nonatomic,retain) IBOutlet UILabel* highScoreLabel;
 @property(nonatomic,retain) IBOutlet UILabel* upperTextLabel;
 @property(nonatomic,retain) IBOutlet UILabel* lowerTextLabel;
 @property(nonatomic,retain) IBOutlet UIImageView* firstLifeImageView;
 @property(nonatomic,retain) IBOutlet UIImageView* secondLifeImageView;
 @property(nonatomic,retain) IBOutlet UIImageView* thirdLifeImageView;
+@property(nonatomic,retain) NSMutableArray* allQuestions;
+@property(nonatomic,retain) NSArray* allQuestionsCopyForWrongAnswers;
 
 -(IBAction)correctButtonPressed:(id)sender;
 -(IBAction)wrongButtonPressed:(id)sender;

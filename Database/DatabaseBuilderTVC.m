@@ -13,11 +13,7 @@
 
 @synthesize managedObjectContext;
 @synthesize frcEasyWords;
-@synthesize frcMediumWords;
-@synthesize frcHardWords;
 @synthesize language;
-@synthesize seeAll;
-@synthesize allWords;
 @synthesize searchText;
 
 - (void)saveContext 
@@ -110,57 +106,15 @@
     NSArray* languages = [NSArray arrayWithObjects:
                           @"turkish",
                           nil];
-
     
-    for (NSString* languageObject in languages) {
-        
+    for (NSString* languageObject in languages) 
+    {
         WordRaceXMLParser* parser = [[WordRaceXMLParser alloc]init];
         parser.managedObjectContext = self.managedObjectContext;
-
-        NSLog(@"parse easy %@",languageObject);
         parser.dataType = Easy;
         parser.language = languageObject;
-        NSString* fileNameEasy = [NSString stringWithFormat:@"easywords_%@",languageObject];
-        [parser parseXMLFile:[[NSBundle mainBundle] pathForResource:fileNameEasy ofType:@"xml"]];
-
-        NSLog(@"parse medium %@",languageObject);
-        parser.dataType = Medium;
-        NSString* fileNameMedium = [NSString stringWithFormat:@"intermediatewords_%@",languageObject];
-        [parser parseXMLFile:[[NSBundle mainBundle] pathForResource:fileNameMedium ofType:@"xml"]];
-
-        NSLog(@"parse hard %@",languageObject);
-        parser.dataType = Hard;
-        NSString* fileNameHard = [NSString stringWithFormat:@"hardwords_%@",languageObject];
-        [parser parseXMLFile:[[NSBundle mainBundle] pathForResource:fileNameHard ofType:@"xml"]];
-        [parser release];
-        
+        [parser parseXMLFile:[[NSBundle mainBundle] pathForResource:@"Turkish" ofType:@"xml"]];
         [self saveContext];
-        
-        /*
-        NSString* dataBaseFileName = [NSString stringWithFormat:@"WordRace.sqlite"];
-        NSString* dataBaseFileNameForSpecificLanguage = [NSString stringWithFormat:@"WordRace_%@.sqlite",languageObject];
-        
-        NSString *storePath = [[self applicationDocumentsDirectoryPath] stringByAppendingPathComponent:dataBaseFileName];
-        NSString *targetPath = [[self applicationDocumentsDirectoryPath] stringByAppendingPathComponent:dataBaseFileNameForSpecificLanguage];
-        NSFileManager *fileManager = [NSFileManager defaultManager];
-
-        [fileManager copyItemAtPath:storePath toPath:targetPath error:NULL];
-
-        NSArray* easywords = self.frcEasyWords.fetchedObjects;
-        NSArray* mediumwords = self.frcMediumWords.fetchedObjects;
-        NSArray* hardwords = self.frcHardWords.fetchedObjects;
-
-        for (NSManagedObject* object in easywords) {
-            [self.managedObjectContext deleteObject:object];
-        }
-        for (NSManagedObject* object in mediumwords) {
-            [self.managedObjectContext deleteObject:object];
-        }
-        for (NSManagedObject* object in hardwords) {
-            [self.managedObjectContext deleteObject:object];
-        }
-        [self saveContext];
-         */
     }
 }
 
@@ -178,15 +132,6 @@
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.title = self.language;
     //[self populateDatabase];
-    
-    if (self.seeAll) 
-    {
-        self.allWords = [NSMutableArray array];
-        [allWords addObjectsFromArray:self.frcEasyWords.fetchedObjects];
-        [allWords addObjectsFromArray:self.frcMediumWords.fetchedObjects];
-        [allWords addObjectsFromArray:self.frcHardWords.fetchedObjects];
-    }
-
 }
 
 - (void)viewDidUnload
@@ -234,29 +179,13 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    if (self.seeAll) {
-        return 1;
-    } 
-    return 3;
+    return 1;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     NSString* retString = @"";
-    
-    if (!self.seeAll) {
-        switch (section) {
-            case 0:
-                retString = [NSString stringWithFormat:@"Easy %i",[self.frcEasyWords.fetchedObjects count]];
-                break;
-            case 1:
-                retString = [NSString stringWithFormat:@"Medium %i",[self.frcMediumWords.fetchedObjects count]];
-                break;
-            case 2:
-                retString = [NSString stringWithFormat:@"Hard %i",[self.frcHardWords.fetchedObjects count]];
-                break;
-        }
-    }
+    retString = [NSString stringWithFormat:@"Easy %i",[self.frcEasyWords.fetchedObjects count]];
     
     return retString;
 }
@@ -264,32 +193,8 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     NSInteger retInt = 0;
-    NSString* retString = @"";
-
-    if (!self.seeAll) {
-        switch (section) {
-            case 0:
-                retInt = [self.frcEasyWords.fetchedObjects count];
-                retString = [NSString stringWithFormat:@"Easy %i",[self.frcEasyWords.fetchedObjects count]];
-                break;
-            case 1:
-                retInt = [self.frcMediumWords.fetchedObjects count];
-                retString = [NSString stringWithFormat:@"Medium %i",[self.frcMediumWords.fetchedObjects count]];
-                break;
-            case 2:
-                retInt = [self.frcHardWords.fetchedObjects count];
-                retString = [NSString stringWithFormat:@"Hard %i",[self.frcHardWords.fetchedObjects count]];
-                break;
-        }
-    }
-    else
-    {
-        retInt = [self.allWords count];
-        retString = [NSString stringWithFormat:@"Total %i",[self.allWords count]];
-
-    }
+    retInt = [self.frcEasyWords.fetchedObjects count];
     
-    NSLog(@"%@",retString);
     return retInt;
 }
 
@@ -303,23 +208,9 @@
     }
     
     // Configure the cell...
-    NSManagedObject* currentObject = [self.allWords objectAtIndex:indexPath.row];
+    NSManagedObject* currentObject = [self.frcEasyWords.fetchedObjects objectAtIndex:indexPath.row];
     
-    if (!self.seeAll) {
-        switch (indexPath.section) {
-            case 0:
-                currentObject = [self.frcEasyWords.fetchedObjects objectAtIndex:indexPath.row];
-                break;
-            case 1:
-                currentObject = [self.frcMediumWords.fetchedObjects objectAtIndex:indexPath.row];
-                break;
-            case 2:
-                currentObject = [self.frcHardWords.fetchedObjects objectAtIndex:indexPath.row];
-                break;
-        }
-    }
-        
-    cell.textLabel.text = [NSString stringWithFormat:@"%i - %@",[[currentObject valueForKey:@"indexNumber"] intValue],[currentObject valueForKey:@"englishString"]];
+    cell.textLabel.text = [NSString stringWithFormat:@"%i - %@",[[currentObject valueForKey:@"level"] intValue],[currentObject valueForKey:@"englishString"]];
     cell.detailTextLabel.text = [currentObject valueForKey:@"translationString"];
 
     return cell;
@@ -334,10 +225,7 @@
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
 	[fetchRequest setEntity:[NSEntityDescription entityForName:@"EasyWord" inManagedObjectContext:self.managedObjectContext]];
 	
-    if (self.seeAll) {
-        [fetchRequest setPredicate:nil];
-    } else {
-        //NSPredicate* predicateLanguage = [NSPredicate predicateWithFormat:@"language == %@",self.language];
+//NSPredicate* predicateLanguage = [NSPredicate predicateWithFormat:@"language == %@",self.language];
         if (![self.searchText isEqualToString:@""]) {
             NSPredicate* predicateSearch = [NSPredicate predicateWithFormat:@"englishString contains[cd] %@",self.searchText];
             //NSPredicate* predicate = [NSCompoundPredicate andPredicateWithSubpredicates:[NSArray arrayWithObjects:predicateLanguage,predicateSearch, nil]];
@@ -346,11 +234,11 @@
         else
         {
             [fetchRequest setPredicate:nil];
-        }
-    }
-    
-	NSSortDescriptor*titleSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"indexNumber" ascending:YES];
-	NSArray *sortDescriptors = [NSArray arrayWithObjects:titleSortDescriptor,nil];
+        }    
+	NSSortDescriptor*titleSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"englishString" ascending:YES];
+    NSSortDescriptor*levelSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"level" ascending:YES];
+
+	NSArray *sortDescriptors = [NSArray arrayWithObjects:levelSortDescriptor,titleSortDescriptor,nil];
 	[fetchRequest setSortDescriptors:sortDescriptors];
 	[titleSortDescriptor release];
 	
@@ -358,74 +246,6 @@
 	[fetchRequest release];
 	[frcEasyWords performFetch:nil];
     return frcEasyWords;
-}
-
-- (NSFetchedResultsController *)frcMediumWords
-{	
-    [frcMediumWords release];
-
-	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-	[fetchRequest setEntity:[NSEntityDescription entityForName:@"MediumWord" inManagedObjectContext:self.managedObjectContext]];
-    
-    if (self.seeAll) {
-        [fetchRequest setPredicate:nil];
-    } else {
-        //NSPredicate* predicateLanguage = [NSPredicate predicateWithFormat:@"language == %@",self.language];
-        if (![self.searchText isEqualToString:@""]) {
-            NSPredicate* predicateSearch = [NSPredicate predicateWithFormat:@"englishString contains[cd] %@",self.searchText];
-            //NSPredicate* predicate = [NSCompoundPredicate andPredicateWithSubpredicates:[NSArray arrayWithObjects:predicateLanguage,predicateSearch, nil]];
-            [fetchRequest setPredicate:predicateSearch];
-        }
-        else
-        {
-            [fetchRequest setPredicate:nil];
-        }
-    }
-    
-	NSSortDescriptor*titleSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"indexNumber" ascending:YES];
-	NSArray *sortDescriptors = [NSArray arrayWithObjects:titleSortDescriptor,nil];
-	[fetchRequest setSortDescriptors:sortDescriptors];
-	[titleSortDescriptor release];
-	
-	frcMediumWords = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:self.managedObjectContext sectionNameKeyPath:nil cacheName:nil];
-	[fetchRequest release];
-    [frcMediumWords performFetch:nil];
-
-    return frcMediumWords;
-}
-
-- (NSFetchedResultsController *)frcHardWords
-{	
-    [frcHardWords release];
-
-	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-	[fetchRequest setEntity:[NSEntityDescription entityForName:@"HardWord" inManagedObjectContext:self.managedObjectContext]];
-    
-    if (self.seeAll) {
-        [fetchRequest setPredicate:nil];
-    } else {
-        //NSPredicate* predicateLanguage = [NSPredicate predicateWithFormat:@"language == %@",self.language];
-        if (![self.searchText isEqualToString:@""]) {
-            NSPredicate* predicateSearch = [NSPredicate predicateWithFormat:@"englishString contains[cd] %@",self.searchText];
-            //NSPredicate* predicate = [NSCompoundPredicate andPredicateWithSubpredicates:[NSArray arrayWithObjects:predicateLanguage,predicateSearch, nil]];
-            [fetchRequest setPredicate:predicateSearch];
-        }
-        else
-        {
-            [fetchRequest setPredicate:nil];
-        }
-    }
-	
-	NSSortDescriptor*titleSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"indexNumber" ascending:YES];
-	NSArray *sortDescriptors = [NSArray arrayWithObjects:titleSortDescriptor,nil];
-	[fetchRequest setSortDescriptors:sortDescriptors];
-	[titleSortDescriptor release];
-	
-	frcHardWords = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:self.managedObjectContext sectionNameKeyPath:nil cacheName:nil];
-	[fetchRequest release];
-    [frcHardWords performFetch:nil];
-
-    return frcHardWords;
 }
 
 #pragma mark - Table view delegate
@@ -445,29 +265,13 @@
 
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
 
         NSManagedObject* currentObject = nil;
-        
-        if (self.seeAll) {
-            currentObject = [self.allWords objectAtIndex:indexPath.row];
-            [self.allWords removeObject:currentObject];
-        }
-        else
-        {
-            switch (indexPath.section) {
-                case 0:
-                    currentObject = [self.frcEasyWords.fetchedObjects objectAtIndex:indexPath.row];
-                    break;
-                case 1:
-                    currentObject = [self.frcMediumWords.fetchedObjects objectAtIndex:indexPath.row];
-                    break;
-                case 2:
-                    currentObject = [self.frcHardWords.fetchedObjects objectAtIndex:indexPath.row];
-                    break;
-            }
-        }
+        currentObject = [self.frcEasyWords.fetchedObjects objectAtIndex:indexPath.row];
+
         [self.managedObjectContext deleteObject:currentObject];
         [self saveContext];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
@@ -484,18 +288,9 @@
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
 {
-    if (self.seeAll) {
-        self.searchText = searchBar.text;
-        NSPredicate* predicateSearch = [NSPredicate predicateWithFormat:@"englishString contains[cd] %@",self.searchText];
-        self.allWords = [NSMutableArray arrayWithArray:[allWords filteredArrayUsingPredicate:predicateSearch]];
-        [self.tableView reloadData];
-        [self.searchDisplayController.searchResultsTableView reloadData];
-        
-    } else {
-        self.searchText = searchBar.text;
-        [self.tableView reloadData];
-        [self.searchDisplayController.searchResultsTableView reloadData];
-    }
+    self.searchText = searchBar.text;
+    [self.tableView reloadData];
+    [self.searchDisplayController.searchResultsTableView reloadData];
     [searchBar resignFirstResponder];
 }
 

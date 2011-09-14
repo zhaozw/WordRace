@@ -14,6 +14,7 @@
     NSString* englishText;
     NSString* translationText;
     NSString* correctAnswer;
+    NSInteger level;
     BOOL correct;
     BOOL answeredCorrectly;
 }
@@ -22,4 +23,5 @@
 @property(nonatomic) BOOL correct;
 @property(nonatomic) BOOL answeredCorrectly;
 @property(nonatomic,retain) NSString* correctAnswer;
+@property(nonatomic,assign) NSInteger level;
 @end

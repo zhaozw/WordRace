@@ -7,12 +7,12 @@
 //
 
 #import "WordRaceXMLParser.h"
+#include "math.h"
 
-NSString* const kLitWorkSheet           = @"Worksheet";
-NSString* const kLitRow                 = @"Row";
-NSString* const kLitCell                = @"Cell";
-NSString* const kLitData				= @"Data";
-
+NSString* const kLitWord                = @"word";
+NSString* const kLitLevel               = @"level";
+NSString* const kLitEnglish             = @"english";
+NSString* const kLitTurkish             = @"turkish";
 
 @implementation WordRaceXMLParser
 @synthesize managedObjectContext;
@@ -70,116 +70,46 @@ NSString* const kLitData				= @"Data";
 
 - (void)parserDidStartDocument:(NSXMLParser *)parser
 {
-    NSLog(@"%s",__FUNCTION__);
     self.index = 0;
 }
 
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
 {
+    currentElementValueString = [NSMutableString string];
     
-	if ([kLitWorkSheet isEqualToString:elementName]) 
+	if ([kLitWord isEqualToString:elementName]) 
     {
-    }
-    else if ([kLitRow isEqualToString:elementName]) 
-    {
-    }
-    else if ([kLitCell isEqualToString:elementName]) 
-    {
-    }
-    else if ([kLitData isEqualToString:elementName]) 
-    {
-        currentElementValueString = [NSMutableString string];
-
-        if (parsingEnglishString) {
-            parsingEnglishString = NO;
-        } else {
-            switch (self.dataType) {
-                case Easy:
-                    currentWord = [NSEntityDescription insertNewObjectForEntityForName:@"EasyWord" inManagedObjectContext:managedObjectContext];
-                    break;
-                case Medium:
-                    currentWord = [NSEntityDescription insertNewObjectForEntityForName:@"MediumWord" inManagedObjectContext:managedObjectContext];
-                    break;
-                case Hard:
-                    currentWord = [NSEntityDescription insertNewObjectForEntityForName:@"HardWord" inManagedObjectContext:managedObjectContext];
-                    break;
-            }
-            parsingEnglishString = YES;
-        }
+        currentWord = [NSEntityDescription insertNewObjectForEntityForName:@"EasyWord" inManagedObjectContext:managedObjectContext];
     }
 }
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName
 {	
-	if ([kLitWorkSheet isEqualToString:elementName]) 
+	if ([kLitWord isEqualToString:elementName]) 
     {
+        index = index +1;
+        NSLog(@"%@",currentWord);
     }
-    else if ([kLitRow isEqualToString:elementName]) 
+    else if ([kLitLevel isEqualToString:elementName]) 
     {
-        //NSLog(@"%@",currentEasyWord);
+        NSInteger currentLevel = (NSInteger)ceil(index / 70);
+        currentWord.level = [NSNumber numberWithInt:currentLevel];
     }
-    else if ([kLitCell isEqualToString:elementName]) 
+    else if ([kLitEnglish isEqualToString:elementName]) 
     {
+        currentWord.englishString = [[currentElementValueString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
     }
-    else if ([kLitData isEqualToString:elementName]) 
+    else if ([kLitTurkish isEqualToString:elementName]) 
     {
-        EasyWord* easyWord = nil;
-        MediumWord* mediumWord = nil;
-        HardWord* hardWord = nil;
-        
-        
-        if (parsingEnglishString) {
-            
-            switch (self.dataType) {
-                case Easy:
-                    easyWord = (EasyWord*)currentWord;
-                    easyWord.englishString = [[currentElementValueString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
-                    break;
-                case Medium:
-                    mediumWord = (MediumWord*)currentWord;
-                    mediumWord.englishString = [[currentElementValueString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
-                    break;
-                case Hard:
-                    hardWord = (HardWord*)currentWord;
-                    hardWord.englishString = [[currentElementValueString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
-                    break;
-            }            
-        } else {
-            //NSLog(@"Translation %@",currentElementValueString);
-            switch (self.dataType) {
-                case Easy:
-                    easyWord = (EasyWord*)currentWord;
-                    easyWord.translationString = [[currentElementValueString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
-                    easyWord.language = self.language;
-                    easyWord.indexNumber = [NSNumber numberWithInteger:index];
-                    index = index + 1;
-                    break;
-                case Medium:
-                    mediumWord = (MediumWord*)currentWord;
-                    mediumWord.translationString = [[currentElementValueString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
-                    mediumWord.language = self.language;
-                    mediumWord.indexNumber = [NSNumber numberWithInteger:index];
-                    index = index + 1;
-                    break;
-                case Hard:
-                    hardWord = (HardWord*)currentWord;
-                    hardWord.translationString = [[currentElementValueString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
-                    hardWord.language = self.language;
-                    hardWord.indexNumber = [NSNumber numberWithInteger:index];
-                    index = index + 1;
-                    break;
-            }
-            
-            
+        currentWord.translationString = [[currentElementValueString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] lowercaseString];
             //[self saveContext];
-        }
     }
 }
 
 - (void)parserDidEndDocument:(NSXMLParser *)parser
 {
     NSLog(@"%s",__FUNCTION__);
-    //[self saveContext];
+    [self saveContext];
 }
 
 

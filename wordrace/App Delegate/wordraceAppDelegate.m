@@ -66,13 +66,6 @@
     [super dealloc];
 }
 
-- (void)awakeFromNib
-{
-    /*
-     Typically you should set up the Core Data stack here, usually by passing the managed object context to the first view controller.
-     self.<#View controller#>.managedObjectContext = self.managedObjectContext;
-    */
-}
 
 - (void)saveContext
 {
@@ -125,7 +118,7 @@
     {
         return __managedObjectModel;
     }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"wordrace" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"WordraceModel" withExtension:@"momd"];
     __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];    
     return __managedObjectModel;
 }
@@ -141,33 +134,37 @@
         return __persistentStoreCoordinator;
     }
     
-    NSString* dataBaseFileNameWithExtension = [NSString stringWithFormat:@"WordRace_%@.sqlite",LANGUAGE];
-    NSString* dataBaseFileNameWithoutExtension = [NSString stringWithFormat:@"WordRace_%@",LANGUAGE];
-
-    NSString *storePath = [[self applicationDocumentsDirectoryPath] stringByAppendingPathComponent:dataBaseFileNameWithExtension];
-    
-	NSFileManager *fileManager = [NSFileManager defaultManager];
-	
-	if (![fileManager fileExistsAtPath:storePath]) {
-		NSString *defaultStorePath = [[NSBundle mainBundle] pathForResource:dataBaseFileNameWithoutExtension ofType:@"sqlite"];
-		if (defaultStorePath) [fileManager copyItemAtPath:defaultStorePath toPath:storePath error:NULL];
-	}
-		
-    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption, [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
-
-    NSURL *storeURL = [NSURL fileURLWithPath:storePath];
-
-    NSError *error = nil;
-    __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    
-    /*
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"WordRace_turkish.sqlite"];
+    NSURL *storeURL = nil;
     NSDictionary *options =nil;
-     
     NSError *error = nil;
-    __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-     */
-    
+
+    if (BUILDDATABASEMODE) 
+    {
+        storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"WordRaceDB_turkish.sqlite"];
+        __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+    }
+    else
+    {
+        NSString* dataBaseFileNameWithExtension = [NSString stringWithFormat:@"WordRaceDB_%@.sqlite",LANGUAGE];
+        NSString* dataBaseFileNameWithoutExtension = [NSString stringWithFormat:@"WordRaceDB_%@",LANGUAGE];
+        
+        NSString *storePath = [[self applicationDocumentsDirectoryPath] stringByAppendingPathComponent:dataBaseFileNameWithExtension];
+        
+        NSFileManager *fileManager = [NSFileManager defaultManager];
+        
+        if (![fileManager fileExistsAtPath:storePath]) {
+            NSString *defaultStorePath = [[NSBundle mainBundle] pathForResource:dataBaseFileNameWithoutExtension ofType:@"sqlite"];
+            if (defaultStorePath) [fileManager copyItemAtPath:defaultStorePath toPath:storePath error:NULL];
+        }
+		
+        options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption, [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+        
+        storeURL = [NSURL fileURLWithPath:storePath];
+        
+        __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+    }
+   
+      
      if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:options error:&error])
     {
         /*
@@ -193,7 +190,7 @@
          Lightweight migration will only work for a limited set of schema changes; consult "Core Data Model Versioning and Data Migration Programming Guide" for details.
          
          */
-        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        NSLog(@"%s Unresolved error %@, %@", __FUNCTION__,error, [error userInfo]);
         //abort();
     }    
     

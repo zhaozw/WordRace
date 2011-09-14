@@ -18,12 +18,15 @@
 @synthesize pauseButton;
 
 @synthesize scoreBoardLabel;
+@synthesize consequtiveCorrectAnswersCountLabel;
 @synthesize highScoreLabel;
 @synthesize upperTextLabel;
 @synthesize lowerTextLabel;
 @synthesize firstLifeImageView;
 @synthesize secondLifeImageView;
 @synthesize thirdLifeImageView;
+@synthesize allQuestions;
+@synthesize allQuestionsCopyForWrongAnswers;
 
 #pragma mark -
 #pragma mark game
@@ -32,36 +35,13 @@
 -(void)gameOver
 {
     NSUInteger highScore = 0;
-
-    switch (currentLevel) {
-        case 1:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLivesBeginner"];
-            if (currentScore > highScore) 
-            {
-                [[NSUserDefaults standardUserDefaults] setInteger:currentScore forKey:@"highScoreThreeLivesBeginner"];
-                highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLivesBeginner"];
-            }
-            break;
-        case 2:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLivesIntermediate"];
-            if (currentScore > highScore) 
-            {
-                [[NSUserDefaults standardUserDefaults] setInteger:currentScore forKey:@"highScoreThreeLivesIntermediate"];
-                highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLivesIntermediate"];
-            }
-            break;
-        case 3:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLivesAdvanced"];
-            if (currentScore > highScore) 
-            {
-                [[NSUserDefaults standardUserDefaults] setInteger:currentScore forKey:@"highScoreThreeLivesAdvanced"];
-                highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLivesAdvanced"];
-
-            }
-            break;
+    highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLives"];
+    if (currentScore > highScore) 
+    {
+        [[NSUserDefaults standardUserDefaults] setInteger:currentScore forKey:@"highScoreThreeLives"];
+        highScore = currentScore;
     }
-    
-    
+        
     GameOverViewController* gameOverViewController = [[GameOverViewController alloc]initWithNibName:@"GameOverViewController" bundle:nil];
     gameOverViewController.parentGamePlayViewController = (UIViewController*)self;
     gameOverViewController.currentGameMode = 0;
@@ -74,83 +54,71 @@
 
 }
 
+-(void)updateLevelLabel
+{
+    self.highScoreLabel.text = [NSString stringWithFormat:@"Seviye %i",currentLevel +1];
+}
 
 -(void)updateScoreBoard
 {
     self.scoreBoardLabel.text = [NSString stringWithFormat:@"%i",currentScore];
 }
 
+-(void)updateConsequtiveCorrectAnswersCountLabel
+{
+    self.consequtiveCorrectAnswersCountLabel.text = [NSString stringWithFormat:@"x %i",consequtiveCorrectAnswersCount];
+}
+
 
 -(void)updateLiveImages
 {
     switch (currentNumberOfLives) {
+        case 0:
+            self.firstLifeImageView.highlighted = YES;
+            self.secondLifeImageView.highlighted = YES;
+            self.thirdLifeImageView.highlighted = YES;
+            break;
         case 1:
-            self.firstLifeImageView.alpha = 1.0;
-            self.secondLifeImageView.alpha = 0.0;
-            self.thirdLifeImageView.alpha = 0.0;
+            self.firstLifeImageView.highlighted = NO;
+            self.secondLifeImageView.highlighted = YES;
+            self.thirdLifeImageView.highlighted = YES;
             break;
         case 2:
-            self.firstLifeImageView.alpha = 1.0;
-            self.secondLifeImageView.alpha = 1.0;
-            self.thirdLifeImageView.alpha = 0.0;
+            self.firstLifeImageView.highlighted = NO;
+            self.secondLifeImageView.highlighted = NO;
+            self.thirdLifeImageView.highlighted = YES;
             break;
         case 3:
-            self.firstLifeImageView.alpha = 1.0;
-            self.secondLifeImageView.alpha = 1.0;
-            self.thirdLifeImageView.alpha = 1.0;
+            self.firstLifeImageView.highlighted = NO;
+            self.secondLifeImageView.highlighted = NO;
+            self.thirdLifeImageView.highlighted = NO;
             break;
     }
 }
 
+-(void)giveExtraLife
+{
+    //NSLog(@"%s",__FUNCTION__);
+    extraLifeGiven = YES;
+    currentNumberOfLives = currentNumberOfLives +1;
+    [self updateLiveImages];    
+}
 
 -(void)checkCurrentLevel
 {    
     currentLevel = [[NSUserDefaults standardUserDefaults] integerForKey:@"currentLevel"];
-    
-    if (currentLevel == 0) {
-        currentLevel = 1;
-        [[NSUserDefaults standardUserDefaults] setInteger:1 forKey:@"currentLevel"];
-    }
 }
 
--(void)putHighScore
-{
-    NSInteger highScore = 0;
-    switch (currentLevel) {
-        case 1:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLivesBeginner"];
-            break;
-        case 2:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLivesIntermediate"];
-            break;
-        case 3:
-            highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLivesAdvanced"];
-            break;
-    }
-    self.highScoreLabel.text = [NSString stringWithFormat:@"HS: %i",highScore];
-    
-}
-
--(void)createAllWords
+-(void)createAllWordsForCurrentLevel
 {
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-
-    switch (currentLevel) {
-        case 1:
-            [fetchRequest setEntity:[NSEntityDescription entityForName:@"EasyWord" inManagedObjectContext:self.managedObjectContext]];
-            break;
-        case 2:
-            [fetchRequest setEntity:[NSEntityDescription entityForName:@"MediumWord" inManagedObjectContext:self.managedObjectContext]];
-            break;
-        case 3:
-            [fetchRequest setEntity:[NSEntityDescription entityForName:@"HardWord" inManagedObjectContext:self.managedObjectContext]];
-            break;
-    }
-    [fetchRequest setPredicate:nil];
+    [fetchRequest setEntity:[NSEntityDescription entityForName:@"EasyWord" inManagedObjectContext:self.managedObjectContext]];
+    NSPredicate* levelPredicate = [NSPredicate predicateWithFormat:@"level == %@",[NSNumber numberWithInt:currentLevel]];
+    [fetchRequest setPredicate:levelPredicate];
 
     NSError* errorCorrectWords = nil;
-    allQuestionsCopyForWrongAnswers = [[managedObjectContext executeFetchRequest:fetchRequest error:&errorCorrectWords] retain];
-    allQuestions = [[NSMutableArray alloc] initWithArray:allQuestionsCopyForWrongAnswers];
+    self.allQuestionsCopyForWrongAnswers = [managedObjectContext executeFetchRequest:fetchRequest error:&errorCorrectWords];
+    self.allQuestions = [[[NSMutableArray alloc] initWithArray:allQuestionsCopyForWrongAnswers] autorelease];
 }
 
 -(void)putNextQuestion
@@ -158,29 +126,11 @@
     NSInteger numberOfWords = [allQuestions count];
     NSInteger numberOfWordsForWrongAnswers = [allQuestionsCopyForWrongAnswers count];
 
-    if (numberOfWords == 0) 
-    {
-        
-        NSString* message = @"";
-        
-        switch (currentLevel) {
-            case 1:
-                message = @"Beginner seviyesini basariyla tamamladiniz. Bir ust seviyeye gecebilirsiniz.";
-                break;
-            case 2:
-                message = @"Intermediate seviyesini basariyla tamamladiniz. Bir ust seviyeye gecebilirsiniz.";
-                break;
-            case 3:
-                message = @"Advanced seviyesini basariyla tamamladiniz. Bir ust seviyeye gecebilirsiniz.";
-                break;
-            }
-        
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Tebrikler" message:message delegate:self cancelButtonTitle:@"Yeniden Basla" otherButtonTitles:nil];
-        [alert show];
-        [self gameOver];
-        return;
+    if (numberOfWords == 0) {
+        [self createAllWordsForCurrentLevel];
+        numberOfWords = [allQuestions count];
+        numberOfWordsForWrongAnswers = [allQuestionsCopyForWrongAnswers count];
     }
-    
     int rng = arc4random() % numberOfWords;
     
     NSManagedObject* word = [allQuestions objectAtIndex:rng];
@@ -193,6 +143,7 @@
     if (rngCorrect == 0) {
         currentQuestion.correct = YES;
         currentQuestion.translationText = [word valueForKey:@"translationString"];
+        currentQuestion.correctAnswer = [word valueForKey:@"translationString"];
     }
     else
     {
@@ -203,6 +154,7 @@
         
         NSManagedObject* wordFalse = [allQuestionsCopyForWrongAnswers objectAtIndex:rngWrong];
         currentQuestion.translationText = [wordFalse valueForKey:@"translationString"];
+        currentQuestion.correctAnswer = [word valueForKey:@"translationString"];
         currentQuestion.correct = NO;
     }
     
@@ -214,6 +166,26 @@
     self.wrongButton.userInteractionEnabled = YES;
 }
 
+-(void)upgradeLevel
+{
+    levelUpgradeCount = 0;
+    if (currentLevel != 39) {
+        currentLevel = currentLevel + 1;
+        [self createAllWordsForCurrentLevel];
+        [self updateLevelLabel];
+    }
+}
+     
+-(void)downgradeLevel
+{
+    levelUpgradeCount = 0;
+
+    if (currentLevel != 0) {
+        currentLevel = currentLevel - 1;
+        [self createAllWordsForCurrentLevel];
+        [self updateLevelLabel];
+    }
+}
 
 -(void)startTheGame
 {
@@ -223,69 +195,153 @@
     currentScore = 0;
     consequtiveCorrectAnswersCount = 1;
     currentNumberOfLives = 3;
+    levelUpgradeCount = 0;
     
     [self updateLiveImages];
     [self updateScoreBoard];
+    [self updateConsequtiveCorrectAnswersCountLabel];
     [self checkCurrentLevel];
-    [self putHighScore];
-    [self createAllWords];
+    [self updateLevelLabel];
+    [self createAllWordsForCurrentLevel];
     [self putNextQuestion];
 }
+
+-(void)showCorrectAnswerWithAnimation
+{
+    self.correctButton.userInteractionEnabled = NO;
+    self.wrongButton.userInteractionEnabled = NO;
+
+    currentNumberOfLives = currentNumberOfLives - 1;
+    consequtiveCorrectAnswersCount = 1;
+    [self updateLiveImages];
+    extraLifeGiven = NO;
+    [self downgradeLevel];
+    
+    [xImage release];
+    xImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Glyph3LivesOn.png"]];
+    
+    switch (currentNumberOfLives) {
+        case 0:
+            xImage.center = self.firstLifeImageView.center;
+            break;
+        case 1:
+            xImage.center = self.secondLifeImageView.center;
+            break;
+        case 2:
+            xImage.center = self.thirdLifeImageView.center;
+            break;
+    }
+    [self.view addSubview:xImage];
+
+    [UIView beginAnimations:@"MoveX" context:nil];
+    [UIView setAnimationDuration:1.0];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(finishedMovingX)];
+    xImage.center = self.lowerTextLabel.center;
+    [UIView commitAnimations];
+}
+
+-(void)finishedMovingX
+{
+    [correctAnswerLabel release];
+    correctAnswerLabel = [[UILabel alloc] initWithFrame:CGRectMake(320, self.lowerTextLabel.frame.origin.y, self.lowerTextLabel.frame.size.width, self.lowerTextLabel.frame.size.height)];
+    correctAnswerLabel.alpha = 0.0;
+    correctAnswerLabel.text = currentQuestion.correctAnswer;
+    correctAnswerLabel.backgroundColor = [UIColor clearColor];
+    correctAnswerLabel.textColor = [UIColor whiteColor];
+    correctAnswerLabel.font = self.lowerTextLabel.font;
+    correctAnswerLabel.textAlignment = UITextAlignmentCenter;
+    [self.view addSubview:correctAnswerLabel];
+    
+    [UIView beginAnimations:@"ShowCorrectAnswer" context:nil];
+    [UIView setAnimationDuration:1.0];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(userAnsweredWrongly)];
+    correctAnswerLabel.alpha = 1.0;
+    correctAnswerLabel.frame = self.lowerTextLabel.frame;
+    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, -320, 0);
+    xImage.frame = CGRectOffset(xImage.frame, -320, 0);
+    [UIView commitAnimations]; 
+}
+
+-(void)userAnsweredWrongly
+{
+    [NSThread sleepForTimeInterval:1];
+    [correctAnswerLabel removeFromSuperview];
+    [xImage removeFromSuperview];
+    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, 320, 0);
+
+    if (currentNumberOfLives == 0) {
+        
+        [self gameOver];
+        return;
+    }
+
+    [self updateConsequtiveCorrectAnswersCountLabel];
+    [self putNextQuestion];
+    
+    self.correctButton.userInteractionEnabled = YES;
+    self.wrongButton.userInteractionEnabled = YES;
+
+}
+
+-(void)userAnsweredCorrecty
+{
+    currentScore = currentScore + consequtiveCorrectAnswersCount;
+    
+    if (consequtiveCorrectAnswersCount != 5) 
+    {
+        consequtiveCorrectAnswersCount = consequtiveCorrectAnswersCount +1;
+    }
+    if (consequtiveCorrectAnswersCount == 5) 
+    {
+        if (!extraLifeGiven) {
+            if (currentNumberOfLives != 3) 
+            {
+                [self giveExtraLife];
+            }
+        }
+    }
+    [self updateScoreBoard];
+    
+    if (levelUpgradeCount != 4) 
+    {
+        levelUpgradeCount = levelUpgradeCount +1;
+    }
+    else
+    {
+        [self upgradeLevel];
+    }
+    [self updateConsequtiveCorrectAnswersCountLabel];
+    [self putNextQuestion];
+}
+
 
 
 #pragma mark IBActions
 
 -(IBAction)correctButtonPressed:(id)sender
 {
-    if (currentQuestion.correct) {
-        currentScore = currentScore + consequtiveCorrectAnswersCount;
-
-        if (consequtiveCorrectAnswersCount != 10) 
-        {
-            consequtiveCorrectAnswersCount = consequtiveCorrectAnswersCount +1;
-        }
-        [self updateScoreBoard];
+    if (currentQuestion.correct) 
+    {
+        [self userAnsweredCorrecty];
     }
     else
     {
-        if (currentNumberOfLives != 1) {
-            currentNumberOfLives = currentNumberOfLives - 1;
-            [self updateLiveImages];
-        }
-        else
-        {
-            [self gameOver];
-            return;
-        }
+        [self performSelectorOnMainThread:@selector(showCorrectAnswerWithAnimation) withObject:nil waitUntilDone:YES];
     }
-    
-    [self putNextQuestion];
 }
 
 -(IBAction)wrongButtonPressed:(id)sender
 {
     if (currentQuestion.correct) 
     {
-        if (currentNumberOfLives != 1) {
-            currentNumberOfLives = currentNumberOfLives - 1;
-            [self updateLiveImages];
-        }
-        else
-        {
-            [self gameOver];
-            return;
-        }
+        [self performSelectorOnMainThread:@selector(showCorrectAnswerWithAnimation) withObject:nil waitUntilDone:YES];
     }
     else
     {
-        currentScore = currentScore + consequtiveCorrectAnswersCount;
-        if (consequtiveCorrectAnswersCount != 10) 
-        {
-            consequtiveCorrectAnswersCount = consequtiveCorrectAnswersCount +1;
-        }
-        [self updateScoreBoard];
+        [self userAnsweredCorrecty];
     }
-    [self putNextQuestion];
 }
 
 -(IBAction)pauseButtonPressed:(id)sender
@@ -311,6 +367,7 @@
     [pauseButton release];
     
     [scoreBoardLabel release];
+    [consequtiveCorrectAnswersCountLabel release];
     [highScoreLabel release];
     [upperTextLabel release];
     [lowerTextLabel release];
@@ -339,11 +396,16 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - View lifecycle
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [scoreBoardLabel setFont:[UIFont fontWithName:@"DBLCDTempBlack" size:34]];
+    [consequtiveCorrectAnswersCountLabel setFont:[UIFont fontWithName:@"DBLCDTempBlack" size:16]];
+
+    //self.scoreBoardLabel.font = [UIFont fontWithName:@"Digital-7" size:34];
+    //self.scoreBoardLabel.font = [UIFont systemFontOfSize:34];
+
     if (!receivedMemoryWarning) 
     {
         [self startTheGame];
