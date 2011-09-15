@@ -12,6 +12,7 @@
 #import "SuddenDeathViewController_iPhone.h"
 #import "wordraceAppDelegate.h"
 #import "SA_OAuthTwitterEngine.h"
+#import "LeaderboardViewController.h"
 
 @implementation GameOverViewController
 
@@ -265,6 +266,10 @@
 -(IBAction)showScores:(id)sender
 {
     self.scoresLabel.frame = CGRectOffset(self.scoresLabel.frame, 0, 3);
+    
+    LeaderboardViewController* leaderboardViewController = [[LeaderboardViewController alloc] initWithNibName:@"LeaderboardViewController" bundle:nil];
+    [self.navigationController pushViewController:leaderboardViewController animated:YES];
+    [leaderboardViewController release]; 
 }
 
 -(IBAction)showMoreGames:(id)sender

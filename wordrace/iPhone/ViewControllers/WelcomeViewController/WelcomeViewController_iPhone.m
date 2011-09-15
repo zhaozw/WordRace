@@ -9,6 +9,7 @@
 #import "WelcomeViewController_iPhone.h"
 #import "GameModesViewController_iPhone.h"
 #import "SelectLevelViewController_iPhone.h"
+#import "LeaderboardViewController.h"
 
 @implementation WelcomeViewController_iPhone
 @synthesize managedObjectContext;
@@ -48,8 +49,10 @@
 {
     self.scoresImage.frame = CGRectOffset(self.scoresImage.frame, 0, 3);
     self.scoresLabel.frame = CGRectOffset(self.scoresLabel.frame, 0, 3);
-
-    //NSLog(@"%s",__FUNCTION__);
+    
+    LeaderboardViewController* leaderboardViewController = [[LeaderboardViewController alloc] initWithNibName:@"LeaderboardViewController" bundle:nil];
+    [self.navigationController pushViewController:leaderboardViewController animated:YES];
+    [leaderboardViewController release];    
 }
 -(IBAction)showInfo:(id)sender
 {

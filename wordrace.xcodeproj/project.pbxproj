@@ -267,6 +267,8 @@
 		0F66F1D11422085A00F1E3B1 /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66F1BC1422085A00F1E3B1 /* SA_OAuthTwitterController.m */; };
 		0F66F1D21422085A00F1E3B1 /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66F1BE1422085A00F1E3B1 /* SA_OAuthTwitterEngine.m */; };
 		0F66F1D31422085A00F1E3B1 /* twitter_load.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F1BF1422085A00F1E3B1 /* twitter_load.png */; };
+		0F66F1DF1422216D00F1E3B1 /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66F1DD1422216D00F1E3B1 /* LeaderboardViewController.m */; };
+		0F66F1E01422216D00F1E3B1 /* LeaderboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F1DE1422216D00F1E3B1 /* LeaderboardViewController.xib */; };
 		0FAFA5051421DA9800B61949 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFA5041421DA9800B61949 /* Security.framework */; };
 		0FAFA5471421DE1100B61949 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFA5461421DE1100B61949 /* libxml2.dylib */; };
 		0FB712A81407A66F00407924 /* wordraceAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712A71407A66F00407924 /* wordraceAppDelegate_iPhone.m */; };
@@ -620,6 +622,9 @@
 		0F66F1BD1422085A00F1E3B1 /* SA_OAuthTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_OAuthTwitterEngine.h; sourceTree = "<group>"; };
 		0F66F1BE1422085A00F1E3B1 /* SA_OAuthTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SA_OAuthTwitterEngine.m; sourceTree = "<group>"; };
 		0F66F1BF1422085A00F1E3B1 /* twitter_load.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_load.png; sourceTree = "<group>"; };
+		0F66F1DC1422216D00F1E3B1 /* LeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaderboardViewController.h; path = wordrace.xcodeproj/LeaderboardViewController.h; sourceTree = SOURCE_ROOT; };
+		0F66F1DD1422216D00F1E3B1 /* LeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaderboardViewController.m; path = wordrace.xcodeproj/LeaderboardViewController.m; sourceTree = SOURCE_ROOT; };
+		0F66F1DE1422216D00F1E3B1 /* LeaderboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeaderboardViewController.xib; path = wordrace.xcodeproj/LeaderboardViewController.xib; sourceTree = SOURCE_ROOT; };
 		0FAFA5041421DA9800B61949 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0FAFA5461421DE1100B61949 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		0FB712A61407A66F00407924 /* wordraceAppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate_iPhone.h; sourceTree = "<group>"; };
@@ -645,7 +650,6 @@
 		0FCDC5D1141965DE00225E11 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0FCDC5D31419670A00225E11 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0FCDC5DD141970B400225E11 /* Digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Digital-7.ttf"; path = "Graphics/Digital-7.ttf"; sourceTree = "<group>"; };
-		0FCDC5DF1419899900225E11 /* 3-GameOverView_v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-GameOverView_v1.png"; path = "../../3-GameOverView_v1.png"; sourceTree = "<group>"; };
 		0FDA3D571407DFEB0030F62E /* ThreeLivesViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeLivesViewController_iPhone.h; sourceTree = "<group>"; };
 		0FDA3D581407DFEB0030F62E /* ThreeLivesViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeLivesViewController_iPhone.m; sourceTree = "<group>"; };
 		0FDA3D591407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeLivesViewController_iPhone.xib; sourceTree = "<group>"; };
@@ -791,7 +795,6 @@
 				0F21A35E1419553200B2E306 /* 0-MenuView.png */,
 				0F21A35F1419553200B2E306 /* 1-MainView.png */,
 				0F21A3601419553200B2E306 /* 2-PauseView.png */,
-				0FCDC5DF1419899900225E11 /* 3-GameOverView_v1.png */,
 				0FDD2491141AC80000A03BC6 /* 4-ScoreView_v1.png */,
 				0FF4323A141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png */,
 				0F21A2AE141954AE00B2E306 /* 3LivesButtonOff.png */,
@@ -1245,7 +1248,7 @@
 				0FB712B61407A76E00407924 /* WelcomeViewController */,
 				0FB712C71407ADC300407924 /* GameModesViewController */,
 				0FB712C91407ADC300407924 /* SelectLevelViewController */,
-				0FB712CA1407ADC300407924 /* ShowScoresViewController */,
+				0FB712CA1407ADC300407924 /* LeaderBoardViewController */,
 				0FB712C81407ADC300407924 /* InfoViewController */,
 			);
 			name = ViewControllers;
@@ -1349,11 +1352,14 @@
 			path = iPhone/ViewControllers/SelectLevelViewController;
 			sourceTree = "<group>";
 		};
-		0FB712CA1407ADC300407924 /* ShowScoresViewController */ = {
+		0FB712CA1407ADC300407924 /* LeaderBoardViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0F66F1DC1422216D00F1E3B1 /* LeaderboardViewController.h */,
+				0F66F1DD1422216D00F1E3B1 /* LeaderboardViewController.m */,
+				0F66F1DE1422216D00F1E3B1 /* LeaderboardViewController.xib */,
 			);
-			name = ShowScoresViewController;
+			name = LeaderBoardViewController;
 			path = iPhone/ViewControllers/ShowScoresViewController;
 			sourceTree = "<group>";
 		};
@@ -1779,6 +1785,7 @@
 				0F66F1C01422085A00F1E3B1 /* jQueryInject.txt in Resources */,
 				0F66F1C11422085A00F1E3B1 /* jQueryInjectLandscape.txt in Resources */,
 				0F66F1D31422085A00F1E3B1 /* twitter_load.png in Resources */,
+				0F66F1E01422216D00F1E3B1 /* LeaderboardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1835,6 +1842,7 @@
 				0F66F1D01422085A00F1E3B1 /* NSString+UUID.m in Sources */,
 				0F66F1D11422085A00F1E3B1 /* SA_OAuthTwitterController.m in Sources */,
 				0F66F1D21422085A00F1E3B1 /* SA_OAuthTwitterEngine.m in Sources */,
+				0F66F1DF1422216D00F1E3B1 /* LeaderboardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
