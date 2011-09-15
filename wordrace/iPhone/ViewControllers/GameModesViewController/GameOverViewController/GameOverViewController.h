@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "Facebook.h"
+#import "MGTwitterEngine.h"
 
 #define FACEBOOKAPPID @"107620642677158"
 #define FACEBOOKAPPSECRET @"7b4e98effc1afdafae4abd97a066d363"
 
-@interface GameOverViewController : UIViewController <FBSessionDelegate,FBDialogDelegate>
+@interface GameOverViewController : UIViewController <FBSessionDelegate,FBDialogDelegate,MGTwitterEngineDelegate>
 {
     UILabel* gameOverTitleLabel;
 
@@ -42,6 +43,8 @@
     UILabel* moreGamesLabel;
     
     Facebook* facebook;
+    MGTwitterEngine* twitterEngine;
+    OAToken *token;
     NSString* gameMode;
 }
 @property(nonatomic,retain) IBOutlet UILabel* gameOverTitleLabel;
@@ -67,6 +70,8 @@
 @property(nonatomic,retain) IBOutlet UILabel* goToMainMenuLabel;
 @property(nonatomic,retain) IBOutlet UILabel* moreGamesLabel;
 @property(nonatomic,retain) Facebook* facebook;
+@property(nonatomic,retain) MGTwitterEngine* twitterEngine;
+@property(nonatomic,retain) OAToken *token;
 @property(nonatomic,retain) NSString* gameMode;
 
 -(IBAction)restartGame:(id)sender;

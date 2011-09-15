@@ -37,7 +37,9 @@
 @synthesize goToMainMenuLabel;
 @synthesize moreGamesLabel;
 @synthesize facebook;
+@synthesize twitterEngine;
 @synthesize gameMode;
+@synthesize token;
 
 #pragma mark -
 #pragma mark IBActions
@@ -236,6 +238,8 @@
     [moreGamesLabel release];
 
     [facebook release];
+    [twitterEngine release];
+    [token release];
     [gameMode release];
     [super dealloc];
     
@@ -289,7 +293,7 @@
 }
 
 #pragma mark -
-#pragma mark facebook
+#pragma mark facebook delegate
 
 - (void)fbDidLogin
 {
@@ -301,55 +305,91 @@
     [self postToFacebookWall];
 }
 
-/**
- * Called when the user dismissed the dialog without logging in.
- */
-- (void)fbDidNotLogin:(BOOL)cancelled
-{
-}
-
-/**
- * Called when the user logged out.
- */
-- (void)fbDidLogout
-{
-}
-
-- (void)dialogDidComplete:(FBDialog *)dialog
-{
-    
-}
-
-/**
- * Called when the dialog succeeds with a returning url.
- */
-- (void)dialogCompleteWithUrl:(NSURL *)url
-{
-    
-}
-
-/**
- * Called when the dialog get canceled by the user.
- */
-- (void)dialogDidNotCompleteWithUrl:(NSURL *)url
-{
-    
-}
-
-/**
- * Called when the dialog is cancelled and is about to be dismissed.
- */
-- (void)dialogDidNotComplete:(FBDialog *)dialog
-{
-    
-}
-
-/**
- * Called when dialog failed to load due to an error.
- */
 - (void)dialog:(FBDialog*)dialog didFailWithError:(NSError *)error
 {
-    
+    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:@"Hata" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+    [alert show];
+    [alert release];
 }
+
+#pragma mark MGTwitterEngineDelegate methods
+
+
+- (void)requestSucceeded:(NSString *)connectionIdentifier
+{
+    NSLog(@"Request succeeded for connectionIdentifier = %@", connectionIdentifier);
+}
+
+
+- (void)requestFailed:(NSString *)connectionIdentifier withError:(NSError *)error
+{
+    NSLog(@"Request failed for connectionIdentifier = %@, error = %@ (%@)", 
+          connectionIdentifier, 
+          [error localizedDescription], 
+          [error userInfo]);
+}
+
+
+- (void)statusesReceived:(NSArray *)statuses forRequest:(NSString *)connectionIdentifier
+{
+    NSLog(@"Got statuses for %@:\r%@", connectionIdentifier, statuses);
+}
+
+
+- (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)connectionIdentifier
+{
+    NSLog(@"Got direct messages for %@:\r%@", connectionIdentifier, messages);
+}
+
+
+- (void)userInfoReceived:(NSArray *)userInfo forRequest:(NSString *)connectionIdentifier
+{
+    NSLog(@"Got user info for %@:\r%@", connectionIdentifier, userInfo);
+}
+
+
+- (void)miscInfoReceived:(NSArray *)miscInfo forRequest:(NSString *)connectionIdentifier
+{
+	NSLog(@"Got misc info for %@:\r%@", connectionIdentifier, miscInfo);
+}
+
+
+- (void)searchResultsReceived:(NSArray *)searchResults forRequest:(NSString *)connectionIdentifier
+{
+	NSLog(@"Got search results for %@:\r%@", connectionIdentifier, searchResults);
+}
+
+
+- (void)socialGraphInfoReceived:(NSArray *)socialGraphInfo forRequest:(NSString *)connectionIdentifier
+{
+	NSLog(@"Got social graph results for %@:\r%@", connectionIdentifier, socialGraphInfo);
+}
+
+- (void)userListsReceived:(NSArray *)userInfo forRequest:(NSString *)connectionIdentifier
+{
+    NSLog(@"Got user lists for %@:\r%@", connectionIdentifier, userInfo);
+}
+
+- (void)connectionFinished:(NSString *)connectionIdentifier
+{
+    NSLog(@"Connection finished %@", connectionIdentifier);
+}
+
+- (void)accessTokenReceived:(OAToken *)aToken forRequest:(NSString *)connectionIdentifier
+{
+	NSLog(@"Access token received! %@",aToken);
+    
+	token = [aToken retain];
+}
+
+#if YAJL_AVAILABLE || TOUCHJSON_AVAILABLE
+
+- (void)receivedObject:(NSDictionary *)dictionary forRequest:(NSString *)connectionIdentifier
+{
+    NSLog(@"Got an object for %@: %@", connectionIdentifier, dictionary);
+}
+
+#endif
+
 
 @end

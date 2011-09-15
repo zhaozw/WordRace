@@ -9,3 +9,4 @@
 
 #define LANGUAGE [NSString stringWithFormat:@"turkish"]
 #define BUILDDATABASEMODE NO
+
