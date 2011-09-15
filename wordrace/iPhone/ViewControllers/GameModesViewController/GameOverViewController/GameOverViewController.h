@@ -7,13 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SA_OAuthTwitterController.h"
 #import "Facebook.h"
-#import "MGTwitterEngine.h"
 
-#define FACEBOOKAPPID @"107620642677158"
-#define FACEBOOKAPPSECRET @"7b4e98effc1afdafae4abd97a066d363"
+#define FACEBOOK_APPID @"107620642677158"
+#define FACEBOOK_APPSECRET @"7b4e98effc1afdafae4abd97a066d363"
+#define TWITTER_CONSUMERKEY	@"qV3aPOv4KzQCo37SNaOgzA"
+#define TWITTER_CONSUMERSECRET	@"lqJOnM21QQutJQo10lVPPTu3tgYGlCqpslhgQXj1I"
+#define APP_LINK @"http://bit.ly/q2J2Pf"
+#define APP_PICTURE_LINK @"http://bebeksel.net/ingilizceky.jpg"
 
-@interface GameOverViewController : UIViewController <FBSessionDelegate,FBDialogDelegate,MGTwitterEngineDelegate>
+
+@class SA_OAuthTwitterEngine;
+
+@interface GameOverViewController : UIViewController <FBSessionDelegate,FBDialogDelegate,SA_OAuthTwitterControllerDelegate,UIAlertViewDelegate>
 {
     UILabel* gameOverTitleLabel;
 
@@ -43,8 +50,8 @@
     UILabel* moreGamesLabel;
     
     Facebook* facebook;
-    MGTwitterEngine* twitterEngine;
-    OAToken *token;
+    SA_OAuthTwitterEngine* twitterEngine;
+
     NSString* gameMode;
 }
 @property(nonatomic,retain) IBOutlet UILabel* gameOverTitleLabel;
@@ -70,8 +77,7 @@
 @property(nonatomic,retain) IBOutlet UILabel* goToMainMenuLabel;
 @property(nonatomic,retain) IBOutlet UILabel* moreGamesLabel;
 @property(nonatomic,retain) Facebook* facebook;
-@property(nonatomic,retain) MGTwitterEngine* twitterEngine;
-@property(nonatomic,retain) OAToken *token;
+@property(nonatomic,retain) SA_OAuthTwitterEngine* twitterEngine;
 @property(nonatomic,retain) NSString* gameMode;
 
 -(IBAction)restartGame:(id)sender;
