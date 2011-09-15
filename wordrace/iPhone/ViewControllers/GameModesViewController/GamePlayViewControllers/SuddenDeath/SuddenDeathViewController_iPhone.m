@@ -152,6 +152,7 @@
 {
     self.correctButton.userInteractionEnabled = NO;
     self.wrongButton.userInteractionEnabled = NO;
+    self.pauseButton.userInteractionEnabled = NO;
 
     [xImage release];
     xImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Glyph3LivesOn.png"]];

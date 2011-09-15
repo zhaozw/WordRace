@@ -211,7 +211,8 @@
 {
     self.correctButton.userInteractionEnabled = NO;
     self.wrongButton.userInteractionEnabled = NO;
-
+    self.pauseButton.userInteractionEnabled = NO;
+    
     currentNumberOfLives = currentNumberOfLives - 1;
     consequtiveCorrectAnswersCount = 1;
     [self updateLiveImages];
@@ -283,7 +284,7 @@
     
     self.correctButton.userInteractionEnabled = YES;
     self.wrongButton.userInteractionEnabled = YES;
-
+    self.pauseButton.userInteractionEnabled = YES;
 }
 
 -(void)userAnsweredCorrecty

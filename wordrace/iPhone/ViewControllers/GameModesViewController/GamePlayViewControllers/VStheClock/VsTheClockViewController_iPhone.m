@@ -169,7 +169,8 @@
     
     self.correctButton.userInteractionEnabled = NO;
     self.wrongButton.userInteractionEnabled = NO;
-    
+    self.pauseButton.userInteractionEnabled = NO;
+
     wrongCount = wrongCount + 1;
     [self downgradeLevel];
     [self updateScoreBoard];
@@ -250,6 +251,7 @@
     [self putNextQuestion];
     self.correctButton.userInteractionEnabled = YES;
     self.wrongButton.userInteractionEnabled = YES;
+    self.pauseButton.userInteractionEnabled = YES;
     [self startTimer];
 }
 
