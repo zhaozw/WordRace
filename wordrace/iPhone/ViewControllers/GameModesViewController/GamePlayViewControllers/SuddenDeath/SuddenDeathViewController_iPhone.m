@@ -9,6 +9,7 @@
 #import "SuddenDeathViewController_iPhone.h"
 #import "GameOverViewController.h"
 #import "PauseViewController.h"
+#import "Constants.h"
 
 @interface SuddenDeathViewController_iPhone (P)
 -(void)gameOver;
@@ -187,7 +188,7 @@
     [levelLabel release];
     levelLabel = [[UILabel alloc] initWithFrame:self.upperTextLabel.frame];
     levelLabel.center = self.equalSignLabel.center;
-    levelLabel.text = [NSString stringWithFormat:@"Seviye %i",currentLevel +1];
+    levelLabel.text = [NSString stringWithFormat:@"%@ %i",SELECTLEVEL_LEVEL_TITLE,currentLevel +1];
     levelLabel.textColor = [UIColor whiteColor];
     levelLabel.font = self.upperTextLabel.font;
     levelLabel.textAlignment = UITextAlignmentCenter;

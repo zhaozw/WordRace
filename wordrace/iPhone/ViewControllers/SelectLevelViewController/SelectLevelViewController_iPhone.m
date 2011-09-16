@@ -8,6 +8,7 @@
 
 #import "SelectLevelViewController_iPhone.h"
 #import "SelectLevelCell.h"
+#import "Constants.h"
 
 @implementation SelectLevelViewController_iPhone
 
@@ -75,7 +76,7 @@
             cell.padlock.image = [UIImage imageNamed:@"padlock.jpg"];
         }
     }
-    cell.levelLabel.text = [NSString stringWithFormat:@"Seviye %i",indexPath.row + 1];
+    cell.levelLabel.text = [NSString stringWithFormat:@"%@ %i",SELECTLEVEL_LEVEL_TITLE,indexPath.row + 1];
     cell.level = indexPath.row;
     cell.selectLevelTableView = self;
     
@@ -132,6 +133,7 @@
     UIEdgeInsets tableContentInset = UIEdgeInsetsMake(16, 0, 0, 0);
 	self.selectLevelTableView.contentInset = tableContentInset;    
     self.selectLevelTitle.font = [UIFont fontWithName:@"Crillee Italic" size:18];
+    self.selectLevelTitle.text = SELECTLEVEL_NAVIGATIONBAR_TITLE;
     
     currentLevel = [[NSUserDefaults standardUserDefaults] integerForKey:@"currentLevel"];
     [self.selectLevelTableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:currentLevel inSection:0] atScrollPosition:UITableViewScrollPositionMiddle animated:NO];

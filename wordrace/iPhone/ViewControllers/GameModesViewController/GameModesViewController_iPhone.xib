@@ -161,7 +161,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">ÜÇ CAN</string>
+						<string key="IBUIText"/>
 						<object class="NSFont" key="IBUIFont" id="960032523">
 							<string key="NSName">Courier-Bold</string>
 							<double key="NSSize">24</double>
@@ -191,7 +191,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">ZAMANA KARŞI</string>
+						<string key="IBUIText"/>
 						<reference key="IBUIFont" ref="960032523"/>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -209,6 +209,7 @@
 						<string key="NSFrame">{{40, 352}, {242, 45}}</string>
 						<reference key="NSSuperview" ref="263626696"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:311</string>
 						<reference key="IBUIBackgroundColor" ref="884871236"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -216,7 +217,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">ANİ ÖLÜM</string>
+						<string key="IBUIText"/>
 						<reference key="IBUIFont" ref="960032523"/>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -267,7 +268,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">OYUN MODU</string>
+						<string key="IBUIText"/>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTIxNTY4NjI3IDAuMTkyMTU2ODYyNyAwLjE5MjE1Njg2MjcAA</bytes>

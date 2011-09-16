@@ -76,7 +76,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">DURDUR</string>
+						<string key="IBUIText"/>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">18</double>
@@ -194,7 +194,7 @@
 					<object class="IBUILabel" id="919680594">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{80, 234}, {241, 45}}</string>
+						<string key="NSFrame">{{80, 234}, {220, 45}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="654810224"/>
@@ -205,7 +205,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">YENIDEN BASLA</string>
+						<string key="IBUIText"/>
 						<object class="NSFont" key="IBUIFont" id="664993160">
 							<string key="NSName">Courier-Bold</string>
 							<double key="NSSize">24</double>
@@ -253,9 +253,10 @@
 					<object class="IBUILabel" id="893871722">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{80, 348}, {305, 45}}</string>
+						<string key="NSFrame">{{80, 348}, {220, 45}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:311</string>
 						<reference key="IBUIBackgroundColor" ref="770631277"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -263,7 +264,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">ANA MENUYE GIT</string>
+						<string key="IBUIText"/>
 						<reference key="IBUIFont" ref="664993160"/>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -277,7 +278,7 @@
 					<object class="IBUILabel" id="662680255">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{80, 117}, {113, 45}}</string>
+						<string key="NSFrame">{{80, 117}, {220, 45}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="717893717"/>
@@ -288,7 +289,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">DEVAM ET</string>
+						<string key="IBUIText"/>
 						<reference key="IBUIFont" ref="664993160"/>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>

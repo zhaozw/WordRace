@@ -76,7 +76,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">OYUN BITTI!</string>
+						<string key="IBUIText"/>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">18</double>
@@ -104,7 +104,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">ISIM</string>
+						<string key="IBUIText"/>
 						<object class="NSFont" key="IBUIFont" id="771095295">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">14</double>
@@ -132,7 +132,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">SKOR</string>
+						<string key="IBUIText"/>
 						<reference key="IBUIFont" ref="771095295"/>
 						<reference key="IBUITextColor" ref="872944504"/>
 						<nil key="IBUIHighlightedColor"/>
@@ -199,7 +199,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">REKOR</string>
+						<string key="IBUIText"/>
 						<reference key="IBUIFont" ref="771095295"/>
 						<reference key="IBUITextColor" ref="872944504"/>
 						<nil key="IBUIHighlightedColor"/>
@@ -280,7 +280,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">TEKRAR OYNA</string>
+						<string key="IBUIText"/>
 						<object class="NSFont" key="IBUIFont" id="1037107923">
 							<string key="NSName">Courier-Bold</string>
 							<double key="NSSize">14</double>
@@ -332,7 +332,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">SKORLAR</string>
+						<string key="IBUIText"/>
 						<reference key="IBUIFont" ref="1037107923"/>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -476,7 +476,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">ANA MENU</string>
+						<string key="IBUIText"/>
 						<reference key="IBUIFont" ref="1037107923"/>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -524,7 +524,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">DIGER OYUNLAR</string>
+						<string key="IBUIText"/>
 						<reference key="IBUIFont" ref="1037107923"/>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>

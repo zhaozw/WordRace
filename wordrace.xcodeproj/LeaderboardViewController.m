@@ -9,6 +9,7 @@
 #import "LeaderboardViewController.h"
 #import "wordraceAppDelegate.h"
 #import "LeaderBoardCell.h"
+#import "Constants.h"
 
 @interface LeaderboardViewController (P) 
 -(BOOL)checkIfAuthenticated;
@@ -67,7 +68,7 @@
               {
                   if (error != nil)
                   {
-                      UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Hata" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+                      UIAlertView* alert = [[UIAlertView alloc] initWithTitle:ALERTVIEW_ERROR_TITLE message:[error localizedDescription] delegate:nil cancelButtonTitle:ALERTVIEW_CANCELBUTTON_TITLE otherButtonTitles:nil];
                       [alert show];
                       [alert release];
                   }
@@ -82,7 +83,7 @@
              
          }
          if (error != nil){
-             UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Hata" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+             UIAlertView* alert = [[UIAlertView alloc] initWithTitle:ALERTVIEW_ERROR_TITLE message:[error localizedDescription] delegate:nil cancelButtonTitle:ALERTVIEW_CANCELBUTTON_TITLE otherButtonTitles:nil];
              [alert show];
              [alert release];
          }
@@ -114,7 +115,7 @@
     NSLog(@"%s",__FUNCTION__);
     [self.aiv stopAnimating];
     NSError* error = [[notif userInfo] valueForKey:@"error"];
-    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Hata" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:ALERTVIEW_ERROR_TITLE message:[error localizedDescription] delegate:nil cancelButtonTitle:ALERTVIEW_CANCELBUTTON_TITLE otherButtonTitles:nil];
     [alert show];
     [alert release];
 }
@@ -212,6 +213,7 @@
 {
     [super viewDidLoad];
     self.titleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:18];
+    self.titleLabel.text = LEADERBOARD_NAVIGATIONBAR_TITLE;
     
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     BOOL gameCenterAPIAvailable = [defaults boolForKey:@"gameCenterAPIAvailable"]; 
@@ -233,7 +235,7 @@
     {
         [self.aiv stopAnimating];
         NSString* errorMessage = [defaults valueForKey:@"gameCenterNotAvailableReason"];
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Hata" message:errorMessage delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:ALERTVIEW_ERROR_TITLE message:errorMessage delegate:nil cancelButtonTitle:ALERTVIEW_CANCELBUTTON_TITLE otherButtonTitles:nil];
         [alert show];
         [alert release];
     }
@@ -319,9 +321,9 @@
     cell.scoreLabel.text = [NSString stringWithFormat:@"%i",(NSInteger)score.value];
     
     if ([localPlayer.playerID isEqualToString:player.playerID]) {
-        cell.indexLabel.textColor = [UIColor redColor];
-        cell.aliasLabel.textColor = [UIColor redColor];
-        cell.scoreLabel.textColor = [UIColor redColor];
+        cell.indexLabel.textColor = [UIColor greenColor];
+        cell.aliasLabel.textColor = [UIColor greenColor];
+        cell.scoreLabel.textColor = [UIColor greenColor];
     }
 	return cell;
 

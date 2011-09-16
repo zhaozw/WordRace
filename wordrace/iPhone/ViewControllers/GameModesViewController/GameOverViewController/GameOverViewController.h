@@ -11,16 +11,6 @@
 #import "SA_OAuthTwitterController.h"
 #import "Facebook.h"
 
-#define FACEBOOK_APPID @"107620642677158"
-#define FACEBOOK_APPSECRET @"7b4e98effc1afdafae4abd97a066d363"
-
-#define TWITTER_CONSUMERKEY	@"utPwdVHUpnDCCnEt8lbQ"
-#define TWITTER_CONSUMERSECRET	@"7B31apogVGgUqVawv2X9728mrWcyIglqk9TMH1B5fk"
-
-#define APP_LINK @"http://bit.ly/q2J2Pf"
-#define APP_PICTURE_LINK @"http://bebeksel.net/ingilizceky.jpg"
-
-
 @class SA_OAuthTwitterEngine;
 
 @interface GameOverViewController : UIViewController <FBSessionDelegate,FBDialogDelegate,SA_OAuthTwitterControllerDelegate,UIAlertViewDelegate>

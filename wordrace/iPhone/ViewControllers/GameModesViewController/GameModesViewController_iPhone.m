@@ -10,6 +10,7 @@
 #import "ThreeLivesViewController_iPhone.h"
 #import "VsTheClockViewController_iPhone.h"
 #import "SuddenDeathViewController_iPhone.h"
+#import "Constants.h"
 
 @implementation GameModesViewController_iPhone
 @synthesize managedObjectContext;
@@ -128,6 +129,11 @@
 {
     [super viewDidLoad];
     self.gameModesTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:18];
+    self.gameModesTitleLabel.text = GAMEMODE_NAVIGATIONBAR_TITLE;
+    
+    self.threeLivesLabel.text = GAMEMODE_THREELIVES_TITLE;
+    self.vsTheClockLabel.text = GAMEMODE_VSTHECLOCK_TITLE;
+    self.suddenDeathLabel.text = GAMEMODE_SUDDENDEATH_TITLE;
 }
 
 - (void)viewDidUnload

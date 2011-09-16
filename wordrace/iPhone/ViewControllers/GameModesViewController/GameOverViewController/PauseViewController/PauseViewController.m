@@ -10,6 +10,7 @@
 #import "ThreeLivesViewController_iPhone.h"
 #import "VsTheClockViewController_iPhone.h"
 #import "SuddenDeathViewController_iPhone.h"
+#import "Constants.h"
 
 @implementation PauseViewController
 @synthesize parentGamePlayViewController;
@@ -146,6 +147,10 @@
 {
     [super viewDidLoad];
     self.pauseTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:18];
+    self.pauseTitleLabel.text = PAUSEVC_NAVIGATIONBAR_TITLE;
+    self.restartLabel.text = PAUSEVC_RESTART_TITLE;
+    self.continueLabel.text = PAUSEVC_RESUME_TITLE;
+    self.goToMainMenuLabel.text = PAUSEVC_GOTOMAINMENU_TITLE;
 }
 
 - (void)viewDidUnload

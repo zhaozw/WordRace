@@ -9,6 +9,7 @@
 #import "VsTheClockViewController_iPhone.h"
 #import "PauseViewController.h"
 #import "GameOverViewController.h"
+#import "Constants.h"
 
 @interface VsTheClockViewController_iPhone (P)
 -(void)gameOver;
@@ -181,11 +182,6 @@
     currentLevel = [[NSUserDefaults standardUserDefaults] integerForKey:@"currentLevel"];
 }
 
--(void)updateLevelLabel
-{
-    self.highScoreLabel.text = [NSString stringWithFormat:@"Seviye %i",currentLevel +1];
-}
-
 -(void)updateCurrentLevel
 {
     [[NSUserDefaults standardUserDefaults] setInteger:currentLevel forKey:@"currentLevel"];
@@ -243,7 +239,7 @@
     [levelLabel release];
     levelLabel = [[UILabel alloc] initWithFrame:self.upperTextLabel.frame];
     levelLabel.center = self.equalSignLabel.center;
-    levelLabel.text = [NSString stringWithFormat:@"Seviye %i",currentLevel +1];
+    levelLabel.text = [NSString stringWithFormat:@"%@ %i",SELECTLEVEL_LEVEL_TITLE,currentLevel +1];
     levelLabel.textColor = [UIColor whiteColor];
     levelLabel.font = self.upperTextLabel.font;
     levelLabel.textAlignment = UITextAlignmentCenter;

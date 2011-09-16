@@ -273,6 +273,8 @@
 		0F66F1F11423406D00F1E3B1 /* padlock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F1F01423406D00F1E3B1 /* padlock.jpg */; };
 		0F66F1F914235AFE00F1E3B1 /* LeaderBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66F1F814235AFE00F1E3B1 /* LeaderBoardCell.m */; };
 		0F66F1FB14235B2700F1E3B1 /* LeaderBoardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F1FA14235B2700F1E3B1 /* LeaderBoardCell.xib */; };
+		0F8756ED1423AF7F001D29CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8756EC1423AF7F001D29CA /* Default@2x.png */; };
+		0F8756EF1423AF98001D29CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8756EE1423AF98001D29CA /* Default.png */; };
 		0FAFA5051421DA9800B61949 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFA5041421DA9800B61949 /* Security.framework */; };
 		0FAFA5471421DE1100B61949 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFA5461421DE1100B61949 /* libxml2.dylib */; };
 		0FB712A81407A66F00407924 /* wordraceAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712A71407A66F00407924 /* wordraceAppDelegate_iPhone.m */; };
@@ -289,8 +291,6 @@
 		0FBE6068141E60580011CBEB /* Entitlements.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 0FBE6067141E60580011CBEB /* Entitlements.entitlements */; };
 		0FC719BF141A28570014A2C2 /* Turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FC719BE141A28570014A2C2 /* Turkish.xml */; };
 		0FCDC5CF14195DF200225E11 /* Crillee_Italic_Plain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCDC5CE14195DF200225E11 /* Crillee_Italic_Plain.ttf */; };
-		0FCDC5D2141965DE00225E11 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FCDC5D1141965DE00225E11 /* Default.png */; };
-		0FCDC5D41419670A00225E11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FCDC5D31419670A00225E11 /* Default@2x.png */; };
 		0FCDC5DE141970B400225E11 /* Digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCDC5DD141970B400225E11 /* Digital-7.ttf */; };
 		0FDA3D5A1407DFEB0030F62E /* ThreeLivesViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA3D581407DFEB0030F62E /* ThreeLivesViewController_iPhone.m */; };
 		0FDA3D5B1407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA3D591407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib */; };
@@ -300,7 +300,7 @@
 		0FDA3D651407E0E60030F62E /* SuddenDeathViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA3D631407E0E60030F62E /* SuddenDeathViewController_iPhone.xib */; };
 		0FDD2485141A31A400A03BC6 /* EasyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD2484141A31A400A03BC6 /* EasyWord.m */; };
 		0FDD248C141ABEF100A03BC6 /* WordraceModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD248A141ABEF000A03BC6 /* WordraceModel.xcdatamodeld */; };
-		0FDD2490141AC72300A03BC6 /* WordRaceDB_turkish.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0FDD248F141AC72300A03BC6 /* WordRaceDB_turkish.sqlite */; };
+		0FDD2490141AC72300A03BC6 /* WordRaceDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0FDD248F141AC72300A03BC6 /* WordRaceDB.sqlite */; };
 		0FDD2492141AC80000A03BC6 /* 4-ScoreView_v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FDD2491141AC80000A03BC6 /* 4-ScoreView_v1.png */; };
 		0FE2021B141B7E62001D3216 /* SelectLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2021A141B7E62001D3216 /* SelectLevelCell.m */; };
 		0FE2021D141B7E7E001D3216 /* SelectLevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE2021C141B7E7E001D3216 /* SelectLevelCell.xib */; };
@@ -634,6 +634,8 @@
 		0F66F1F714235AFE00F1E3B1 /* LeaderBoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaderBoardCell.h; path = wordrace.xcodeproj/LeaderBoardCell.h; sourceTree = SOURCE_ROOT; };
 		0F66F1F814235AFE00F1E3B1 /* LeaderBoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaderBoardCell.m; path = wordrace.xcodeproj/LeaderBoardCell.m; sourceTree = SOURCE_ROOT; };
 		0F66F1FA14235B2700F1E3B1 /* LeaderBoardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeaderBoardCell.xib; path = wordrace.xcodeproj/LeaderBoardCell.xib; sourceTree = SOURCE_ROOT; };
+		0F8756EC1423AF7F001D29CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		0F8756EE1423AF98001D29CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0FAFA5041421DA9800B61949 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0FAFA5461421DE1100B61949 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		0FB712A61407A66F00407924 /* wordraceAppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate_iPhone.h; sourceTree = "<group>"; };
@@ -656,8 +658,6 @@
 		0FBE6067141E60580011CBEB /* Entitlements.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
 		0FC719BE141A28570014A2C2 /* Turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Turkish.xml; sourceTree = "<group>"; };
 		0FCDC5CE14195DF200225E11 /* Crillee_Italic_Plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Crillee_Italic_Plain.ttf; path = Graphics/Crillee_Italic_Plain.ttf; sourceTree = "<group>"; };
-		0FCDC5D1141965DE00225E11 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		0FCDC5D31419670A00225E11 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0FCDC5DD141970B400225E11 /* Digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Digital-7.ttf"; path = "Graphics/Digital-7.ttf"; sourceTree = "<group>"; };
 		0FDA3D571407DFEB0030F62E /* ThreeLivesViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeLivesViewController_iPhone.h; sourceTree = "<group>"; };
 		0FDA3D581407DFEB0030F62E /* ThreeLivesViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeLivesViewController_iPhone.m; sourceTree = "<group>"; };
@@ -671,7 +671,7 @@
 		0FDD2483141A31A400A03BC6 /* EasyWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWord.h; sourceTree = "<group>"; };
 		0FDD2484141A31A400A03BC6 /* EasyWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyWord.m; sourceTree = "<group>"; };
 		0FDD248B141ABEF100A03BC6 /* WordraceModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordraceModel.xcdatamodel; sourceTree = "<group>"; };
-		0FDD248F141AC72300A03BC6 /* WordRaceDB_turkish.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDB_turkish.sqlite; sourceTree = "<group>"; };
+		0FDD248F141AC72300A03BC6 /* WordRaceDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDB.sqlite; sourceTree = "<group>"; };
 		0FDD2491141AC80000A03BC6 /* 4-ScoreView_v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-ScoreView_v1.png"; sourceTree = "<group>"; };
 		0FE20219141B7E62001D3216 /* SelectLevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLevelCell.h; sourceTree = "<group>"; };
 		0FE2021A141B7E62001D3216 /* SelectLevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLevelCell.m; sourceTree = "<group>"; };
@@ -1219,7 +1219,7 @@
 		0FA4367713CB811800940135 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				0FDD248F141AC72300A03BC6 /* WordRaceDB_turkish.sqlite */,
+				0FDD248F141AC72300A03BC6 /* WordRaceDB.sqlite */,
 				0F54550D1409132300D357C1 /* XMLParsers */,
 				0F36C363140D64C400C907CF /* DatabaseBuilderTVC.h */,
 				0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */,
@@ -1471,9 +1471,9 @@
 		0FE3FA5B1408222100171C7C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F8756EE1423AF98001D29CA /* Default.png */,
+				0F8756EC1423AF7F001D29CA /* Default@2x.png */,
 				0FC719BD141A21990014A2C2 /* Fonts */,
-				0FCDC5D1141965DE00225E11 /* Default.png */,
-				0FCDC5D31419670A00225E11 /* Default@2x.png */,
 				0F5454FE1409019400D357C1 /* Constants.h */,
 				0FE3FA5E1408226800171C7C /* Audio */,
 				0FE3FA5F1408226800171C7C /* Graphics */,
@@ -1787,11 +1787,9 @@
 				0F21A3621419553200B2E306 /* 1-MainView.png in Resources */,
 				0F21A3631419553200B2E306 /* 2-PauseView.png in Resources */,
 				0FCDC5CF14195DF200225E11 /* Crillee_Italic_Plain.ttf in Resources */,
-				0FCDC5D2141965DE00225E11 /* Default.png in Resources */,
-				0FCDC5D41419670A00225E11 /* Default@2x.png in Resources */,
 				0FCDC5DE141970B400225E11 /* Digital-7.ttf in Resources */,
 				0FC719BF141A28570014A2C2 /* Turkish.xml in Resources */,
-				0FDD2490141AC72300A03BC6 /* WordRaceDB_turkish.sqlite in Resources */,
+				0FDD2490141AC72300A03BC6 /* WordRaceDB.sqlite in Resources */,
 				0FDD2492141AC80000A03BC6 /* 4-ScoreView_v1.png in Resources */,
 				0FE2021D141B7E7E001D3216 /* SelectLevelCell.xib in Resources */,
 				0FBE6068141E60580011CBEB /* Entitlements.entitlements in Resources */,
@@ -1803,6 +1801,8 @@
 				0F66F1E01422216D00F1E3B1 /* LeaderboardViewController.xib in Resources */,
 				0F66F1F11423406D00F1E3B1 /* padlock.jpg in Resources */,
 				0F66F1FB14235B2700F1E3B1 /* LeaderBoardCell.xib in Resources */,
+				0F8756ED1423AF7F001D29CA /* Default@2x.png in Resources */,
+				0F8756EF1423AF98001D29CA /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

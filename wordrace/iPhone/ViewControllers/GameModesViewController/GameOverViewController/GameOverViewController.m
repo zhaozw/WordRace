@@ -13,6 +13,7 @@
 #import "wordraceAppDelegate.h"
 #import "SA_OAuthTwitterEngine.h"
 #import "LeaderboardViewController.h"
+#import "Constants.h"
 
 @implementation GameOverViewController
 @synthesize didBrakeHighScore;
@@ -27,8 +28,8 @@
                                    FACEBOOK_APPID, @"app_id",
                                    APP_LINK, @"link",
                                    APP_PICTURE_LINK, @"picture",
-                                   [NSString stringWithFormat:@"İngilizce Kelime Yarışı iPhone oyununda (%@) %i puan aldım ve %i. seviyeye çıktım.",self.gameMode,self.score,self.currentLevel +1], @"name",
-                                   @"İngilizce Kelime Yarışı oyununu oynayarak hiç sıkılmadan yeni kelimeler öğreniyorum. Sizde oynamak için yukarıdaki linke tıklayabilirsiniz.", @"description",
+                                   [NSString stringWithFormat:FACEBOOKMESSAGE,self.gameMode,self.score,self.currentLevel +1], @"name",
+                                   FACEBOOKDESCRIPTION, @"description",
                                    nil];
     [facebook dialog:@"feed" andParams:params andDelegate:self];
 }
@@ -72,14 +73,16 @@
 
 - (void)dialogDidComplete:(FBDialog *)dialog
 {
-    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:@"Facebook'da paylaşıldı" message:nil delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+    /*
+    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:GAMEOVER_SHARED_ON_FACEBOOK_ALERT_MESSAGE message:nil delegate:nil cancelButtonTitle:ALERTVIEW_CANCELBUTTON_TITLE otherButtonTitles:nil];
     [alert show];
     [alert release];
+     */
 }
 
 - (void)dialog:(FBDialog*)dialog didFailWithError:(NSError *)error
 {
-    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:@"Hata" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:ALERTVIEW_ERROR_TITLE message:[error localizedDescription] delegate:nil cancelButtonTitle:ALERTVIEW_CANCELBUTTON_TITLE otherButtonTitles:nil];
     [alert show];
     [alert release];
 }
@@ -90,7 +93,7 @@
 
 -(void)postToTwitterWall
 {
-    NSString* tweet = [NSString stringWithFormat:@"#ingilizcekelimeyarisi iPhone oyununda (%@) %i puan aldım ve %i seviyeye çıktım. Link- %@",self.gameMode,self.score,self.currentLevel +1,APP_LINK];
+    NSString* tweet = [NSString stringWithFormat:TWITTERMESSAGE,self.gameMode,self.score,self.currentLevel +1,APP_LINK];
     [twitterEngine sendUpdate:tweet];
 }
 
@@ -138,14 +141,14 @@
 #pragma mark TwitterEngineDelegate
 - (void) requestSucceeded: (NSString *) requestIdentifier 
 {
-    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:@"Twitter'da paylaşıldı" message:nil delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:GAMEOVER_SHARED_ON_TWITTER_ALERT_MESSAGE message:nil delegate:nil cancelButtonTitle:ALERTVIEW_CANCELBUTTON_TITLE otherButtonTitles:nil];
     [alert show];
     [alert release];
 }
 
 - (void) requestFailed: (NSString *) requestIdentifier withError: (NSError *) error 
 {
-    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:@"Hata" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+    UIAlertView* alert = [[UIAlertView alloc]initWithTitle:ALERTVIEW_ERROR_TITLE message:[error localizedDescription] delegate:nil cancelButtonTitle:ALERTVIEW_CANCELBUTTON_TITLE otherButtonTitles:nil];
     [alert show];
     [alert release];
 }
@@ -178,10 +181,8 @@
     
     [playerScore reportScoreWithCompletionHandler:^(NSError *error) {
         if (error == nil){
-            NSLog(@"Succeeded in reporting the score.");
             reportResult = YES;
         } else {
-            NSLog(@"Failed to report the error. score = %@", error);
         }
     }];
     return reportResult;
@@ -241,13 +242,23 @@
     self.scoreLabel.text = [NSString stringWithFormat:@"%i",self.score];
     self.highScoreLabel.text = [NSString stringWithFormat:@"%i",self.highScore];
     self.gameOverTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:18];
+    self.gameOverTitleLabel.text = GAMEOVER_NAVIGATIONBAR_TITLE;
     
     self.nameLabel.font = [UIFont fontWithName:@"Crillee Italic" size:20];
     self.scoreLabel.font = [UIFont fontWithName:@"Crillee Italic" size:20];
     self.highScoreLabel.font = [UIFont fontWithName:@"Crillee Italic" size:20];
+    
     self.nameTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:14];
     self.scoreTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:14];
     self.highScoreTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:14];
+    self.nameTitleLabel.text = GAMEOVER_NAMELABEL_TITLE;
+    self.scoreTitleLabel.text = GAMEOVER_SCORELABEL_TITLE;
+    self.highScoreTitleLabel.text = GAMEOVER_HIGHSCORELABEL_TITLE;
+    
+    self.restartLabel.text = GAMEOVER_RESTARTLABEL_TITLE;
+    self.scoresLabel.text = GAMEOVER_SCORESLABEL_TITLE;
+    self.goToMainMenuLabel.text = GAMEOVER_GOTOMAINMENULABEL_TITLE;
+    self.moreGamesLabel.text = GAMEOVER_MOREGAMESLABEL_TITLE;
     
     GKLocalPlayer* player = [GKLocalPlayer localPlayer];
     self.nameLabel.text = player.alias;
