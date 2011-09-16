@@ -16,6 +16,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
+    
     if (BUILDDATABASEMODE) 
     {
         DatabaseBuilderTVC* dtvc = [[DatabaseBuilderTVC alloc] initWithNibName:@"DatabaseBuilderTVC" bundle:nil];
@@ -33,7 +35,6 @@
         UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:welcomeView];
         navController.navigationBarHidden = YES;
         self.window.rootViewController = navController;
-
     }
         
     [self.window makeKeyAndVisible];

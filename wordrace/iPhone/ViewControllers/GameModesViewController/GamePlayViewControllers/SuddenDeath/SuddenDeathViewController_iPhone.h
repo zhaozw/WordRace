@@ -32,6 +32,12 @@
 
     UIImageView* xImage;
     UILabel* correctAnswerLabel;
+    UILabel* equalSignLabel;
+    UILabel* nextQuestionUpperTextLabel;
+    UILabel* nextQuestionLowerTextLabel;
+    UILabel* nextQuestionEqualSignLabel;
+    UILabel* levelLabel;    
+    UIPageControl* levelPageControl;
 }
 
 @property(nonatomic,retain) NSManagedObjectContext* managedObjectContext;
@@ -45,6 +51,9 @@
 
 @property(nonatomic,retain) NSMutableArray* allQuestions;
 @property(nonatomic,retain) NSArray* allQuestionsCopyForWrongAnswers;
+
+@property (nonatomic, retain) IBOutlet UILabel *equalSignLabel;
+@property (nonatomic, retain) IBOutlet UIPageControl *levelPageControl;
 
 -(IBAction)correctButtonPressed:(id)sender;
 -(IBAction)wrongButtonPressed:(id)sender;

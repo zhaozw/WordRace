@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "Facebook.h"
+#import <GameKit/GameKit.h>
+
+BOOL isGameCenterAvailable();
 
 @interface wordraceAppDelegate : NSObject <UIApplicationDelegate> 
 {
@@ -20,6 +23,8 @@
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain) Facebook* facebook;
+@property (readwrite, getter=isGameCenterAuthenticationComplete) BOOL gameCenterAuthenticationComplete;
+@property (retain,readwrite) NSString * currentPlayerID;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;

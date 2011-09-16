@@ -269,6 +269,7 @@
 		0F66F1D31422085A00F1E3B1 /* twitter_load.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F1BF1422085A00F1E3B1 /* twitter_load.png */; };
 		0F66F1DF1422216D00F1E3B1 /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66F1DD1422216D00F1E3B1 /* LeaderboardViewController.m */; };
 		0F66F1E01422216D00F1E3B1 /* LeaderboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F1DE1422216D00F1E3B1 /* LeaderboardViewController.xib */; };
+		0F66F1E614222D3F00F1E3B1 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F66F1E514222D3F00F1E3B1 /* GameKit.framework */; };
 		0FAFA5051421DA9800B61949 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFA5041421DA9800B61949 /* Security.framework */; };
 		0FAFA5471421DE1100B61949 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFA5461421DE1100B61949 /* libxml2.dylib */; };
 		0FB712A81407A66F00407924 /* wordraceAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712A71407A66F00407924 /* wordraceAppDelegate_iPhone.m */; };
@@ -625,6 +626,7 @@
 		0F66F1DC1422216D00F1E3B1 /* LeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaderboardViewController.h; path = wordrace.xcodeproj/LeaderboardViewController.h; sourceTree = SOURCE_ROOT; };
 		0F66F1DD1422216D00F1E3B1 /* LeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaderboardViewController.m; path = wordrace.xcodeproj/LeaderboardViewController.m; sourceTree = SOURCE_ROOT; };
 		0F66F1DE1422216D00F1E3B1 /* LeaderboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeaderboardViewController.xib; path = wordrace.xcodeproj/LeaderboardViewController.xib; sourceTree = SOURCE_ROOT; };
+		0F66F1E514222D3F00F1E3B1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		0FAFA5041421DA9800B61949 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0FAFA5461421DE1100B61949 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		0FB712A61407A66F00407924 /* wordraceAppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate_iPhone.h; sourceTree = "<group>"; };
@@ -677,6 +679,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F66F1E614222D3F00F1E3B1 /* GameKit.framework in Frameworks */,
 				0FAFA5471421DE1100B61949 /* libxml2.dylib in Frameworks */,
 				0FAFA5051421DA9800B61949 /* Security.framework in Frameworks */,
 				0F0BCF9A13CB7F1600B61313 /* UIKit.framework in Frameworks */,
@@ -738,6 +741,7 @@
 			isa = PBXGroup;
 			children = (
 				0FAFA5461421DE1100B61949 /* libxml2.dylib */,
+				0F66F1E514222D3F00F1E3B1 /* GameKit.framework */,
 				0FAFA5041421DA9800B61949 /* Security.framework */,
 				0F0BCF9913CB7F1600B61313 /* UIKit.framework */,
 				0F0BCF9B13CB7F1600B61313 /* Foundation.framework */,
@@ -1890,7 +1894,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -1909,7 +1913,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -1927,7 +1931,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wordrace/wordrace-Prefix.pch";
 				INFOPLIST_FILE = "wordrace/wordrace-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
@@ -1945,7 +1949,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wordrace/wordrace-Prefix.pch";
 				INFOPLIST_FILE = "wordrace/wordrace-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
@@ -1967,7 +1971,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -1985,7 +1989,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wordrace/wordrace-Prefix.pch";
 				INFOPLIST_FILE = "wordrace/wordrace-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",

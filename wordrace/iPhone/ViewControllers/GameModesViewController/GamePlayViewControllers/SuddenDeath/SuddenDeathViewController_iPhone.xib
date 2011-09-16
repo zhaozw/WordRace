@@ -12,6 +12,7 @@
 		</object>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<string>IBUIPageControl</string>
 			<string>IBUIButton</string>
 			<string>IBUIImageView</string>
 			<string>IBUIView</string>
@@ -178,7 +179,7 @@
 						<string key="NSFrame">{{22, 168}, {275, 60}}</string>
 						<reference key="NSSuperview" ref="65861726"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="786402042"/>
+						<reference key="NSNextKeyView" ref="613454275"/>
 						<string key="NSReuseIdentifierKey">_NS:311</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -268,7 +269,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="227110932"/>
 						<string key="NSReuseIdentifierKey">_NS:311</string>
-						<object class="NSColor" key="IBUIBackgroundColor">
+						<object class="NSColor" key="IBUIBackgroundColor" id="618128444">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
 						</object>
@@ -310,7 +311,7 @@
 					<object class="IBUILabel" id="187686130">
 						<reference key="NSNextResponder" ref="65861726"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{114, 133}, {95, 21}}</string>
+						<string key="NSFrame">{{113, 127}, {95, 21}}</string>
 						<reference key="NSSuperview" ref="65861726"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="425238902"/>
@@ -320,7 +321,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Seviye 1</string>
+						<string key="IBUIText"/>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Courier</string>
 							<double key="NSSize">16</double>
@@ -335,6 +336,22 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
+					</object>
+					<object class="IBUIPageControl" id="613454275">
+						<reference key="NSNextResponder" ref="65861726"/>
+						<int key="NSvFlags">1316</int>
+						<object class="NSPSMatrix" key="NSFrameMatrix"/>
+						<string key="NSFrame">{{122, 140}, {76, 36}}</string>
+						<reference key="NSSuperview" ref="65861726"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="786402042"/>
+						<string key="NSReuseIdentifierKey">_NS:643</string>
+						<reference key="IBUIBackgroundColor" ref="618128444"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<int key="IBUINumberOfPages">5</int>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 480}</string>
@@ -442,6 +459,22 @@
 					</object>
 					<int key="connectionID">54</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">levelPageControl</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="613454275"/>
+					</object>
+					<int key="connectionID">60</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">equalSignLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="291394427"/>
+					</object>
+					<int key="connectionID">61</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -479,6 +512,7 @@
 							<reference ref="637689852"/>
 							<reference ref="427892936"/>
 							<reference ref="296070445"/>
+							<reference ref="613454275"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -537,6 +571,11 @@
 						<reference key="object" ref="296070445"/>
 						<reference key="parent" ref="65861726"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">59</int>
+						<reference key="object" ref="613454275"/>
+						<reference key="parent" ref="65861726"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -563,6 +602,7 @@
 					<string>42.IBPluginDependency</string>
 					<string>43.IBPluginDependency</string>
 					<string>43.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
+					<string>59.IBPluginDependency</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -598,6 +638,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<real value="2"/>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="unlocalizedProperties">
@@ -612,7 +653,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">58</int>
+			<int key="maxID">61</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -664,7 +705,9 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>correctButton</string>
+							<string>equalSignLabel</string>
 							<string>highScoreLabel</string>
+							<string>levelPageControl</string>
 							<string>lowerTextLabel</string>
 							<string>pauseButton</string>
 							<string>scoreBoardLabel</string>
@@ -675,6 +718,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UIButton</string>
 							<string>UILabel</string>
+							<string>UILabel</string>
+							<string>UIPageControl</string>
 							<string>UILabel</string>
 							<string>UIButton</string>
 							<string>UILabel</string>
@@ -687,7 +732,9 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>correctButton</string>
+							<string>equalSignLabel</string>
 							<string>highScoreLabel</string>
+							<string>levelPageControl</string>
 							<string>lowerTextLabel</string>
 							<string>pauseButton</string>
 							<string>scoreBoardLabel</string>
@@ -701,8 +748,16 @@
 								<string key="candidateClassName">UIButton</string>
 							</object>
 							<object class="IBToOneOutletInfo">
+								<string key="name">equalSignLabel</string>
+								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
 								<string key="name">highScoreLabel</string>
 								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">levelPageControl</string>
+								<string key="candidateClassName">UIPageControl</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">lowerTextLabel</string>

@@ -12,6 +12,7 @@
 		</object>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<string>IBUIPageControl</string>
 			<string>IBUIButton</string>
 			<string>IBUIImageView</string>
 			<string>IBUIView</string>
@@ -365,7 +366,7 @@
 					<object class="IBUIImageView" id="298711909">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{106, 127}, {109, 37}}</string>
+						<string key="NSFrame">{{105, 127}, {109, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="92945339"/>
@@ -380,7 +381,7 @@
 					<object class="IBUILabel" id="92945339">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{114, 133}, {95, 21}}</string>
+						<string key="NSFrame">{{112, 129}, {95, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="653887193"/>
@@ -390,7 +391,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Seviye 1</string>
+						<string key="IBUIText"/>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Courier</string>
 							<double key="NSSize">16</double>
@@ -405,6 +406,21 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
+					</object>
+					<object class="IBUIPageControl" id="825508864">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">1316</int>
+						<object class="NSPSMatrix" key="NSFrameMatrix"/>
+						<string key="NSFrame">{{122, 140}, {76, 36}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
+						<string key="NSReuseIdentifierKey">_NS:643</string>
+						<reference key="IBUIBackgroundColor" ref="887896642"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<int key="IBUINumberOfPages">5</int>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 480}</string>
@@ -544,6 +560,22 @@
 					</object>
 					<int key="connectionID">35</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">equalSignLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="261460087"/>
+					</object>
+					<int key="connectionID">39</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">levelPageControl</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="825508864"/>
+					</object>
+					<int key="connectionID">41</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -574,6 +606,7 @@
 							<reference ref="18608370"/>
 							<reference ref="481017636"/>
 							<reference ref="298711909"/>
+							<reference ref="825508864"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -663,6 +696,11 @@
 						<reference key="object" ref="814715966"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">40</int>
+						<reference key="object" ref="825508864"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -688,6 +726,7 @@
 					<string>33.IBPluginDependency</string>
 					<string>34.IBPluginDependency</string>
 					<string>36.IBPluginDependency</string>
+					<string>40.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>6.IBPluginDependency</string>
 					<string>6.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
@@ -729,6 +768,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<real value="2"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<real value="0.0"/>
@@ -746,7 +786,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">38</int>
+			<int key="maxID">41</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -799,8 +839,10 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>consequtiveCorrectAnswersCountLabel</string>
 							<string>correctButton</string>
+							<string>equalSignLabel</string>
 							<string>firstLifeImageView</string>
 							<string>highScoreLabel</string>
+							<string>levelPageControl</string>
 							<string>lowerTextLabel</string>
 							<string>pauseButton</string>
 							<string>scoreBoardLabel</string>
@@ -813,8 +855,10 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UILabel</string>
 							<string>UIButton</string>
+							<string>UILabel</string>
 							<string>UIImageView</string>
 							<string>UILabel</string>
+							<string>UIPageControl</string>
 							<string>UILabel</string>
 							<string>UIButton</string>
 							<string>UILabel</string>
@@ -830,8 +874,10 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>consequtiveCorrectAnswersCountLabel</string>
 							<string>correctButton</string>
+							<string>equalSignLabel</string>
 							<string>firstLifeImageView</string>
 							<string>highScoreLabel</string>
+							<string>levelPageControl</string>
 							<string>lowerTextLabel</string>
 							<string>pauseButton</string>
 							<string>scoreBoardLabel</string>
@@ -851,12 +897,20 @@
 								<string key="candidateClassName">UIButton</string>
 							</object>
 							<object class="IBToOneOutletInfo">
+								<string key="name">equalSignLabel</string>
+								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
 								<string key="name">firstLifeImageView</string>
 								<string key="candidateClassName">UIImageView</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">highScoreLabel</string>
 								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">levelPageControl</string>
+								<string key="candidateClassName">UIPageControl</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">lowerTextLabel</string>

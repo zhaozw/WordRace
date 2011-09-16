@@ -15,7 +15,7 @@
 #import "LeaderboardViewController.h"
 
 @implementation GameOverViewController
-
+@synthesize didBrakeHighScore;
 
 #pragma mark -
 #pragma mark facebook
@@ -150,6 +150,43 @@
     [alert release];
 }
 
+#pragma mark -
+#pragma mark game center
+#pragma mark -
+
+-(BOOL)reportscore
+{
+    __block BOOL reportResult = NO;
+    GKScore* playerScore = nil;
+    
+    switch (currentGameMode) {
+        case 0:
+            playerScore = [[[GKScore alloc]
+                            initWithCategory:@"threelives"] autorelease];            
+            break;
+        case 1:
+            playerScore = [[[GKScore alloc]
+                            initWithCategory:@"vstheclock"] autorelease];            
+            break;
+        case 2:
+            playerScore = [[[GKScore alloc]
+                            initWithCategory:@"suddendeath"] autorelease];            
+            break;
+    }
+    
+    playerScore.value = (int64_t)self.highScore;
+    
+    [playerScore reportScoreWithCompletionHandler:^(NSError *error) {
+        if (error == nil){
+            NSLog(@"Succeeded in reporting the score.");
+            reportResult = YES;
+        } else {
+            NSLog(@"Failed to report the error. score = %@", error);
+        }
+    }];
+    return reportResult;
+}
+
 
 #pragma mark -
 #pragma mark lifecycle
@@ -212,6 +249,12 @@
     self.scoreTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:14];
     self.highScoreTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:14];
     
+    GKLocalPlayer* player = [GKLocalPlayer localPlayer];
+    self.nameLabel.text = player.alias;
+    
+    if (self.didBrakeHighScore) {
+        [self reportscore];
+    }
 }
 
 - (void)viewDidUnload

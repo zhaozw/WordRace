@@ -22,6 +22,11 @@
     UILabel* highScoreLabel;
     UILabel* upperTextLabel;
     UILabel* lowerTextLabel;
+    UILabel* equalSignLabel;
+    UILabel* nextQuestionUpperTextLabel;
+    UILabel* nextQuestionLowerTextLabel;
+    UILabel* nextQuestionEqualSignLabel;
+    
     UIImageView* firstLifeImageView;
     UIImageView* secondLifeImageView;
     UIImageView* thirdLifeImageView;
@@ -36,11 +41,12 @@
     NSUInteger consequtiveCorrectAnswersCount;
     NSUInteger currentNumberOfLives;
     NSUInteger levelUpgradeCount;
-    
-    BOOL extraLifeGiven;
-    
+        
     UIImageView* xImage;
     UILabel* correctAnswerLabel;
+    UILabel* levelLabel;
+    
+    UIPageControl* levelPageControl;
 }
 
 @property(nonatomic,retain) NSManagedObjectContext* managedObjectContext;
@@ -59,6 +65,9 @@
 @property(nonatomic,retain) IBOutlet UIImageView* thirdLifeImageView;
 @property(nonatomic,retain) NSMutableArray* allQuestions;
 @property(nonatomic,retain) NSArray* allQuestionsCopyForWrongAnswers;
+
+@property(nonatomic,retain) IBOutlet UILabel* equalSignLabel;
+@property(nonatomic,retain) IBOutlet UIPageControl* levelPageControl;
 
 -(IBAction)correctButtonPressed:(id)sender;
 -(IBAction)wrongButtonPressed:(id)sender;

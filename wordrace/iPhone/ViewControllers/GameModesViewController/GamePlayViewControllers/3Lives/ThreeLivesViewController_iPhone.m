@@ -10,39 +10,70 @@
 #import "PauseViewController.h"
 #import "GameOverViewController.h"
 
+@interface ThreeLivesViewController_iPhone (P)
+-(void)gameOver;
+-(void)createAllWordsForCurrentLevel;
+-(void)putNextQuestion;
+-(void)updateLevelLabelForStart;
+-(void)finishedShowingLevelLabel;
+-(void)finishedMovingLevelLabel;
+-(void)finishedMovingQuestion;
+-(void)updateScoreBoard;
+-(void)updateConsequtiveCorrectAnswersCountLabel;
+-(void)updateLiveImages;
+-(void)giveExtraLife;
+-(void)checkCurrentLevel;
+-(void)startTheGame;
+-(void)startNextQuestionAnimation;
+-(void)upgradeLevel;
+-(void)downgradeLevel;
+-(void)showCorrectAnswerWithAnimation;
+-(void)finishedMovingX;
+-(void)finishedMovingXForCorrectQuestion;
+-(void)userAnsweredWrongly;
+-(void)userAnsweredCorrecty;
+@end
 
 @implementation ThreeLivesViewController_iPhone
-@synthesize managedObjectContext;
-@synthesize correctButton;
-@synthesize wrongButton;
-@synthesize pauseButton;
-
-@synthesize scoreBoardLabel;
-@synthesize consequtiveCorrectAnswersCountLabel;
-@synthesize highScoreLabel;
-@synthesize upperTextLabel;
-@synthesize lowerTextLabel;
-@synthesize firstLifeImageView;
-@synthesize secondLifeImageView;
-@synthesize thirdLifeImageView;
-@synthesize allQuestions;
-@synthesize allQuestionsCopyForWrongAnswers;
 
 #pragma mark -
-#pragma mark game
+#pragma mark game start and finish
 #pragma mark -
+
+-(void)startTheGame
+{
+    //NSLog(@"%s",__FUNCTION__);
+    self.correctButton.userInteractionEnabled = NO;
+    self.wrongButton.userInteractionEnabled = NO;
+    
+    currentScore = 0;
+    consequtiveCorrectAnswersCount = 1;
+    currentNumberOfLives = 3;
+    levelUpgradeCount = 0;
+    self.highScoreLabel.text = @"";
+    
+    [self updateLiveImages];
+    [self updateScoreBoard];
+    [self updateConsequtiveCorrectAnswersCountLabel];
+    [self checkCurrentLevel];
+    [self createAllWordsForCurrentLevel];
+    [self updateLevelLabelForStart];
+}
 
 -(void)gameOver
 {
-    NSUInteger highScore = 0;
-    highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLives"];
+    //NSLog(@"%s",__FUNCTION__);
+    GameOverViewController* gameOverViewController = [[GameOverViewController alloc]initWithNibName:@"GameOverViewController" bundle:nil];
+
+    NSUInteger highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"highScoreThreeLives"];
+    
     if (currentScore > highScore) 
     {
+        gameOverViewController.didBrakeHighScore = YES;
         [[NSUserDefaults standardUserDefaults] setInteger:currentScore forKey:@"highScoreThreeLives"];
         highScore = currentScore;
     }
         
-    GameOverViewController* gameOverViewController = [[GameOverViewController alloc]initWithNibName:@"GameOverViewController" bundle:nil];
     gameOverViewController.parentGamePlayViewController = (UIViewController*)self;
     gameOverViewController.currentGameMode = 0;
     gameOverViewController.gameMode = @"Üç Can";
@@ -55,24 +86,87 @@
 
 }
 
--(void)updateLevelLabel
+#pragma mark -
+#pragma mark question creation
+#pragma mark -
+
+-(void)createAllWordsForCurrentLevel
 {
-    self.highScoreLabel.text = [NSString stringWithFormat:@"Seviye %i",currentLevel +1];
+    //NSLog(@"%s",__FUNCTION__);
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    [fetchRequest setEntity:[NSEntityDescription entityForName:@"EasyWord" inManagedObjectContext:self.managedObjectContext]];
+    NSPredicate* levelPredicate = [NSPredicate predicateWithFormat:@"level == %@",[NSNumber numberWithInt:currentLevel]];
+    [fetchRequest setPredicate:levelPredicate];
+    
+    NSError* errorCorrectWords = nil;
+    self.allQuestionsCopyForWrongAnswers = [managedObjectContext executeFetchRequest:fetchRequest error:&errorCorrectWords];
+    self.allQuestions = [[[NSMutableArray alloc] initWithArray:allQuestionsCopyForWrongAnswers] autorelease];
 }
+
+-(void)putNextQuestion
+{
+    //NSLog(@"%s",__FUNCTION__);
+    NSInteger numberOfWords = [allQuestions count];
+    NSInteger numberOfWordsForWrongAnswers = [allQuestionsCopyForWrongAnswers count];
+    
+    if (numberOfWords == 0) {
+        [self createAllWordsForCurrentLevel];
+        numberOfWords = [allQuestions count];
+        numberOfWordsForWrongAnswers = [allQuestionsCopyForWrongAnswers count];
+    }
+    int rng = arc4random() % numberOfWords;
+    
+    NSManagedObject* word = [allQuestions objectAtIndex:rng];
+    
+    [currentQuestion release];
+    currentQuestion = [[Question alloc] init];
+    currentQuestion.englishText = [word valueForKey:@"englishString"];
+    
+    int rngCorrect = arc4random() % 2;
+    if (rngCorrect == 0) {
+        currentQuestion.correct = YES;
+        currentQuestion.translationText = [word valueForKey:@"translationString"];
+        currentQuestion.correctAnswer = [word valueForKey:@"translationString"];
+    }
+    else
+    {
+        int rngWrong = 0;
+        NSManagedObject* wordFalse = nil;
+        do {
+            rngWrong = arc4random() % numberOfWordsForWrongAnswers;
+            wordFalse = [allQuestionsCopyForWrongAnswers objectAtIndex:rngWrong];
+            currentQuestion.translationText = [wordFalse valueForKey:@"translationString"];
+            currentQuestion.correctAnswer = [word valueForKey:@"translationString"];
+            currentQuestion.correct = NO;
+        } while ([[wordFalse valueForKey:@"translationString"] isEqualToString:[word valueForKey:@"translationString"]]);
+    }
+    
+    [allQuestions removeObjectAtIndex:rng];
+    
+    self.upperTextLabel.text = currentQuestion.englishText;
+    self.lowerTextLabel.text = currentQuestion.translationText;
+}
+
+#pragma mark -
+#pragma mark updates without animation
+#pragma mark -
 
 -(void)updateScoreBoard
 {
+    //NSLog(@"%s",__FUNCTION__);
     self.scoreBoardLabel.text = [NSString stringWithFormat:@"%i",currentScore];
 }
 
 -(void)updateConsequtiveCorrectAnswersCountLabel
 {
+    //NSLog(@"%s",__FUNCTION__);
     self.consequtiveCorrectAnswersCountLabel.text = [NSString stringWithFormat:@"x %i",consequtiveCorrectAnswersCount];
 }
 
 
 -(void)updateLiveImages
 {
+    //NSLog(@"%s",__FUNCTION__);
     switch (currentNumberOfLives) {
         case 0:
             self.firstLifeImageView.highlighted = YES;
@@ -100,115 +194,231 @@
 -(void)giveExtraLife
 {
     //NSLog(@"%s",__FUNCTION__);
-    extraLifeGiven = YES;
     currentNumberOfLives = currentNumberOfLives +1;
     [self updateLiveImages];    
 }
 
 -(void)checkCurrentLevel
 {    
+    //NSLog(@"%s",__FUNCTION__);
     currentLevel = [[NSUserDefaults standardUserDefaults] integerForKey:@"currentLevel"];
 }
 
--(void)createAllWordsForCurrentLevel
-{
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-    [fetchRequest setEntity:[NSEntityDescription entityForName:@"EasyWord" inManagedObjectContext:self.managedObjectContext]];
-    NSPredicate* levelPredicate = [NSPredicate predicateWithFormat:@"level == %@",[NSNumber numberWithInt:currentLevel]];
-    [fetchRequest setPredicate:levelPredicate];
 
-    NSError* errorCorrectWords = nil;
-    self.allQuestionsCopyForWrongAnswers = [managedObjectContext executeFetchRequest:fetchRequest error:&errorCorrectWords];
-    self.allQuestions = [[[NSMutableArray alloc] initWithArray:allQuestionsCopyForWrongAnswers] autorelease];
-}
-
--(void)putNextQuestion
-{
-    NSInteger numberOfWords = [allQuestions count];
-    NSInteger numberOfWordsForWrongAnswers = [allQuestionsCopyForWrongAnswers count];
-
-    if (numberOfWords == 0) {
-        [self createAllWordsForCurrentLevel];
-        numberOfWords = [allQuestions count];
-        numberOfWordsForWrongAnswers = [allQuestionsCopyForWrongAnswers count];
-    }
-    int rng = arc4random() % numberOfWords;
-    
-    NSManagedObject* word = [allQuestions objectAtIndex:rng];
-    
-    [currentQuestion release];
-    currentQuestion = [[Question alloc] init];
-    currentQuestion.englishText = [word valueForKey:@"englishString"];
-    
-    int rngCorrect = arc4random() % 2;
-    if (rngCorrect == 0) {
-        currentQuestion.correct = YES;
-        currentQuestion.translationText = [word valueForKey:@"translationString"];
-        currentQuestion.correctAnswer = [word valueForKey:@"translationString"];
-    }
-    else
-    {
-        int rngWrong = 0;
-        do {
-            rngWrong = arc4random() % numberOfWordsForWrongAnswers;
-        } while (rngWrong == rng);
-        
-        NSManagedObject* wordFalse = [allQuestionsCopyForWrongAnswers objectAtIndex:rngWrong];
-        currentQuestion.translationText = [wordFalse valueForKey:@"translationString"];
-        currentQuestion.correctAnswer = [word valueForKey:@"translationString"];
-        currentQuestion.correct = NO;
-    }
-    
-    [allQuestions removeObjectAtIndex:rng];
-    
-    self.upperTextLabel.text = currentQuestion.englishText;
-    self.lowerTextLabel.text = currentQuestion.translationText;
-    self.correctButton.userInteractionEnabled = YES;
-    self.wrongButton.userInteractionEnabled = YES;
-}
+#pragma mark -
+#pragma mark level upgrade and downgrade
+#pragma mark -
 
 -(void)upgradeLevel
 {
+    //NSLog(@"%s",__FUNCTION__);
+    if (currentNumberOfLives != 3) 
+    {
+        [self giveExtraLife];
+    }
+    
     levelUpgradeCount = 0;
+    self.levelPageControl.currentPage = levelUpgradeCount;
     if (currentLevel != 39) {
+        self.highScoreLabel.text = @"";
         currentLevel = currentLevel + 1;
         [self createAllWordsForCurrentLevel];
-        [self updateLevelLabel];
+        [self updateLevelLabelForStart];
     }
 }
-     
+
 -(void)downgradeLevel
 {
+    //NSLog(@"%s",__FUNCTION__);
     levelUpgradeCount = 0;
-
+    self.levelPageControl.currentPage = levelUpgradeCount;
+    
     if (currentLevel != 0) {
+        self.highScoreLabel.text = @"";
         currentLevel = currentLevel - 1;
         [self createAllWordsForCurrentLevel];
-        [self updateLevelLabel];
+        [self updateLevelLabelForStart];
+    }
+    else
+    {
+        [self startNextQuestionAnimation];
     }
 }
 
--(void)startTheGame
+
+-(void)updateLevelLabelForStart
 {
-    self.correctButton.userInteractionEnabled = NO;
-    self.wrongButton.userInteractionEnabled = NO;
-        
-    currentScore = 0;
-    consequtiveCorrectAnswersCount = 1;
-    currentNumberOfLives = 3;
-    levelUpgradeCount = 0;
+    //NSLog(@"%s",__FUNCTION__);
+    [levelLabel release];
+    levelLabel = [[UILabel alloc] initWithFrame:self.upperTextLabel.frame];
+    levelLabel.center = self.equalSignLabel.center;
+    levelLabel.text = [NSString stringWithFormat:@"Seviye %i",currentLevel +1];
+    levelLabel.textColor = [UIColor whiteColor];
+    levelLabel.font = self.upperTextLabel.font;
+    levelLabel.textAlignment = UITextAlignmentCenter;
+    levelLabel.backgroundColor = [UIColor clearColor];
+    levelLabel.alpha = 0.0;
+    [self.view addSubview:levelLabel];
     
-    [self updateLiveImages];
+    self.upperTextLabel.frame = CGRectOffset(self.upperTextLabel.frame, 320, 0);
+    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, 320, 0);
+    self.equalSignLabel.frame = CGRectOffset(self.equalSignLabel.frame, 320, 0);
+    self.upperTextLabel.alpha = 0.0;
+    self.lowerTextLabel.alpha = 0.0;
+    self.equalSignLabel.alpha = 0.0;
+    
+    [UIView beginAnimations:@"ShowLevelLabel" context:nil];
+    [UIView setAnimationDuration:0.5];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(finishedShowingLevelLabel)];
+    levelLabel.alpha = 1.0;
+    [UIView commitAnimations];
+}
+
+-(void)finishedShowingLevelLabel
+{
+    //NSLog(@"%s",__FUNCTION__);
+    [NSThread sleepForTimeInterval:1];
+    [UIView beginAnimations:@"MoveLevelLabel" context:nil];
+    [UIView setAnimationDuration:0.5];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(finishedMovingLevelLabel)];
+    levelLabel.center = self.highScoreLabel.center;
+    levelLabel.font = highScoreLabel.font;
+    self.highScoreLabel.alpha = 0.0;
+    [UIView commitAnimations];
+}
+
+-(void)finishedMovingLevelLabel
+{
+    //NSLog(@"%s",__FUNCTION__);
+    self.highScoreLabel = levelLabel;
+    [self putNextQuestion];
+    
+    [UIView beginAnimations:@"MoveLevelLabel" context:nil];
+    [UIView setAnimationDuration:0.5];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(finishedMovingQuestion)];
+    self.upperTextLabel.frame = CGRectOffset(self.upperTextLabel.frame, -320, 0);
+    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, -320, 0);
+    self.equalSignLabel.frame = CGRectOffset(self.equalSignLabel.frame, -320, 0);
+    self.upperTextLabel.alpha = 1.0;
+    self.lowerTextLabel.alpha = 1.0;
+    self.equalSignLabel.alpha = 1.0;
+    [UIView commitAnimations];
+}
+
+-(void)finishedMovingQuestion
+{
+    //NSLog(@"%s",__FUNCTION__);
+    self.correctButton.userInteractionEnabled = YES;
+    self.wrongButton.userInteractionEnabled = YES;
+    self.pauseButton.userInteractionEnabled = YES;
+}
+
+#pragma mark -
+#pragma mark next question animations
+#pragma mark -
+
+
+-(void)startNextQuestionAnimation
+{
+    //NSLog(@"%s",__FUNCTION__);
+    [nextQuestionUpperTextLabel release];
+    nextQuestionUpperTextLabel = [[UILabel alloc] initWithFrame:self.upperTextLabel.frame];
+    nextQuestionUpperTextLabel.text = self.upperTextLabel.text;
+    nextQuestionUpperTextLabel.textColor = [UIColor whiteColor];
+    nextQuestionUpperTextLabel.font = self.upperTextLabel.font;
+    nextQuestionUpperTextLabel.textAlignment = UITextAlignmentCenter;
+    nextQuestionUpperTextLabel.backgroundColor = [UIColor clearColor];
+    nextQuestionUpperTextLabel.numberOfLines = 0;
+    [self.view addSubview:nextQuestionUpperTextLabel];
+    
+    [nextQuestionLowerTextLabel release];
+    nextQuestionLowerTextLabel = [[UILabel alloc] initWithFrame:self.lowerTextLabel.frame];
+    nextQuestionLowerTextLabel.text = self.lowerTextLabel.text;
+    nextQuestionLowerTextLabel.textColor = [UIColor whiteColor];
+    nextQuestionLowerTextLabel.font = self.lowerTextLabel.font;
+    nextQuestionLowerTextLabel.textAlignment = UITextAlignmentCenter;
+    nextQuestionLowerTextLabel.backgroundColor = [UIColor clearColor];
+    nextQuestionLowerTextLabel.numberOfLines = 0;
+    [self.view addSubview:nextQuestionLowerTextLabel];
+
+    [nextQuestionEqualSignLabel release];
+    nextQuestionEqualSignLabel = [[UILabel alloc] initWithFrame:self.equalSignLabel.frame];
+    nextQuestionEqualSignLabel.text = self.equalSignLabel.text;
+    nextQuestionEqualSignLabel.textColor = [UIColor whiteColor];
+    nextQuestionEqualSignLabel.font = self.equalSignLabel.font;
+    nextQuestionEqualSignLabel.textAlignment = UITextAlignmentCenter;
+    nextQuestionEqualSignLabel.backgroundColor = [UIColor clearColor];
+    nextQuestionEqualSignLabel.numberOfLines = 0;
+    [self.view addSubview:nextQuestionEqualSignLabel];
+    
+    self.upperTextLabel.frame = CGRectOffset(self.upperTextLabel.frame, 320, 0);
+    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, 320, 0);
+    self.equalSignLabel.frame = CGRectOffset(self.equalSignLabel.frame, 320, 0);
+    self.upperTextLabel.alpha = 0.0;
+    self.lowerTextLabel.alpha = 0.0;
+    self.equalSignLabel.alpha = 0.0;
+    [self putNextQuestion];
+    
+    [UIView beginAnimations:@"ShowLevelLabel" context:nil];
+    [UIView setAnimationDuration:0.5];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(finishedMovingQuestion)];
+    self.upperTextLabel.frame = CGRectOffset(self.upperTextLabel.frame, -320, 0);
+    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, -320, 0);
+    self.equalSignLabel.frame = CGRectOffset(self.equalSignLabel.frame, -320, 0);
+    self.upperTextLabel.alpha = 1.0;
+    self.lowerTextLabel.alpha = 1.0;
+    self.equalSignLabel.alpha = 1.0;
+    
+    nextQuestionUpperTextLabel.frame = CGRectOffset(nextQuestionUpperTextLabel.frame, -320, 0);
+    nextQuestionLowerTextLabel.frame = CGRectOffset(nextQuestionLowerTextLabel.frame, -320, 0);
+    nextQuestionEqualSignLabel.frame = CGRectOffset(nextQuestionEqualSignLabel.frame, -320, 0);
+    nextQuestionUpperTextLabel.alpha = 0.0;
+    nextQuestionLowerTextLabel.alpha = 0.0;
+    nextQuestionEqualSignLabel.alpha = 0.0;
+    [UIView commitAnimations];
+}
+
+#pragma mark -
+#pragma mark answered correctly
+#pragma mark -
+
+-(void)userAnsweredCorrecty
+{
+    //NSLog(@"%s",__FUNCTION__);
+    currentScore = currentScore + consequtiveCorrectAnswersCount;
+    
+    if (consequtiveCorrectAnswersCount != 5) 
+    {
+        consequtiveCorrectAnswersCount = consequtiveCorrectAnswersCount +1;
+    }
+    
     [self updateScoreBoard];
     [self updateConsequtiveCorrectAnswersCountLabel];
-    [self checkCurrentLevel];
-    [self updateLevelLabel];
-    [self createAllWordsForCurrentLevel];
-    [self putNextQuestion];
+    
+    if (levelUpgradeCount != 4) 
+    {
+        levelUpgradeCount = levelUpgradeCount +1;
+        self.levelPageControl.currentPage = levelUpgradeCount;
+        [self startNextQuestionAnimation];
+    }
+    else
+    {
+        [self upgradeLevel];
+    }
 }
+
+#pragma mark -
+#pragma mark answered wrongly
+#pragma mark -
+
 
 -(void)showCorrectAnswerWithAnimation
 {
+    //NSLog(@"%s",__FUNCTION__);
     self.correctButton.userInteractionEnabled = NO;
     self.wrongButton.userInteractionEnabled = NO;
     self.pauseButton.userInteractionEnabled = NO;
@@ -216,9 +426,8 @@
     currentNumberOfLives = currentNumberOfLives - 1;
     consequtiveCorrectAnswersCount = 1;
     [self updateLiveImages];
-    extraLifeGiven = NO;
-    [self downgradeLevel];
-    
+    [self updateConsequtiveCorrectAnswersCountLabel];
+
     [xImage release];
     xImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Glyph3LivesOn.png"]];
     
@@ -234,17 +443,26 @@
             break;
     }
     [self.view addSubview:xImage];
-
+    
     [UIView beginAnimations:@"MoveX" context:nil];
     [UIView setAnimationDuration:1.0];
     [UIView setAnimationDelegate:self];
-    [UIView setAnimationDidStopSelector:@selector(finishedMovingX)];
+    
+    if (currentQuestion.correct) 
+    {
+        [UIView setAnimationDidStopSelector:@selector(finishedMovingXForCorrectQuestion)];
+    }
+    else
+    {
+        [UIView setAnimationDidStopSelector:@selector(finishedMovingX)];
+    }
     xImage.center = self.lowerTextLabel.center;
     [UIView commitAnimations];
 }
 
 -(void)finishedMovingX
 {
+    //NSLog(@"%s",__FUNCTION__);
     [correctAnswerLabel release];
     correctAnswerLabel = [[UILabel alloc] initWithFrame:CGRectMake(320, self.lowerTextLabel.frame.origin.y, self.lowerTextLabel.frame.size.width, self.lowerTextLabel.frame.size.height)];
     correctAnswerLabel.alpha = 0.0;
@@ -266,61 +484,40 @@
     [UIView commitAnimations]; 
 }
 
+-(void)finishedMovingXForCorrectQuestion
+{
+    //NSLog(@"%s",__FUNCTION__);
+    [UIView beginAnimations:@"ShowCorrectAnswer" context:nil];
+    [UIView setAnimationDuration:1.0];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(userAnsweredWrongly)];
+    xImage.alpha = 0.0;
+    [UIView commitAnimations]; 
+}
+
 -(void)userAnsweredWrongly
 {
+    //NSLog(@"%s",__FUNCTION__);
     [NSThread sleepForTimeInterval:1];
+    self.lowerTextLabel.text = currentQuestion.correctAnswer;
     [correctAnswerLabel removeFromSuperview];
     [xImage removeFromSuperview];
-    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, 320, 0);
+    if (!currentQuestion.correct) 
+    {
+        self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, 320, 0);
+    }
 
     if (currentNumberOfLives == 0) {
         
         [self gameOver];
         return;
     }
-
-    [self updateConsequtiveCorrectAnswersCountLabel];
-    [self putNextQuestion];
-    
-    self.correctButton.userInteractionEnabled = YES;
-    self.wrongButton.userInteractionEnabled = YES;
-    self.pauseButton.userInteractionEnabled = YES;
+    [self downgradeLevel];
 }
 
--(void)userAnsweredCorrecty
-{
-    currentScore = currentScore + consequtiveCorrectAnswersCount;
-    
-    if (consequtiveCorrectAnswersCount != 5) 
-    {
-        consequtiveCorrectAnswersCount = consequtiveCorrectAnswersCount +1;
-    }
-    if (consequtiveCorrectAnswersCount == 5) 
-    {
-        if (!extraLifeGiven) {
-            if (currentNumberOfLives != 3) 
-            {
-                [self giveExtraLife];
-            }
-        }
-    }
-    [self updateScoreBoard];
-    
-    if (levelUpgradeCount != 4) 
-    {
-        levelUpgradeCount = levelUpgradeCount +1;
-    }
-    else
-    {
-        [self upgradeLevel];
-    }
-    [self updateConsequtiveCorrectAnswersCountLabel];
-    [self putNextQuestion];
-}
-
-
-
+#pragma mark -
 #pragma mark IBActions
+#pragma mark -
 
 -(IBAction)correctButtonPressed:(id)sender
 {
@@ -360,6 +557,7 @@
 
 #pragma mark -
 #pragma mark Lifecycle
+#pragma mark -
 
 - (void)dealloc
 {
@@ -378,6 +576,8 @@
     [thirdLifeImageView release];
     [allQuestionsCopyForWrongAnswers release];
     [allQuestions release];
+    [equalSignLabel release];
+    [levelPageControl release];
     [super dealloc];
 }
 
@@ -429,5 +629,27 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+#pragma mark -
+#pragma mark Synthesizers
+#pragma mark -
+
+@synthesize managedObjectContext;
+@synthesize correctButton;
+@synthesize wrongButton;
+@synthesize pauseButton;
+
+@synthesize scoreBoardLabel;
+@synthesize consequtiveCorrectAnswersCountLabel;
+@synthesize highScoreLabel;
+@synthesize upperTextLabel;
+@synthesize lowerTextLabel;
+@synthesize firstLifeImageView;
+@synthesize secondLifeImageView;
+@synthesize thirdLifeImageView;
+@synthesize allQuestions;
+@synthesize allQuestionsCopyForWrongAnswers;
+@synthesize equalSignLabel;
+@synthesize levelPageControl;
 
 @end

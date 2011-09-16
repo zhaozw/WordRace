@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GameKit/GameKit.h>
 #import "SA_OAuthTwitterController.h"
 #import "Facebook.h"
 
@@ -55,6 +56,7 @@
     SA_OAuthTwitterEngine* twitterEngine;
 
     NSString* gameMode;
+    BOOL didBrakeHighScore;
 }
 @property(nonatomic,retain) IBOutlet UILabel* gameOverTitleLabel;
 @property(nonatomic,assign) UIViewController* parentGamePlayViewController;
@@ -81,6 +83,7 @@
 @property(nonatomic,retain) Facebook* facebook;
 @property(nonatomic,retain) SA_OAuthTwitterEngine* twitterEngine;
 @property(nonatomic,retain) NSString* gameMode;
+@property(nonatomic,assign) BOOL didBrakeHighScore;
 
 -(IBAction)restartGame:(id)sender;
 -(IBAction)goToMainMenu:(id)sender;

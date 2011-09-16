@@ -50,9 +50,20 @@
     self.scoresImage.frame = CGRectOffset(self.scoresImage.frame, 0, 3);
     self.scoresLabel.frame = CGRectOffset(self.scoresLabel.frame, 0, 3);
     
-    LeaderboardViewController* leaderboardViewController = [[LeaderboardViewController alloc] initWithNibName:@"LeaderboardViewController" bundle:nil];
-    [self.navigationController pushViewController:leaderboardViewController animated:YES];
-    [leaderboardViewController release];    
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    
+    BOOL gameCenterAvailable = [defaults boolForKey:@"gameCenterAvailable"];
+    if (gameCenterAvailable) {
+        LeaderboardViewController* leaderboardViewController = [[LeaderboardViewController alloc] initWithNibName:@"LeaderboardViewController" bundle:nil];
+        [self.navigationController pushViewController:leaderboardViewController animated:YES];
+        [leaderboardViewController release];  
+    }
+    else
+    {
+        UIAlertView* alert = [[UIAlertView alloc]initWithTitle:@"Game Center Hatası" message:[defaults objectForKey:@"gameCenterNotAvailableReason"] delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+        [alert show];
+        [alert release];
+    }
 }
 -(IBAction)showInfo:(id)sender
 {
