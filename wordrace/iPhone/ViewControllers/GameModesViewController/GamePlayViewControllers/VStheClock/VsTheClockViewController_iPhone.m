@@ -52,6 +52,7 @@
     countDown = 100;
     levelUpgradeCount = 0;
     self.highScoreLabel.text = @"";
+    self.levelPageControl.currentPage = levelUpgradeCount;
 
     [self updateScoreBoard];
     [self checkCurrentLevel];

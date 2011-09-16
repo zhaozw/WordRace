@@ -51,7 +51,8 @@
     currentNumberOfLives = 3;
     levelUpgradeCount = 0;
     self.highScoreLabel.text = @"";
-    
+    self.levelPageControl.currentPage = levelUpgradeCount;
+
     [self updateLiveImages];
     [self updateScoreBoard];
     [self updateConsequtiveCorrectAnswersCountLabel];

@@ -48,6 +48,7 @@
     currentScore = 0;
     levelUpgradeCount = 0;
     self.highScoreLabel.text = @"";
+    self.levelPageControl.currentPage = levelUpgradeCount;
 
     [self updateScoreBoard];
     [self checkCurrentLevel];
@@ -397,7 +398,7 @@
     [NSThread sleepForTimeInterval:1];
     [correctAnswerLabel removeFromSuperview];
     [xImage removeFromSuperview];
-    self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, 320, 0);
+    if (!currentQuestion.correct)self.lowerTextLabel.frame = CGRectOffset(self.lowerTextLabel.frame, 320, 0);
     [self gameOver];
 }
 
