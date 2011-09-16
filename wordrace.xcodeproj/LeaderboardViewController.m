@@ -71,14 +71,11 @@
                       UIAlertView* alert = [[UIAlertView alloc] initWithTitle:ALERTVIEW_ERROR_TITLE message:[error localizedDescription] delegate:nil cancelButtonTitle:ALERTVIEW_CANCELBUTTON_TITLE otherButtonTitles:nil];
                       [alert show];
                       [alert release];
-                  }
-                  if (playersArray != nil)
-                  {
-                      self.players = playersArray;
-                      [self.leaderBoardTableView reloadData];
-                      [self.aiv stopAnimating];
-                      self.leaderBoardTableView.alpha = 1.0;
-                  }
+                  }                
+                  self.players = playersArray;
+                  [self.leaderBoardTableView reloadData];
+                  [self.aiv stopAnimating];
+                  self.leaderBoardTableView.alpha = 1.0;
               }];
              
          }

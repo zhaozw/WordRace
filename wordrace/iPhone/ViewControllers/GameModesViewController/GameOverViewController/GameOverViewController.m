@@ -173,7 +173,7 @@
             break;
         case 2:
             playerScore = [[[GKScore alloc]
-                            initWithCategory::LEADERBOARD_SUDDENDEATH_ID] autorelease];            
+                            initWithCategory:LEADERBOARD_SUDDENDEATH_ID] autorelease];            
             break;
     }
     
