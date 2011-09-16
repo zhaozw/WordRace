@@ -343,6 +343,10 @@
 -(IBAction)showMoreGames:(id)sender
 {
     self.moreGamesLabel.frame = CGRectOffset(self.moreGamesLabel.frame, 0, 3);
+    
+    NSString *search = @"taha selim bebek";  
+    NSString *sstring = [NSString stringWithFormat:@"http://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?WOURLEncoding=ISO8859_1&lang=1&output=lm&country=US&term=%@&media=software", [search stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];  
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:sstring]];  
 }
 
 -(IBAction)restartGameTouchDown:(id)sender
