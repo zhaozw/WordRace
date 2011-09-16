@@ -65,7 +65,16 @@
             cell = (SelectLevelCell*)object;
         }
     }
-    
+    NSString* lockString = [NSString stringWithFormat:@"Level%i",indexPath.row];
+    BOOL levelIsUnlocked = [[NSUserDefaults standardUserDefaults] boolForKey:lockString];
+
+    if (indexPath.row !=0) {
+        if (!levelIsUnlocked) {
+            cell.userInteractionEnabled = NO;
+            cell.levelLabel.enabled = NO;
+            cell.padlock.image = [UIImage imageNamed:@"padlock.jpg"];
+        }
+    }
     cell.levelLabel.text = [NSString stringWithFormat:@"Seviye %i",indexPath.row + 1];
     cell.level = indexPath.row;
     cell.selectLevelTableView = self;

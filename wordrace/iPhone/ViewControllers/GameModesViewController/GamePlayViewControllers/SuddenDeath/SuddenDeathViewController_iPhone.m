@@ -23,6 +23,7 @@
 -(void)updateLiveImages;
 -(void)giveExtraLife;
 -(void)checkCurrentLevel;
+-(void)updateCurrentLevel;
 -(void)startTheGame;
 -(void)startNextQuestionAnimation;
 -(void)upgradeLevel;
@@ -155,6 +156,11 @@
     currentLevel = [[NSUserDefaults standardUserDefaults] integerForKey:@"currentLevel"];
 }
 
+-(void)updateCurrentLevel
+{
+    [[NSUserDefaults standardUserDefaults] setInteger:currentLevel forKey:@"currentLevel"];
+}
+
 
 #pragma mark -
 #pragma mark level upgrade and downgrade
@@ -167,6 +173,10 @@
     if (currentLevel != 39) {
         self.highScoreLabel.text = @"";
         currentLevel = currentLevel + 1;
+        
+        NSString* lockString = [NSString stringWithFormat:@"Level%i",currentLevel];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:lockString];
+        [self updateCurrentLevel];
         [self createAllWordsForCurrentLevel];
         [self updateLevelLabelForStart];
     }

@@ -15,6 +15,7 @@
 @synthesize levelButton;
 @synthesize level;
 @synthesize selectLevelTableView;
+@synthesize padlock;
 
 #pragma mark -
 #pragma mark IBActions
@@ -52,6 +53,7 @@
 
 -(void)dealloc
 {
+    [padlock release];
     [levelButton release];
     [levelLabel release];
     [backgroundImage release];
