@@ -43,51 +43,31 @@ BOOL isGameCenterAPIAvailable()
         // Game Center is not available. 
         
         NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
-        [defaults setBool:NO forKey:@"gameCenterAvailable"];
+        [defaults setBool:NO forKey:@"gameCenterAPIAvailable"];
         [defaults setObject:@"Game Center kullanmak icin iOS versiyon minimum 4.1 olmalidir." forKey:@"gameCenterNotAvailableReason"];
         NSLog(@"Game center api not available");
+
     } else {
-        
+        NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+        [defaults setBool:YES forKey:@"gameCenterAPIAvailable"];
+
         GKLocalPlayer *localPlayer = [GKLocalPlayer localPlayer];
         
-        /*
-         The authenticateWithCompletionHandler method is like all completion handler methods and runs a block
-         of code after completing its task. The difference with this method is that it does not release the 
-         completion handler after calling it. Whenever your application returns to the foreground after 
-         running in the background, Game Kit re-authenticates the user and calls the retained completion 
-         handler. This means the authenticateWithCompletionHandler: method only needs to be called once each 
-         time your application is launched. This is the reason the sample authenticates in the application 
-         delegate's application:didFinishLaunchingWithOptions: method instead of in the view controller's 
-         viewDidLoad method.
-         
-         Remember this call returns immediately, before the user is authenticated. This is because it uses 
-         Grand Central Dispatch to call the block asynchronously once authentication completes.
-         */
         [[GKLocalPlayer localPlayer] authenticateWithCompletionHandler:^(NSError *error) {
-            // If there is an error, do not assume local player is not authenticated. 
+
             if (localPlayer.isAuthenticated) {
                 NSLog(@"Game center available");
-                // Enable Game Center Functionality 
-                self.gameCenterAuthenticationComplete = YES;
-                NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
-                [defaults setBool:YES forKey:@"gameCenterAvailable"];
-               
-                if (! self.currentPlayerID || ! [self.currentPlayerID isEqualToString:localPlayer.playerID]) {
-                    
-                    // Current playerID has changed. Create/Load a game state around the new user. 
-                    self.currentPlayerID = localPlayer.playerID;
-                    NSLog(@"Player ID = %@", [localPlayer playerID]);
-                    NSLog(@"Player Alias = %@", [localPlayer alias]);
-                    [defaults setObject:[localPlayer playerID] forKey:@"PlayerID"];
-                    [defaults setObject:[localPlayer alias] forKey:@"PlayerAlias"];
 
-                    // Load game instance for new current player, if none exists create a new.
+                self.gameCenterAuthenticationComplete = YES;
+                               
+                if (! self.currentPlayerID || ! [self.currentPlayerID isEqualToString:localPlayer.playerID]) {
+                    self.currentPlayerID = localPlayer.playerID;
                 }
+                
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"localPlayerIsAuthenticated" object:nil userInfo:nil];
             } else {     
-                // No user is logged into Game Center, run without Game Center support or user interface. 
-                NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
-                [defaults setBool:NO forKey:@"gameCenterAvailable"];
-                [defaults setObject:[error localizedDescription] forKey:@"gameCenterNotAvailableReason"];
+                NSDictionary* errorUserInfo = [NSDictionary dictionaryWithObject:error forKey:@"error"];
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"localPlayerAuthenticationFailed" object:nil userInfo:errorUserInfo];
                 NSLog(@"Game center not available");
             }
         }];

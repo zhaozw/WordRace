@@ -311,6 +311,20 @@
     self.scoresLabel.frame = CGRectOffset(self.scoresLabel.frame, 0, 3);
     
     LeaderboardViewController* leaderboardViewController = [[LeaderboardViewController alloc] initWithNibName:@"LeaderboardViewController" bundle:nil];
+    
+    switch (currentGameMode) 
+    {
+        case 0:
+            leaderboardViewController.currentGameMode = 1;
+            break;
+        case 1:
+            leaderboardViewController.currentGameMode = 0;
+            break;
+        case 2:
+            leaderboardViewController.currentGameMode = 2;
+            break;
+    }
+
     [self.navigationController pushViewController:leaderboardViewController animated:YES];
     [leaderboardViewController release]; 
 }
