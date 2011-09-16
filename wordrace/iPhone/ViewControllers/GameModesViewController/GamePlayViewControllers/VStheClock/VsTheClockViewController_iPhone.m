@@ -222,6 +222,7 @@
     }
     else
     {
+        [self startTimer];
         [self startNextQuestionAnimation];
     }
 }
