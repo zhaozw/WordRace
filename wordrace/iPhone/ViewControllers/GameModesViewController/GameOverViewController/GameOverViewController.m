@@ -165,15 +165,15 @@
     switch (currentGameMode) {
         case 0:
             playerScore = [[[GKScore alloc]
-                            initWithCategory:@"threelives"] autorelease];            
+                            initWithCategory:LEADERBOARD_THREELIVES_ID] autorelease];            
             break;
         case 1:
             playerScore = [[[GKScore alloc]
-                            initWithCategory:@"vstheclock"] autorelease];            
+                            initWithCategory:LEADERBOARD_VSTHECLOCK_ID] autorelease];            
             break;
         case 2:
             playerScore = [[[GKScore alloc]
-                            initWithCategory:@"suddendeath"] autorelease];            
+                            initWithCategory::LEADERBOARD_SUDDENDEATH_ID] autorelease];            
             break;
     }
     

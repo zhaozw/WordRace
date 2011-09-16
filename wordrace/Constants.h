@@ -57,7 +57,9 @@
 #define GAMEOVER_SHARED_ON_FACEBOOK_ALERT_MESSAGE @"Facebook'da paylaşıldı"
 #define GAMEOVER_SHARED_ON_TWITTER_ALERT_MESSAGE @"Twitter'da paylaşıldı"
 
-
+#define LEADERBOARD_THREELIVES_ID @"threelives"
+#define LEADERBOARD_VSTHECLOCK_ID @"vstheclock"
+#define LEADERBOARD_SUDDENDEATH_ID @"suddendeath"
 
 
 

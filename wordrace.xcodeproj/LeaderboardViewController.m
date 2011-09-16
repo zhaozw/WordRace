@@ -44,13 +44,13 @@
     
     switch (currentGameMode) {
         case 0:
-            [leaderboard setCategory:@"vstheclock"];
+            [leaderboard setCategory:LEADERBOARD_VSTHECLOCK_ID];
             break;
         case 1:
-            [leaderboard setCategory:@"threelives"];
+            [leaderboard setCategory:LEADERBOARD_THREELIVES_ID];
             break;
         case 2:
-            [leaderboard setCategory:@"suddendeath"];
+            [leaderboard setCategory:LEADERBOARD_SUDDENDEATH_ID];
             break;
     }
 
