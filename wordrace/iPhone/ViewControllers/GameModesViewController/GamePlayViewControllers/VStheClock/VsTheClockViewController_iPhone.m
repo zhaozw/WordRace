@@ -78,7 +78,7 @@
     
     gameOverViewController.parentGamePlayViewController = (UIViewController*)self;
     gameOverViewController.currentGameMode = 1;
-    gameOverViewController.gameMode = @"Zamana Karşı";
+    gameOverViewController.gameMode = GAMEMODE_VSTHECLOCK_TITLE;
     gameOverViewController.currentLevel = currentLevel;
     gameOverViewController.score =currentScore;
     gameOverViewController.highScore = highScore;

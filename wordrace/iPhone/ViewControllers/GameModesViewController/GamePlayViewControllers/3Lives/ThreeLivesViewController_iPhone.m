@@ -79,7 +79,7 @@
         
     gameOverViewController.parentGamePlayViewController = (UIViewController*)self;
     gameOverViewController.currentGameMode = 0;
-    gameOverViewController.gameMode = @"Üç Can";
+    gameOverViewController.gameMode = GAMEMODE_THREELIVES_TITLE;
     gameOverViewController.currentLevel = currentLevel;
     gameOverViewController.score =currentScore;
     gameOverViewController.highScore = highScore;

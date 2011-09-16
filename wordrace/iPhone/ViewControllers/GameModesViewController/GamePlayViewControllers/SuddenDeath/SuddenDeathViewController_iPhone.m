@@ -72,7 +72,7 @@
     
     gameOverViewController.parentGamePlayViewController = (UIViewController*)self;
     gameOverViewController.currentGameMode = 2;
-    gameOverViewController.gameMode = @"Ani Ölüm";
+    gameOverViewController.gameMode = GAMEMODE_SUDDENDEATH_TITLE;
     gameOverViewController.currentLevel = currentLevel;
     gameOverViewController.score =currentScore;
     gameOverViewController.highScore = highScore;
