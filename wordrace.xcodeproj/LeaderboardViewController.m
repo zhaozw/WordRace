@@ -310,12 +310,19 @@
             cell = (LeaderBoardCell*)object;
         }
     }
+    GKLocalPlayer* localPlayer = [GKLocalPlayer localPlayer];
     GKScore *score = [scoresArray objectAtIndex:indexPath.row];
     GKPlayer* player =[players objectAtIndex:indexPath.row];
     cell.indexLabel.text = [NSString stringWithFormat:@"%i",score.rank];
     //cell.indexLabel.text = @"100";
     cell.aliasLabel.text = player.alias;
     cell.scoreLabel.text = [NSString stringWithFormat:@"%i",(NSInteger)score.value];
+    
+    if ([localPlayer.playerID isEqualToString:player.playerID]) {
+        cell.indexLabel.textColor = [UIColor redColor];
+        cell.aliasLabel.textColor = [UIColor redColor];
+        cell.scoreLabel.textColor = [UIColor redColor];
+    }
 	return cell;
 
 }
