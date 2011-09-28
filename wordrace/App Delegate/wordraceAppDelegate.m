@@ -82,8 +82,9 @@ BOOL isGameCenterAPIAvailable()
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"%s",__FUNCTION__);
     [self authenticateLocalPlayer];
-    
+
     /*
     if (gameCenterAvailable) {
         NSLog(@"gameCenterAvailable");
