@@ -24,6 +24,8 @@
 -(IBAction)selectLevelTouchDown:(id)sender
 {
     self.levelLabel.frame = CGRectOffset(self.levelLabel.frame, 0, -3);
+    self.padlock.frame = CGRectOffset(self.padlock.frame, 0, -3);
+
     [self setSelected:YES animated:NO];
     [self.levelButton setEnabled:NO];
     [self.selectLevelTableView selectLabelCellButtonTouchedDown:self];
@@ -47,7 +49,7 @@
     
     if (selected) 
     {
-        self.levelLabel.textColor = [UIColor redColor];
+        //self.levelLabel.textColor = [UIColor redColor];
     }
 }
 

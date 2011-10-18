@@ -29,10 +29,11 @@
         if (![cell isEqual:sender]) {
             if (cell.selected) {
                 cell.levelLabel.frame = CGRectOffset(cell.levelLabel.frame, 0, 3);
+                cell.padlock.frame = CGRectOffset(cell.padlock.frame, 0, 3);
                 [cell setSelected:NO animated:NO];
             }
             cell.levelButton.enabled = YES;
-            cell.levelLabel.textColor = [UIColor colorWithRed:0.15 green:0.59 blue:0.88 alpha:1.0];
+            //cell.levelLabel.textColor = [UIColor colorWithRed:0.15 green:0.59 blue:0.88 alpha:1.0];
         }
     }
 }
@@ -73,9 +74,18 @@
         if (!levelIsUnlocked) {
             cell.userInteractionEnabled = NO;
             cell.levelLabel.enabled = NO;
-            cell.padlock.image = [UIImage imageNamed:@"padlock.jpg"];
+            cell.padlock.image = [UIImage imageNamed:@"GlyphLockOn.png"];
+        }
+        else
+        {
+            cell.padlock.image = [UIImage imageNamed:@"GlyphLockOff.png"];
         }
     }
+    else
+    {
+        cell.padlock.image = [UIImage imageNamed:@"GlyphLockOff.png"];
+    }
+    
     cell.levelLabel.text = [NSString stringWithFormat:@"%@ %i",SELECTLEVEL_LEVEL_TITLE,indexPath.row + 1];
     cell.level = indexPath.row;
     cell.selectLevelTableView = self;

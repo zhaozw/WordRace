@@ -221,7 +221,7 @@
 					<object class="IBUITableView" id="523736981">
 						<reference key="NSNextResponder" ref="246561302"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{36, 145}, {245, 250}}</string>
+						<string key="NSFrame">{{36, 145}, {245, 302}}</string>
 						<reference key="NSSuperview" ref="246561302"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="307461870"/>
@@ -240,10 +240,9 @@
 					<object class="IBUIActivityIndicatorView" id="307461870">
 						<reference key="NSNextResponder" ref="246561302"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{142, 249}, {37, 37}}</string>
+						<string key="NSFrame">{{142, 277}, {37, 37}}</string>
 						<reference key="NSSuperview" ref="246561302"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:824</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>

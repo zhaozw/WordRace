@@ -119,6 +119,20 @@
 }
 
 
+- (void)checkMP3
+{
+    int count =0;
+    for (EasyWord* object in self.frcEasyWords.fetchedObjects) 
+    {
+        NSString* path = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"En-us-%@",object.englishString] ofType:@"mp3"];
+        if (!path) {
+            count++;
+            NSLog(@"%@",object.englishString);
+        }
+    }
+    NSLog(@"%i",count);
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
@@ -132,6 +146,7 @@
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.title = self.language;
     //[self populateDatabase];
+    [self checkMP3];
 }
 
 - (void)viewDidUnload

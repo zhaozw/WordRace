@@ -151,7 +151,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.titleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:26];
+    //self.titleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:26];
     self.titleLabel.text = WELCOMEVC_GAMENAME;
     self.playLabel.text = WELCOMEVC_PLAYBUTTON_TITLE;
     self.levelLabel.text = WELCOMEVC_LEVELBUTTON_TITLE;

@@ -124,10 +124,9 @@
 							<object class="IBUIImageView" id="422316760">
 								<reference key="NSNextResponder" ref="242360190"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{43, 44}, {30, 30}}</string>
+								<string key="NSFrame">{{62, 46}, {20, 19}}</string>
 								<reference key="NSSuperview" ref="242360190"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:541</string>
 								<int key="IBUIContentMode">1</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
