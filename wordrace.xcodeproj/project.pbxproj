@@ -308,7 +308,6 @@
 		0FB712CF1407AE0100407924 /* GameModesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712CD1407AE0100407924 /* GameModesViewController_iPhone.xib */; };
 		0FB712D31407AE4800407924 /* SelectLevelViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712D11407AE4800407924 /* SelectLevelViewController_iPhone.m */; };
 		0FB712D41407AE4800407924 /* SelectLevelViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712D21407AE4800407924 /* SelectLevelViewController_iPhone.xib */; };
-		0FBE6068141E60580011CBEB /* Entitlements.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 0FBE6067141E60580011CBEB /* Entitlements.entitlements */; };
 		0FC719BF141A28570014A2C2 /* Turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FC719BE141A28570014A2C2 /* Turkish.xml */; };
 		0FCDC5CF14195DF200225E11 /* Crillee_Italic_Plain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCDC5CE14195DF200225E11 /* Crillee_Italic_Plain.ttf */; };
 		0FCDC5DE141970B400225E11 /* Digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCDC5DD141970B400225E11 /* Digital-7.ttf */; };
@@ -695,7 +694,6 @@
 		0FB712D01407AE4800407924 /* SelectLevelViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLevelViewController_iPhone.h; sourceTree = "<group>"; };
 		0FB712D11407AE4800407924 /* SelectLevelViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLevelViewController_iPhone.m; sourceTree = "<group>"; };
 		0FB712D21407AE4800407924 /* SelectLevelViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectLevelViewController_iPhone.xib; sourceTree = "<group>"; };
-		0FBE6067141E60580011CBEB /* Entitlements.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
 		0FC719BE141A28570014A2C2 /* Turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Turkish.xml; sourceTree = "<group>"; };
 		0FCDC5CE14195DF200225E11 /* Crillee_Italic_Plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Crillee_Italic_Plain.ttf; path = Graphics/Crillee_Italic_Plain.ttf; sourceTree = "<group>"; };
 		0FCDC5DD141970B400225E11 /* Digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Digital-7.ttf"; path = "Graphics/Digital-7.ttf"; sourceTree = "<group>"; };
@@ -764,7 +762,6 @@
 		0F0BCF8A13CB7F1600B61313 = {
 			isa = PBXGroup;
 			children = (
-				0FBE6067141E60580011CBEB /* Entitlements.entitlements */,
 				0F66F1841422085A00F1E3B1 /* Twitter+OAuth */,
 				0F3B0377142104CC00F4634C /* Facebook */,
 				0F5FA4B1141E709100EB8286 /* SoundManager */,
@@ -1853,7 +1850,6 @@
 				0FDD2490141AC72300A03BC6 /* WordRaceDB.sqlite in Resources */,
 				0FDD2492141AC80000A03BC6 /* 4-ScoreView_v1.png in Resources */,
 				0FE2021D141B7E7E001D3216 /* SelectLevelCell.xib in Resources */,
-				0FBE6068141E60580011CBEB /* Entitlements.entitlements in Resources */,
 				0FF4323B141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png in Resources */,
 				0F3B036C142104BE00F4634C /* FBDialog.bundle in Resources */,
 				0F66F1C01422085A00F1E3B1 /* jQueryInject.txt in Resources */,
@@ -1993,7 +1989,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2010,10 +2006,10 @@
 				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "1ED282BF-EA68-4693-AE0F-56B0617F719A";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1ED282BF-EA68-4693-AE0F-56B0617F719A";
+				PROVISIONING_PROFILE = "5E5B2133-29F6-4822-B9A6-2D954EF6BE09";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5E5B2133-29F6-4822-B9A6-2D954EF6BE09";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -2073,7 +2069,7 @@
 				PROVISIONING_PROFILE = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Adhoc;
 		};
