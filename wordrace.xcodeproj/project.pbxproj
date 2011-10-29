@@ -673,8 +673,8 @@
 		0F66F366144DF1C3007757B6 /* iPadScoresViewBackgroundPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadScoresViewBackgroundPortrait.png; sourceTree = "<group>"; };
 		0F8756EC1423AF7F001D29CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		0F8756EE1423AF98001D29CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		0FA7A3A2144E0C8300ACBF52 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0FA7A3A2144E0C8300ACBF52 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		0FAFA5041421DA9800B61949 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0FAFA5461421DE1100B61949 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		0FB712A61407A66F00407924 /* wordraceAppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate_iPhone.h; sourceTree = "<group>"; };
@@ -810,6 +810,8 @@
 		0F0BCFA213CB7F1600B61313 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0FA7A3A2144E0C8300ACBF52 /* Icon.png */,
+				0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */,
 				0F0BCFA313CB7F1600B61313 /* wordrace-Info.plist */,
 				0F0BCFA413CB7F1600B61313 /* InfoPlist.strings */,
 				0F0BCFA713CB7F1600B61313 /* wordrace-Prefix.pch */,
@@ -1536,8 +1538,6 @@
 			children = (
 				0F8756EE1423AF98001D29CA /* Default.png */,
 				0F8756EC1423AF7F001D29CA /* Default@2x.png */,
-				0FA7A3A2144E0C8300ACBF52 /* Icon.png */,
-				0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */,
 				0FC719BD141A21990014A2C2 /* Fonts */,
 				0F5454FE1409019400D357C1 /* Constants.h */,
 				0FE3FA5E1408226800171C7C /* Audio */,
