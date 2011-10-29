@@ -293,8 +293,9 @@
 		0F66F374144DF1C3007757B6 /* iPadScoresViewBackgroundPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F366144DF1C3007757B6 /* iPadScoresViewBackgroundPortrait.png */; };
 		0F8756ED1423AF7F001D29CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8756EC1423AF7F001D29CA /* Default@2x.png */; };
 		0F8756EF1423AF98001D29CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8756EE1423AF98001D29CA /* Default.png */; };
-		0FA7A3A4144E0C8300ACBF52 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA7A3A2144E0C8300ACBF52 /* Icon.png */; };
-		0FA7A3A5144E0C8300ACBF52 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */; };
+		0F9F8E3B145C8CB800A08715 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F9F8E39145C8CB800A08715 /* Icon.png */; };
+		0F9F8E3C145C8CB800A08715 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F9F8E3A145C8CB800A08715 /* Icon@2x.png */; };
+		0F9F8E3E145C8E3A00A08715 /* WordRaceDBFrench.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0F9F8E3D145C8E3A00A08715 /* WordRaceDBFrench.sqlite */; };
 		0FAFA5051421DA9800B61949 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFA5041421DA9800B61949 /* Security.framework */; };
 		0FAFA5471421DE1100B61949 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFA5461421DE1100B61949 /* libxml2.dylib */; };
 		0FB712A81407A66F00407924 /* wordraceAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712A71407A66F00407924 /* wordraceAppDelegate_iPhone.m */; };
@@ -319,7 +320,6 @@
 		0FDA3D651407E0E60030F62E /* SuddenDeathViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA3D631407E0E60030F62E /* SuddenDeathViewController_iPhone.xib */; };
 		0FDD2485141A31A400A03BC6 /* EasyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD2484141A31A400A03BC6 /* EasyWord.m */; };
 		0FDD248C141ABEF100A03BC6 /* WordraceModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD248A141ABEF000A03BC6 /* WordraceModel.xcdatamodeld */; };
-		0FDD2490141AC72300A03BC6 /* WordRaceDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0FDD248F141AC72300A03BC6 /* WordRaceDB.sqlite */; };
 		0FDD2492141AC80000A03BC6 /* 4-ScoreView_v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FDD2491141AC80000A03BC6 /* 4-ScoreView_v1.png */; };
 		0FE2021B141B7E62001D3216 /* SelectLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2021A141B7E62001D3216 /* SelectLevelCell.m */; };
 		0FE2021D141B7E7E001D3216 /* SelectLevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE2021C141B7E7E001D3216 /* SelectLevelCell.xib */; };
@@ -673,8 +673,9 @@
 		0F66F366144DF1C3007757B6 /* iPadScoresViewBackgroundPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadScoresViewBackgroundPortrait.png; sourceTree = "<group>"; };
 		0F8756EC1423AF7F001D29CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		0F8756EE1423AF98001D29CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		0FA7A3A2144E0C8300ACBF52 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		0F9F8E39145C8CB800A08715 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0F9F8E3A145C8CB800A08715 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0F9F8E3D145C8E3A00A08715 /* WordRaceDBFrench.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDBFrench.sqlite; sourceTree = "<group>"; };
 		0FAFA5041421DA9800B61949 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0FAFA5461421DE1100B61949 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		0FB712A61407A66F00407924 /* wordraceAppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate_iPhone.h; sourceTree = "<group>"; };
@@ -709,7 +710,6 @@
 		0FDD2483141A31A400A03BC6 /* EasyWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWord.h; sourceTree = "<group>"; };
 		0FDD2484141A31A400A03BC6 /* EasyWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyWord.m; sourceTree = "<group>"; };
 		0FDD248B141ABEF100A03BC6 /* WordraceModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordraceModel.xcdatamodel; sourceTree = "<group>"; };
-		0FDD248F141AC72300A03BC6 /* WordRaceDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDB.sqlite; sourceTree = "<group>"; };
 		0FDD2491141AC80000A03BC6 /* 4-ScoreView_v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-ScoreView_v1.png"; sourceTree = "<group>"; };
 		0FE20219141B7E62001D3216 /* SelectLevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLevelCell.h; sourceTree = "<group>"; };
 		0FE2021A141B7E62001D3216 /* SelectLevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLevelCell.m; sourceTree = "<group>"; };
@@ -810,8 +810,8 @@
 		0F0BCFA213CB7F1600B61313 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0FA7A3A2144E0C8300ACBF52 /* Icon.png */,
-				0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */,
+				0F9F8E39145C8CB800A08715 /* Icon.png */,
+				0F9F8E3A145C8CB800A08715 /* Icon@2x.png */,
 				0F0BCFA313CB7F1600B61313 /* wordrace-Info.plist */,
 				0F0BCFA413CB7F1600B61313 /* InfoPlist.strings */,
 				0F0BCFA713CB7F1600B61313 /* wordrace-Prefix.pch */,
@@ -1284,7 +1284,7 @@
 		0FA4367713CB811800940135 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				0FDD248F141AC72300A03BC6 /* WordRaceDB.sqlite */,
+				0F9F8E3D145C8E3A00A08715 /* WordRaceDBFrench.sqlite */,
 				0F54550D1409132300D357C1 /* XMLParsers */,
 				0F36C363140D64C400C907CF /* DatabaseBuilderTVC.h */,
 				0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */,
@@ -1850,7 +1850,6 @@
 				0FCDC5CF14195DF200225E11 /* Crillee_Italic_Plain.ttf in Resources */,
 				0FCDC5DE141970B400225E11 /* Digital-7.ttf in Resources */,
 				0FC719BF141A28570014A2C2 /* Turkish.xml in Resources */,
-				0FDD2490141AC72300A03BC6 /* WordRaceDB.sqlite in Resources */,
 				0FDD2492141AC80000A03BC6 /* 4-ScoreView_v1.png in Resources */,
 				0FE2021D141B7E7E001D3216 /* SelectLevelCell.xib in Resources */,
 				0FF4323B141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png in Resources */,
@@ -1881,8 +1880,9 @@
 				0F66650F144DFC79007757B6 /* GlyphLockOn.png in Resources */,
 				0F666512144DFC8B007757B6 /* GlyphLockOff@2x.png in Resources */,
 				0F666513144DFC8B007757B6 /* GlyphLockOn@2x.png in Resources */,
-				0FA7A3A4144E0C8300ACBF52 /* Icon.png in Resources */,
-				0FA7A3A5144E0C8300ACBF52 /* Icon@2x.png in Resources */,
+				0F9F8E3B145C8CB800A08715 /* Icon.png in Resources */,
+				0F9F8E3C145C8CB800A08715 /* Icon@2x.png in Resources */,
+				0F9F8E3E145C8E3A00A08715 /* WordRaceDBFrench.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2000,7 +2000,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Taha Selim Bebek";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Taha Selim Bebek";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -2009,7 +2009,7 @@
 				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "5E5B2133-29F6-4822-B9A6-2D954EF6BE09";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5E5B2133-29F6-4822-B9A6-2D954EF6BE09";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -2062,7 +2062,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Taha Selim Bebek";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Taha Selim Bebek";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -2071,7 +2071,7 @@
 				HEADER_SEARCH_PATHS = $SDKROOT/usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
