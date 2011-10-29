@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "wordraceAppDelegate.h"
+#import "WelcomeViewController_iPhone.h"
+#import "Constants.h"
+#import "DatabaseBuilderTVC.h"
 
 @interface wordraceAppDelegate_iPad : wordraceAppDelegate {
     
