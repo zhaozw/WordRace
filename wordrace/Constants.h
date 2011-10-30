@@ -22,11 +22,11 @@
 #define APP_LINK @"http://bit.ly/q2J2Pf"
 #define APP_PICTURE_LINK @"http://bebeksel.net/ingilizceky.jpg"
 
-#define TWITTERMESSAGE @"I've scored %i on #CourseAnglais (%@) and reached level %i. Download here - %@"
-#define FACEBOOKMESSAGE @"I've scored %i on #CourseAnglais (%@) and reached level %i. Download here - %@"
+#define TWITTERMESSAGE @"I've scored %i on #ifunfrench (%@) and reached level %i. Download here - %@"
+#define FACEBOOKMESSAGE @"I've scored %i on #ifunfrench (%@) and reached level %i. Download here - %@"
 #define FACEBOOKDESCRIPTION @""
 
-#define WELCOMEVC_GAMENAME @"Course Anglais"
+#define WELCOMEVC_GAMENAME @"iFun French"
 #define WELCOMEVC_PLAYBUTTON_TITLE @"Play"
 #define WELCOMEVC_LEVELBUTTON_TITLE @"Level"
 #define WELCOMEVC_SCORESBUTTON_TITLE @"Leaderboard"
@@ -57,9 +57,9 @@
 #define GAMEOVER_SHARED_ON_FACEBOOK_ALERT_MESSAGE @"Shared on Facebook"
 #define GAMEOVER_SHARED_ON_TWITTER_ALERT_MESSAGE @"Shared on Twitter"
 
-#define LEADERBOARD_THREELIVES_ID @"threelivesenglishfrench"
-#define LEADERBOARD_VSTHECLOCK_ID @"vstheclockenglishfrench"
-#define LEADERBOARD_SUDDENDEATH_ID @"suddendeathenglishfrench"
+#define LEADERBOARD_THREELIVES_ID @"ifunfrenchthreelives"
+#define LEADERBOARD_VSTHECLOCK_ID @"ifunfrenchvstheclock"
+#define LEADERBOARD_SUDDENDEATH_ID @"ifunfrenchsuddendeath"
 
 
 
