@@ -104,7 +104,7 @@
                           nil];
     */
     NSArray* languages = [NSArray arrayWithObjects:
-                          @"turkish",
+                          @"spanish",
                           nil];
     
     for (NSString* languageObject in languages) 
@@ -113,24 +113,31 @@
         parser.managedObjectContext = self.managedObjectContext;
         parser.dataType = Easy;
         parser.language = languageObject;
-        [parser parseXMLFile:[[NSBundle mainBundle] pathForResource:@"Turkish" ofType:@"xml"]];
+        [parser parseXMLFile:[[NSBundle mainBundle] pathForResource:@"Spanish" ofType:@"xml"]];
         [self saveContext];
     }
 }
 
 
-- (void)checkMP3
+void QuietLog (NSString *format, ...)
 {
-    int count =0;
+    va_list argList;
+    va_start (argList, format);
+    NSString *message = [[[NSString alloc] initWithFormat: format
+                                                arguments: argList] autorelease];
+    printf ("%s", [message UTF8String]);
+    va_end  (argList);
+    
+} // QuietLog
+
+
+- (void)checkMP3
+{    
     for (EasyWord* object in self.frcEasyWords.fetchedObjects) 
     {
-        NSString* path = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"En-us-%@",object.englishString] ofType:@"mp3"];
-        if (!path) {
-            count++;
-            NSLog(@"%@",object.englishString);
-        }
+        QuietLog(@"\n%@",object.englishString);
     }
-    NSLog(@"%i",count);
+
 }
 
 #pragma mark - View lifecycle
@@ -145,8 +152,8 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.title = self.language;
-    //[self populateDatabase];
-    [self checkMP3];
+    [self populateDatabase];
+    //[self checkMP3];
 }
 
 - (void)viewDidUnload

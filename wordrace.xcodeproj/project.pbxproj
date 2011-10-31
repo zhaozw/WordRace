@@ -307,9 +307,10 @@
 		0FB712CF1407AE0100407924 /* GameModesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712CD1407AE0100407924 /* GameModesViewController_iPhone.xib */; };
 		0FB712D31407AE4800407924 /* SelectLevelViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712D11407AE4800407924 /* SelectLevelViewController_iPhone.m */; };
 		0FB712D41407AE4800407924 /* SelectLevelViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712D21407AE4800407924 /* SelectLevelViewController_iPhone.xib */; };
-		0FC719BF141A28570014A2C2 /* Turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FC719BE141A28570014A2C2 /* Turkish.xml */; };
 		0FCDC5CF14195DF200225E11 /* Crillee_Italic_Plain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCDC5CE14195DF200225E11 /* Crillee_Italic_Plain.ttf */; };
 		0FCDC5DE141970B400225E11 /* Digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCDC5DD141970B400225E11 /* Digital-7.ttf */; };
+		0FD11B4C145F031E00E72399 /* Spanish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FD11B4B145F031E00E72399 /* Spanish.xml */; };
+		0FD11B4E145F048300E72399 /* WordRaceDBSpanish.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0FD11B4D145F048300E72399 /* WordRaceDBSpanish.sqlite */; };
 		0FDA3D5A1407DFEB0030F62E /* ThreeLivesViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA3D581407DFEB0030F62E /* ThreeLivesViewController_iPhone.m */; };
 		0FDA3D5B1407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA3D591407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib */; };
 		0FDA3D5F1407E00B0030F62E /* VsTheClockViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA3D5D1407E00B0030F62E /* VsTheClockViewController_iPhone.m */; };
@@ -318,7 +319,6 @@
 		0FDA3D651407E0E60030F62E /* SuddenDeathViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA3D631407E0E60030F62E /* SuddenDeathViewController_iPhone.xib */; };
 		0FDD2485141A31A400A03BC6 /* EasyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD2484141A31A400A03BC6 /* EasyWord.m */; };
 		0FDD248C141ABEF100A03BC6 /* WordraceModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD248A141ABEF000A03BC6 /* WordraceModel.xcdatamodeld */; };
-		0FDD2490141AC72300A03BC6 /* WordRaceDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0FDD248F141AC72300A03BC6 /* WordRaceDB.sqlite */; };
 		0FDD2492141AC80000A03BC6 /* 4-ScoreView_v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FDD2491141AC80000A03BC6 /* 4-ScoreView_v1.png */; };
 		0FE2021B141B7E62001D3216 /* SelectLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2021A141B7E62001D3216 /* SelectLevelCell.m */; };
 		0FE2021D141B7E7E001D3216 /* SelectLevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE2021C141B7E7E001D3216 /* SelectLevelCell.xib */; };
@@ -691,9 +691,10 @@
 		0FB712D01407AE4800407924 /* SelectLevelViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLevelViewController_iPhone.h; sourceTree = "<group>"; };
 		0FB712D11407AE4800407924 /* SelectLevelViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLevelViewController_iPhone.m; sourceTree = "<group>"; };
 		0FB712D21407AE4800407924 /* SelectLevelViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectLevelViewController_iPhone.xib; sourceTree = "<group>"; };
-		0FC719BE141A28570014A2C2 /* Turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Turkish.xml; sourceTree = "<group>"; };
 		0FCDC5CE14195DF200225E11 /* Crillee_Italic_Plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Crillee_Italic_Plain.ttf; path = Graphics/Crillee_Italic_Plain.ttf; sourceTree = "<group>"; };
 		0FCDC5DD141970B400225E11 /* Digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Digital-7.ttf"; path = "Graphics/Digital-7.ttf"; sourceTree = "<group>"; };
+		0FD11B4B145F031E00E72399 /* Spanish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Spanish.xml; sourceTree = "<group>"; };
+		0FD11B4D145F048300E72399 /* WordRaceDBSpanish.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDBSpanish.sqlite; sourceTree = "<group>"; };
 		0FDA3D571407DFEB0030F62E /* ThreeLivesViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeLivesViewController_iPhone.h; sourceTree = "<group>"; };
 		0FDA3D581407DFEB0030F62E /* ThreeLivesViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeLivesViewController_iPhone.m; sourceTree = "<group>"; };
 		0FDA3D591407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeLivesViewController_iPhone.xib; sourceTree = "<group>"; };
@@ -706,7 +707,6 @@
 		0FDD2483141A31A400A03BC6 /* EasyWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWord.h; sourceTree = "<group>"; };
 		0FDD2484141A31A400A03BC6 /* EasyWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyWord.m; sourceTree = "<group>"; };
 		0FDD248B141ABEF100A03BC6 /* WordraceModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordraceModel.xcdatamodel; sourceTree = "<group>"; };
-		0FDD248F141AC72300A03BC6 /* WordRaceDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDB.sqlite; sourceTree = "<group>"; };
 		0FDD2491141AC80000A03BC6 /* 4-ScoreView_v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-ScoreView_v1.png"; sourceTree = "<group>"; };
 		0FE20219141B7E62001D3216 /* SelectLevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLevelCell.h; sourceTree = "<group>"; };
 		0FE2021A141B7E62001D3216 /* SelectLevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLevelCell.m; sourceTree = "<group>"; };
@@ -1001,7 +1001,7 @@
 		0F5455101409132300D357C1 /* XML_DATABASE */ = {
 			isa = PBXGroup;
 			children = (
-				0FC719BE141A28570014A2C2 /* Turkish.xml */,
+				0FD11B4B145F031E00E72399 /* Spanish.xml */,
 				0F5455111409132300D357C1 /* basic_words */,
 				0F54553B1409132300D357C1 /* hard_words */,
 				0F5455651409132300D357C1 /* intermediate_words */,
@@ -1282,7 +1282,7 @@
 		0FA4367713CB811800940135 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				0FDD248F141AC72300A03BC6 /* WordRaceDB.sqlite */,
+				0FD11B4D145F048300E72399 /* WordRaceDBSpanish.sqlite */,
 				0F54550D1409132300D357C1 /* XMLParsers */,
 				0F36C363140D64C400C907CF /* DatabaseBuilderTVC.h */,
 				0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */,
@@ -1836,8 +1836,6 @@
 				0F21A3631419553200B2E306 /* 2-PauseView.png in Resources */,
 				0FCDC5CF14195DF200225E11 /* Crillee_Italic_Plain.ttf in Resources */,
 				0FCDC5DE141970B400225E11 /* Digital-7.ttf in Resources */,
-				0FC719BF141A28570014A2C2 /* Turkish.xml in Resources */,
-				0FDD2490141AC72300A03BC6 /* WordRaceDB.sqlite in Resources */,
 				0FDD2492141AC80000A03BC6 /* 4-ScoreView_v1.png in Resources */,
 				0FE2021D141B7E7E001D3216 /* SelectLevelCell.xib in Resources */,
 				0FF4323B141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png in Resources */,
@@ -1870,6 +1868,8 @@
 				0F87DA5B145E984200CE0BB1 /* iPadPauseViewBackground.png in Resources */,
 				0F87DA5C145E984200CE0BB1 /* iPadScoresViewBackgroundLandscape.png in Resources */,
 				0F87DA5D145E984200CE0BB1 /* iPadScoresViewBackgroundPortrait.png in Resources */,
+				0FD11B4C145F031E00E72399 /* Spanish.xml in Resources */,
+				0FD11B4E145F048300E72399 /* WordRaceDBSpanish.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
