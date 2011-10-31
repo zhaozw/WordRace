@@ -277,22 +277,22 @@
 		0F66F1F11423406D00F1E3B1 /* padlock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F1F01423406D00F1E3B1 /* padlock.jpg */; };
 		0F66F1F914235AFE00F1E3B1 /* LeaderBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66F1F814235AFE00F1E3B1 /* LeaderBoardCell.m */; };
 		0F66F1FB14235B2700F1E3B1 /* LeaderBoardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F1FA14235B2700F1E3B1 /* LeaderBoardCell.xib */; };
-		0F66F367144DF1C3007757B6 /* iPadCorrectButtonOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F359144DF1C3007757B6 /* iPadCorrectButtonOff.png */; };
-		0F66F368144DF1C3007757B6 /* iPadCorrectButtonOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F35A144DF1C3007757B6 /* iPadCorrectButtonOn.png */; };
-		0F66F369144DF1C3007757B6 /* iPadFalseButtonOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F35B144DF1C3007757B6 /* iPadFalseButtonOff.png */; };
-		0F66F36A144DF1C3007757B6 /* iPadFalseButtonOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F35C144DF1C3007757B6 /* iPadFalseButtonOn.png */; };
-		0F66F36B144DF1C3007757B6 /* iPadGameOverViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F35D144DF1C3007757B6 /* iPadGameOverViewBackground.png */; };
-		0F66F36C144DF1C3007757B6 /* iPadGlyphCorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F35E144DF1C3007757B6 /* iPadGlyphCorrect.png */; };
-		0F66F36D144DF1C3007757B6 /* iPadGlyphFalse.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F35F144DF1C3007757B6 /* iPadGlyphFalse.png */; };
-		0F66F36E144DF1C3007757B6 /* iPadLevelViewBackgroundLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F360144DF1C3007757B6 /* iPadLevelViewBackgroundLandscape.png */; };
-		0F66F36F144DF1C3007757B6 /* iPadLevelViewBackgroundPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F361144DF1C3007757B6 /* iPadLevelViewBackgroundPortrait.png */; };
-		0F66F370144DF1C3007757B6 /* iPadMainViewBackgroundLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F362144DF1C3007757B6 /* iPadMainViewBackgroundLandscape.png */; };
-		0F66F371144DF1C3007757B6 /* iPadMainViewBackgroundPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F363144DF1C3007757B6 /* iPadMainViewBackgroundPortrait.png */; };
-		0F66F372144DF1C3007757B6 /* iPadPauseViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F364144DF1C3007757B6 /* iPadPauseViewBackground.png */; };
-		0F66F373144DF1C3007757B6 /* iPadScoresViewBackgroundLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F365144DF1C3007757B6 /* iPadScoresViewBackgroundLandscape.png */; };
-		0F66F374144DF1C3007757B6 /* iPadScoresViewBackgroundPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F366144DF1C3007757B6 /* iPadScoresViewBackgroundPortrait.png */; };
 		0F8756ED1423AF7F001D29CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8756EC1423AF7F001D29CA /* Default@2x.png */; };
 		0F8756EF1423AF98001D29CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8756EE1423AF98001D29CA /* Default.png */; };
+		0F87DA50145E984200CE0BB1 /* iPadCorrectButtonOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA42145E984200CE0BB1 /* iPadCorrectButtonOff.png */; };
+		0F87DA51145E984200CE0BB1 /* iPadCorrectButtonOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA43145E984200CE0BB1 /* iPadCorrectButtonOn.png */; };
+		0F87DA52145E984200CE0BB1 /* iPadFalseButtonOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA44145E984200CE0BB1 /* iPadFalseButtonOff.png */; };
+		0F87DA53145E984200CE0BB1 /* iPadFalseButtonOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA45145E984200CE0BB1 /* iPadFalseButtonOn.png */; };
+		0F87DA54145E984200CE0BB1 /* iPadGameOverViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA46145E984200CE0BB1 /* iPadGameOverViewBackground.png */; };
+		0F87DA55145E984200CE0BB1 /* iPadGlyphCorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA47145E984200CE0BB1 /* iPadGlyphCorrect.png */; };
+		0F87DA56145E984200CE0BB1 /* iPadGlyphFalse.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA48145E984200CE0BB1 /* iPadGlyphFalse.png */; };
+		0F87DA57145E984200CE0BB1 /* iPadLevelViewBackgroundLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA49145E984200CE0BB1 /* iPadLevelViewBackgroundLandscape.png */; };
+		0F87DA58145E984200CE0BB1 /* iPadLevelViewBackgroundPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA4A145E984200CE0BB1 /* iPadLevelViewBackgroundPortrait.png */; };
+		0F87DA59145E984200CE0BB1 /* iPadMainViewBackgroundLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA4B145E984200CE0BB1 /* iPadMainViewBackgroundLandscape.png */; };
+		0F87DA5A145E984200CE0BB1 /* iPadMainViewBackgroundPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA4C145E984200CE0BB1 /* iPadMainViewBackgroundPortrait.png */; };
+		0F87DA5B145E984200CE0BB1 /* iPadPauseViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA4D145E984200CE0BB1 /* iPadPauseViewBackground.png */; };
+		0F87DA5C145E984200CE0BB1 /* iPadScoresViewBackgroundLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA4E145E984200CE0BB1 /* iPadScoresViewBackgroundLandscape.png */; };
+		0F87DA5D145E984200CE0BB1 /* iPadScoresViewBackgroundPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F87DA4F145E984200CE0BB1 /* iPadScoresViewBackgroundPortrait.png */; };
 		0FA7A3A4144E0C8300ACBF52 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA7A3A2144E0C8300ACBF52 /* Icon.png */; };
 		0FA7A3A5144E0C8300ACBF52 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */; };
 		0FAFA5051421DA9800B61949 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFA5041421DA9800B61949 /* Security.framework */; };
@@ -302,7 +302,6 @@
 		0FB712AF1407A6D000407924 /* wordraceAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712AE1407A6D000407924 /* wordraceAppDelegate_iPad.m */; };
 		0FB712B31407A75000407924 /* WelcomeViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712B11407A75000407924 /* WelcomeViewController_iPhone.m */; };
 		0FB712B41407A75000407924 /* WelcomeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712B21407A75000407924 /* WelcomeViewController_iPhone.xib */; };
-		0FB712C11407A84D00407924 /* WelcomeViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712BF1407A84D00407924 /* WelcomeViewController_iPad.m */; };
 		0FB712C21407A84D00407924 /* WelcomeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712C01407A84D00407924 /* WelcomeViewController_iPad.xib */; };
 		0FB712CE1407AE0100407924 /* GameModesViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB712CC1407AE0100407924 /* GameModesViewController_iPhone.m */; };
 		0FB712CF1407AE0100407924 /* GameModesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB712CD1407AE0100407924 /* GameModesViewController_iPhone.xib */; };
@@ -657,22 +656,22 @@
 		0F66F1F714235AFE00F1E3B1 /* LeaderBoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaderBoardCell.h; path = wordrace.xcodeproj/LeaderBoardCell.h; sourceTree = SOURCE_ROOT; };
 		0F66F1F814235AFE00F1E3B1 /* LeaderBoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaderBoardCell.m; path = wordrace.xcodeproj/LeaderBoardCell.m; sourceTree = SOURCE_ROOT; };
 		0F66F1FA14235B2700F1E3B1 /* LeaderBoardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeaderBoardCell.xib; path = wordrace.xcodeproj/LeaderBoardCell.xib; sourceTree = SOURCE_ROOT; };
-		0F66F359144DF1C3007757B6 /* iPadCorrectButtonOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadCorrectButtonOff.png; sourceTree = "<group>"; };
-		0F66F35A144DF1C3007757B6 /* iPadCorrectButtonOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadCorrectButtonOn.png; sourceTree = "<group>"; };
-		0F66F35B144DF1C3007757B6 /* iPadFalseButtonOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadFalseButtonOff.png; sourceTree = "<group>"; };
-		0F66F35C144DF1C3007757B6 /* iPadFalseButtonOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadFalseButtonOn.png; sourceTree = "<group>"; };
-		0F66F35D144DF1C3007757B6 /* iPadGameOverViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadGameOverViewBackground.png; sourceTree = "<group>"; };
-		0F66F35E144DF1C3007757B6 /* iPadGlyphCorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadGlyphCorrect.png; sourceTree = "<group>"; };
-		0F66F35F144DF1C3007757B6 /* iPadGlyphFalse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadGlyphFalse.png; sourceTree = "<group>"; };
-		0F66F360144DF1C3007757B6 /* iPadLevelViewBackgroundLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadLevelViewBackgroundLandscape.png; sourceTree = "<group>"; };
-		0F66F361144DF1C3007757B6 /* iPadLevelViewBackgroundPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadLevelViewBackgroundPortrait.png; sourceTree = "<group>"; };
-		0F66F362144DF1C3007757B6 /* iPadMainViewBackgroundLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadMainViewBackgroundLandscape.png; sourceTree = "<group>"; };
-		0F66F363144DF1C3007757B6 /* iPadMainViewBackgroundPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadMainViewBackgroundPortrait.png; sourceTree = "<group>"; };
-		0F66F364144DF1C3007757B6 /* iPadPauseViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPauseViewBackground.png; sourceTree = "<group>"; };
-		0F66F365144DF1C3007757B6 /* iPadScoresViewBackgroundLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadScoresViewBackgroundLandscape.png; sourceTree = "<group>"; };
-		0F66F366144DF1C3007757B6 /* iPadScoresViewBackgroundPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadScoresViewBackgroundPortrait.png; sourceTree = "<group>"; };
 		0F8756EC1423AF7F001D29CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		0F8756EE1423AF98001D29CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F87DA42145E984200CE0BB1 /* iPadCorrectButtonOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadCorrectButtonOff.png; sourceTree = "<group>"; };
+		0F87DA43145E984200CE0BB1 /* iPadCorrectButtonOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadCorrectButtonOn.png; sourceTree = "<group>"; };
+		0F87DA44145E984200CE0BB1 /* iPadFalseButtonOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadFalseButtonOff.png; sourceTree = "<group>"; };
+		0F87DA45145E984200CE0BB1 /* iPadFalseButtonOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadFalseButtonOn.png; sourceTree = "<group>"; };
+		0F87DA46145E984200CE0BB1 /* iPadGameOverViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadGameOverViewBackground.png; sourceTree = "<group>"; };
+		0F87DA47145E984200CE0BB1 /* iPadGlyphCorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadGlyphCorrect.png; sourceTree = "<group>"; };
+		0F87DA48145E984200CE0BB1 /* iPadGlyphFalse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadGlyphFalse.png; sourceTree = "<group>"; };
+		0F87DA49145E984200CE0BB1 /* iPadLevelViewBackgroundLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadLevelViewBackgroundLandscape.png; sourceTree = "<group>"; };
+		0F87DA4A145E984200CE0BB1 /* iPadLevelViewBackgroundPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadLevelViewBackgroundPortrait.png; sourceTree = "<group>"; };
+		0F87DA4B145E984200CE0BB1 /* iPadMainViewBackgroundLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadMainViewBackgroundLandscape.png; sourceTree = "<group>"; };
+		0F87DA4C145E984200CE0BB1 /* iPadMainViewBackgroundPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadMainViewBackgroundPortrait.png; sourceTree = "<group>"; };
+		0F87DA4D145E984200CE0BB1 /* iPadPauseViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPauseViewBackground.png; sourceTree = "<group>"; };
+		0F87DA4E145E984200CE0BB1 /* iPadScoresViewBackgroundLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadScoresViewBackgroundLandscape.png; sourceTree = "<group>"; };
+		0F87DA4F145E984200CE0BB1 /* iPadScoresViewBackgroundPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadScoresViewBackgroundPortrait.png; sourceTree = "<group>"; };
 		0FA7A3A2144E0C8300ACBF52 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		0FAFA5041421DA9800B61949 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -685,9 +684,7 @@
 		0FB712B01407A75000407924 /* WelcomeViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController_iPhone.h; path = iPhone/ViewControllers/WelcomeViewController/WelcomeViewController_iPhone.h; sourceTree = "<group>"; };
 		0FB712B11407A75000407924 /* WelcomeViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController_iPhone.m; path = iPhone/ViewControllers/WelcomeViewController/WelcomeViewController_iPhone.m; sourceTree = "<group>"; };
 		0FB712B21407A75000407924 /* WelcomeViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WelcomeViewController_iPhone.xib; path = iPhone/ViewControllers/WelcomeViewController/WelcomeViewController_iPhone.xib; sourceTree = "<group>"; };
-		0FB712BE1407A84D00407924 /* WelcomeViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController_iPad.h; sourceTree = "<group>"; };
-		0FB712BF1407A84D00407924 /* WelcomeViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController_iPad.m; sourceTree = "<group>"; };
-		0FB712C01407A84D00407924 /* WelcomeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController_iPad.xib; sourceTree = "<group>"; };
+		0FB712C01407A84D00407924 /* WelcomeViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WelcomeViewController_iPad.xib; path = iPad/ViewControllers/WelcomeViewController/WelcomeViewController_iPad.xib; sourceTree = "<group>"; };
 		0FB712CB1407AE0100407924 /* GameModesViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModesViewController_iPhone.h; sourceTree = "<group>"; };
 		0FB712CC1407AE0100407924 /* GameModesViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModesViewController_iPhone.m; sourceTree = "<group>"; };
 		0FB712CD1407AE0100407924 /* GameModesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameModesViewController_iPhone.xib; sourceTree = "<group>"; };
@@ -810,6 +807,7 @@
 		0F0BCFA213CB7F1600B61313 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F87DA41145E984200CE0BB1 /* iPad */,
 				0FA7A3A2144E0C8300ACBF52 /* Icon.png */,
 				0FA7A3A3144E0C8300ACBF52 /* Icon@2x.png */,
 				0F0BCFA313CB7F1600B61313 /* wordrace-Info.plist */,
@@ -1259,23 +1257,23 @@
 			path = SAOAuthTwitterEngine;
 			sourceTree = "<group>";
 		};
-		0F66F358144DF1C3007757B6 /* iPad */ = {
+		0F87DA41145E984200CE0BB1 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				0F66F359144DF1C3007757B6 /* iPadCorrectButtonOff.png */,
-				0F66F35A144DF1C3007757B6 /* iPadCorrectButtonOn.png */,
-				0F66F35B144DF1C3007757B6 /* iPadFalseButtonOff.png */,
-				0F66F35C144DF1C3007757B6 /* iPadFalseButtonOn.png */,
-				0F66F35D144DF1C3007757B6 /* iPadGameOverViewBackground.png */,
-				0F66F35E144DF1C3007757B6 /* iPadGlyphCorrect.png */,
-				0F66F35F144DF1C3007757B6 /* iPadGlyphFalse.png */,
-				0F66F360144DF1C3007757B6 /* iPadLevelViewBackgroundLandscape.png */,
-				0F66F361144DF1C3007757B6 /* iPadLevelViewBackgroundPortrait.png */,
-				0F66F362144DF1C3007757B6 /* iPadMainViewBackgroundLandscape.png */,
-				0F66F363144DF1C3007757B6 /* iPadMainViewBackgroundPortrait.png */,
-				0F66F364144DF1C3007757B6 /* iPadPauseViewBackground.png */,
-				0F66F365144DF1C3007757B6 /* iPadScoresViewBackgroundLandscape.png */,
-				0F66F366144DF1C3007757B6 /* iPadScoresViewBackgroundPortrait.png */,
+				0F87DA42145E984200CE0BB1 /* iPadCorrectButtonOff.png */,
+				0F87DA43145E984200CE0BB1 /* iPadCorrectButtonOn.png */,
+				0F87DA44145E984200CE0BB1 /* iPadFalseButtonOff.png */,
+				0F87DA45145E984200CE0BB1 /* iPadFalseButtonOn.png */,
+				0F87DA46145E984200CE0BB1 /* iPadGameOverViewBackground.png */,
+				0F87DA47145E984200CE0BB1 /* iPadGlyphCorrect.png */,
+				0F87DA48145E984200CE0BB1 /* iPadGlyphFalse.png */,
+				0F87DA49145E984200CE0BB1 /* iPadLevelViewBackgroundLandscape.png */,
+				0F87DA4A145E984200CE0BB1 /* iPadLevelViewBackgroundPortrait.png */,
+				0F87DA4B145E984200CE0BB1 /* iPadMainViewBackgroundLandscape.png */,
+				0F87DA4C145E984200CE0BB1 /* iPadMainViewBackgroundPortrait.png */,
+				0F87DA4D145E984200CE0BB1 /* iPadPauseViewBackground.png */,
+				0F87DA4E145E984200CE0BB1 /* iPadScoresViewBackgroundLandscape.png */,
+				0F87DA4F145E984200CE0BB1 /* iPadScoresViewBackgroundPortrait.png */,
 			);
 			name = iPad;
 			path = UI/iPad;
@@ -1337,6 +1335,7 @@
 				0FB712B01407A75000407924 /* WelcomeViewController_iPhone.h */,
 				0FB712B11407A75000407924 /* WelcomeViewController_iPhone.m */,
 				0FB712B21407A75000407924 /* WelcomeViewController_iPhone.xib */,
+				0FB712C01407A84D00407924 /* WelcomeViewController_iPad.xib */,
 			);
 			name = WelcomeViewController;
 			sourceTree = "<group>";
@@ -1344,7 +1343,6 @@
 		0FB712B71407A79C00407924 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0FB712B81407A79C00407924 /* WelcomeViewController */,
 				0FB712C31407ADA300407924 /* GameModesViewController */,
 				0FB712C51407ADA300407924 /* SelectLevelViewController */,
 				0FB712C61407ADA300407924 /* ShowScoresViewController */,
@@ -1353,16 +1351,6 @@
 			name = ViewControllers;
 			path = wordrace/iPad/ViewControllers;
 			sourceTree = SOURCE_ROOT;
-		};
-		0FB712B81407A79C00407924 /* WelcomeViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0FB712BE1407A84D00407924 /* WelcomeViewController_iPad.h */,
-				0FB712BF1407A84D00407924 /* WelcomeViewController_iPad.m */,
-				0FB712C01407A84D00407924 /* WelcomeViewController_iPad.xib */,
-			);
-			path = WelcomeViewController;
-			sourceTree = "<group>";
 		};
 		0FB712C31407ADA300407924 /* GameModesViewController */ = {
 			isa = PBXGroup;
@@ -1557,7 +1545,6 @@
 		0FE3FA5F1408226800171C7C /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				0F66F358144DF1C3007757B6 /* iPad */,
 				0FE3FA611408226800171C7C /* iPhone */,
 			);
 			path = Graphics;
@@ -1863,26 +1850,26 @@
 				0F66F1FB14235B2700F1E3B1 /* LeaderBoardCell.xib in Resources */,
 				0F8756ED1423AF7F001D29CA /* Default@2x.png in Resources */,
 				0F8756EF1423AF98001D29CA /* Default.png in Resources */,
-				0F66F367144DF1C3007757B6 /* iPadCorrectButtonOff.png in Resources */,
-				0F66F368144DF1C3007757B6 /* iPadCorrectButtonOn.png in Resources */,
-				0F66F369144DF1C3007757B6 /* iPadFalseButtonOff.png in Resources */,
-				0F66F36A144DF1C3007757B6 /* iPadFalseButtonOn.png in Resources */,
-				0F66F36B144DF1C3007757B6 /* iPadGameOverViewBackground.png in Resources */,
-				0F66F36C144DF1C3007757B6 /* iPadGlyphCorrect.png in Resources */,
-				0F66F36D144DF1C3007757B6 /* iPadGlyphFalse.png in Resources */,
-				0F66F36E144DF1C3007757B6 /* iPadLevelViewBackgroundLandscape.png in Resources */,
-				0F66F36F144DF1C3007757B6 /* iPadLevelViewBackgroundPortrait.png in Resources */,
-				0F66F370144DF1C3007757B6 /* iPadMainViewBackgroundLandscape.png in Resources */,
-				0F66F371144DF1C3007757B6 /* iPadMainViewBackgroundPortrait.png in Resources */,
-				0F66F372144DF1C3007757B6 /* iPadPauseViewBackground.png in Resources */,
-				0F66F373144DF1C3007757B6 /* iPadScoresViewBackgroundLandscape.png in Resources */,
-				0F66F374144DF1C3007757B6 /* iPadScoresViewBackgroundPortrait.png in Resources */,
 				0F66650E144DFC79007757B6 /* GlyphLockOff.png in Resources */,
 				0F66650F144DFC79007757B6 /* GlyphLockOn.png in Resources */,
 				0F666512144DFC8B007757B6 /* GlyphLockOff@2x.png in Resources */,
 				0F666513144DFC8B007757B6 /* GlyphLockOn@2x.png in Resources */,
 				0FA7A3A4144E0C8300ACBF52 /* Icon.png in Resources */,
 				0FA7A3A5144E0C8300ACBF52 /* Icon@2x.png in Resources */,
+				0F87DA50145E984200CE0BB1 /* iPadCorrectButtonOff.png in Resources */,
+				0F87DA51145E984200CE0BB1 /* iPadCorrectButtonOn.png in Resources */,
+				0F87DA52145E984200CE0BB1 /* iPadFalseButtonOff.png in Resources */,
+				0F87DA53145E984200CE0BB1 /* iPadFalseButtonOn.png in Resources */,
+				0F87DA54145E984200CE0BB1 /* iPadGameOverViewBackground.png in Resources */,
+				0F87DA55145E984200CE0BB1 /* iPadGlyphCorrect.png in Resources */,
+				0F87DA56145E984200CE0BB1 /* iPadGlyphFalse.png in Resources */,
+				0F87DA57145E984200CE0BB1 /* iPadLevelViewBackgroundLandscape.png in Resources */,
+				0F87DA58145E984200CE0BB1 /* iPadLevelViewBackgroundPortrait.png in Resources */,
+				0F87DA59145E984200CE0BB1 /* iPadMainViewBackgroundLandscape.png in Resources */,
+				0F87DA5A145E984200CE0BB1 /* iPadMainViewBackgroundPortrait.png in Resources */,
+				0F87DA5B145E984200CE0BB1 /* iPadPauseViewBackground.png in Resources */,
+				0F87DA5C145E984200CE0BB1 /* iPadScoresViewBackgroundLandscape.png in Resources */,
+				0F87DA5D145E984200CE0BB1 /* iPadScoresViewBackgroundPortrait.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1897,7 +1884,6 @@
 				0FB712A81407A66F00407924 /* wordraceAppDelegate_iPhone.m in Sources */,
 				0FB712AF1407A6D000407924 /* wordraceAppDelegate_iPad.m in Sources */,
 				0FB712B31407A75000407924 /* WelcomeViewController_iPhone.m in Sources */,
-				0FB712C11407A84D00407924 /* WelcomeViewController_iPad.m in Sources */,
 				0FB712CE1407AE0100407924 /* GameModesViewController_iPhone.m in Sources */,
 				0FB712D31407AE4800407924 /* SelectLevelViewController_iPhone.m in Sources */,
 				0FDA3D5A1407DFEB0030F62E /* ThreeLivesViewController_iPhone.m in Sources */,
@@ -1992,7 +1978,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -2012,7 +1998,7 @@
 				PROVISIONING_PROFILE = "5E5B2133-29F6-4822-B9A6-2D954EF6BE09";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5E5B2133-29F6-4822-B9A6-2D954EF6BE09";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -2032,7 +2018,7 @@
 					"\"$(SRCROOT)/../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2052,7 +2038,7 @@
 					"\"$(SRCROOT)/../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2074,7 +2060,7 @@
 				PROVISIONING_PROFILE = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Adhoc;
 		};
@@ -2098,7 +2084,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
