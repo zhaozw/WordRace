@@ -26,7 +26,7 @@
     else
     {
         application.statusBarHidden = YES;
-        WelcomeViewController_iPhone* welcomeView = [[WelcomeViewController_iPhone alloc] initWithNibName:@"WelcomeViewController_iPad" bundle:nil];
+        WelcomeViewController_iPhone* welcomeView = [[WelcomeViewController_iPhone alloc] initWithNibName:@"WelcomeViewController_iPhone" bundle:nil];
         welcomeView.managedObjectContext = self.managedObjectContext;
         UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:welcomeView];
         navController.navigationBarHidden = YES;

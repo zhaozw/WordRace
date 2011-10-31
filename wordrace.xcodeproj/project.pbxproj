@@ -1978,7 +1978,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1998,7 +1998,7 @@
 				PROVISIONING_PROFILE = "5E5B2133-29F6-4822-B9A6-2D954EF6BE09";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5E5B2133-29F6-4822-B9A6-2D954EF6BE09";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -2018,7 +2018,7 @@
 					"\"$(SRCROOT)/../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2038,7 +2038,7 @@
 					"\"$(SRCROOT)/../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2060,7 +2060,7 @@
 				PROVISIONING_PROFILE = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Adhoc;
 		};
@@ -2084,7 +2084,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2ECDCA5-6AB5-4096-A8EC-D647CA3A1FBC";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
