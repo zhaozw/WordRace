@@ -22,6 +22,9 @@
 @synthesize scoresImage;
 @synthesize levelImage;
 
+@synthesize landscapeViewForIPad;
+@synthesize portraitViewForIPad;
+
 #pragma mark -
 #pragma mark IBActions
 
@@ -118,6 +121,8 @@
 
 - (void)dealloc
 {
+    [landscapeViewForIPad release];
+    [portraitViewForIPad release];
     [playImage release];
     [levelImage release];
     [scoresImage release];

@@ -21,6 +21,9 @@
     UIImageView* playImage;
     UIImageView* levelImage;
     UIImageView* scoresImage;
+    
+    UIView* landscapeViewForIPad;
+    UIView* portraitViewForIPad;
 }
 
 @property(nonatomic,retain) NSManagedObjectContext* managedObjectContext;
@@ -33,6 +36,9 @@
 @property(nonatomic,retain) IBOutlet UIImageView* playImage;
 @property(nonatomic,retain) IBOutlet UIImageView* levelImage;
 @property(nonatomic,retain) IBOutlet UIImageView* scoresImage;
+
+@property(nonatomic,retain) IBOutlet UIView* landscapeViewForIPad;
+@property(nonatomic,retain) IBOutlet UIView* portraitViewForIPad;
 
 
 -(IBAction)playTheGame:(id)sender;
