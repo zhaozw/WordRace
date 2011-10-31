@@ -22,11 +22,11 @@
 #define APP_LINK @"http://bit.ly/q2J2Pf"
 #define APP_PICTURE_LINK @"http://bebeksel.net/ingilizceky.jpg"
 
-#define TWITTERMESSAGE @"I've scored %i on #ifunspanish (%@) and reached level %i. Download here - %@"
-#define FACEBOOKMESSAGE @"I've scored %i on #ifunspanish (%@) and reached level %i. Download here - %@"
+#define TWITTERMESSAGE @"I've scored %i on #inglescarrera (%@) and reached level %i. Download here - %@"
+#define FACEBOOKMESSAGE @"I've scored %i on #inglescarrera (%@) and reached level %i. Download here - %@"
 #define FACEBOOKDESCRIPTION @""
 
-#define WELCOMEVC_GAMENAME @"iFun Spanish"
+#define WELCOMEVC_GAMENAME @"Inglés Carrera"
 #define WELCOMEVC_PLAYBUTTON_TITLE @"Play"
 #define WELCOMEVC_LEVELBUTTON_TITLE @"Level"
 #define WELCOMEVC_SCORESBUTTON_TITLE @"Leaderboard"
@@ -57,9 +57,9 @@
 #define GAMEOVER_SHARED_ON_FACEBOOK_ALERT_MESSAGE @"Shared on Facebook"
 #define GAMEOVER_SHARED_ON_TWITTER_ALERT_MESSAGE @"Shared on Twitter"
 
-#define LEADERBOARD_THREELIVES_ID @"ifunspanishthreelives"
-#define LEADERBOARD_VSTHECLOCK_ID @"ifunspanishvstheclock"
-#define LEADERBOARD_SUDDENDEATH_ID @"ifunspanishsuddendeath"
+#define LEADERBOARD_THREELIVES_ID @"inglescarrerathreelives"
+#define LEADERBOARD_VSTHECLOCK_ID @"inglescarreravstheclock"
+#define LEADERBOARD_SUDDENDEATH_ID @"inglescarrerasuddendeath"
 
 
 

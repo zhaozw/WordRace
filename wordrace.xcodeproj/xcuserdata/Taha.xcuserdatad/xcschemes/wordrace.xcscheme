@@ -83,7 +83,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      customArchiveName = "iFun Spanish"
+      customArchiveName = "Ingles Carrera"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
