@@ -119,19 +119,27 @@
 }
 
 
-- (void)checkMP3
+void QuietLog (NSString *format, ...)
 {
-    int count =0;
+    va_list argList;
+    va_start (argList, format);
+    NSString *message = [[[NSString alloc] initWithFormat: format
+                                                arguments: argList] autorelease];
+    printf ("%s", [message UTF8String]);
+    va_end  (argList);
+    
+} // QuietLog
+
+
+- (void)checkMP3
+{    
     for (EasyWord* object in self.frcEasyWords.fetchedObjects) 
     {
-        NSString* path = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"En-us-%@",object.englishString] ofType:@"mp3"];
-        if (!path) {
-            count++;
-            NSLog(@"%@",object.englishString);
-        }
+        QuietLog(@"\n%@",object.englishString);
     }
-    NSLog(@"%i",count);
+    
 }
+
 
 #pragma mark - View lifecycle
 
