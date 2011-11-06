@@ -24,6 +24,8 @@
     
     UIView* landscapeViewForIPad;
     UIView* portraitViewForIPad;
+    
+    BOOL commenting;
 }
 
 @property(nonatomic,retain) NSManagedObjectContext* managedObjectContext;

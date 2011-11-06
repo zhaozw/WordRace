@@ -25,6 +25,40 @@
 @synthesize landscapeViewForIPad;
 @synthesize portraitViewForIPad;
 
+#pragma mark-
+#pragma mark commenting
+
+- (void)checkCommentCount
+{
+	BOOL commented = [[NSUserDefaults standardUserDefaults] boolForKey:@"commented"];
+	if (!commented) {
+		NSInteger launchCount = [[NSUserDefaults standardUserDefaults] integerForKey:@"launchCount"];
+		if (launchCount < 5) {
+			launchCount = launchCount + 1;
+			[[NSUserDefaults standardUserDefaults] setInteger:launchCount forKey:@"launchCount"];
+		}
+		else {
+			[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"commented"];
+			commenting = YES;
+			UIAlertView *buttonAlert = [ [UIAlertView alloc] initWithTitle: @"Destek Olun!" message: @"Eğer uygulamayı beğendiyseniz App Store'da 5 yıldız verebilirsiniz. Teşekkürler!" 
+																  delegate: self cancelButtonTitle: @"Daha Sonra" otherButtonTitles: @"Yıldız Ver", nil]; 
+			[buttonAlert show] ; 
+			[buttonAlert release]; 
+		}
+	}
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{	
+	if (commenting) {
+		commenting = NO;
+		if (buttonIndex == 1) { 
+			NSURL*url = [NSURL URLWithString:@"http://itunes.apple.com/tr/app/id465683163?mt=8"]; 
+			[[UIApplication sharedApplication] openURL: url]; 
+		} 
+	}
+}
+
 #pragma mark -
 #pragma mark IBActions
 
@@ -157,6 +191,7 @@
 {
     [super viewDidLoad];
     //self.titleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:26];
+    [self checkCommentCount];
     self.titleLabel.text = WELCOMEVC_GAMENAME;
     self.playLabel.text = WELCOMEVC_PLAYBUTTON_TITLE;
     self.levelLabel.text = WELCOMEVC_LEVELBUTTON_TITLE;
