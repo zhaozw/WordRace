@@ -153,7 +153,7 @@ void QuietLog (NSString *format, ...)
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.title = self.language;
-    [self populateDatabase];
+    //[self populateDatabase];
     //[self checkMP3];
 }
 

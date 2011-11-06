@@ -92,7 +92,7 @@ NSString* const kLitTurkish             = @"turkish";
     }
     else if ([kLitLevel isEqualToString:elementName]) 
     {
-        NSInteger currentLevel = (NSInteger)ceil(index / 70);
+        NSInteger currentLevel = (NSInteger)ceil(index / 65);
         currentWord.level = [NSNumber numberWithInt:currentLevel];
     }
     else if ([kLitEnglish isEqualToString:elementName]) 

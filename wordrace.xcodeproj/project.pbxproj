@@ -323,7 +323,7 @@
 		0FE2021D141B7E7E001D3216 /* SelectLevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE2021C141B7E7E001D3216 /* SelectLevelCell.xib */; };
 		0FE3FA58140821B600171C7C /* wordraceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3FA57140821B600171C7C /* wordraceAppDelegate.m */; };
 		0FF4323B141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF4323A141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png */; };
-		4C555B0714666C0200F96AA3 /* WordRaceDBTurkish.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4C555B0614666C0200F96AA3 /* WordRaceDBTurkish.sqlite */; };
+		4CB61BD114666FDE00A6E872 /* WordRaceDBTurkish.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4CB61BD014666FDE00A6E872 /* WordRaceDBTurkish.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -713,7 +713,7 @@
 		0FE3FA56140821B600171C7C /* wordraceAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate.h; sourceTree = "<group>"; };
 		0FE3FA57140821B600171C7C /* wordraceAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordraceAppDelegate.m; sourceTree = "<group>"; };
 		0FF4323A141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "5-wordrace_iPhone_UI_v6.png"; path = "../5-wordrace_iPhone_UI_v6.png"; sourceTree = "<group>"; };
-		4C555B0614666C0200F96AA3 /* WordRaceDBTurkish.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDBTurkish.sqlite; sourceTree = "<group>"; };
+		4CB61BD014666FDE00A6E872 /* WordRaceDBTurkish.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDBTurkish.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1282,7 +1282,7 @@
 		0FA4367713CB811800940135 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				4C555B0614666C0200F96AA3 /* WordRaceDBTurkish.sqlite */,
+				4CB61BD014666FDE00A6E872 /* WordRaceDBTurkish.sqlite */,
 				0F54550D1409132300D357C1 /* XMLParsers */,
 				0F36C363140D64C400C907CF /* DatabaseBuilderTVC.h */,
 				0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */,
@@ -1869,7 +1869,7 @@
 				0F87DA5B145E984200CE0BB1 /* iPadPauseViewBackground.png in Resources */,
 				0F87DA5C145E984200CE0BB1 /* iPadScoresViewBackgroundLandscape.png in Resources */,
 				0F87DA5D145E984200CE0BB1 /* iPadScoresViewBackgroundPortrait.png in Resources */,
-				4C555B0714666C0200F96AA3 /* WordRaceDBTurkish.sqlite in Resources */,
+				4CB61BD114666FDE00A6E872 /* WordRaceDBTurkish.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
