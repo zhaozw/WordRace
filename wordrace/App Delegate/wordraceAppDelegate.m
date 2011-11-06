@@ -217,13 +217,13 @@ BOOL isGameCenterAPIAvailable()
 
     if (BUILDDATABASEMODE) 
     {
-        storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"WordRaceDB.sqlite"];
+        storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"WordRaceDBTurkish.sqlite"];
         __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     }
     else
     {
-        NSString* dataBaseFileNameWithExtension = [NSString stringWithFormat:@"WordRaceDB.sqlite"];
-        NSString* dataBaseFileNameWithoutExtension = [NSString stringWithFormat:@"WordRaceDB"];
+        NSString* dataBaseFileNameWithExtension = [NSString stringWithFormat:@"WordRaceDBTurkish.sqlite"];
+        NSString* dataBaseFileNameWithoutExtension = [NSString stringWithFormat:@"WordRaceDBTurkish"];
         
         NSString *storePath = [[self applicationDocumentsDirectoryPath] stringByAppendingPathComponent:dataBaseFileNameWithExtension];
         
