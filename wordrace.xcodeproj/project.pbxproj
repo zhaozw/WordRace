@@ -109,8 +109,6 @@
 		0F21A3611419553200B2E306 /* 0-MenuView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F21A35E1419553200B2E306 /* 0-MenuView.png */; };
 		0F21A3621419553200B2E306 /* 1-MainView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F21A35F1419553200B2E306 /* 1-MainView.png */; };
 		0F21A3631419553200B2E306 /* 2-PauseView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F21A3601419553200B2E306 /* 2-PauseView.png */; };
-		0F237E5D145F188E00AC5360 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F237E5B145F188E00AC5360 /* Icon.png */; };
-		0F237E5E145F188E00AC5360 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F237E5C145F188E00AC5360 /* Icon@2x.png */; };
 		0F36C366140D64C400C907CF /* DatabaseBuilderTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */; };
 		0F36C367140D64C400C907CF /* DatabaseBuilderTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F36C365140D64C400C907CF /* DatabaseBuilderTVC.xib */; };
 		0F3B036B142104BE00F4634C /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B0354142104BE00F4634C /* Facebook.m */; };
@@ -324,6 +322,10 @@
 		0FE2021D141B7E7E001D3216 /* SelectLevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE2021C141B7E7E001D3216 /* SelectLevelCell.xib */; };
 		0FE3FA58140821B600171C7C /* wordraceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3FA57140821B600171C7C /* wordraceAppDelegate.m */; };
 		0FF4323B141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF4323A141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png */; };
+		4CC04FFA146AEDF600D5B644 /* WordRaceDBTurkish.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4CC04FF9146AEDF600D5B644 /* WordRaceDBTurkish.sqlite */; };
+		4CC04FFD146AF3BB00D5B644 /* WordRaceDBArabic.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4CC04FFC146AF3BB00D5B644 /* WordRaceDBArabic.sqlite */; };
+		4CC05000146AF54600D5B644 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC04FFE146AF54600D5B644 /* Icon@2x.png */; };
+		4CC05001146AF54600D5B644 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC04FFF146AF54600D5B644 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -435,8 +437,6 @@
 		0F21A35E1419553200B2E306 /* 0-MenuView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-MenuView.png"; sourceTree = "<group>"; };
 		0F21A35F1419553200B2E306 /* 1-MainView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-MainView.png"; sourceTree = "<group>"; };
 		0F21A3601419553200B2E306 /* 2-PauseView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-PauseView.png"; sourceTree = "<group>"; };
-		0F237E5B145F188E00AC5360 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		0F237E5C145F188E00AC5360 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		0F36C363140D64C400C907CF /* DatabaseBuilderTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseBuilderTVC.h; sourceTree = "<group>"; };
 		0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseBuilderTVC.m; sourceTree = "<group>"; };
 		0F36C365140D64C400C907CF /* DatabaseBuilderTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatabaseBuilderTVC.xib; sourceTree = "<group>"; };
@@ -714,6 +714,10 @@
 		0FE3FA56140821B600171C7C /* wordraceAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordraceAppDelegate.h; sourceTree = "<group>"; };
 		0FE3FA57140821B600171C7C /* wordraceAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordraceAppDelegate.m; sourceTree = "<group>"; };
 		0FF4323A141FDF8C00EB921A /* 5-wordrace_iPhone_UI_v6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "5-wordrace_iPhone_UI_v6.png"; path = "../5-wordrace_iPhone_UI_v6.png"; sourceTree = "<group>"; };
+		4CC04FF9146AEDF600D5B644 /* WordRaceDBTurkish.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDBTurkish.sqlite; sourceTree = "<group>"; };
+		4CC04FFC146AF3BB00D5B644 /* WordRaceDBArabic.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WordRaceDBArabic.sqlite; sourceTree = "<group>"; };
+		4CC04FFE146AF54600D5B644 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4CC04FFF146AF54600D5B644 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -807,8 +811,8 @@
 		0F0BCFA213CB7F1600B61313 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F237E5B145F188E00AC5360 /* Icon.png */,
-				0F237E5C145F188E00AC5360 /* Icon@2x.png */,
+				4CC04FFE146AF54600D5B644 /* Icon@2x.png */,
+				4CC04FFF146AF54600D5B644 /* Icon.png */,
 				0F87DA41145E984200CE0BB1 /* iPad */,
 				0F0BCFA313CB7F1600B61313 /* wordrace-Info.plist */,
 				0F0BCFA413CB7F1600B61313 /* InfoPlist.strings */,
@@ -1282,7 +1286,9 @@
 		0FA4367713CB811800940135 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				4CC04FF9146AEDF600D5B644 /* WordRaceDBTurkish.sqlite */,
 				0FD11B4D145F048300E72399 /* WordRaceDBSpanish.sqlite */,
+				4CC04FFC146AF3BB00D5B644 /* WordRaceDBArabic.sqlite */,
 				0F54550D1409132300D357C1 /* XMLParsers */,
 				0F36C363140D64C400C907CF /* DatabaseBuilderTVC.h */,
 				0F36C364140D64C400C907CF /* DatabaseBuilderTVC.m */,
@@ -1868,8 +1874,10 @@
 				0F87DA5D145E984200CE0BB1 /* iPadScoresViewBackgroundPortrait.png in Resources */,
 				0FD11B4C145F031E00E72399 /* Spanish.xml in Resources */,
 				0FD11B4E145F048300E72399 /* WordRaceDBSpanish.sqlite in Resources */,
-				0F237E5D145F188E00AC5360 /* Icon.png in Resources */,
-				0F237E5E145F188E00AC5360 /* Icon@2x.png in Resources */,
+				4CC04FFA146AEDF600D5B644 /* WordRaceDBTurkish.sqlite in Resources */,
+				4CC04FFD146AF3BB00D5B644 /* WordRaceDBArabic.sqlite in Resources */,
+				4CC05000146AF54600D5B644 /* Icon@2x.png in Resources */,
+				4CC05001146AF54600D5B644 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
