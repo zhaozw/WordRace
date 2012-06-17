@@ -123,130 +123,6 @@
 		0F3B0374142104BE00F4634C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B0368142104BE00F4634C /* SBJsonParser.m */; };
 		0F3B0375142104BE00F4634C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B036A142104BE00F4634C /* SBJsonWriter.m */; };
 		0F54558F1409132300D357C1 /* WordRaceXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F54550F1409132300D357C1 /* WordRaceXMLParser.m */; };
-		0F5455901409132300D357C1 /* easywords_afrikaan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455121409132300D357C1 /* easywords_afrikaan.xml */; };
-		0F5455911409132300D357C1 /* easywords_arabic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455131409132300D357C1 /* easywords_arabic.xml */; };
-		0F5455921409132300D357C1 /* easywords_armenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455141409132300D357C1 /* easywords_armenian.xml */; };
-		0F5455931409132300D357C1 /* easywords_bulgarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455151409132300D357C1 /* easywords_bulgarian.xml */; };
-		0F5455941409132400D357C1 /* easywords_chinese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455161409132300D357C1 /* easywords_chinese.xml */; };
-		0F5455951409132400D357C1 /* easywords_croatian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455171409132300D357C1 /* easywords_croatian.xml */; };
-		0F5455961409132400D357C1 /* easywords_czech.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455181409132300D357C1 /* easywords_czech.xml */; };
-		0F5455971409132400D357C1 /* easywords_danish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455191409132300D357C1 /* easywords_danish.xml */; };
-		0F5455981409132400D357C1 /* easywords_dutch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551A1409132300D357C1 /* easywords_dutch.xml */; };
-		0F5455991409132400D357C1 /* easywords_estonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551B1409132300D357C1 /* easywords_estonian.xml */; };
-		0F54559A1409132400D357C1 /* easywords_filipino.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551C1409132300D357C1 /* easywords_filipino.xml */; };
-		0F54559B1409132400D357C1 /* easywords_finnish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551D1409132300D357C1 /* easywords_finnish.xml */; };
-		0F54559C1409132400D357C1 /* easywords_french.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551E1409132300D357C1 /* easywords_french.xml */; };
-		0F54559D1409132400D357C1 /* easywords_german.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54551F1409132300D357C1 /* easywords_german.xml */; };
-		0F54559E1409132400D357C1 /* easywords_greek.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455201409132300D357C1 /* easywords_greek.xml */; };
-		0F54559F1409132400D357C1 /* easywords_hebrew.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455211409132300D357C1 /* easywords_hebrew.xml */; };
-		0F5455A01409132400D357C1 /* easywords_hungarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455221409132300D357C1 /* easywords_hungarian.xml */; };
-		0F5455A11409132400D357C1 /* easywords_indian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455231409132300D357C1 /* easywords_indian.xml */; };
-		0F5455A21409132400D357C1 /* easywords_indonesian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455241409132300D357C1 /* easywords_indonesian.xml */; };
-		0F5455A31409132400D357C1 /* easywords_italian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455251409132300D357C1 /* easywords_italian.xml */; };
-		0F5455A41409132400D357C1 /* easywords_japanese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455261409132300D357C1 /* easywords_japanese.xml */; };
-		0F5455A51409132400D357C1 /* easywords_latvian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455271409132300D357C1 /* easywords_latvian.xml */; };
-		0F5455A61409132400D357C1 /* easywords_lithuanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455281409132300D357C1 /* easywords_lithuanian.xml */; };
-		0F5455A71409132400D357C1 /* easywords_macedonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455291409132300D357C1 /* easywords_macedonian.xml */; };
-		0F5455A81409132400D357C1 /* easywords_malay.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552A1409132300D357C1 /* easywords_malay.xml */; };
-		0F5455A91409132400D357C1 /* easywords_maltese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552B1409132300D357C1 /* easywords_maltese.xml */; };
-		0F5455AA1409132400D357C1 /* easywords_norwegian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552C1409132300D357C1 /* easywords_norwegian.xml */; };
-		0F5455AB1409132400D357C1 /* easywords_polish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552D1409132300D357C1 /* easywords_polish.xml */; };
-		0F5455AC1409132400D357C1 /* easywords_portuguese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552E1409132300D357C1 /* easywords_portuguese.xml */; };
-		0F5455AD1409132400D357C1 /* easywords_romanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54552F1409132300D357C1 /* easywords_romanian.xml */; };
-		0F5455AE1409132400D357C1 /* easywords_russian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455301409132300D357C1 /* easywords_russian.xml */; };
-		0F5455AF1409132400D357C1 /* easywords_slovakian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455311409132300D357C1 /* easywords_slovakian.xml */; };
-		0F5455B01409132400D357C1 /* easywords_slovenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455321409132300D357C1 /* easywords_slovenian.xml */; };
-		0F5455B11409132400D357C1 /* easywords_spanish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455331409132300D357C1 /* easywords_spanish.xml */; };
-		0F5455B21409132400D357C1 /* easywords_swahili.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455341409132300D357C1 /* easywords_swahili.xml */; };
-		0F5455B31409132400D357C1 /* easywords_swedish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455351409132300D357C1 /* easywords_swedish.xml */; };
-		0F5455B41409132400D357C1 /* easywords_tamil.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455361409132300D357C1 /* easywords_tamil.xml */; };
-		0F5455B51409132400D357C1 /* easywords_thai.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455371409132300D357C1 /* easywords_thai.xml */; };
-		0F5455B61409132400D357C1 /* easywords_turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455381409132300D357C1 /* easywords_turkish.xml */; };
-		0F5455B71409132400D357C1 /* easywords_urdu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455391409132300D357C1 /* easywords_urdu.xml */; };
-		0F5455B81409132400D357C1 /* easywords_vietnamese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553A1409132300D357C1 /* easywords_vietnamese.xml */; };
-		0F5455B91409132400D357C1 /* hardwords_afrikaan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553C1409132300D357C1 /* hardwords_afrikaan.xml */; };
-		0F5455BA1409132400D357C1 /* hardwords_arabic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553D1409132300D357C1 /* hardwords_arabic.xml */; };
-		0F5455BB1409132400D357C1 /* hardwords_armenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553E1409132300D357C1 /* hardwords_armenian.xml */; };
-		0F5455BC1409132400D357C1 /* hardwords_bulgarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54553F1409132300D357C1 /* hardwords_bulgarian.xml */; };
-		0F5455BD1409132400D357C1 /* hardwords_chinese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455401409132300D357C1 /* hardwords_chinese.xml */; };
-		0F5455BE1409132400D357C1 /* hardwords_croatian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455411409132300D357C1 /* hardwords_croatian.xml */; };
-		0F5455BF1409132400D357C1 /* hardwords_czech.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455421409132300D357C1 /* hardwords_czech.xml */; };
-		0F5455C01409132400D357C1 /* hardwords_danish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455431409132300D357C1 /* hardwords_danish.xml */; };
-		0F5455C11409132400D357C1 /* hardwords_dutch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455441409132300D357C1 /* hardwords_dutch.xml */; };
-		0F5455C21409132400D357C1 /* hardwords_estonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455451409132300D357C1 /* hardwords_estonian.xml */; };
-		0F5455C31409132400D357C1 /* hardwords_filipino.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455461409132300D357C1 /* hardwords_filipino.xml */; };
-		0F5455C41409132400D357C1 /* hardwords_finnish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455471409132300D357C1 /* hardwords_finnish.xml */; };
-		0F5455C51409132400D357C1 /* hardwords_french.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455481409132300D357C1 /* hardwords_french.xml */; };
-		0F5455C61409132400D357C1 /* hardwords_german.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455491409132300D357C1 /* hardwords_german.xml */; };
-		0F5455C71409132400D357C1 /* hardwords_greek.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554A1409132300D357C1 /* hardwords_greek.xml */; };
-		0F5455C81409132400D357C1 /* hardwords_hebrew.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554B1409132300D357C1 /* hardwords_hebrew.xml */; };
-		0F5455C91409132400D357C1 /* hardwords_hungarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554C1409132300D357C1 /* hardwords_hungarian.xml */; };
-		0F5455CA1409132400D357C1 /* hardwords_indian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554D1409132300D357C1 /* hardwords_indian.xml */; };
-		0F5455CB1409132400D357C1 /* hardwords_indonesian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554E1409132300D357C1 /* hardwords_indonesian.xml */; };
-		0F5455CC1409132400D357C1 /* hardwords_italian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54554F1409132300D357C1 /* hardwords_italian.xml */; };
-		0F5455CD1409132400D357C1 /* hardwords_japanese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455501409132300D357C1 /* hardwords_japanese.xml */; };
-		0F5455CE1409132400D357C1 /* hardwords_latvian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455511409132300D357C1 /* hardwords_latvian.xml */; };
-		0F5455CF1409132400D357C1 /* hardwords_lithuanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455521409132300D357C1 /* hardwords_lithuanian.xml */; };
-		0F5455D01409132400D357C1 /* hardwords_macedonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455531409132300D357C1 /* hardwords_macedonian.xml */; };
-		0F5455D11409132400D357C1 /* hardwords_malay.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455541409132300D357C1 /* hardwords_malay.xml */; };
-		0F5455D21409132400D357C1 /* hardwords_maltese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455551409132300D357C1 /* hardwords_maltese.xml */; };
-		0F5455D31409132400D357C1 /* hardwords_norwegian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455561409132300D357C1 /* hardwords_norwegian.xml */; };
-		0F5455D41409132400D357C1 /* hardwords_polish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455571409132300D357C1 /* hardwords_polish.xml */; };
-		0F5455D51409132400D357C1 /* hardwords_portuguese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455581409132300D357C1 /* hardwords_portuguese.xml */; };
-		0F5455D61409132400D357C1 /* hardwords_romanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455591409132300D357C1 /* hardwords_romanian.xml */; };
-		0F5455D71409132400D357C1 /* hardwords_russian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555A1409132300D357C1 /* hardwords_russian.xml */; };
-		0F5455D81409132400D357C1 /* hardwords_slovakian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555B1409132300D357C1 /* hardwords_slovakian.xml */; };
-		0F5455D91409132400D357C1 /* hardwords_slovenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555C1409132300D357C1 /* hardwords_slovenian.xml */; };
-		0F5455DA1409132400D357C1 /* hardwords_spanish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555D1409132300D357C1 /* hardwords_spanish.xml */; };
-		0F5455DB1409132400D357C1 /* hardwords_swahili.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555E1409132300D357C1 /* hardwords_swahili.xml */; };
-		0F5455DC1409132400D357C1 /* hardwords_swedish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54555F1409132300D357C1 /* hardwords_swedish.xml */; };
-		0F5455DD1409132400D357C1 /* hardwords_tamil.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455601409132300D357C1 /* hardwords_tamil.xml */; };
-		0F5455DE1409132400D357C1 /* hardwords_thai.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455611409132300D357C1 /* hardwords_thai.xml */; };
-		0F5455DF1409132400D357C1 /* hardwords_turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455621409132300D357C1 /* hardwords_turkish.xml */; };
-		0F5455E01409132400D357C1 /* hardwords_urdu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455631409132300D357C1 /* hardwords_urdu.xml */; };
-		0F5455E11409132400D357C1 /* hardwords_vietnamese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455641409132300D357C1 /* hardwords_vietnamese.xml */; };
-		0F5455E21409132400D357C1 /* intermediatewords_afrikaan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455661409132300D357C1 /* intermediatewords_afrikaan.xml */; };
-		0F5455E31409132400D357C1 /* intermediatewords_arabic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455671409132300D357C1 /* intermediatewords_arabic.xml */; };
-		0F5455E41409132400D357C1 /* intermediatewords_armenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455681409132300D357C1 /* intermediatewords_armenian.xml */; };
-		0F5455E51409132400D357C1 /* intermediatewords_bulgarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455691409132300D357C1 /* intermediatewords_bulgarian.xml */; };
-		0F5455E61409132400D357C1 /* intermediatewords_chinese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556A1409132300D357C1 /* intermediatewords_chinese.xml */; };
-		0F5455E71409132400D357C1 /* intermediatewords_croatian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556B1409132300D357C1 /* intermediatewords_croatian.xml */; };
-		0F5455E81409132400D357C1 /* intermediatewords_czech.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556C1409132300D357C1 /* intermediatewords_czech.xml */; };
-		0F5455E91409132400D357C1 /* intermediatewords_danish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556D1409132300D357C1 /* intermediatewords_danish.xml */; };
-		0F5455EA1409132400D357C1 /* intermediatewords_dutch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556E1409132300D357C1 /* intermediatewords_dutch.xml */; };
-		0F5455EB1409132400D357C1 /* intermediatewords_estonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54556F1409132300D357C1 /* intermediatewords_estonian.xml */; };
-		0F5455EC1409132400D357C1 /* intermediatewords_filipino.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455701409132300D357C1 /* intermediatewords_filipino.xml */; };
-		0F5455ED1409132400D357C1 /* intermediatewords_finnish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455711409132300D357C1 /* intermediatewords_finnish.xml */; };
-		0F5455EE1409132400D357C1 /* intermediatewords_french.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455721409132300D357C1 /* intermediatewords_french.xml */; };
-		0F5455EF1409132400D357C1 /* intermediatewords_german.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455731409132300D357C1 /* intermediatewords_german.xml */; };
-		0F5455F01409132400D357C1 /* intermediatewords_greek.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455741409132300D357C1 /* intermediatewords_greek.xml */; };
-		0F5455F11409132400D357C1 /* intermediatewords_hebrew.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455751409132300D357C1 /* intermediatewords_hebrew.xml */; };
-		0F5455F21409132400D357C1 /* intermediatewords_hungarian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455761409132300D357C1 /* intermediatewords_hungarian.xml */; };
-		0F5455F31409132400D357C1 /* intermediatewords_indian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455771409132300D357C1 /* intermediatewords_indian.xml */; };
-		0F5455F41409132400D357C1 /* intermediatewords_indonesian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455781409132300D357C1 /* intermediatewords_indonesian.xml */; };
-		0F5455F51409132400D357C1 /* intermediatewords_italian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455791409132300D357C1 /* intermediatewords_italian.xml */; };
-		0F5455F61409132400D357C1 /* intermediatewords_japanese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557A1409132300D357C1 /* intermediatewords_japanese.xml */; };
-		0F5455F71409132400D357C1 /* intermediatewords_latvian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557B1409132300D357C1 /* intermediatewords_latvian.xml */; };
-		0F5455F81409132400D357C1 /* intermediatewords_lithuanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557C1409132300D357C1 /* intermediatewords_lithuanian.xml */; };
-		0F5455F91409132400D357C1 /* intermediatewords_macedonian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557D1409132300D357C1 /* intermediatewords_macedonian.xml */; };
-		0F5455FA1409132400D357C1 /* intermediatewords_malay.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557E1409132300D357C1 /* intermediatewords_malay.xml */; };
-		0F5455FB1409132400D357C1 /* intermediatewords_maltese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54557F1409132300D357C1 /* intermediatewords_maltese.xml */; };
-		0F5455FC1409132400D357C1 /* intermediatewords_norwegian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455801409132300D357C1 /* intermediatewords_norwegian.xml */; };
-		0F5455FD1409132400D357C1 /* intermediatewords_polish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455811409132300D357C1 /* intermediatewords_polish.xml */; };
-		0F5455FE1409132400D357C1 /* intermediatewords_portuguese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455821409132300D357C1 /* intermediatewords_portuguese.xml */; };
-		0F5455FF1409132400D357C1 /* intermediatewords_romanian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455831409132300D357C1 /* intermediatewords_romanian.xml */; };
-		0F5456001409132400D357C1 /* intermediatewords_russian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455841409132300D357C1 /* intermediatewords_russian.xml */; };
-		0F5456011409132400D357C1 /* intermediatewords_slovakian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455851409132300D357C1 /* intermediatewords_slovakian.xml */; };
-		0F5456021409132400D357C1 /* intermediatewords_slovenian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455861409132300D357C1 /* intermediatewords_slovenian.xml */; };
-		0F5456031409132400D357C1 /* intermediatewords_spanish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455871409132300D357C1 /* intermediatewords_spanish.xml */; };
-		0F5456041409132400D357C1 /* intermediatewords_swahili.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455881409132300D357C1 /* intermediatewords_swahili.xml */; };
-		0F5456051409132400D357C1 /* intermediatewords_swedish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F5455891409132300D357C1 /* intermediatewords_swedish.xml */; };
-		0F5456061409132400D357C1 /* intermediatewords_tamil.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558A1409132300D357C1 /* intermediatewords_tamil.xml */; };
-		0F5456071409132400D357C1 /* intermediatewords_thai.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558B1409132300D357C1 /* intermediatewords_thai.xml */; };
-		0F5456081409132400D357C1 /* intermediatewords_turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558C1409132300D357C1 /* intermediatewords_turkish.xml */; };
-		0F5456091409132400D357C1 /* intermediatewords_urdu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558D1409132300D357C1 /* intermediatewords_urdu.xml */; };
-		0F54560A1409132400D357C1 /* intermediatewords_vietnamese.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F54558E1409132300D357C1 /* intermediatewords_vietnamese.xml */; };
-		0F5FA4B5141E70B600EB8286 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FA4B4141E70B600EB8286 /* SoundManager.m */; };
 		0F66650E144DFC79007757B6 /* GlyphLockOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66650C144DFC6A007757B6 /* GlyphLockOff.png */; };
 		0F66650F144DFC79007757B6 /* GlyphLockOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66650D144DFC72007757B6 /* GlyphLockOn.png */; };
 		0F666512144DFC8B007757B6 /* GlyphLockOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F666510144DFC8B007757B6 /* GlyphLockOff@2x.png */; };
@@ -461,134 +337,9 @@
 		0F3B0368142104BE00F4634C /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		0F3B0369142104BE00F4634C /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		0F3B036A142104BE00F4634C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		0F5454FE1409019400D357C1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants.h; sourceTree = "<group>"; };
+		0F5454FE1409019400D357C1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = wordrace/Constants.h; sourceTree = "<group>"; };
 		0F54550E1409132300D357C1 /* WordRaceXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordRaceXMLParser.h; sourceTree = "<group>"; };
 		0F54550F1409132300D357C1 /* WordRaceXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordRaceXMLParser.m; sourceTree = "<group>"; };
-		0F5455121409132300D357C1 /* easywords_afrikaan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_afrikaan.xml; sourceTree = "<group>"; };
-		0F5455131409132300D357C1 /* easywords_arabic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_arabic.xml; sourceTree = "<group>"; };
-		0F5455141409132300D357C1 /* easywords_armenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_armenian.xml; sourceTree = "<group>"; };
-		0F5455151409132300D357C1 /* easywords_bulgarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_bulgarian.xml; sourceTree = "<group>"; };
-		0F5455161409132300D357C1 /* easywords_chinese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_chinese.xml; sourceTree = "<group>"; };
-		0F5455171409132300D357C1 /* easywords_croatian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_croatian.xml; sourceTree = "<group>"; };
-		0F5455181409132300D357C1 /* easywords_czech.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_czech.xml; sourceTree = "<group>"; };
-		0F5455191409132300D357C1 /* easywords_danish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_danish.xml; sourceTree = "<group>"; };
-		0F54551A1409132300D357C1 /* easywords_dutch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_dutch.xml; sourceTree = "<group>"; };
-		0F54551B1409132300D357C1 /* easywords_estonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_estonian.xml; sourceTree = "<group>"; };
-		0F54551C1409132300D357C1 /* easywords_filipino.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_filipino.xml; sourceTree = "<group>"; };
-		0F54551D1409132300D357C1 /* easywords_finnish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_finnish.xml; sourceTree = "<group>"; };
-		0F54551E1409132300D357C1 /* easywords_french.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_french.xml; sourceTree = "<group>"; };
-		0F54551F1409132300D357C1 /* easywords_german.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_german.xml; sourceTree = "<group>"; };
-		0F5455201409132300D357C1 /* easywords_greek.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_greek.xml; sourceTree = "<group>"; };
-		0F5455211409132300D357C1 /* easywords_hebrew.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_hebrew.xml; sourceTree = "<group>"; };
-		0F5455221409132300D357C1 /* easywords_hungarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_hungarian.xml; sourceTree = "<group>"; };
-		0F5455231409132300D357C1 /* easywords_indian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_indian.xml; sourceTree = "<group>"; };
-		0F5455241409132300D357C1 /* easywords_indonesian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_indonesian.xml; sourceTree = "<group>"; };
-		0F5455251409132300D357C1 /* easywords_italian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_italian.xml; sourceTree = "<group>"; };
-		0F5455261409132300D357C1 /* easywords_japanese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_japanese.xml; sourceTree = "<group>"; };
-		0F5455271409132300D357C1 /* easywords_latvian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_latvian.xml; sourceTree = "<group>"; };
-		0F5455281409132300D357C1 /* easywords_lithuanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_lithuanian.xml; sourceTree = "<group>"; };
-		0F5455291409132300D357C1 /* easywords_macedonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_macedonian.xml; sourceTree = "<group>"; };
-		0F54552A1409132300D357C1 /* easywords_malay.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_malay.xml; sourceTree = "<group>"; };
-		0F54552B1409132300D357C1 /* easywords_maltese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_maltese.xml; sourceTree = "<group>"; };
-		0F54552C1409132300D357C1 /* easywords_norwegian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_norwegian.xml; sourceTree = "<group>"; };
-		0F54552D1409132300D357C1 /* easywords_polish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_polish.xml; sourceTree = "<group>"; };
-		0F54552E1409132300D357C1 /* easywords_portuguese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_portuguese.xml; sourceTree = "<group>"; };
-		0F54552F1409132300D357C1 /* easywords_romanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_romanian.xml; sourceTree = "<group>"; };
-		0F5455301409132300D357C1 /* easywords_russian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_russian.xml; sourceTree = "<group>"; };
-		0F5455311409132300D357C1 /* easywords_slovakian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_slovakian.xml; sourceTree = "<group>"; };
-		0F5455321409132300D357C1 /* easywords_slovenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_slovenian.xml; sourceTree = "<group>"; };
-		0F5455331409132300D357C1 /* easywords_spanish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_spanish.xml; sourceTree = "<group>"; };
-		0F5455341409132300D357C1 /* easywords_swahili.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_swahili.xml; sourceTree = "<group>"; };
-		0F5455351409132300D357C1 /* easywords_swedish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_swedish.xml; sourceTree = "<group>"; };
-		0F5455361409132300D357C1 /* easywords_tamil.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_tamil.xml; sourceTree = "<group>"; };
-		0F5455371409132300D357C1 /* easywords_thai.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_thai.xml; sourceTree = "<group>"; };
-		0F5455381409132300D357C1 /* easywords_turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_turkish.xml; sourceTree = "<group>"; };
-		0F5455391409132300D357C1 /* easywords_urdu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_urdu.xml; sourceTree = "<group>"; };
-		0F54553A1409132300D357C1 /* easywords_vietnamese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = easywords_vietnamese.xml; sourceTree = "<group>"; };
-		0F54553C1409132300D357C1 /* hardwords_afrikaan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_afrikaan.xml; sourceTree = "<group>"; };
-		0F54553D1409132300D357C1 /* hardwords_arabic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_arabic.xml; sourceTree = "<group>"; };
-		0F54553E1409132300D357C1 /* hardwords_armenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_armenian.xml; sourceTree = "<group>"; };
-		0F54553F1409132300D357C1 /* hardwords_bulgarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_bulgarian.xml; sourceTree = "<group>"; };
-		0F5455401409132300D357C1 /* hardwords_chinese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_chinese.xml; sourceTree = "<group>"; };
-		0F5455411409132300D357C1 /* hardwords_croatian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_croatian.xml; sourceTree = "<group>"; };
-		0F5455421409132300D357C1 /* hardwords_czech.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_czech.xml; sourceTree = "<group>"; };
-		0F5455431409132300D357C1 /* hardwords_danish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_danish.xml; sourceTree = "<group>"; };
-		0F5455441409132300D357C1 /* hardwords_dutch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_dutch.xml; sourceTree = "<group>"; };
-		0F5455451409132300D357C1 /* hardwords_estonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_estonian.xml; sourceTree = "<group>"; };
-		0F5455461409132300D357C1 /* hardwords_filipino.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_filipino.xml; sourceTree = "<group>"; };
-		0F5455471409132300D357C1 /* hardwords_finnish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_finnish.xml; sourceTree = "<group>"; };
-		0F5455481409132300D357C1 /* hardwords_french.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_french.xml; sourceTree = "<group>"; };
-		0F5455491409132300D357C1 /* hardwords_german.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_german.xml; sourceTree = "<group>"; };
-		0F54554A1409132300D357C1 /* hardwords_greek.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_greek.xml; sourceTree = "<group>"; };
-		0F54554B1409132300D357C1 /* hardwords_hebrew.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_hebrew.xml; sourceTree = "<group>"; };
-		0F54554C1409132300D357C1 /* hardwords_hungarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_hungarian.xml; sourceTree = "<group>"; };
-		0F54554D1409132300D357C1 /* hardwords_indian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_indian.xml; sourceTree = "<group>"; };
-		0F54554E1409132300D357C1 /* hardwords_indonesian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_indonesian.xml; sourceTree = "<group>"; };
-		0F54554F1409132300D357C1 /* hardwords_italian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_italian.xml; sourceTree = "<group>"; };
-		0F5455501409132300D357C1 /* hardwords_japanese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_japanese.xml; sourceTree = "<group>"; };
-		0F5455511409132300D357C1 /* hardwords_latvian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_latvian.xml; sourceTree = "<group>"; };
-		0F5455521409132300D357C1 /* hardwords_lithuanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_lithuanian.xml; sourceTree = "<group>"; };
-		0F5455531409132300D357C1 /* hardwords_macedonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_macedonian.xml; sourceTree = "<group>"; };
-		0F5455541409132300D357C1 /* hardwords_malay.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_malay.xml; sourceTree = "<group>"; };
-		0F5455551409132300D357C1 /* hardwords_maltese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_maltese.xml; sourceTree = "<group>"; };
-		0F5455561409132300D357C1 /* hardwords_norwegian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_norwegian.xml; sourceTree = "<group>"; };
-		0F5455571409132300D357C1 /* hardwords_polish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_polish.xml; sourceTree = "<group>"; };
-		0F5455581409132300D357C1 /* hardwords_portuguese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_portuguese.xml; sourceTree = "<group>"; };
-		0F5455591409132300D357C1 /* hardwords_romanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_romanian.xml; sourceTree = "<group>"; };
-		0F54555A1409132300D357C1 /* hardwords_russian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_russian.xml; sourceTree = "<group>"; };
-		0F54555B1409132300D357C1 /* hardwords_slovakian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_slovakian.xml; sourceTree = "<group>"; };
-		0F54555C1409132300D357C1 /* hardwords_slovenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_slovenian.xml; sourceTree = "<group>"; };
-		0F54555D1409132300D357C1 /* hardwords_spanish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_spanish.xml; sourceTree = "<group>"; };
-		0F54555E1409132300D357C1 /* hardwords_swahili.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_swahili.xml; sourceTree = "<group>"; };
-		0F54555F1409132300D357C1 /* hardwords_swedish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_swedish.xml; sourceTree = "<group>"; };
-		0F5455601409132300D357C1 /* hardwords_tamil.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_tamil.xml; sourceTree = "<group>"; };
-		0F5455611409132300D357C1 /* hardwords_thai.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_thai.xml; sourceTree = "<group>"; };
-		0F5455621409132300D357C1 /* hardwords_turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_turkish.xml; sourceTree = "<group>"; };
-		0F5455631409132300D357C1 /* hardwords_urdu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_urdu.xml; sourceTree = "<group>"; };
-		0F5455641409132300D357C1 /* hardwords_vietnamese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hardwords_vietnamese.xml; sourceTree = "<group>"; };
-		0F5455661409132300D357C1 /* intermediatewords_afrikaan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_afrikaan.xml; sourceTree = "<group>"; };
-		0F5455671409132300D357C1 /* intermediatewords_arabic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_arabic.xml; sourceTree = "<group>"; };
-		0F5455681409132300D357C1 /* intermediatewords_armenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_armenian.xml; sourceTree = "<group>"; };
-		0F5455691409132300D357C1 /* intermediatewords_bulgarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_bulgarian.xml; sourceTree = "<group>"; };
-		0F54556A1409132300D357C1 /* intermediatewords_chinese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_chinese.xml; sourceTree = "<group>"; };
-		0F54556B1409132300D357C1 /* intermediatewords_croatian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_croatian.xml; sourceTree = "<group>"; };
-		0F54556C1409132300D357C1 /* intermediatewords_czech.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_czech.xml; sourceTree = "<group>"; };
-		0F54556D1409132300D357C1 /* intermediatewords_danish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_danish.xml; sourceTree = "<group>"; };
-		0F54556E1409132300D357C1 /* intermediatewords_dutch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_dutch.xml; sourceTree = "<group>"; };
-		0F54556F1409132300D357C1 /* intermediatewords_estonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_estonian.xml; sourceTree = "<group>"; };
-		0F5455701409132300D357C1 /* intermediatewords_filipino.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_filipino.xml; sourceTree = "<group>"; };
-		0F5455711409132300D357C1 /* intermediatewords_finnish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_finnish.xml; sourceTree = "<group>"; };
-		0F5455721409132300D357C1 /* intermediatewords_french.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_french.xml; sourceTree = "<group>"; };
-		0F5455731409132300D357C1 /* intermediatewords_german.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_german.xml; sourceTree = "<group>"; };
-		0F5455741409132300D357C1 /* intermediatewords_greek.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_greek.xml; sourceTree = "<group>"; };
-		0F5455751409132300D357C1 /* intermediatewords_hebrew.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_hebrew.xml; sourceTree = "<group>"; };
-		0F5455761409132300D357C1 /* intermediatewords_hungarian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_hungarian.xml; sourceTree = "<group>"; };
-		0F5455771409132300D357C1 /* intermediatewords_indian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_indian.xml; sourceTree = "<group>"; };
-		0F5455781409132300D357C1 /* intermediatewords_indonesian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_indonesian.xml; sourceTree = "<group>"; };
-		0F5455791409132300D357C1 /* intermediatewords_italian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_italian.xml; sourceTree = "<group>"; };
-		0F54557A1409132300D357C1 /* intermediatewords_japanese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_japanese.xml; sourceTree = "<group>"; };
-		0F54557B1409132300D357C1 /* intermediatewords_latvian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_latvian.xml; sourceTree = "<group>"; };
-		0F54557C1409132300D357C1 /* intermediatewords_lithuanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_lithuanian.xml; sourceTree = "<group>"; };
-		0F54557D1409132300D357C1 /* intermediatewords_macedonian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_macedonian.xml; sourceTree = "<group>"; };
-		0F54557E1409132300D357C1 /* intermediatewords_malay.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_malay.xml; sourceTree = "<group>"; };
-		0F54557F1409132300D357C1 /* intermediatewords_maltese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_maltese.xml; sourceTree = "<group>"; };
-		0F5455801409132300D357C1 /* intermediatewords_norwegian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_norwegian.xml; sourceTree = "<group>"; };
-		0F5455811409132300D357C1 /* intermediatewords_polish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_polish.xml; sourceTree = "<group>"; };
-		0F5455821409132300D357C1 /* intermediatewords_portuguese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_portuguese.xml; sourceTree = "<group>"; };
-		0F5455831409132300D357C1 /* intermediatewords_romanian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_romanian.xml; sourceTree = "<group>"; };
-		0F5455841409132300D357C1 /* intermediatewords_russian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_russian.xml; sourceTree = "<group>"; };
-		0F5455851409132300D357C1 /* intermediatewords_slovakian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_slovakian.xml; sourceTree = "<group>"; };
-		0F5455861409132300D357C1 /* intermediatewords_slovenian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_slovenian.xml; sourceTree = "<group>"; };
-		0F5455871409132300D357C1 /* intermediatewords_spanish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_spanish.xml; sourceTree = "<group>"; };
-		0F5455881409132300D357C1 /* intermediatewords_swahili.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_swahili.xml; sourceTree = "<group>"; };
-		0F5455891409132300D357C1 /* intermediatewords_swedish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_swedish.xml; sourceTree = "<group>"; };
-		0F54558A1409132300D357C1 /* intermediatewords_tamil.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_tamil.xml; sourceTree = "<group>"; };
-		0F54558B1409132300D357C1 /* intermediatewords_thai.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_thai.xml; sourceTree = "<group>"; };
-		0F54558C1409132300D357C1 /* intermediatewords_turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_turkish.xml; sourceTree = "<group>"; };
-		0F54558D1409132300D357C1 /* intermediatewords_urdu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_urdu.xml; sourceTree = "<group>"; };
-		0F54558E1409132300D357C1 /* intermediatewords_vietnamese.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediatewords_vietnamese.xml; sourceTree = "<group>"; };
-		0F5FA4B3141E70B600EB8286 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
-		0F5FA4B4141E70B600EB8286 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		0F66650C144DFC6A007757B6 /* GlyphLockOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlyphLockOff.png; sourceTree = "<group>"; };
 		0F66650D144DFC72007757B6 /* GlyphLockOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlyphLockOn.png; sourceTree = "<group>"; };
 		0F666510144DFC8B007757B6 /* GlyphLockOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GlyphLockOff@2x.png"; sourceTree = "<group>"; };
@@ -691,7 +442,7 @@
 		0FB712D01407AE4800407924 /* SelectLevelViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLevelViewController_iPhone.h; sourceTree = "<group>"; };
 		0FB712D11407AE4800407924 /* SelectLevelViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLevelViewController_iPhone.m; sourceTree = "<group>"; };
 		0FB712D21407AE4800407924 /* SelectLevelViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectLevelViewController_iPhone.xib; sourceTree = "<group>"; };
-		0FC719BE141A28570014A2C2 /* Turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Turkish.xml; sourceTree = "<group>"; };
+		0FC719BE141A28570014A2C2 /* Turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Turkish.xml; path = Database/XMLParsers/XML_DATABASE/Turkish.xml; sourceTree = "<group>"; };
 		0FCDC5CE14195DF200225E11 /* Crillee_Italic_Plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Crillee_Italic_Plain.ttf; path = Graphics/Crillee_Italic_Plain.ttf; sourceTree = "<group>"; };
 		0FCDC5DD141970B400225E11 /* Digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Digital-7.ttf"; path = "Graphics/Digital-7.ttf"; sourceTree = "<group>"; };
 		0FDA3D571407DFEB0030F62E /* ThreeLivesViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeLivesViewController_iPhone.h; sourceTree = "<group>"; };
@@ -759,9 +510,10 @@
 		0F0BCF8A13CB7F1600B61313 = {
 			isa = PBXGroup;
 			children = (
+				0F5454FE1409019400D357C1 /* Constants.h */,
+				0FC719BE141A28570014A2C2 /* Turkish.xml */,
 				0F66F1841422085A00F1E3B1 /* Twitter+OAuth */,
 				0F3B0377142104CC00F4634C /* Facebook */,
-				0F5FA4B1141E709100EB8286 /* SoundManager */,
 				0FA4367713CB811800940135 /* Database */,
 				0F0BCFA113CB7F1600B61313 /* Wordrace */,
 				0FE3FA5B1408222100171C7C /* Resources */,
@@ -993,173 +745,8 @@
 			children = (
 				0F54550E1409132300D357C1 /* WordRaceXMLParser.h */,
 				0F54550F1409132300D357C1 /* WordRaceXMLParser.m */,
-				0F5455101409132300D357C1 /* XML_DATABASE */,
 			);
 			path = XMLParsers;
-			sourceTree = "<group>";
-		};
-		0F5455101409132300D357C1 /* XML_DATABASE */ = {
-			isa = PBXGroup;
-			children = (
-				0FC719BE141A28570014A2C2 /* Turkish.xml */,
-				0F5455111409132300D357C1 /* basic_words */,
-				0F54553B1409132300D357C1 /* hard_words */,
-				0F5455651409132300D357C1 /* intermediate_words */,
-			);
-			path = XML_DATABASE;
-			sourceTree = "<group>";
-		};
-		0F5455111409132300D357C1 /* basic_words */ = {
-			isa = PBXGroup;
-			children = (
-				0F5455121409132300D357C1 /* easywords_afrikaan.xml */,
-				0F5455131409132300D357C1 /* easywords_arabic.xml */,
-				0F5455141409132300D357C1 /* easywords_armenian.xml */,
-				0F5455151409132300D357C1 /* easywords_bulgarian.xml */,
-				0F5455161409132300D357C1 /* easywords_chinese.xml */,
-				0F5455171409132300D357C1 /* easywords_croatian.xml */,
-				0F5455181409132300D357C1 /* easywords_czech.xml */,
-				0F5455191409132300D357C1 /* easywords_danish.xml */,
-				0F54551A1409132300D357C1 /* easywords_dutch.xml */,
-				0F54551B1409132300D357C1 /* easywords_estonian.xml */,
-				0F54551C1409132300D357C1 /* easywords_filipino.xml */,
-				0F54551D1409132300D357C1 /* easywords_finnish.xml */,
-				0F54551E1409132300D357C1 /* easywords_french.xml */,
-				0F54551F1409132300D357C1 /* easywords_german.xml */,
-				0F5455201409132300D357C1 /* easywords_greek.xml */,
-				0F5455211409132300D357C1 /* easywords_hebrew.xml */,
-				0F5455221409132300D357C1 /* easywords_hungarian.xml */,
-				0F5455231409132300D357C1 /* easywords_indian.xml */,
-				0F5455241409132300D357C1 /* easywords_indonesian.xml */,
-				0F5455251409132300D357C1 /* easywords_italian.xml */,
-				0F5455261409132300D357C1 /* easywords_japanese.xml */,
-				0F5455271409132300D357C1 /* easywords_latvian.xml */,
-				0F5455281409132300D357C1 /* easywords_lithuanian.xml */,
-				0F5455291409132300D357C1 /* easywords_macedonian.xml */,
-				0F54552A1409132300D357C1 /* easywords_malay.xml */,
-				0F54552B1409132300D357C1 /* easywords_maltese.xml */,
-				0F54552C1409132300D357C1 /* easywords_norwegian.xml */,
-				0F54552D1409132300D357C1 /* easywords_polish.xml */,
-				0F54552E1409132300D357C1 /* easywords_portuguese.xml */,
-				0F54552F1409132300D357C1 /* easywords_romanian.xml */,
-				0F5455301409132300D357C1 /* easywords_russian.xml */,
-				0F5455311409132300D357C1 /* easywords_slovakian.xml */,
-				0F5455321409132300D357C1 /* easywords_slovenian.xml */,
-				0F5455331409132300D357C1 /* easywords_spanish.xml */,
-				0F5455341409132300D357C1 /* easywords_swahili.xml */,
-				0F5455351409132300D357C1 /* easywords_swedish.xml */,
-				0F5455361409132300D357C1 /* easywords_tamil.xml */,
-				0F5455371409132300D357C1 /* easywords_thai.xml */,
-				0F5455381409132300D357C1 /* easywords_turkish.xml */,
-				0F5455391409132300D357C1 /* easywords_urdu.xml */,
-				0F54553A1409132300D357C1 /* easywords_vietnamese.xml */,
-			);
-			path = basic_words;
-			sourceTree = "<group>";
-		};
-		0F54553B1409132300D357C1 /* hard_words */ = {
-			isa = PBXGroup;
-			children = (
-				0F54553C1409132300D357C1 /* hardwords_afrikaan.xml */,
-				0F54553D1409132300D357C1 /* hardwords_arabic.xml */,
-				0F54553E1409132300D357C1 /* hardwords_armenian.xml */,
-				0F54553F1409132300D357C1 /* hardwords_bulgarian.xml */,
-				0F5455401409132300D357C1 /* hardwords_chinese.xml */,
-				0F5455411409132300D357C1 /* hardwords_croatian.xml */,
-				0F5455421409132300D357C1 /* hardwords_czech.xml */,
-				0F5455431409132300D357C1 /* hardwords_danish.xml */,
-				0F5455441409132300D357C1 /* hardwords_dutch.xml */,
-				0F5455451409132300D357C1 /* hardwords_estonian.xml */,
-				0F5455461409132300D357C1 /* hardwords_filipino.xml */,
-				0F5455471409132300D357C1 /* hardwords_finnish.xml */,
-				0F5455481409132300D357C1 /* hardwords_french.xml */,
-				0F5455491409132300D357C1 /* hardwords_german.xml */,
-				0F54554A1409132300D357C1 /* hardwords_greek.xml */,
-				0F54554B1409132300D357C1 /* hardwords_hebrew.xml */,
-				0F54554C1409132300D357C1 /* hardwords_hungarian.xml */,
-				0F54554D1409132300D357C1 /* hardwords_indian.xml */,
-				0F54554E1409132300D357C1 /* hardwords_indonesian.xml */,
-				0F54554F1409132300D357C1 /* hardwords_italian.xml */,
-				0F5455501409132300D357C1 /* hardwords_japanese.xml */,
-				0F5455511409132300D357C1 /* hardwords_latvian.xml */,
-				0F5455521409132300D357C1 /* hardwords_lithuanian.xml */,
-				0F5455531409132300D357C1 /* hardwords_macedonian.xml */,
-				0F5455541409132300D357C1 /* hardwords_malay.xml */,
-				0F5455551409132300D357C1 /* hardwords_maltese.xml */,
-				0F5455561409132300D357C1 /* hardwords_norwegian.xml */,
-				0F5455571409132300D357C1 /* hardwords_polish.xml */,
-				0F5455581409132300D357C1 /* hardwords_portuguese.xml */,
-				0F5455591409132300D357C1 /* hardwords_romanian.xml */,
-				0F54555A1409132300D357C1 /* hardwords_russian.xml */,
-				0F54555B1409132300D357C1 /* hardwords_slovakian.xml */,
-				0F54555C1409132300D357C1 /* hardwords_slovenian.xml */,
-				0F54555D1409132300D357C1 /* hardwords_spanish.xml */,
-				0F54555E1409132300D357C1 /* hardwords_swahili.xml */,
-				0F54555F1409132300D357C1 /* hardwords_swedish.xml */,
-				0F5455601409132300D357C1 /* hardwords_tamil.xml */,
-				0F5455611409132300D357C1 /* hardwords_thai.xml */,
-				0F5455621409132300D357C1 /* hardwords_turkish.xml */,
-				0F5455631409132300D357C1 /* hardwords_urdu.xml */,
-				0F5455641409132300D357C1 /* hardwords_vietnamese.xml */,
-			);
-			path = hard_words;
-			sourceTree = "<group>";
-		};
-		0F5455651409132300D357C1 /* intermediate_words */ = {
-			isa = PBXGroup;
-			children = (
-				0F5455661409132300D357C1 /* intermediatewords_afrikaan.xml */,
-				0F5455671409132300D357C1 /* intermediatewords_arabic.xml */,
-				0F5455681409132300D357C1 /* intermediatewords_armenian.xml */,
-				0F5455691409132300D357C1 /* intermediatewords_bulgarian.xml */,
-				0F54556A1409132300D357C1 /* intermediatewords_chinese.xml */,
-				0F54556B1409132300D357C1 /* intermediatewords_croatian.xml */,
-				0F54556C1409132300D357C1 /* intermediatewords_czech.xml */,
-				0F54556D1409132300D357C1 /* intermediatewords_danish.xml */,
-				0F54556E1409132300D357C1 /* intermediatewords_dutch.xml */,
-				0F54556F1409132300D357C1 /* intermediatewords_estonian.xml */,
-				0F5455701409132300D357C1 /* intermediatewords_filipino.xml */,
-				0F5455711409132300D357C1 /* intermediatewords_finnish.xml */,
-				0F5455721409132300D357C1 /* intermediatewords_french.xml */,
-				0F5455731409132300D357C1 /* intermediatewords_german.xml */,
-				0F5455741409132300D357C1 /* intermediatewords_greek.xml */,
-				0F5455751409132300D357C1 /* intermediatewords_hebrew.xml */,
-				0F5455761409132300D357C1 /* intermediatewords_hungarian.xml */,
-				0F5455771409132300D357C1 /* intermediatewords_indian.xml */,
-				0F5455781409132300D357C1 /* intermediatewords_indonesian.xml */,
-				0F5455791409132300D357C1 /* intermediatewords_italian.xml */,
-				0F54557A1409132300D357C1 /* intermediatewords_japanese.xml */,
-				0F54557B1409132300D357C1 /* intermediatewords_latvian.xml */,
-				0F54557C1409132300D357C1 /* intermediatewords_lithuanian.xml */,
-				0F54557D1409132300D357C1 /* intermediatewords_macedonian.xml */,
-				0F54557E1409132300D357C1 /* intermediatewords_malay.xml */,
-				0F54557F1409132300D357C1 /* intermediatewords_maltese.xml */,
-				0F5455801409132300D357C1 /* intermediatewords_norwegian.xml */,
-				0F5455811409132300D357C1 /* intermediatewords_polish.xml */,
-				0F5455821409132300D357C1 /* intermediatewords_portuguese.xml */,
-				0F5455831409132300D357C1 /* intermediatewords_romanian.xml */,
-				0F5455841409132300D357C1 /* intermediatewords_russian.xml */,
-				0F5455851409132300D357C1 /* intermediatewords_slovakian.xml */,
-				0F5455861409132300D357C1 /* intermediatewords_slovenian.xml */,
-				0F5455871409132300D357C1 /* intermediatewords_spanish.xml */,
-				0F5455881409132300D357C1 /* intermediatewords_swahili.xml */,
-				0F5455891409132300D357C1 /* intermediatewords_swedish.xml */,
-				0F54558A1409132300D357C1 /* intermediatewords_tamil.xml */,
-				0F54558B1409132300D357C1 /* intermediatewords_thai.xml */,
-				0F54558C1409132300D357C1 /* intermediatewords_turkish.xml */,
-				0F54558D1409132300D357C1 /* intermediatewords_urdu.xml */,
-				0F54558E1409132300D357C1 /* intermediatewords_vietnamese.xml */,
-			);
-			path = intermediate_words;
-			sourceTree = "<group>";
-		};
-		0F5FA4B1141E709100EB8286 /* SoundManager */ = {
-			isa = PBXGroup;
-			children = (
-				0F5FA4B3141E70B600EB8286 /* SoundManager.h */,
-				0F5FA4B4141E70B600EB8286 /* SoundManager.m */,
-			);
-			name = SoundManager;
 			sourceTree = "<group>";
 		};
 		0F66F1841422085A00F1E3B1 /* Twitter+OAuth */ = {
@@ -1527,7 +1114,6 @@
 				0F8756EE1423AF98001D29CA /* Default.png */,
 				0F8756EC1423AF7F001D29CA /* Default@2x.png */,
 				0FC719BD141A21990014A2C2 /* Fonts */,
-				0F5454FE1409019400D357C1 /* Constants.h */,
 				0FE3FA5E1408226800171C7C /* Audio */,
 				0FE3FA5F1408226800171C7C /* Graphics */,
 			);
@@ -1618,129 +1204,6 @@
 				0FDA3D5B1407DFEB0030F62E /* ThreeLivesViewController_iPhone.xib in Resources */,
 				0FDA3D601407E00B0030F62E /* VsTheClockViewController_iPhone.xib in Resources */,
 				0FDA3D651407E0E60030F62E /* SuddenDeathViewController_iPhone.xib in Resources */,
-				0F5455901409132300D357C1 /* easywords_afrikaan.xml in Resources */,
-				0F5455911409132300D357C1 /* easywords_arabic.xml in Resources */,
-				0F5455921409132300D357C1 /* easywords_armenian.xml in Resources */,
-				0F5455931409132300D357C1 /* easywords_bulgarian.xml in Resources */,
-				0F5455941409132400D357C1 /* easywords_chinese.xml in Resources */,
-				0F5455951409132400D357C1 /* easywords_croatian.xml in Resources */,
-				0F5455961409132400D357C1 /* easywords_czech.xml in Resources */,
-				0F5455971409132400D357C1 /* easywords_danish.xml in Resources */,
-				0F5455981409132400D357C1 /* easywords_dutch.xml in Resources */,
-				0F5455991409132400D357C1 /* easywords_estonian.xml in Resources */,
-				0F54559A1409132400D357C1 /* easywords_filipino.xml in Resources */,
-				0F54559B1409132400D357C1 /* easywords_finnish.xml in Resources */,
-				0F54559C1409132400D357C1 /* easywords_french.xml in Resources */,
-				0F54559D1409132400D357C1 /* easywords_german.xml in Resources */,
-				0F54559E1409132400D357C1 /* easywords_greek.xml in Resources */,
-				0F54559F1409132400D357C1 /* easywords_hebrew.xml in Resources */,
-				0F5455A01409132400D357C1 /* easywords_hungarian.xml in Resources */,
-				0F5455A11409132400D357C1 /* easywords_indian.xml in Resources */,
-				0F5455A21409132400D357C1 /* easywords_indonesian.xml in Resources */,
-				0F5455A31409132400D357C1 /* easywords_italian.xml in Resources */,
-				0F5455A41409132400D357C1 /* easywords_japanese.xml in Resources */,
-				0F5455A51409132400D357C1 /* easywords_latvian.xml in Resources */,
-				0F5455A61409132400D357C1 /* easywords_lithuanian.xml in Resources */,
-				0F5455A71409132400D357C1 /* easywords_macedonian.xml in Resources */,
-				0F5455A81409132400D357C1 /* easywords_malay.xml in Resources */,
-				0F5455A91409132400D357C1 /* easywords_maltese.xml in Resources */,
-				0F5455AA1409132400D357C1 /* easywords_norwegian.xml in Resources */,
-				0F5455AB1409132400D357C1 /* easywords_polish.xml in Resources */,
-				0F5455AC1409132400D357C1 /* easywords_portuguese.xml in Resources */,
-				0F5455AD1409132400D357C1 /* easywords_romanian.xml in Resources */,
-				0F5455AE1409132400D357C1 /* easywords_russian.xml in Resources */,
-				0F5455AF1409132400D357C1 /* easywords_slovakian.xml in Resources */,
-				0F5455B01409132400D357C1 /* easywords_slovenian.xml in Resources */,
-				0F5455B11409132400D357C1 /* easywords_spanish.xml in Resources */,
-				0F5455B21409132400D357C1 /* easywords_swahili.xml in Resources */,
-				0F5455B31409132400D357C1 /* easywords_swedish.xml in Resources */,
-				0F5455B41409132400D357C1 /* easywords_tamil.xml in Resources */,
-				0F5455B51409132400D357C1 /* easywords_thai.xml in Resources */,
-				0F5455B61409132400D357C1 /* easywords_turkish.xml in Resources */,
-				0F5455B71409132400D357C1 /* easywords_urdu.xml in Resources */,
-				0F5455B81409132400D357C1 /* easywords_vietnamese.xml in Resources */,
-				0F5455B91409132400D357C1 /* hardwords_afrikaan.xml in Resources */,
-				0F5455BA1409132400D357C1 /* hardwords_arabic.xml in Resources */,
-				0F5455BB1409132400D357C1 /* hardwords_armenian.xml in Resources */,
-				0F5455BC1409132400D357C1 /* hardwords_bulgarian.xml in Resources */,
-				0F5455BD1409132400D357C1 /* hardwords_chinese.xml in Resources */,
-				0F5455BE1409132400D357C1 /* hardwords_croatian.xml in Resources */,
-				0F5455BF1409132400D357C1 /* hardwords_czech.xml in Resources */,
-				0F5455C01409132400D357C1 /* hardwords_danish.xml in Resources */,
-				0F5455C11409132400D357C1 /* hardwords_dutch.xml in Resources */,
-				0F5455C21409132400D357C1 /* hardwords_estonian.xml in Resources */,
-				0F5455C31409132400D357C1 /* hardwords_filipino.xml in Resources */,
-				0F5455C41409132400D357C1 /* hardwords_finnish.xml in Resources */,
-				0F5455C51409132400D357C1 /* hardwords_french.xml in Resources */,
-				0F5455C61409132400D357C1 /* hardwords_german.xml in Resources */,
-				0F5455C71409132400D357C1 /* hardwords_greek.xml in Resources */,
-				0F5455C81409132400D357C1 /* hardwords_hebrew.xml in Resources */,
-				0F5455C91409132400D357C1 /* hardwords_hungarian.xml in Resources */,
-				0F5455CA1409132400D357C1 /* hardwords_indian.xml in Resources */,
-				0F5455CB1409132400D357C1 /* hardwords_indonesian.xml in Resources */,
-				0F5455CC1409132400D357C1 /* hardwords_italian.xml in Resources */,
-				0F5455CD1409132400D357C1 /* hardwords_japanese.xml in Resources */,
-				0F5455CE1409132400D357C1 /* hardwords_latvian.xml in Resources */,
-				0F5455CF1409132400D357C1 /* hardwords_lithuanian.xml in Resources */,
-				0F5455D01409132400D357C1 /* hardwords_macedonian.xml in Resources */,
-				0F5455D11409132400D357C1 /* hardwords_malay.xml in Resources */,
-				0F5455D21409132400D357C1 /* hardwords_maltese.xml in Resources */,
-				0F5455D31409132400D357C1 /* hardwords_norwegian.xml in Resources */,
-				0F5455D41409132400D357C1 /* hardwords_polish.xml in Resources */,
-				0F5455D51409132400D357C1 /* hardwords_portuguese.xml in Resources */,
-				0F5455D61409132400D357C1 /* hardwords_romanian.xml in Resources */,
-				0F5455D71409132400D357C1 /* hardwords_russian.xml in Resources */,
-				0F5455D81409132400D357C1 /* hardwords_slovakian.xml in Resources */,
-				0F5455D91409132400D357C1 /* hardwords_slovenian.xml in Resources */,
-				0F5455DA1409132400D357C1 /* hardwords_spanish.xml in Resources */,
-				0F5455DB1409132400D357C1 /* hardwords_swahili.xml in Resources */,
-				0F5455DC1409132400D357C1 /* hardwords_swedish.xml in Resources */,
-				0F5455DD1409132400D357C1 /* hardwords_tamil.xml in Resources */,
-				0F5455DE1409132400D357C1 /* hardwords_thai.xml in Resources */,
-				0F5455DF1409132400D357C1 /* hardwords_turkish.xml in Resources */,
-				0F5455E01409132400D357C1 /* hardwords_urdu.xml in Resources */,
-				0F5455E11409132400D357C1 /* hardwords_vietnamese.xml in Resources */,
-				0F5455E21409132400D357C1 /* intermediatewords_afrikaan.xml in Resources */,
-				0F5455E31409132400D357C1 /* intermediatewords_arabic.xml in Resources */,
-				0F5455E41409132400D357C1 /* intermediatewords_armenian.xml in Resources */,
-				0F5455E51409132400D357C1 /* intermediatewords_bulgarian.xml in Resources */,
-				0F5455E61409132400D357C1 /* intermediatewords_chinese.xml in Resources */,
-				0F5455E71409132400D357C1 /* intermediatewords_croatian.xml in Resources */,
-				0F5455E81409132400D357C1 /* intermediatewords_czech.xml in Resources */,
-				0F5455E91409132400D357C1 /* intermediatewords_danish.xml in Resources */,
-				0F5455EA1409132400D357C1 /* intermediatewords_dutch.xml in Resources */,
-				0F5455EB1409132400D357C1 /* intermediatewords_estonian.xml in Resources */,
-				0F5455EC1409132400D357C1 /* intermediatewords_filipino.xml in Resources */,
-				0F5455ED1409132400D357C1 /* intermediatewords_finnish.xml in Resources */,
-				0F5455EE1409132400D357C1 /* intermediatewords_french.xml in Resources */,
-				0F5455EF1409132400D357C1 /* intermediatewords_german.xml in Resources */,
-				0F5455F01409132400D357C1 /* intermediatewords_greek.xml in Resources */,
-				0F5455F11409132400D357C1 /* intermediatewords_hebrew.xml in Resources */,
-				0F5455F21409132400D357C1 /* intermediatewords_hungarian.xml in Resources */,
-				0F5455F31409132400D357C1 /* intermediatewords_indian.xml in Resources */,
-				0F5455F41409132400D357C1 /* intermediatewords_indonesian.xml in Resources */,
-				0F5455F51409132400D357C1 /* intermediatewords_italian.xml in Resources */,
-				0F5455F61409132400D357C1 /* intermediatewords_japanese.xml in Resources */,
-				0F5455F71409132400D357C1 /* intermediatewords_latvian.xml in Resources */,
-				0F5455F81409132400D357C1 /* intermediatewords_lithuanian.xml in Resources */,
-				0F5455F91409132400D357C1 /* intermediatewords_macedonian.xml in Resources */,
-				0F5455FA1409132400D357C1 /* intermediatewords_malay.xml in Resources */,
-				0F5455FB1409132400D357C1 /* intermediatewords_maltese.xml in Resources */,
-				0F5455FC1409132400D357C1 /* intermediatewords_norwegian.xml in Resources */,
-				0F5455FD1409132400D357C1 /* intermediatewords_polish.xml in Resources */,
-				0F5455FE1409132400D357C1 /* intermediatewords_portuguese.xml in Resources */,
-				0F5455FF1409132400D357C1 /* intermediatewords_romanian.xml in Resources */,
-				0F5456001409132400D357C1 /* intermediatewords_russian.xml in Resources */,
-				0F5456011409132400D357C1 /* intermediatewords_slovakian.xml in Resources */,
-				0F5456021409132400D357C1 /* intermediatewords_slovenian.xml in Resources */,
-				0F5456031409132400D357C1 /* intermediatewords_spanish.xml in Resources */,
-				0F5456041409132400D357C1 /* intermediatewords_swahili.xml in Resources */,
-				0F5456051409132400D357C1 /* intermediatewords_swedish.xml in Resources */,
-				0F5456061409132400D357C1 /* intermediatewords_tamil.xml in Resources */,
-				0F5456071409132400D357C1 /* intermediatewords_thai.xml in Resources */,
-				0F5456081409132400D357C1 /* intermediatewords_turkish.xml in Resources */,
-				0F5456091409132400D357C1 /* intermediatewords_urdu.xml in Resources */,
-				0F54560A1409132400D357C1 /* intermediatewords_vietnamese.xml in Resources */,
 				0F36C367140D64C400C907CF /* DatabaseBuilderTVC.xib in Resources */,
 				0F02B6F8140DAD4700ACCB19 /* PauseViewController.xib in Resources */,
 				0F02B6FD140E10C800ACCB19 /* GameOverViewController.xib in Resources */,
@@ -1898,7 +1361,6 @@
 				0FDD2485141A31A400A03BC6 /* EasyWord.m in Sources */,
 				0FDD248C141ABEF100A03BC6 /* WordraceModel.xcdatamodeld in Sources */,
 				0FE2021B141B7E62001D3216 /* SelectLevelCell.m in Sources */,
-				0F5FA4B5141E70B600EB8286 /* SoundManager.m in Sources */,
 				0F3B036B142104BE00F4634C /* Facebook.m in Sources */,
 				0F3B036D142104BE00F4634C /* FBDialog.m in Sources */,
 				0F3B036E142104BE00F4634C /* FBLoginDialog.m in Sources */,

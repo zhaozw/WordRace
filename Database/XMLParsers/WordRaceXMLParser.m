@@ -110,7 +110,12 @@ NSString* const kLitTurkish             = @"turkish";
 {
     NSLog(@"%s",__FUNCTION__);
     [self saveContext];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"DatabaseCreated" object:nil];
 }
 
+- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError
+{
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"DatabaseCreationFailed" object:parseError];
+}    
 
 @end

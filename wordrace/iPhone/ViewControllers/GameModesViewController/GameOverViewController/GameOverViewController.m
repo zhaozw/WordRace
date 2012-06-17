@@ -93,7 +93,7 @@
 
 -(void)postToTwitterWall
 {
-    NSString* tweet = [NSString stringWithFormat:TWITTERMESSAGE,self.gameMode,self.score,self.currentLevel +1,APP_LINK];
+    NSString* tweet = [NSString stringWithFormat:TWITTERMESSAGE,self.score,self.currentLevel +1,APP_LINK];
     [twitterEngine sendUpdate:tweet];
 }
 
@@ -241,16 +241,16 @@
     [super viewDidLoad];
     self.scoreLabel.text = [NSString stringWithFormat:@"%i",self.score];
     self.highScoreLabel.text = [NSString stringWithFormat:@"%i",self.highScore];
-    self.gameOverTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:18];
+    self.gameOverTitleLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:18];
     self.gameOverTitleLabel.text = GAMEOVER_NAVIGATIONBAR_TITLE;
     
     self.nameLabel.font = [UIFont fontWithName:@"Crillee Italic" size:20];
     self.scoreLabel.font = [UIFont fontWithName:@"Crillee Italic" size:20];
     self.highScoreLabel.font = [UIFont fontWithName:@"Crillee Italic" size:20];
     
-    self.nameTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:14];
-    self.scoreTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:14];
-    self.highScoreTitleLabel.font = [UIFont fontWithName:@"Crillee Italic" size:14];
+    self.nameTitleLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:14];
+    self.scoreTitleLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:14];
+    self.highScoreTitleLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:14];
     self.nameTitleLabel.text = GAMEOVER_NAMELABEL_TITLE;
     self.scoreTitleLabel.text = GAMEOVER_SCORELABEL_TITLE;
     self.highScoreTitleLabel.text = GAMEOVER_HIGHSCORELABEL_TITLE;
@@ -428,6 +428,27 @@
 -(IBAction)showMoreGamesTouchDragExit:(id)sender
 {
     self.moreGamesLabel.frame = CGRectOffset(self.moreGamesLabel.frame, 0, 3);
+}
+
+- (void)fbDidNotLogin:(BOOL)cancelled
+{
+    
+}
+
+- (void)fbDidExtendToken:(NSString*)accessToken
+               expiresAt:(NSDate*)expiresAt
+{
+    
+}
+
+- (void)fbDidLogout
+{
+    
+}
+
+- (void)fbSessionInvalidated
+{
+    
 }
 
 #pragma mark -

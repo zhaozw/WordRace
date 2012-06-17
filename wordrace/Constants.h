@@ -7,9 +7,10 @@
 //
 
 
-#define LANGUAGE [NSString stringWithFormat:@"turkish"]
-#define BUILDDATABASEMODE NO
+#define BUILDDATABASEMODE NO //Database build moduna girmek icin bunu YES yap
 
+
+#define LANGUAGE [NSString stringWithFormat:@"turkish"]
 #define ALERTVIEW_CANCELBUTTON_TITLE @"TAMAM"
 #define ALERTVIEW_ERROR_TITLE @"HATA!"
 
@@ -19,10 +20,10 @@
 #define TWITTER_CONSUMERKEY	@"utPwdVHUpnDCCnEt8lbQ"
 #define TWITTER_CONSUMERSECRET	@"7B31apogVGgUqVawv2X9728mrWcyIglqk9TMH1B5fk"
 
-#define APP_LINK @"http://bit.ly/q2J2Pf"
-#define APP_PICTURE_LINK @"http://bebeksel.net/ingilizceky.jpg"
+#define APP_LINK @"http://itunes.apple.com/tr/app/ingilizce-kelime-yar-s/id465683163?mt=8"
+#define APP_PICTURE_LINK @"http://a5.mzstatic.com/us/r1000/062/Purple/f4/62/a8/mzl.xyvxothb.175x175-75.jpg"
 
-#define TWITTERMESSAGE @"#ingilizcekelimeyarisi iPhone oyununda (%@) %i puan aldım ve %i. seviyeye çıktım. İndirmek için - %@"
+#define TWITTERMESSAGE @"#ingkelimeyarisi oyununda %i puan aldım ve %i. seviyeye çıktım. %@"
 #define FACEBOOKMESSAGE @"İngilizce Kelime Yarışı iPhone oyununda (%@) %i puan aldım ve %i. seviyeye çıktım."
 #define FACEBOOKDESCRIPTION @"İngilizce Kelime Yarışı iPhone oyununu oynayarak hiç sıkılmadan yeni kelimeler öğreniyorum. Sizde indirmek için yukarıdaki linke tıklayabilirsiniz."
 

@@ -534,6 +534,9 @@
 
 -(IBAction)correctButtonPressed:(id)sender
 {
+    correctButton.userInteractionEnabled = NO;
+    wrongButton.userInteractionEnabled = NO;
+    
     if (currentQuestion.correct) 
     {
         [self userAnsweredCorrecty];
@@ -546,6 +549,9 @@
 
 -(IBAction)wrongButtonPressed:(id)sender
 {
+    correctButton.userInteractionEnabled = NO;
+    wrongButton.userInteractionEnabled = NO;
+
     if (currentQuestion.correct) 
     {
         [self performSelectorOnMainThread:@selector(showCorrectAnswerWithAnimation) withObject:nil waitUntilDone:YES];

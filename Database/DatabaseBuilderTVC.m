@@ -58,66 +58,41 @@
 
 - (void)populateDatabase
 {
-    /*
-    NSArray* languages = [NSArray arrayWithObjects:
-                          @"afrikaan",
-                          @"arabic",
-                          @"armenian",
-                          @"bulgarian",
-                          @"chinese",
-                          @"croatian",
-                          @"czech",
-                          @"danish",
-                          @"dutch",
-                          @"estonian",
-                          @"filipino",
-                          @"finnish",
-                          @"french",
-                          @"german",
-                          @"greek",
-                          @"hebrew",
-                          @"hungarian",
-                          @"indian",
-                          @"indonesian",
-                          @"italian",
-                          @"japanese",
-                          @"latvian",
-                          @"lithuanian",
-                          @"macedonian",
-                          @"malay",
-                          @"maltese",
-                          @"norwegian",
-                          @"polish",
-                          @"portuguese",
-                          @"romanian",
-                          @"russian",
-                          @"slovakian",
-                          @"slovenian",
-                          @"spanish",
-                          @"swahili",
-                          @"swedish",
-                          @"tamil",
-                          @"thai",
-                          @"turkish",
-                          @"urdu",
-                          @"vietnamese",
-                          nil];
-    */
-    NSArray* languages = [NSArray arrayWithObjects:
-                          @"turkish",
-                          nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(databaseCreated) name:@"DatabaseCreated" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(databaseCreationFailed:) name:@"DatabaseCreationFailed" object:nil];
     
-    for (NSString* languageObject in languages) 
-    {
-        WordRaceXMLParser* parser = [[WordRaceXMLParser alloc]init];
-        parser.managedObjectContext = self.managedObjectContext;
-        parser.dataType = Easy;
-        parser.language = languageObject;
-        [parser parseXMLFile:[[NSBundle mainBundle] pathForResource:@"Turkish" ofType:@"xml"]];
-        [self saveContext];
+    for (EasyWord* word in self.frcEasyWords.fetchedObjects) {
+        [self.managedObjectContext deleteObject:word];
     }
+    [self saveContext];
+    
+    self.navigationItem.rightBarButtonItem.enabled = NO;
+    WordRaceXMLParser* parser = [[WordRaceXMLParser alloc]init];
+    parser.managedObjectContext = self.managedObjectContext;
+    parser.dataType = Easy;
+    parser.language = @"turkish";
+    [parser parseXMLFile:[[NSBundle mainBundle] pathForResource:@"Turkish" ofType:@"xml"]];
 }
 
+-(void)databaseCreated
+{
+    [self.tableView reloadData];
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:nil message:@"Database oluşturuldu, şimdi /Library/Application Support/iPhone Simulator/Versiyon/Applications/uygulama id numarası/Documents adresindeki WordRaceDBTurkish.sqlite dosyasını alıp bundle'a kopyalayın ,BUILDDATABASEMODE u NO ya cevirin ve uygulamayı silip yeniden yükleyin" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
+    self.navigationItem.rightBarButtonItem.enabled = YES;
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+
+-(void)databaseCreationFailed:(NSNotification*)notif
+{
+    NSError* err = (NSError*)notif.object;
+    
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Database oluşturulurken bir hata oluştu" message:[err localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
+    self.navigationItem.rightBarButtonItem.enabled = YES;
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
 void QuietLog (NSString *format, ...)
 {
@@ -131,16 +106,6 @@ void QuietLog (NSString *format, ...)
 } // QuietLog
 
 
-- (void)checkMP3
-{    
-    for (EasyWord* object in self.frcEasyWords.fetchedObjects) 
-    {
-        QuietLog(@"\n%@",object.englishString);
-    }
-    
-}
-
-
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
@@ -151,10 +116,10 @@ void QuietLog (NSString *format, ...)
     // self.clearsSelectionOnViewWillAppear = NO;
     self.searchText = @"";
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    self.navigationItem.rightBarButtonItem= [[UIBarButtonItem alloc] initWithTitle:@"Database Oluştur" style:UIBarButtonItemStyleDone target:self action:@selector(populateDatabase)];
+
     self.title = self.language;
-    //[self populateDatabase];
-    //[self checkMP3];
 }
 
 - (void)viewDidUnload
@@ -208,7 +173,7 @@ void QuietLog (NSString *format, ...)
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     NSString* retString = @"";
-    retString = [NSString stringWithFormat:@"Easy %i",[self.frcEasyWords.fetchedObjects count]];
+    retString = [NSString stringWithFormat:@"Toplam Kelime Sayısı %i",[self.frcEasyWords.fetchedObjects count]];
     
     return retString;
 }
